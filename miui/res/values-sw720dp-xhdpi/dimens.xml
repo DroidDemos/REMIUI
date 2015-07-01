@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="list_preferred_item_height_small">60.0dip</dimen>
+    <dimen name="list_preferred_item_height">81.0dip</dimen>
+    <dimen name="list_preferred_item_height_large">101.0dip</dimen>
+    <dimen name="action_bar_default_height">62.0dip</dimen>
+    <dimen name="split_action_bar_default_height">87.5dip</dimen>
+    <dimen name="action_bar_tab_text_size">15.0sp</dimen>
+    <dimen name="tab_bar_text_size">13.0sp</dimen>
+    <dimen name="tab_bar_height">69.0dip</dimen>
+    <dimen name="dialog_min_width_major">400.0dip</dimen>
+    <dimen name="dialog_min_width_minor">400.0dip</dimen>
+    <dimen name="dialog_fixed_width_major">689.0dip</dimen>
+    <dimen name="dialog_fixed_width_minor">689.0dip</dimen>
+    <dimen name="dialog_fixed_height_major">689.0dip</dimen>
+    <dimen name="dialog_fixed_height_minor">689.0dip</dimen>
+    <dimen name="dialog_max_width_major">430.0dip</dimen>
+    <dimen name="dialog_max_width_minor">400.0dip</dimen>
+    <dimen name="dialog_max_height_major">430.0dip</dimen>
+    <dimen name="dialog_max_height_minor">430.0dip</dimen>
+</resources>

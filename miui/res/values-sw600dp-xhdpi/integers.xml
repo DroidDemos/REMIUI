@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <integer name="window_layout_mode">0</integer>
+    <integer name="preference_fragment_scrollbarStyle">0x2000000</integer>
+    <integer name="action_bar_tab_layout_weight">0</integer>
+</resources>

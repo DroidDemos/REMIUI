@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android" android:label="@string/label" package="com.miui.sdk">
+    <eat-comment/>
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED"/>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.READ_PHONE_STATE"/>
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE"/>
+    <uses-permission android:name="miui.permission.READ_LOGS"/>
+    <uses-permission android:name="com.xiaomi.permission.DATA_UPDATE"/>
+    <eat-comment/>
+    <eat-comment/>
+    <permission android:name="com.xiaomi.permission.DATA_UPDATE" android:protectionLevel="signatureOrSystem"/>
+    <permission android:name="com.xiaomi.permission.CLOUD_MANAGER" android:protectionLevel="signatureOrSystem"/>
+    <permission android:description="@string/perm_payment_dspt" android:label="@string/perm_payment_lab" android:name="com.xiaomi.xmsf.permission.PAYMENT" android:protectionLevel="dangerous"/>
+    <permission android:name="miui.permission.READ_LOGS" android:protectionLevel="signatureOrSystem"/>
+    <permission android:name="com.miui.cloudservice.permission.FIND_DEVICE" android:protectionLevel="signature"/>
+    <permission android:description="@string/permdesc_sendSmsNoConfirmation" android:label="@string/permlab_sendSmsNoConfirmation" android:name="android.permission.SEND_SMS_NO_CONFIRMATION" android:permissionGroup="android.permission-group.MESSAGES" android:protectionLevel="system|signature"/>
+    <application android:allowBackup="false" android:allowClearUserData="false" android:icon="@drawable/ic_main" android:killAfterRestore="true" android:label="@string/label" android:name="com.miui.internal.app.MiuiApplication" android:persistent="true">
+        <receiver android:name="com.miui.internal.server.Receiver">
+            <intent-filter>
+                <action android:name="android.intent.action.BOOT_COMPLETED"/>
+                <action android:name="android.intent.action.DEVICE_STORAGE_LOW"/>
+                <action android:name="android.net.conn.CONNECTIVITY_CHANGE"/>
+                <action android:name="android.net.wifi.STATE_CHANGE"/>
+                <action android:name="android.net.wifi.supplicant.CONNECTION_CHANGE"/>
+                <action android:name="com.miui.internal.action.DAILY_ALARM"/>
+                <action android:name="com.miui.internal.action.DATA_UPDATE"/>
+            </intent-filter>
+        </receiver>
+        <receiver android:name="com.miui.internal.server.TelocationUpdateReceiver" android:permission="com.xiaomi.permission.DATA_UPDATE">
+            <intent-filter>
+                <action android:name="com.xiaomi.dataUpdate.REGISTRATION"/>
+                <action android:name="com.xiaomi.dataUpdate.RECEIVE"/>
+            </intent-filter>
+            <meta-data android:name="com.xiaomi.dataUpdate" android:resource="@xml/telocation_update"/>
+        </receiver>
+        <service android:name="com.miui.internal.server.TelocationUpdateService"/>
+        <service android:name="com.miui.internal.server.CoreService">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <action android:name="com.miui.internal.action.BIND_SERVICE"/>
+            </intent-filter>
+        </service>
+        <service android:exported="true" android:name="com.miui.internal.analytics.AnalyticsService"/>
+        <service android:name="com.miui.internal.server.ErrorReportService"/>
+        <service android:name="com.miui.internal.server.DataUpdateService"/>
+        <activity android:excludeFromRecents="true" android:name="com.miui.internal.app.LicenseActivity" android:theme="@style/Theme.Light">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW_LICENSE"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+        <activity android:excludeFromRecents="true" android:label="@string/user_agreement" android:name="com.miui.internal.app.PolicyActivity" android:theme="@style/Theme.Light">
+            <intent-filter>
+                <action android:name="miui.intent.action.VIEW_POLICY"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+    </application>
+</manifest>

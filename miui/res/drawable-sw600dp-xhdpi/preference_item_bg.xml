@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<outside-compound
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:miui="http://schemas.android.com/apk/res/miui">
+    <item-top android:drawable="@drawable/list_item_overstepped_light" />
+    <item-base>
+        <selector android:variablePadding="@bool/preference_item_bg_enable_variablePadding">
+            <item android:state_enabled="false" android:drawable="@drawable/preference_single_item_bg_normal" miui:state_single_h="true" miui:state_single_v="true" />
+            <item android:state_pressed="true" android:drawable="@drawable/preference_single_item_bg_pressed" miui:state_single_h="true" miui:state_single_v="true" />
+            <item android:state_selected="true" android:drawable="@drawable/preference_single_item_bg_selected" miui:state_single_h="true" miui:state_single_v="true" />
+            <item android:drawable="@drawable/preference_single_item_bg_activated" android:state_activated="true" miui:state_single_h="true" miui:state_single_v="true" />
+            <item android:drawable="@drawable/preference_single_item_bg_normal" miui:state_single_h="true" miui:state_single_v="true" />
+            <item android:state_enabled="false" android:drawable="@drawable/preference_first_item_bg_normal" miui:state_single_h="true" miui:state_first_v="true" />
+            <item android:state_pressed="true" android:drawable="@drawable/preference_first_item_bg_pressed" miui:state_single_h="true" miui:state_first_v="true" />
+            <item android:state_selected="true" android:drawable="@drawable/preference_first_item_bg_selected" miui:state_single_h="true" miui:state_first_v="true" />
+            <item android:drawable="@drawable/preference_first_item_bg_activated" android:state_activated="true" miui:state_single_h="true" miui:state_first_v="true" />
+            <item android:drawable="@drawable/preference_first_item_bg_normal" miui:state_single_h="true" miui:state_first_v="true" />
+            <item android:state_enabled="false" android:drawable="@drawable/preference_middle_item_bg_normal" miui:state_single_h="true" miui:state_middle_v="true" />
+            <item android:state_pressed="true" android:drawable="@drawable/preference_middle_item_bg_pressed" miui:state_single_h="true" miui:state_middle_v="true" />
+            <item android:state_selected="true" android:drawable="@drawable/preference_middle_item_bg_selected" miui:state_single_h="true" miui:state_middle_v="true" />
+            <item android:drawable="@drawable/preference_middle_item_bg_activated" android:state_activated="true" miui:state_single_h="true" miui:state_middle_v="true" />
+            <item android:drawable="@drawable/preference_middle_item_bg_normal" miui:state_single_h="true" miui:state_middle_v="true" />
+            <item android:state_enabled="false" android:drawable="@drawable/preference_last_item_bg_normal" miui:state_single_h="true" miui:state_last_v="true" />
+            <item android:state_pressed="true" android:drawable="@drawable/preference_last_item_bg_pressed" miui:state_single_h="true" miui:state_last_v="true" />
+            <item android:state_selected="true" android:drawable="@drawable/preference_last_item_bg_selected" miui:state_single_h="true" miui:state_last_v="true" />
+            <item android:drawable="@drawable/preference_last_item_bg_activated" android:state_activated="true" miui:state_single_h="true" miui:state_last_v="true" />
+            <item android:drawable="@drawable/preference_last_item_bg_normal" miui:state_single_h="true" miui:state_last_v="true" />
+            <item android:state_enabled="false" android:drawable="@drawable/preference_single_item_bg_normal" />
+            <item android:state_pressed="true" android:drawable="@drawable/preference_single_item_bg_pressed" />
+            <item android:state_selected="true" android:drawable="@drawable/preference_single_item_bg_selected" />
+            <item android:drawable="@drawable/preference_single_item_bg_activated" android:state_activated="true" />
+            <item android:drawable="@drawable/preference_single_item_bg_normal" />
+        </selector>
+    </item-base>
+</outside-compound>

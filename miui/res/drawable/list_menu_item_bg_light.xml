@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:miui="http://schemas.android.com/apk/res/miui">
+    <item android:state_pressed="true" android:drawable="@drawable/list_menu_item_bg_first_pressed_light" miui:state_single_h="true" miui:state_first_v="true" />
+    <item android:drawable="@drawable/list_menu_item_bg_first_normal_light" miui:state_single_h="true" miui:state_first_v="true" />
+    <item android:state_pressed="true" android:drawable="@drawable/list_menu_item_bg_middle_pressed_light" miui:state_single_h="true" miui:state_middle_v="true" />
+    <item android:drawable="@drawable/list_menu_item_bg_middle_normal_light" miui:state_single_h="true" miui:state_middle_v="true" />
+    <item android:state_pressed="true" android:drawable="@drawable/list_menu_item_bg_last_pressed_light" miui:state_single_h="true" miui:state_last_v="true" />
+    <item android:drawable="@drawable/list_menu_item_bg_last_normal_light" miui:state_single_h="true" miui:state_last_v="true" />
+    <item android:state_pressed="true" android:drawable="@drawable/list_menu_item_bg_single_pressed_light" miui:state_single_h="true" miui:state_single_v="true" />
+    <item android:drawable="@drawable/list_menu_item_bg_single_normal_light" miui:state_single_h="true" miui:state_single_v="true" />
+    <item android:state_pressed="true" android:drawable="@drawable/list_menu_item_bg_single_pressed_light" />
+    <item android:drawable="@drawable/list_menu_item_bg_single_normal_light" />
+</selector>

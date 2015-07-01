@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:miui="http://schemas.android.com/apk/res/miui">
+    <item android:drawable="@drawable/edit_text_bg_spinner_first_light" miui:state_first_v="true" />
+    <item android:drawable="@drawable/edit_text_bg_spinner_middle_light" miui:state_middle_v="true" />
+    <item android:drawable="@drawable/edit_text_bg_spinner_last_light" miui:state_last_v="true" />
+    <item android:drawable="@drawable/edit_text_bg_single_light" />
+</selector>

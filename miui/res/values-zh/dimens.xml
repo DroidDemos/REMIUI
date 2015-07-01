@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="action_bar_tab_text_size">16.0sp</dimen>
+    <dimen name="guide_popup_text_size">13.0sp</dimen>
+</resources>

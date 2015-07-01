@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:miui="http://schemas.android.com/apk/res/miui">
+    <item android:state_selected="true" android:drawable="@drawable/tab_bg_first_selected_dark" miui:state_first_h="true" />
+    <item android:state_pressed="true" android:drawable="@drawable/tab_bg_first_pressed_dark" miui:state_first_h="true" />
+    <item android:drawable="@drawable/tab_bg_first_normal_dark" miui:state_first_h="true" />
+    <item android:state_selected="true" android:drawable="@drawable/tab_bg_middle_selected_dark" miui:state_middle_h="true" />
+    <item android:state_pressed="true" android:drawable="@drawable/tab_bg_middle_pressed_dark" miui:state_middle_h="true" />
+    <item android:drawable="@drawable/tab_bg_middle_normal_dark" miui:state_middle_h="true" />
+    <item android:state_selected="true" android:drawable="@drawable/tab_bg_last_selected_dark" miui:state_last_h="true" />
+    <item android:state_pressed="true" android:drawable="@drawable/tab_bg_last_pressed_dark" miui:state_last_h="true" />
+    <item android:drawable="@drawable/tab_bg_last_normal_dark" miui:state_last_h="true" />
+    <item android:state_selected="true" android:drawable="@drawable/tab_bg_single_selected_dark" />
+    <item android:state_pressed="true" android:drawable="@drawable/tab_bg_single_pressed_dark" />
+    <item android:drawable="@drawable/tab_bg_single_normal_dark" />
+</selector>

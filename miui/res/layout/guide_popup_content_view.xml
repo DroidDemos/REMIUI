@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:paddingLeft="@dimen/guide_popup_horizontal_padding" android:paddingTop="@dimen/guide_popup_vertical_padding" android:paddingRight="@dimen/guide_popup_horizontal_padding" android:paddingBottom="@dimen/guide_popup_vertical_padding" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" />

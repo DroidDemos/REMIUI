@@ -1,0 +1,16 @@
+version: 2.0.0-RC3
+apkFileName: miui.apk
+isFrameworkApk: true
+usesFramework:
+  ids:
+  - 1
+sdkInfo:
+  minSdkVersion: '16'
+  targetSdkVersion: '19'
+packageInfo:
+  rename-manifest-package: com.miui.sdk
+  forced-package-id: '8'
+versionInfo:
+  versionCode: '10000'
+  versionName: 1.0.0
+compressionType: false

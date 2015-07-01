@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector android:variablePadding="true"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:miui="http://schemas.android.com/apk/res/miui">
+    <item android:drawable="@drawable/number_picker_bg_first" miui:state_first_h="true" miui:state_single_v="true" />
+    <item android:drawable="@drawable/number_picker_bg_last" miui:state_last_h="true" miui:state_single_v="true" />
+    <item android:drawable="@drawable/number_picker_bg_middle" miui:state_middle_h="true" miui:state_single_v="true" />
+    <item android:drawable="@drawable/number_picker_bg_single" miui:state_single_h="true" miui:state_single_v="true" />
+    <item android:drawable="@drawable/number_picker_bg_single" />
+</selector>

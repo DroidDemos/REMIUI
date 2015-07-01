@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.miui.internal.widget.SearchActionModeView android:id="@id/search_panel" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@miui:style/Widget.SearchActionMode.Input"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <miui.widget.ClearableEditText android:layout_gravity="center|left" android:id="@android:id/input" android:background="@drawable/edit_text_search_normal_light" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    <TextView android:gravity="center" android:layout_gravity="center|left" android:id="@id/search_btn_cancel" android:background="?actionModeBackButtonBackground" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="10.0dip" />
+</com.miui.internal.widget.SearchActionModeView>

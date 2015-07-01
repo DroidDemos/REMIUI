@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center|right" android:layout_gravity="center|right" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/animate_finish" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="@dimen/preference_item_padding_inner" android:src="@drawable/preference_animate_finish" />
+    <com.miui.internal.widget.AnimatedImageView android:id="@id/animate" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="@dimen/preference_item_padding_inner" android:src="@drawable/preference_animate" />
+    <miui.widget.SlidingButton android:layout_gravity="center_vertical" android:id="@android:id/checkbox" android:focusable="false" android:clickable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+</LinearLayout>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="normal_text_size">15.0sp</dimen>
+    <dimen name="small_text_size">9.299988sp</dimen>
+    <dimen name="secondary_text_size">12.899994sp</dimen>
+    <dimen name="button_text_size">13.599976sp</dimen>
+    <dimen name="list_preferred_item_height_small">75.0dip</dimen>
+    <dimen name="list_preferred_item_height">94.5dip</dimen>
+    <dimen name="list_preferred_item_height_large">105.0dip</dimen>
+</resources>

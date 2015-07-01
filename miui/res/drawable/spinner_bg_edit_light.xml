@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector android:exitFadeDuration="@integer/button_exit_fade_duration"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:miui="http://schemas.android.com/apk/res/miui">
+    <item android:state_pressed="true" android:drawable="@drawable/spinner_bg_edit_first_pressed_light" miui:state_first_v="true" />
+    <item android:drawable="@drawable/spinner_bg_edit_first_normal_light" miui:state_first_v="true" />
+    <item android:state_pressed="true" android:drawable="@drawable/spinner_bg_edit_middle_pressed_light" miui:state_middle_v="true" />
+    <item android:drawable="@drawable/spinner_bg_edit_middle_normal_light" miui:state_middle_v="true" />
+    <item android:state_pressed="true" android:drawable="@drawable/spinner_bg_edit_last_pressed_light" miui:state_last_v="true" />
+    <item android:drawable="@drawable/spinner_bg_edit_last_normal_light" miui:state_last_v="true" />
+    <item android:state_pressed="true" android:drawable="@drawable/spinner_bg_edit_single_pressed_light" miui:state_single_v="true" />
+    <item android:drawable="@drawable/spinner_bg_edit_single_normal_light" miui:state_single_v="true" />
+    <item android:state_pressed="true" android:drawable="@drawable/spinner_bg_edit_single_pressed_light" />
+    <item android:drawable="@drawable/spinner_bg_edit_single_normal_light" />
+</selector>
