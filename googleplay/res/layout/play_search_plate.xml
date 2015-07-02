@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.play.search.PlaySearchPlate android:id="@id/search_plate" android:background="@drawable/search_bg" android:layout_width="-1" android:layout_height="-2" android:animateLayoutChanges="true" style="@style/PlaySearchPlate">
+    <LinearLayout android:orientation="0" android:layout_width="-1" android:layout_height="@dimen/play_search_plate_height">
+        <com.google.android.play.search.PlaySearchNavigationButton android:layout_gravity="10" android:id="@id/navigation_button" android:focusable="true" android:clickable="true" style="@style/PlaySearchPlateNavigationButton" />
+        <com.google.android.play.search.PlaySearchPlateTextContainer android:layout_gravity="10" android:id="@id/text_container" android:focusable="false" android:layout_width="0dp" android:layout_height="-2" android:layout_weight="1.0" style="@style/PlaySearchPlateTextContainer">
+            <ImageView android:id="@id/search_box_idle_text" android:focusable="true" android:clickable="true" android:layout_width="-1" android:layout_height="-2" android:src="@drawable/ic_searchbox_google" android:adjustViewBounds="true" android:contentDescription="@string/play_accessibility_search_plate_search_button" style="@style/PlaySearchBoxIdleText" />
+            <com.google.android.play.search.PlaySearchEditText android:textSize="@dimen/play_search_plate_text_size" android:textStyle="0" android:textColor="@color/play_fg_secondary" android:textColorHint="@color/play_search_plate_hint_text_color" android:ellipsize="3" android:layout_gravity="800013" android:id="@id/search_box_text_input" android:layout_width="-1" android:layout_height="-2" android:hint="@string/play_search_box_hint" android:singleLine="true" android:inputType="80001" android:privateImeOptions="nm" android:imeOptions="2000003" android:alpha="1.0" style="@style/PlaySearchPlate_SearchBox" />
+        </com.google.android.play.search.PlaySearchPlateTextContainer>
+        <com.google.android.play.search.PlaySearchActionButton android:layout_gravity="10" android:id="@id/action_button" android:focusable="true" android:clickable="true" android:scaleType="3" android:tint="@color/play_fg_secondary" style="@style/PlaySearchPlateActionButton" />
+    </LinearLayout>
+</com.google.android.play.search.PlaySearchPlate>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.finsky.layout.play.DiscoveryBadgeDowloadCount style="@style/DiscoveryBadge">
+    <RelativeLayout android:layout_width="-1" android:layout_height="-2">
+        <LinearLayout android:gravity="11" android:id="@id/icon_container" android:duplicateParentState="true" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true" style="@style/DiscoveryBadgeIconContainer">
+            <TextView android:textColor="@color/play_fg_secondary" android:id="@id/download_count_number" android:layout_width="-2" android:layout_height="-2" android:includeFontPadding="false" />
+        </LinearLayout>
+        <RelativeLayout android:gravity="11" android:id="@id/download_magnitude_container" android:layout_width="-2" android:layout_height="@dimen/discovery_badge_download_count_magnitude_height" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true">
+            <TextView android:textSize="@dimen/discovery_badge_download_magnitude_size" android:textColor="@color/play_white" android:gravity="11" android:id="@id/download_magnitude" android:paddingLeft="@dimen/discovery_badge_download_count_magnitude_padding" android:paddingRight="@dimen/discovery_badge_download_count_magnitude_padding" android:layout_width="-2" android:layout_height="-2" android:maxWidth="@dimen/discovery_badge_title_width" android:singleLine="true" android:includeFontPadding="false" style="@style/PlayPlainText" />
+        </RelativeLayout>
+    </RelativeLayout>
+    <TextView android:id="@id/title" android:duplicateParentState="true" style="@style/DiscoveryBadgeTitle" />
+</com.google.android.finsky.layout.play.DiscoveryBadgeDowloadCount>

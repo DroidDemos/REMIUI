@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.finsky.layout.play.PlayCardActionBannerClusterView finsky:paddingTop="8dp" finsky:paddingBottom="8dp" finsky:layout_width="-1" finsky:layout_height="-2">
+    <com.google.android.finsky.layout.play.PlayCardActionBannerClusterViewContent finsky:id="@id/cluster_content" finsky:layout_width="-1" finsky:layout_height="-2" finsky:layout_marginTop="@dimen/play_merch_content_vmargin" finsky:layout_marginBottom="@dimen/play_merch_content_vmargin" finsky:card_content_padding_bottom="@dimen/play_merch_content_vpadding">
+        <FrameLayout finsky:id="@id/profile_cover_frame" finsky:focusable="false" finsky:layout_width="-2" finsky:layout_height="-2">
+            <com.google.android.play.image.FifeImageView finsky:id="@id/profile_cover" finsky:layout_width="-1" finsky:layout_height="-1" finsky:foreground="@drawable/play_highlight_overlay_dark" finsky:scaleType="6" finsky:fixed_bounds="true" />
+            <View finsky:background="@drawable/overlay_shade_dark" finsky:focusable="false" finsky:layout_width="-1" finsky:layout_height="-1" />
+        </FrameLayout>
+        <com.google.android.finsky.layout.play.ProfileInfoBlock finsky:orientation="1" finsky:id="@id/profile_info_block" finsky:paddingBottom="@dimen/play_follow_cluster_button_bottom_margin" finsky:layout_width="-2" finsky:layout_height="-2">
+            <com.google.android.finsky.layout.play.PlayAvatarPack finsky:id="@id/avatar_pack" finsky:layout_width="-1" finsky:layout_height="-2" finsky:transitionGroup="true" finsky:primary_avatar_size="@dimen/play_follow_cluster_avatar_size" />
+            <TextView finsky:id="@id/profile_title" finsky:focusable="true" style="@style/PlayImageClusterTitle" />
+            <TextView finsky:id="@id/profile_subtitle" finsky:paddingBottom="@dimen/play_follow_cluster_button_top_margin" finsky:focusable="true" style="@style/PlayImageClusterSubtitle" />
+            <View finsky:layout_width="-1" finsky:layout_height="0dp" finsky:layout_weight="1.0" />
+            <TextView finsky:textSize="13sp" finsky:textStyle="1" finsky:textColor="@color/play_white" finsky:layout_gravity="1" finsky:id="@id/profile_action_button" finsky:background="@drawable/explore_button_bg" finsky:paddingLeft="28dp" finsky:paddingTop="8dp" finsky:paddingRight="28dp" finsky:paddingBottom="8dp" finsky:focusable="true" finsky:layout_width="-2" finsky:layout_height="-2" style="@style/PlayPlainText" />
+        </com.google.android.finsky.layout.play.ProfileInfoBlock>
+    </com.google.android.finsky.layout.play.PlayCardActionBannerClusterViewContent>
+</com.google.android.finsky.layout.play.PlayCardActionBannerClusterView>

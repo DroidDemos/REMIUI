@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:orientation="0" android:paddingRight="@dimen/details_content_margin" android:layout_width="-2" android:layout_height="-2">
+    <com.google.android.play.layout.PlayActionButton android:id="@id/bulk_install_button" android:paddingTop="2dp" android:paddingBottom="2dp" android:minWidth="0dp" style="@style/Play_DetailsPage_ActionButton" />
+</FrameLayout>

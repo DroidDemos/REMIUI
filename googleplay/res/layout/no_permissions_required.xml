@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextView android:textSize="@dimen/content_generic_large_size" android:paddingTop="10dp" android:paddingBottom="32dp" android:focusable="true" android:layout_height="-2" android:lineSpacingExtra="3sp" style="@style/Play_DetailsPage_HeaderText" />

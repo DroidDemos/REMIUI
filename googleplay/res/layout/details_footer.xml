@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextView android:textSize="@dimen/content_generic_medium_size" android:textColor="@color/play_primary_text" android:id="@id/details_generic_footer" android:background="@drawable/play_white_with_highlight" android:paddingLeft="@dimen/details_content_margin" android:paddingTop="4dp" android:paddingRight="@dimen/details_content_margin" android:paddingBottom="6dp" android:focusable="true" android:layout_width="-1" android:layout_height="-2" />

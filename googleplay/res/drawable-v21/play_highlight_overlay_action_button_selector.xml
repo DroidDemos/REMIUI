@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector>
+    <item android:state_checked="true">
+        <shape>
+            <solid android:color="@color/play_action_button_pressed_grey" />
+        </shape>
+    </item>
+    <item android:state_focused="true" android:state_window_focused="true" android:drawable="@drawable/play_highlight_round_overlay_focused_blue" />
+</selector>

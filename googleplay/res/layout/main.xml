@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.finsky.layout.play.FinskyDrawerLayout android:id="@id/drawer_layout" android:fitsSystemWindows="true" android:layout_width="-1" android:layout_height="-1">
+    <FrameLayout android:id="@id/outer_content_frame" android:layout_width="-1" android:layout_height="-1"
+        <FrameLayout android:id="@id/content_frame" android:layout_width="-1" android:layout_height="-1">
+            <include android:id="@id/placeholder_loading" android:visibility="2" layout="@layout/page_loading_indicator" />
+            <include android:id="@id/placeholder_error" android:visibility="2" layout="@layout/page_error_indicator" />
+        </FrameLayout>
+        <include layout="@layout/action_bar" />
+    </FrameLayout>
+    <include layout="@layout/play_drawer_container" />
+</com.google.android.finsky.layout.play.FinskyDrawerLayout>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="1" android:layout_width="-1" android:layout_height="-2" android:layout_marginTop="7dp"
+    <LinearLayout android:orientation="0" android:layout_width="-2" android:layout_height="-2" android:layout_marginTop="@dimen/express_order_detail_label_margin_top" android:layout_marginBottom="@dimen/express_order_detail_label_margin_bottom">
+        <TextView android:text="@string/express_order_info" style="@style/ExpressOrderDetailLabelAppearance" />
+        <TextView android:text="@string/colon" style="@style/ExpressOrderDetailLabelAppearance" />
+    </LinearLayout>
+    <LinearLayout android:orientation="0" android:layout_width="-2" android:layout_height="-2" android:layout_marginBottom="@dimen/express_order_detail_content_margin_bottom">
+        <TextView android:text="@string/express_order_internal_id" style="@style/ExpressOrderDetailContentAppearance" />
+        <TextView android:text="@string/colon" style="@style/ExpressOrderDetailContentAppearance" />
+        <TextView android:id="@id/express_order_id" style="@style/ExpressOrderDetailContentAppearance" />
+    </LinearLayout>
+    <LinearLayout android:orientation="0" android:layout_width="-2" android:layout_height="-2" android:layout_marginBottom="@dimen/express_order_detail_content_margin_bottom">
+        <TextView android:text="@string/express_order_created_time" style="@style/ExpressOrderDetailContentAppearance" />
+        <TextView android:text="@string/colon" style="@style/ExpressOrderDetailContentAppearance" />
+        <TextView android:id="@id/express_order_create_time" style="@style/ExpressOrderDetailContentAppearance" />
+    </LinearLayout>
+    <LinearLayout android:orientation="0" android:layout_width="-2" android:layout_height="-2" android:layout_marginTop="@dimen/express_order_detail_label_margin_top" android:layout_marginBottom="@dimen/express_order_detail_label_margin_bottom">
+        <TextView android:id="@id/sender_label" android:text="@string/express_contact_label" style="@style/ExpressOrderDetailLabelAppearance" />
+        <TextView android:text="@string/colon" style="@style/ExpressOrderDetailLabelAppearance" />
+    </LinearLayout>
+    <FrameLayout android:id="@id/sender_container" android:layout_width="-2" android:layout_height="-2" android:layout_marginBottom="@dimen/express_order_detail_content_margin_bottom">
+        <LinearLayout android:orientation="1" android:id="@id/sender_info" android:layout_width="-2" android:layout_height="-2">
+            <TextView android:id="@id/phone" style="@style/ExpressOrderDetailContentAppearance" />
+            <TextView android:id="@id/sender_address" style="@style/ExpressOrderDetailContentAppearance" />
+        </LinearLayout>
+        <TextView android:id="@id/sender_placeholder" android:text="@string/express_field_empty" style="@style/ExpressOrderDetailContentAppearance" />
+    </FrameLayout>
+    <LinearLayout android:orientation="0" android:layout_width="-2" android:layout_height="-2" android:layout_marginTop="@dimen/express_order_detail_label_margin_top" android:layout_marginBottom="@dimen/express_order_detail_label_margin_bottom">
+        <TextView android:id="@id/addressee_label" android:text="@string/express_dest_city_label" style="@style/ExpressOrderDetailLabelAppearance" />
+        <TextView android:text="@string/colon" style="@style/ExpressOrderDetailLabelAppearance" />
+    </LinearLayout>
+    <FrameLayout android:id="@id/addressee_container" android:layout_width="-2" android:layout_height="-2" android:layout_marginBottom="@dimen/express_order_detail_content_margin_bottom">
+        <TextView android:id="@id/addressee" style="@style/ExpressOrderDetailContentAppearance" />
+        <TextView android:id="@id/addressee_placeholder" android:text="@string/express_field_empty" style="@style/ExpressOrderDetailContentAppearance" />
+    </FrameLayout>
+</LinearLayout>

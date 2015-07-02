@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="utf-8"?>
+<account-authenticator android:label="@string/app_label" android:icon="@drawable/ic_launcher_navigation" android:accountType="miui.yellowpage" />

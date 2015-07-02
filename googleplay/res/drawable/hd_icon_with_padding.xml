@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list>
+    <item android:left="8dp" android:right="8dp">
+        <bitmap android:src="@drawable/hd_icon" />
+    </item>
+</layer-list>

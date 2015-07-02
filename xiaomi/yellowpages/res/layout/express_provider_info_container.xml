@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="11" android:layout_gravity="50" android:orientation="0" android:id="@id/source_info_container" android:visibility="2" android:layout_width="-1" android:layout_height="-2" android:layout_marginTop="@dimen/express_inquiry_source_info_margin_top">
+    <TextView android:textSize="0x80a0003" android:id="@id/source_name_prefix" android:layout_width="-2" android:layout_height="-2" android:text="@string/express_inquiry_data_owner_prefix" />
+    <ImageView android:orientation="0" android:id="@id/icon" android:layout_width="-2" android:layout_height="-2" android:layout_margin="@dimen/express_inquiry_provider_icon_margin" />
+    <TextView android:textSize="0x80a0003" android:id="@id/source_name_suffix" android:layout_width="-2" android:layout_height="-2" android:text="@string/express_inquiry_data_owner_suffix" />
+</LinearLayout>

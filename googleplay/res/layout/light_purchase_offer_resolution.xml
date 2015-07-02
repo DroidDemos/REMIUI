@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.finsky.layout.MaxWidthLinearLayout finsky:orientation="1" finsky:paddingBottom="12dp" finsky:layout_width="-1" finsky:layout_height="-2" finsky:minWidth="@dimen/light_purchase_dialog_width" finsky:minHeight="@dimen/light_purchase_dialog_small_height" finsky:max_width="@dimen/light_purchase_dialog_width">
+    <include layout="@layout/light_activity_header" />
+    <include finsky:layout_width="-1" finsky:layout_height="0dp" finsky:layout_weight="1.0" layout="@layout/page_loading_indicator" />
+    <LinearLayout finsky:gravity="10" finsky:id="@id/voucher_section" finsky:background="@drawable/focus_overlay" finsky:paddingLeft="16dp" finsky:paddingTop="12dp" finsky:paddingRight="16dp" finsky:paddingBottom="12dp" finsky:focusable="true" finsky:visibility="2" finsky:layout_width="-1" finsky:layout_height="-2" finsky:minHeight="40dp">
+        <ImageView finsky:id="@id/voucher_icon" finsky:layout_width="-2" finsky:layout_height="-2" finsky:layout_marginLeft="8dp" finsky:layout_marginRight="8dp" finsky:contentDescription="@styleable/WalletImButtonBar_capitalizeButtonText" />
+        <TextView finsky:id="@id/voucher_message" style="@style/WarningMessageText" />
+    </LinearLayout>
+    <ScrollView finsky:id="@id/contents" finsky:layout_width="-1" finsky:layout_height="0dp" finsky:layout_weight="1.0">
+        <LinearLayout finsky:orientation="1" finsky:id="@id/offers" finsky:layout_width="-1" finsky:layout_height="-2" />
+    </ScrollView>
+</com.google.android.finsky.layout.MaxWidthLinearLayout>

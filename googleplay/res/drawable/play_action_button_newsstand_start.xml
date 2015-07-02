@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector>
+    <item android:state_enabled="false">
+        <shape>
+            <solid android:color="@color/play_newsstand_primary_disabled" />
+            <corners android:radius="@dimen/play_action_button_corner" android:topLeftRadius="0dp" android:topRightRadius="@dimen/play_action_button_corner" android:bottomLeftRadius="@dimen/play_action_button_corner" android:bottomRightRadius="0dp" />
+        </shape>
+    </item>
+    <item>
+        <shape>
+            <solid android:color="@color/play_newsstand_primary" />
+            <corners android:radius="@dimen/play_action_button_corner" android:topLeftRadius="0dp" android:topRightRadius="@dimen/play_action_button_corner" android:bottomLeftRadius="@dimen/play_action_button_corner" android:bottomRightRadius="0dp" />
+        </shape>
+    </item>
+</selector>

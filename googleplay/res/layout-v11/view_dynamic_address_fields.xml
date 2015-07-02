@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.wallet.instrumentmanager.ui.address.AnimatedDynamicAddressFieldsLayout android:layout_width="-1" android:layout_height="-2">
+    <LinearLayout android:orientation="1" android:id="@id/dynamic_address_fields_container" android:visibility="2" android:layout_width="-1" android:layout_height="-2" />
+    <ProgressBar android:layout_gravity="1" android:id="@id/progress_bar" android:layout_width="@dimen/wallet_im_medium_progress_bar_size" android:layout_height="@dimen/wallet_im_medium_progress_bar_size" style="?attr/imProgressBarLarge" />
+</com.google.android.wallet.instrumentmanager.ui.address.AnimatedDynamicAddressFieldsLayout>

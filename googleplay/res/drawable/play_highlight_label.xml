@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector>
+    <item>
+        <shape>
+            <solid android:color="#efc439" />
+            <corners android:radius="@dimen/play_action_button_corner" />
+        </shape>
+    </item>
+</selector>

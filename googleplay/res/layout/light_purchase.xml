@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="-1" android:layout_height="-1" android:minWidth="@dimen/light_purchase_dialog_width" android:minHeight="@dimen/light_purchase_dialog_small_height">
+    <ProgressBar android:layout_gravity="11" android:id="@id/progress_bar" android:visibility="1" android:layout_width="-2" android:layout_height="-2" />
+    <LinearLayout android:orientation="1" android:layout_width="-1" android:layout_height="-1">
+        <FrameLayout android:id="@id/content_frame_above_button" android:visibility="1" android:layout_width="-1" android:layout_height="0dp" android:layout_weight="1.0" />
+        <include layout="@layout/light_purchase_button_bar" />
+    </LinearLayout>
+</FrameLayout>

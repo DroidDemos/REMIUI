@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.finsky.layout.play.DiscoveryBadgeRating style="@style/DiscoveryBadge">
+    <LinearLayout android:gravity="11" android:orientation="1" android:id="@id/icon_container" style="@style/DiscoveryBadgeIconContainer">
+        <TextView android:textSize="@dimen/play_details_discovery_badge_rate_size" android:textStyle="1" android:textColor="@color/play_white" android:gravity="11" android:layout_gravity="1" android:id="@id/average_value" android:layout_width="-2" android:layout_height="-2" />
+        <com.google.android.play.layout.StarRatingBar android:id="@id/discovery_summary_rating_bar" android:layout_marginBottom="4dp" style="@style/DiscoveryRatingBar" />
+    </LinearLayout>
+    <RelativeLayout android:gravity="1" android:layout_width="@dimen/discovery_badge_title_width" android:layout_height="-2">
+        <TextView android:id="@id/title" android:layout_width="-2" style="@style/DiscoveryBadgeTitle" />
+        <ImageView android:layout_width="-2" android:layout_height="-2" android:layout_marginLeft="3dp" android:src="@drawable/ic_user_rating" android:baselineAlignBottom="true" android:layout_toRightOf="@id/title" android:layout_alignBaseline="@id/title" android:contentDescription="@styleable/WalletImButtonBar_capitalizeButtonText" />
+    </RelativeLayout>
+</com.google.android.finsky.layout.play.DiscoveryBadgeRating>

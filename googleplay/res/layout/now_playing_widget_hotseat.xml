@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_gravity="50" android:orientation="1" android:id="@id/hotseat" android:background="@color/now_playing_widget_hotseat_bg" android:paddingTop="16dp" android:visibility="2" android:layout_width="-1" android:layout_height="-2"
+    <LinearLayout android:gravity="11" android:paddingLeft="16dp" android:paddingRight="16dp" android:layout_width="-1" android:layout_height="-2">
+        <TextView android:textSize="@dimen/content_generic_medium_size" android:textColor="@color/play_fg_primary" android:id="@id/start_playing" android:layout_width="0dp" android:layout_height="-2" android:text="@string/widget_hotseat_title" android:layout_weight="1.0" style="@style/PlayLightText" />
+        <TextView android:id="@id/start_playing_separator" android:background="@color/play_translucent_separator_line" android:layout_width="1dp" android:layout_height="20dp" android:layout_marginLeft="16dp" />
+        <LinearLayout android:gravity="11" android:id="@id/done_button" android:background="@drawable/play_highlight_overlay_light" android:paddingLeft="@dimen/hotseat_done_button_padding" android:paddingRight="@dimen/hotseat_done_button_padding" android:focusable="true" android:clickable="true" android:layout_width="-2" android:layout_height="-2">
+            <ImageView android:layout_width="-2" android:layout_height="-2" android:src="@drawable/ic_menu_check_holo_light" />
+            <TextView android:textSize="11sp" android:textColor="@color/play_fg_secondary" android:paddingLeft="2dp" android:paddingRight="2dp" android:layout_width="-2" android:layout_height="-2" android:text="@string/done" android:textAllCaps="true" />
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout android:gravity="11" android:orientation="0" android:id="@id/hotseat_selectors" android:layout_width="-1" android:layout_height="0dp" android:layout_weight="1.0" /> />

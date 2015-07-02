@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="11" android:orientation="1" android:id="@id/mark_number_dialog_custom_title" android:paddingTop="@dimen/list_item_padding" android:paddingBottom="@dimen/list_item_padding" android:layout_width="-1" android:layout_height="-2">
+    <TextView android:id="@id/mark_number_dialog_maintitle" android:layout_width="-2" android:layout_height="-2" android:layout_marginBottom="2dp" android:singleLine="true" style="0x80d000c" />
+</LinearLayout>

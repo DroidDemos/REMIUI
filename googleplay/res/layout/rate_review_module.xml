@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.finsky.detailspage.RateReviewModuleLayout android:orientation="1" android:id="@id/rate_and_review_section" android:background="@color/play_white" android:layout_width="-1" android:layout_height="-2">
+    <LinearLayout android:orientation="1" android:id="@id/rating_layout" android:paddingTop="8dp" android:paddingBottom="8dp" android:layout_width="-1" android:layout_height="-2">
+        <include layout="@layout/rate_review_blurb" />
+        <include android:id="@id/my_rating_bar" android:layout_width="-1" android:layout_height="-2" android:layout_marginLeft="16dp" android:layout_marginRight="16dp" layout="@layout/rating_bar" />
+    </LinearLayout>
+    <include layout="@layout/review_item" />
+</com.google.android.finsky.detailspage.RateReviewModuleLayout>

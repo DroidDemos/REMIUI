@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.finsky.detailspage.SecondaryActionsModuleLayout android:orientation="0" android:background="@color/play_white" android:layout_width="-1" android:layout_height="-2">
+    <LinearLayout android:id="@id/wishlist_button" style="@style/DetailsSecondaryActionButton">
+        <FrameLayout android:id="@id/wishlist_button_frame" style="@style/DetailsSecondaryActionButtonIcon">
+            <ImageView android:layout_gravity="11" android:id="@id/wishlist_button_icon" android:layout_width="-2" android:layout_height="-2" android:src="@drawable/ic_menu_wish_off" />
+        </FrameLayout>
+        <TextView android:text="@string/details_secondary_action_wishlist" style="@style/DetailsSecondaryActionButtonText" />
+    </LinearLayout>
+    <LinearLayout android:id="@id/share_button" style="@style/DetailsSecondaryActionButton">
+        <FrameLayout style="@style/DetailsSecondaryActionButtonIcon">
+            <ImageView android:layout_gravity="11" android:layout_width="-2" android:layout_height="-2" android:src="@drawable/ic_share" />
+        </FrameLayout>
+        <TextView android:text="@string/details_secondary_action_share" style="@style/DetailsSecondaryActionButtonText" />
+    </LinearLayout>
+    <LinearLayout android:id="@id/plus_one_button" style="@style/DetailsSecondaryActionButton">
+        <FrameLayout style="@style/DetailsSecondaryActionButtonIcon">
+            <TextView android:textSize="12dp" android:textColor="@color/play_fg_primary" android:layout_gravity="11" android:id="@id/plus_one_button_icon" android:background="@drawable/plus_one_icon_off" android:layout_width="-2" android:layout_height="-2" style="@style/PlayGridBoldText" />
+        </FrameLayout>
+        <TextView android:text="@string/details_secondary_action_plus_one" style="@style/DetailsSecondaryActionButtonText" />
+    </LinearLayout>
+</com.google.android.finsky.detailspage.SecondaryActionsModuleLayout>

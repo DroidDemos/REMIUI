@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="1" android:background="@color/play_white" android:layout_width="-1" android:layout_height="-1">
+    <FrameLayout android:layout_width="-1" android:layout_height="0dp" android:layout_weight="1.0">
+        <ProgressBar android:layout_gravity="11" android:id="@id/progress_bar" android:visibility="2" android:layout_width="-2" android:layout_height="-2" android:indeterminate="true" />
+        <WebView android:id="@id/webview" android:layout_width="-1" android:layout_height="-2" />
+    </FrameLayout>
+    <include layout="@layout/button_bar" />
+</LinearLayout>

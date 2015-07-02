@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="1" android:layout_width="-1" android:layout_height="-1" android:layout_marginTop="@dimen/wallet_im_margin_touchable"
+    <LinearLayout android:gravity="10" android:layout_width="-2" android:layout_height="-2" android:layout_marginBottom="8dp">
+        <com.google.android.wallet.instrumentmanager.ui.common.FifeNetworkImageView android:id="@id/card_logo" android:layout_width="@dimen/wallet_im_credit_card_icon_width" android:layout_height="@dimen/wallet_im_credit_card_icon_height" />
+        <TextView android:textAppearance="?attr/imFormInputTextAppearance" android:id="@id/credit_card_label" android:layout_width="-2" android:layout_height="-2" android:layout_marginLeft="@dimen/wallet_im_credit_card_edit_exp_date_card_details_left_margin" android:freezesText="true" />
+    </LinearLayout>
+    <include android:id="@id/exp_date_and_cvc" android:layout_width="-1" android:layout_height="-2" layout="@layout/view_cvc_and_exp_date" />
+</LinearLayout>

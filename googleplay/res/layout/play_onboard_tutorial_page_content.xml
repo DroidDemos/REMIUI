@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge>
+    <LinearLayout play:gravity="11" play:orientation="1" play:id="@id/background_disk" play:background="@drawable/play_onboard_tutorial_page_bg" play:layout_width="@dimen/play_onboard__onboard_tutorial_page_bg_diameter" play:layout_height="@dimen/play_onboard__onboard_tutorial_page_bg_diameter" style="@style/PlayOnboardTutorialPageDisk">
+        <com.google.android.libraries.bind.widget.BoundImageView play:layout_width="@dimen/play_onboard__onboard_tutorial_page_icon_width" play:layout_height="@dimen/play_onboard__onboard_tutorial_page_icon_height" play:contentDescription="@styleable/WalletImButtonBar_capitalizeButtonText" play:bindDrawable="@id/play_onboard__OnboardTutorialPage_iconDrawableId" />
+        <com.google.android.libraries.bind.widget.BoundTextView play:gravity="11" play:id="@id/title" play:layout_width="@dimen/play_onboard__onboard_tutorial_page_title_width" play:layout_height="-2" play:layout_marginTop="@dimen/play_onboard__onboard_tutorial_page_title_margin_top" play:layout_marginBottom="@dimen/play_onboard__onboard_tutorial_page_title_margin_bottom" play:bindText="@id/play_onboard__OnboardTutorialPage_titleText" style="@style/PlayOnboardTutorialPageTitle" />
+        <com.google.android.libraries.bind.widget.BoundTextView play:gravity="31" play:id="@id/body" play:layout_width="@dimen/play_onboard__onboard_tutorial_page_body_width" play:layout_height="@dimen/play_onboard__onboard_tutorial_page_body_height" play:bindText="@id/play_onboard__OnboardTutorialPage_bodyText" style="@style/PlayOnboardTutorialPageBody" />
+    </LinearLayout>
+</merge>

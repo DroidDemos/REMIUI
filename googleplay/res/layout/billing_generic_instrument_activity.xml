@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.finsky.layout.MaxWidthLinearLayout finsky:orientation="1" finsky:id="@id/generic_instrument_container" finsky:minWidth="@dimen/generic_instrument_dialog_width" finsky:minHeight="@dimen/generic_instrument_dialog_height" finsky:max_width="@dimen/generic_instrument_dialog_width" />

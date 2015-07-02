@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="1" android:background="@color/white" android:clipToPadding="false" android:layout_width="-1" android:layout_height="-1">
+    <ListView android:id="@id/all_reviews_list" android:layout_width="-1" android:layout_height="-1" android:listSelector="0x106000d" android:cacheColorHint="@color/white" android:divider="@styleable/WalletImButtonBar_capitalizeButtonText" />
+    <include android:layout_width="-1" android:layout_height="-1" layout="@layout/no_results_view" />
+</LinearLayout>

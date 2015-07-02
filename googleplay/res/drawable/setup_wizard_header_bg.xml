@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="utf-8"?>
+<bitmap android:src="@drawable/setup_wizard_header_bg_tile" android:tileMode="1" />

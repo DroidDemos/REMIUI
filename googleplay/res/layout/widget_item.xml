@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_gravity="1" android:orientation="1" android:id="@id/widget_base" android:focusable="true" android:layout_width="-1" android:layout_height="-2">
+    <ImageView android:id="@id/widget_promo" android:background="@drawable/phonesky_widget_top" android:paddingLeft="20dp" android:paddingRight="20dp" android:layout_width="-1" android:layout_height="-2" android:src="@color/black" android:scaleType="6" android:adjustViewBounds="true" android:cropToPadding="true" />
+    <RelativeLayout android:background="@drawable/phonesky_widget_bottom" android:paddingTop="4dp" android:paddingBottom="8dp" android:layout_width="-1" android:layout_height="@dimen/widget_bottom_height">
+        <ImageView android:layout_gravity="10" android:id="@id/widget_logo" android:layout_width="32dp" android:layout_height="-1" android:src="@mipmap/ic_launcher_play_store" android:scaleType="3" android:layout_alignParentLeft="true" />
+        <TextView android:textSize="15sp" android:textStyle="1" android:textColor="@color/grey" android:ellipsize="4" android:id="@id/widget_title" android:paddingLeft="3dp" android:paddingTop="0dp" android:layout_width="-1" android:layout_height="-2" android:singleLine="true" android:layout_toRightOf="@id/widget_logo" android:layout_alignParentTop="true" android:marqueeRepeatLimit="-1" />
+        <TextView android:textSize="13sp" android:textColor="@color/grey" android:ellipsize="4" android:id="@id/widget_creator" android:paddingLeft="3dp" android:layout_width="-1" android:layout_height="-2" android:singleLine="true" android:layout_toRightOf="@id/widget_logo" android:layout_below="@id/widget_title" />
+    </RelativeLayout>
+</LinearLayout>

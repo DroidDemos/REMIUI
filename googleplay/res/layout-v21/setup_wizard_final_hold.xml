@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:background="@drawable/setup_wizard_header_bg" android:layout_width="-1" android:layout_height="-1">
+    <com.google.android.play.image.FifeImageView android:id="@id/setup_wizard_restore_header" android:layout_width="-1" android:layout_height="-2" android:adjustViewBounds="true" />
+    <LinearLayout android:orientation="1" android:layout_width="-1" android:layout_height="-1">
+        <View android:layout_width="-1" android:layout_height="0dp" android:layout_weight="1.0" />
+        <RelativeLayout android:layout_width="-1" android:layout_height="0dp" android:layout_weight="1.0">
+            <TextView android:id="@id/setup_wizard_title_content" android:layout_width="-2" android:layout_height="-2" android:text="@string/setup_wizard_restore_title" android:layout_centerInParent="true" style="@style/SetupWizardTitle" />
+            <TextView android:id="@id/setup_wizard_title_ellipse" android:layout_width="-2" android:layout_height="-2" android:layout_alignTop="@id/setup_wizard_title_content" android:layout_toEndOf="@id/setup_wizard_title_content" style="@style/SetupWizardTitle" />
+        </RelativeLayout>
+    </LinearLayout>
+</FrameLayout>

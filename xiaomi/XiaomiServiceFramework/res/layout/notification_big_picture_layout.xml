@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout internal:orientation="1" internal:layout_width="-1" internal:layout_height="-1">
+    <include layout="@layout/notification_base_layout" />
+    <ImageView internal:id="@id/big_picture" internal:layout_width="-1" internal:layout_height="-2" internal:layout_marginLeft="@dimen/notification_padding_left" internal:layout_marginRight="@dimen/notification_padding_right" internal:scaleType="6" />
+</LinearLayout>

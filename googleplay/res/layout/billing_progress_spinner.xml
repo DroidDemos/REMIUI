@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ProgressBar android:layout_gravity="11" android:id="@id/progress_bar" android:layout_width="-2" android:layout_height="-2" />

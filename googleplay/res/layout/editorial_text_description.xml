@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.finsky.layout.EditorialDescriptionSection android:orientation="1" android:id="@id/editorial_description" android:background="@color/play_white" android:paddingLeft="@dimen/details_listing_section_extra_padding" android:paddingTop="@dimen/details_editorial_description_padding_top" android:paddingRight="@dimen/details_listing_section_extra_padding" android:paddingBottom="@dimen/details_editorial_description_padding_bottom" android:layout_width="-1" android:layout_height="-2" android:layout_marginLeft="@dimen/details_listing_section_extra_padding" android:layout_marginRight="@dimen/details_listing_section_extra_padding" android:layout_marginBottom="@dimen/details_editorial_description_margin_bottom" style="@style/StreamIntroCard">
+    <include layout="@layout/details_text_description_content" />
+</com.google.android.finsky.layout.EditorialDescriptionSection>

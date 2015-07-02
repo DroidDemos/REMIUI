@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="1" android:layout_width="-1" android:layout_height="-1">
+    <com.google.android.finsky.layout.SetupWizardIllustration android:orientation="1" android:id="@id/illustration" android:background="@drawable/setup_wizard_header_bg" android:layout_width="-1" android:layout_height="-2" android:elevation="3dp">
+        <TextView android:id="@id/title" style="@style/SetupWizardHeaderTitle" />
+    </com.google.android.finsky.layout.SetupWizardIllustration>
+    <ScrollView android:id="@id/bottom_scroll_view" android:layout_width="-1" android:layout_height="0dp" android:layout_weight="1.0">
+        <FrameLayout android:layout_width="-1" android:layout_height="-2">
+            <include layout="@layout/setup_wizard_divider_and_progress" />
+            <include android:visibility="2" layout="@layout/page_loading_indicator" />
+            <FrameLayout android:id="@id/content_frame" android:layout_width="-1" android:layout_height="-2" style="@style/SetupWizardContentFrame" /> />
+    </ScrollView>
+    <fragment android:name="com.google.android.finsky.setup.SetupWizardNavBar" android:id="@id/navigation_bar" style="@style/SetupWizardNavbar" />
+</LinearLayout>

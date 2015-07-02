@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:id="@id/list_tab_wrapper" android:layout_width="-1" android:layout_height="-1">
+    <include layout="@layout/list_loading_indicator" />
+    <include android:visibility="2" layout="@layout/page_error_indicator" />
+    <com.google.android.finsky.layout.play.PlayRecyclerView android:id="@id/tab_recycler_view" android:paddingBottom="@dimen/card_list_vpadding" android:fadingEdgeLength="0dp" android:clipToPadding="false" android:layout_width="-1" android:layout_height="-1" android:cacheColorHint="@color/play_main_background" />
+    <include android:layout_width="-1" android:layout_height="-1" layout="@layout/no_results_view" />
+</FrameLayout>

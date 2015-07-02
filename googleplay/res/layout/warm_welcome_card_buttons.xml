@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge>
+    <View android:background="@color/play_translucent_separator_line" android:layout_width="-1" android:layout_height="1px" android:layout_marginLeft="@dimen/play_edu_main_content_padding" android:layout_marginTop="16dp" android:layout_marginRight="@dimen/play_edu_main_content_padding" />
+    <LinearLayout android:orientation="0" android:layout_width="-1" android:layout_height="-2">
+        <include android:id="@id/button_secondary" android:visibility="2" android:layout_width="0dp" android:layout_height="-2" android:layout_weight="1.0" layout="@layout/warm_welcome_card_button" />
+        <View android:layout_gravity="10" android:id="@id/button_separator" android:background="@color/play_translucent_separator_line" android:visibility="2" android:layout_width="1dp" android:layout_height="24dp" />
+        <include android:id="@id/button_dismiss" android:layout_width="0dp" android:layout_height="-2" android:layout_weight="1.0" layout="@layout/warm_welcome_card_button" />
+    </LinearLayout>
+</merge>

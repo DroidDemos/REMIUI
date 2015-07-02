@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="1" android:id="@id/expanded_content" android:paddingLeft="@dimen/details_new_content_margin" android:paddingRight="@dimen/details_new_content_margin" android:paddingBottom="24dp" android:visibility="2" android:layout_width="-1" android:layout_height="-2">
+    <FrameLayout android:layout_gravity="11" android:id="@id/screencap_container" android:layout_width="-1" android:layout_height="-2" android:layout_marginBottom="8dp">
+        <include android:id="@id/episode_screencap" layout="@layout/hero_graphic" />
+    </FrameLayout>
+    <TextView android:id="@id/episode_description" android:layout_width="-1" android:layout_height="-2" style="@style/PlayDetailDescription" />
+</LinearLayout>

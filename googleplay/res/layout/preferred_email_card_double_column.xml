@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.finsky.layout.play.PreferredEmailCard finsky:paddingLeft="4dp" finsky:paddingRight="4dp" finsky:layout_width="-1" finsky:layout_height="-2" finsky:supports_dynamic_title_top_padding="false">
+    <com.google.android.finsky.layout.CardLinearLayout finsky:layout_width="-1" finsky:layout_height="-2" style="@style/PlayCardViewGroup">
+        <FrameLayout finsky:id="@id/preferred_email_graphic_box" finsky:padding="8dp" finsky:layout_width="0dp" finsky:layout_height="-1" finsky:layout_weight="1.0">
+            <com.google.android.play.image.FifeImageView finsky:id="@id/preferred_email_graphic" finsky:layout_width="-1" finsky:layout_height="-1" finsky:scaleType="7" />
+        </FrameLayout>
+        <LinearLayout finsky:orientation="1" finsky:id="@id/preferred_email_main_content" finsky:layout_width="0dp" finsky:layout_height="-1" finsky:layout_weight="1.0">
+            <com.google.android.play.layout.PlayTextView finsky:id="@id/preferred_email_title" finsky:paddingTop="@dimen/warm_welcome_title_top_padding" finsky:layout_width="-1" finsky:layout_height="-2" style="@style/PlayEduCardTitle" />
+            <com.google.android.play.layout.PlayTextView finsky:id="@id/preferred_email_body" finsky:layout_width="-1" finsky:layout_height="-2" style="@style/PlayEduCardDescription" />
+            <EditText finsky:id="@id/preferred_email" finsky:layout_width="-1" finsky:layout_height="-2" finsky:hint="@string/preferred_email_hint" finsky:inputType="21" style="@style/PreferredEmailEdit" />
+            <include finsky:layout_width="-1" finsky:layout_height="-2" layout="@layout/warm_welcome_card_buttons" />
+        </LinearLayout>
+    </com.google.android.finsky.layout.CardLinearLayout>
+</com.google.android.finsky.layout.play.PreferredEmailCard>

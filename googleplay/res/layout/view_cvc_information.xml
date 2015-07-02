@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:layout_width="-1" android:layout_height="-1">
+    <LinearLayout android:gravity="11" android:orientation="1" android:paddingLeft="?attr/imDialogBodyLeftRightMargin" android:paddingTop="?attr/imDialogBodyTopBottomMargin" android:paddingRight="?attr/imDialogBodyLeftRightMargin" android:paddingBottom="?attr/imDialogBodyTopBottomMargin" android:layout_width="-1" android:layout_height="-2">
+        <TextView android:textAppearance="?attr/imInfoDialogTextAppearance" android:layout_width="-1" android:layout_height="-2" android:layout_marginBottom="4dp" android:text="@string/wallet_im_cvc_code_popup_default_description" />
+        <ImageView android:layout_width="-2" android:layout_height="-2" android:layout_marginBottom="?attr/imDialogBodyTopBottomMargin" android:src="@drawable/wallet_im_cvc_image_default" android:contentDescription="@styleable/WalletImButtonBar_capitalizeButtonText" />
+        <TextView android:textAppearance="?attr/imInfoDialogTextAppearance" android:layout_width="-1" android:layout_height="-2" android:layout_marginBottom="4dp" android:text="@string/wallet_im_cvc_code_popup_amex_description" />
+        <ImageView android:layout_width="-2" android:layout_height="-2" android:src="@drawable/wallet_im_cvc_image_amex" android:contentDescription="@styleable/WalletImButtonBar_capitalizeButtonText" />
+    </LinearLayout>
+</ScrollView>

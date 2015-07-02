@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.miui.yellowpage.ui.BannerView android:layout_width="-1" android:layout_height="-1">
+    <com.imbryk.viewPager.LoopViewPager android:id="@id/pager" style="@style/Widget.Banner.Container" />
+    <com.miui.yellowpage.widget.SeekBarIndicator android:id="@id/indicator" android:layout_width="-2" android:layout_height="-2" android:layout_alignRight="@id/pager" android:layout_alignBottom="@id/pager" style="@style/Widget.SeekBar.Banner" />
+</com.miui.yellowpage.ui.BannerView>

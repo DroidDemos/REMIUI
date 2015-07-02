@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout finsky:paddingLeft="24dp" finsky:paddingTop="6dp" finsky:layout_width="-1" finsky:layout_height="-2">
+    <com.google.android.play.image.FifeImageView finsky:id="@id/my_avatar" finsky:layout_width="@dimen/review_avatar_size" finsky:layout_height="@dimen/review_avatar_size" finsky:scaleType="2" finsky:fixed_bounds="true" finsky:is_avatar="true" />
+    <TextView finsky:textSize="@dimen/content_generic_small_size" finsky:textColor="@color/play_fg_primary" finsky:ellipsize="3" finsky:id="@id/my_display_name" finsky:paddingLeft="16dp" finsky:paddingRight="16dp" finsky:focusable="false" finsky:layout_width="-2" finsky:layout_height="-2" finsky:singleLine="true" finsky:layout_toRightOf="@id/my_avatar" style="@style/PlayMediumBoldText" />
+    <TextView finsky:textSize="@dimen/content_generic_xsmall_size" finsky:textColor="@color/play_fg_secondary" finsky:ellipsize="3" finsky:id="@id/my_rating_text" finsky:paddingLeft="16dp" finsky:paddingRight="16dp" finsky:paddingBottom="10dp" finsky:focusable="false" finsky:layout_width="-2" finsky:layout_height="-2" finsky:singleLine="true" finsky:layout_toRightOf="@id/my_avatar" finsky:layout_below="@id/my_display_name" finsky:layout_alignWithParentIfMissing="true" style="@style/PlayPlainText" />
+</RelativeLayout>

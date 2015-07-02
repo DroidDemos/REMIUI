@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.internal.widget.TintImageView android:id="@id/action_mode_close_button" android:focusable="true" android:clickable="true" android:layout_width="-2" android:layout_height="-1" android:src="?attr/actionModeCloseDrawable" android:contentDescription="@string/abc_action_mode_done" style="?attr/actionModeCloseButtonStyle" />

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge>
+    <com.google.android.finsky.layout.ForegroundLinearLayout android:orientation="1" android:id="@id/actions_switcher" android:focusable="true" android:layout_width="-1" android:layout_height="-2" android:foreground="@drawable/play_highlight_overlay_light">
+        <include layout="@layout/my_account_separator" />
+        <TextView android:gravity="10" android:layout_width="-1" android:text="@string/add_payment_method" android:drawableLeft="@drawable/ic_myaccount_add" style="@style/MyAccountAction" />
+    </com.google.android.finsky.layout.ForegroundLinearLayout>
+    <com.google.android.finsky.layout.ForegroundLinearLayout android:orientation="1" android:id="@id/edit_footer" android:focusable="true" android:layout_width="-1" android:layout_height="-2" android:foreground="@drawable/play_highlight_overlay_light">
+        <include layout="@layout/my_account_separator" />
+        <TextView android:gravity="10" android:layout_width="-1" android:text="@string/edit_payment_method" android:drawableLeft="@drawable/ic_myaccount_wallet" style="@style/MyAccountAction" />
+    </com.google.android.finsky.layout.ForegroundLinearLayout>
+</merge>

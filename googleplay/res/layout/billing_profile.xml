@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="-1" android:layout_height="-1">
+    <ScrollView android:id="@id/profile" android:layout_width="-1" android:layout_height="-2">
+        <LinearLayout android:orientation="1" android:paddingLeft="16dp" android:paddingRight="16dp" android:layout_width="-1" android:layout_height="-2"
+            <LinearLayout android:orientation="1" android:id="@id/existing_instruments" android:layout_width="-1" android:layout_height="-2" />
+            <TextView android:id="@id/actions_header" android:layout_width="-1" android:layout_height="-2" android:text="@string/billing_profile_other_options" style="@style/BillingProfile_SectionHeader" />
+            <View android:id="@id/actions_header_separator" android:background="@color/play_translucent_separator_line" android:layout_width="-1" android:layout_height="2dp" android:layout_marginTop="4dp" />
+            <LinearLayout android:orientation="1" android:id="@id/actions" android:layout_width="-1" android:layout_height="-2" android:layout_marginTop="8dp" /> />
+    </ScrollView>
+    <ProgressBar android:layout_gravity="11" android:id="@id/loading_indicator" android:layout_width="-2" android:layout_height="-2" />
+</FrameLayout>

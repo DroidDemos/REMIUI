@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.miui.yellowpage.ui.SearchResultYellowPageItem style="@style/SearchResultListItemStyle">
+    <ImageView android:id="@id/thumbnail" android:layout_centerVertical="true" style="@style/Widget.ImageView.Thumbnail" />
+    <LinearLayout android:gravity="10" android:orientation="1" android:layout_width="-1" android:layout_height="-2" android:layout_marginLeft="@dimen/nearby_list_item_thumbnail_right_margin" android:layout_toRightOf="@id/thumbnail" android:layout_alignParentRight="true" android:layout_centerVertical="true"
+        <LinearLayout android:gravity="10" android:layout_width="-2" android:layout_height="-2"
+            <LinearLayout android:gravity="10" android:id="@id/name_container" android:layout_width="-2" android:layout_height="-2" android:layout_weight="1.0">
+                <TextView android:ellipsize="3" android:id="@id/name" android:layout_width="-2" android:layout_height="-2" android:singleLine="true" android:layout_weight="1.0" style="0x80d005f" />
+                <ImageView android:id="@id/auth_icon" android:visibility="2" android:layout_width="@dimen/nearby_list_item_service_icon_size" android:layout_height="@dimen/nearby_list_item_service_icon_size" android:layout_marginLeft="@dimen/list_item_margin_medium" />
+            </LinearLayout>
+            <LinearLayout android:layout_gravity="10" android:layout_width="-2" android:layout_height="-2" android:layout_marginLeft="@dimen/list_item_margin_large">
+                <ImageView android:id="@id/first_service_icon" android:visibility="2" android:layout_width="@dimen/nearby_list_item_service_icon_size" android:layout_height="@dimen/nearby_list_item_service_icon_size" />
+                <ImageView android:id="@id/second_service_icon" android:visibility="2" android:layout_width="@dimen/nearby_list_item_service_icon_size" android:layout_height="@dimen/nearby_list_item_service_icon_size" android:layout_marginLeft="@dimen/list_item_margin_small" />
+            </LinearLayout>
+        </LinearLayout>
+        <LinearLayout android:gravity="10" android:orientation="0" android:layout_width="-2" android:layout_height="-2">
+            <RatingBar android:gravity="10" android:id="@id/rating" android:visibility="2" android:layout_width="-2" android:layout_height="-2" android:layout_marginRight="@dimen/list_item_margin_medium" style="0x80d002f" />
+            <TextView android:gravity="10" android:id="@id/average_price" android:visibility="2" android:layout_width="-2" android:layout_height="-2" android:singleLine="true" style="0x80d000d" />
+        </LinearLayout>
+        <RelativeLayout android:layout_width="-1" android:layout_height="-2">
+            <TextView android:id="@id/address" android:visibility="2" android:layout_width="-2" android:layout_height="-2" android:singleLine="true" android:layout_toLeftOf="@id/distance" android:layout_alignParentLeft="true" style="0x80d000d" />
+            <TextView android:id="@id/distance" android:visibility="2" android:layout_width="-2" android:layout_height="-2" android:layout_marginLeft="@dimen/list_item_margin_large" android:singleLine="true" android:layout_alignParentRight="true" style="0x80d000d" />
+        </RelativeLayout>
+    </LinearLayout>
+</com.miui.yellowpage.ui.SearchResultYellowPageItem>

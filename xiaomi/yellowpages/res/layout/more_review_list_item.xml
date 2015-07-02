@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.miui.yellowpage.ui.MoreReviewListItem android:orientation="1" android:layout_width="-1" android:layout_height="-2" style="0x80d004d">
+    <TextView android:layout_gravity="11" android:id="@id/review_count" android:layout_width="-2" android:layout_height="-2" style="0x80d0058" />
+</com.miui.yellowpage.ui.MoreReviewListItem>

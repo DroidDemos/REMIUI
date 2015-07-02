@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge>
+    <ProgressBar android:id="@id/progress" android:visibility="2" android:layout_width="-2" android:layout_height="-2" android:indeterminate="true" android:indeterminateOnly="false" android:progressDrawable="@drawable/progressbar_determinate" />
+    <LinearLayout android:gravity="11" android:layout_gravity="30" android:orientation="1" android:id="@id/error_view_container" android:layout_width="-2" android:layout_height="-2" android:layout_marginTop="@dimen/blank_page_err_info_page_padding">
+        <TextView android:gravity="11" android:id="@id/text" android:visibility="2" android:layout_width="-2" android:layout_height="-2" style="0x80d009d" />
+        <Button android:id="@id/button" android:visibility="2" android:layout_marginTop="@dimen/retry_button_vertical_margin" style="0x80d009e" />
+    </LinearLayout>
+</merge>

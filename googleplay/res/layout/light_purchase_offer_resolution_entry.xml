@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:gravity="10" android:background="@drawable/play_highlight_overlay_light" android:paddingLeft="16dp" android:paddingTop="8dp" android:paddingRight="16dp" android:paddingBottom="8dp" android:focusable="true" android:layout_width="-1" android:layout_height="-2" android:minHeight="70dp">
+    <TextView android:textSize="@dimen/play_purchase_primary_size" android:id="@id/price" android:paddingRight="8dp" android:layout_width="-2" android:layout_height="-2" android:layout_alignParentRight="true" />
+    <TextView android:textSize="@dimen/play_purchase_primary_size" android:textColor="@color/play_fg_purchase_secondary" android:id="@id/full_price" android:paddingRight="8dp" android:layout_width="-2" android:layout_height="-2" android:layout_toLeftOf="@id/price" />
+    <TextView android:textSize="@dimen/play_purchase_primary_size" android:textColor="@color/play_primary_text" android:id="@id/title" android:paddingLeft="8dp" android:paddingRight="8dp" android:layout_width="-2" android:layout_height="-2" android:layout_toLeftOf="@id/full_price" android:layout_alignParentLeft="true" style="@style/PlayPlainText" />
+    <TextView android:textSize="@dimen/play_purchase_secondary_size" android:textColor="@color/play_fg_purchase_secondary" android:id="@id/byline" android:paddingLeft="8dp" android:paddingRight="8dp" android:layout_width="-2" android:layout_height="-2" android:layout_below="@id/title" android:layout_alignParentLeft="true" />
+</RelativeLayout>

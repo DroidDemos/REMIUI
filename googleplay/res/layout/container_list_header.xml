@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.finsky.layout.DocImageView finsky:layout_width="-1" finsky:layout_height="@dimen/bucket_entry_height" finsky:scaleType="3" finsky:fixed_bounds="true" />

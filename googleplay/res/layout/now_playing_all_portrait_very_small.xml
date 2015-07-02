@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="@dimen/now_playing_all_portrait_very_small_width" android:layout_height="@dimen/now_playing_all_portrait_very_small_height" style="@style/NowPlayingImageCell">
+    <ImageView android:id="@id/large_image_1" style="@style/NowPlayingImage" />
+    <include android:id="@id/accessibility_overlay_1" layout="@layout/widget_accessibility_overlay" />
+</FrameLayout>

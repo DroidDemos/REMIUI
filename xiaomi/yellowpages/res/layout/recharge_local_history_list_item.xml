@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.miui.yellowpage.ui.RechargeLocalHistoryListItem android:paddingLeft="@dimen/express_inquiry_fragment_serial_number_edit_text_padding_horizontal" android:paddingRight="@dimen/express_inquiry_fragment_serial_number_edit_text_padding_horizontal" style="0x80d0090">
+    <TextView android:textAppearance="0x80d005f" android:gravity="10" android:id="@id/phone" android:layout_width="-2" android:layout_height="-2" android:layout_marginRight="@dimen/express_inquiry_fragment_serial_number_edit_text_padding_horizontal" android:singleLine="true" android:layout_alignParentLeft="true" android:layout_centerVertical="true" />
+    <TextView android:textAppearance="0x80d0058" android:gravity="15" android:id="@id/name" android:layout_width="-2" android:layout_height="-2" android:singleLine="true" android:layout_toLeftOf="@id/remove" android:layout_toRightOf="@id/phone" android:layout_centerVertical="true" />
+    <ImageView android:id="@id/remove" android:layout_width="-2" android:layout_height="-2" android:src="@drawable/edit_text_search_clear_btn_on_light" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+</com.miui.yellowpage.ui.RechargeLocalHistoryListItem>

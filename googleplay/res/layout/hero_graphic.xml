@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.finsky.layout.HeroGraphicView finsky:id="@id/hero_promo" finsky:focusable="true" finsky:layout_width="-1" finsky:layout_height="-2" finsky:foreground="@drawable/play_highlight_overlay_dark" finsky:full_screen_on="@bool/use_wide_details_layout">
+    <View finsky:id="@id/corpus_fill" finsky:visibility="2" finsky:layout_width="-1" finsky:layout_height="-2" />
+    <com.google.android.play.image.FifeImageView finsky:id="@id/hero_image" finsky:layout_width="-1" finsky:layout_height="-2" finsky:scaleType="6" />
+    <View finsky:id="@id/hero_image_top_overlay" finsky:background="@drawable/action_bar_overlay" finsky:visibility="2" finsky:layout_width="-1" finsky:layout_height="@dimen/action_bar_overlay_height" />
+    <View finsky:id="@id/hero_image_bottom_overlay" finsky:background="@drawable/editorial_bottom_overlay" finsky:visibility="2" finsky:layout_width="-1" finsky:layout_height="-2" />
+    <ImageView finsky:id="@id/play_icon" finsky:visibility="2" finsky:layout_width="-2" finsky:layout_height="-2" finsky:src="@drawable/btn_movie_play_normal" />
+    <TextView finsky:textSize="@dimen/play_editorial_header_size" finsky:textColor="@color/white" finsky:gravity="1" finsky:id="@id/hero_title" finsky:paddingLeft="@dimen/play_collection_edge_padding" finsky:paddingTop="@dimen/antenna_title_vpadding" finsky:paddingRight="@dimen/play_collection_edge_padding" finsky:paddingBottom="@dimen/antenna_title_vpadding" finsky:visibility="2" finsky:layout_width="-1" finsky:layout_height="-2" style="@style/PlayMediumPlainText" />
+</com.google.android.finsky.layout.HeroGraphicView>

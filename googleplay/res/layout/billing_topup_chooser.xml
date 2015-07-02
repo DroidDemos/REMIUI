@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="-1" android:layout_height="-1">
+    <RelativeLayout android:id="@id/loading_indicator" android:padding="30dp" android:layout_width="-1" android:layout_height="-2">
+        <ProgressBar android:layout_width="-2" android:layout_height="-2" android:layout_centerInParent="true" />
+    </RelativeLayout>
+    <LinearLayout android:orientation="1" android:layout_width="-1" android:layout_height="-2">
+        <FrameLayout android:layout_width="-1" android:layout_height="0dp" android:layout_weight="1.0">
+            <ListView android:id="@id/choices" android:layout_width="-1" android:layout_height="-1" />
+        </FrameLayout>
+        <include layout="@layout/button_bar" />
+    </LinearLayout>
+</FrameLayout>

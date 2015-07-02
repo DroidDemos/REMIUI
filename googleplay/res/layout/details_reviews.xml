@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.finsky.layout.ReviewSamplesSection android:orientation="1" android:background="@color/play_white" android:focusable="true" android:layout_width="-1" android:layout_height="-2" android:foreground="@drawable/play_highlight_overlay_light">
+    <include layout="@layout/reviews_statistics" />
+    <LinearLayout android:orientation="1" android:id="@id/section_content_sample_reviews" android:layout_width="-1" android:layout_height="-2" />
+    <TextView android:textSize="@dimen/content_generic_small_size" android:gravity="11" android:id="@id/all_reviews_footer" android:paddingLeft="@dimen/details_content_margin" android:paddingTop="12dp" android:paddingRight="@dimen/details_content_margin" android:paddingBottom="12dp" android:visibility="2" android:layout_width="-1" android:layout_height="-2" android:layout_marginBottom="12dp" style="@style/PlayMediumPlainText" />
+</com.google.android.finsky.layout.ReviewSamplesSection>

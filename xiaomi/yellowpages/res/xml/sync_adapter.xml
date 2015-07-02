@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="utf-8"?>
+<sync-adapter android:accountType="miui.yellowpage" android:contentAuthority="miui.yellowpage" android:userVisible="false" android:supportsUploading="true" android:allowParallelSyncs="false" android:isAlwaysSyncable="true" />

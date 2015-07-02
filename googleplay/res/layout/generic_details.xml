@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.finsky.layout.DetailsMarginBox finsky:id="@id/details_layout" finsky:layout_width="-1" finsky:layout_height="-1" finsky:has_leading_gap="false" finsky:leading_hero_section_id="@id/hero_promo">
+    <include layout="@layout/generic_details_expanded_content" />
+    <View finsky:id="@id/card_transition_target" finsky:visibility="2" finsky:layout_width="-1" finsky:layout_height="-1" />
+    <com.google.android.finsky.layout.scroll.DetailsScrollView finsky:orientation="1" finsky:id="@id/details_scroller" finsky:fadingEdge="0" finsky:layout_width="-1" finsky:layout_height="-1" finsky:fillViewport="true">
+        <com.google.android.finsky.layout.DetailsInnerColumnLayout finsky:orientation="1" finsky:id="@id/details_container" finsky:layout_width="-1" finsky:layout_height="-2" finsky:separator_inset="@dimen/details_new_content_margin" finsky:show_trailing_separator="true" />
+    </com.google.android.finsky.layout.scroll.DetailsScrollView>
+</com.google.android.finsky.layout.DetailsMarginBox>

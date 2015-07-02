@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="-1" android:layout_height="@dimen/now_playing_title_height">
+    <ImageView android:id="@id/widget_title_icon" android:paddingTop="@dimen/now_playing_icon_padding_top" android:paddingBottom="@dimen/now_playing_icon_padding_bottom" android:focusable="true" android:layout_width="-2" android:layout_height="-2" android:layout_alignParentLeft="true" android:layout_centerVertical="true" android:contentDescription="@styleable/WalletImButtonBar_capitalizeButtonText" />
+    <TextView android:ellipsize="4" android:id="@id/widget_title" android:layout_width="-2" android:layout_height="-2" android:singleLine="true" android:layout_toRightOf="@id/widget_title_icon" android:layout_centerVertical="true" style="@style/WidgetTitleText" />
+    <TextView android:id="@id/widget_title_accessibility_overlay" android:importantForAccessibility="2" style="@style/NowPlayingAccessibility" />
+</RelativeLayout>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.finsky.layout.AddressFieldsLayoutFroyo android:layout_width="-1" android:layout_height="-2">
+    <LinearLayout android:orientation="1" android:id="@id/address_inner_layout" android:layout_width="-1" android:layout_height="-2" />
+    <ProgressBar android:layout_gravity="1" android:id="@id/address_progress_bar" android:padding="4dp" android:layout_width="40dp" android:layout_height="40dp" />
+    <ProgressBar android:layout_gravity="35" android:id="@id/upper_right_progress_bar" android:visibility="2" android:layout_width="24dp" android:layout_height="24dp" android:layout_marginTop="10dp" android:layout_marginRight="8dp" />
+</com.google.android.finsky.layout.AddressFieldsLayoutFroyo>

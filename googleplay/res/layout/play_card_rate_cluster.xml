@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.finsky.layout.play.PlayCardRateClusterView finsky:orientation="1" finsky:paddingTop="@dimen/play_cluster_vpadding" finsky:paddingBottom="@dimen/play_cluster_vpadding" finsky:layout_width="-1" finsky:layout_height="-2">
+    <include layout="@layout/play_card_cluster_header" />
+    <TextView finsky:id="@id/empty_done" finsky:visibility="1" finsky:layout_width="-1" finsky:layout_height="-2" finsky:text="@string/rate_all_done" finsky:drawableTop="@drawable/ic_empty_rate" finsky:drawablePadding="12dp" style="@style/PlayEmptyTitle" />
+    <com.google.android.finsky.layout.play.PlayCardRateClusterViewContent finsky:id="@id/cluster_content" finsky:layout_width="-1" finsky:layout_height="-2" />
+</com.google.android.finsky.layout.play.PlayCardRateClusterView>

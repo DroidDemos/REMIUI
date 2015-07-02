@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="1" android:layout_width="-1" android:layout_height="-1">
+    <include layout="@layout/now_playing_title" />
+    <FrameLayout android:background="@drawable/rec_widget_background" android:layout_width="-1" android:layout_height="0dp" android:layout_weight="1.0">
+        <include android:visibility="2" layout="@layout/rec_widget_error_indicator" />
+        <AdapterViewFlipper android:id="@id/widget_flipper" android:addStatesFromChildren="true" android:layout_width="-1" android:layout_height="-1" android:flipInterval="@integer/recommendations_flip_interval" android:autoStart="true" />
+        <RelativeLayout android:id="@id/empty_container" android:visibility="2" android:layout_width="-1" android:layout_height="-1">
+            <ImageView android:layout_width="-1" android:layout_height="-1" android:src="@drawable/bg_play_store_icon_watermark" android:scaleType="2" android:layout_alignParentLeft="true" android:layout_alignParentTop="true" android:layout_alignParentRight="true" android:layout_alignParentBottom="true" />
+            <TextView android:textSize="@dimen/content_generic_large_size" android:textColor="@color/play_white" android:gravity="11" android:paddingLeft="20dp" android:paddingRight="20dp" android:layout_width="-1" android:layout_height="-1" android:text="@string/no_recommendation_data_error" android:layout_centerInParent="true" />
+            <include layout="@layout/rec_widget_refresh" />
+        </RelativeLayout>
+        <include android:id="@id/widget_background_accessibility" android:visibility="2" layout="@layout/widget_accessibility_overlay" />
+        <FrameLayout android:id="@id/interactive_container" android:visibility="2" android:layout_width="-1" android:layout_height="-1">
+            <ImageView android:layout_width="-1" android:layout_height="-1" android:src="@drawable/bg_play_store_icon_watermark" android:scaleType="2" />
+            <TextView android:textSize="@dimen/content_generic_large_size" android:textColor="@color/play_white" android:gravity="11" android:id="@id/interactive_error_msg" android:paddingLeft="20dp" android:paddingRight="20dp" android:layout_width="-1" android:layout_height="-1" />
+        </FrameLayout>
+        <include android:id="@id/widget_loading_indicator" layout="@layout/rec_widget_loading_indicator" />
+    </FrameLayout>
+</LinearLayout>

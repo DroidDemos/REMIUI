@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout finsky:orientation="1" finsky:layout_width="-1" finsky:layout_height="-2">
+    <com.google.android.finsky.layout.AvailablePromoOfferContent finsky:orientation="1" finsky:id="@id/promo_offer_content" finsky:layout_width="-1" finsky:layout_height="-2">
+        <TextView finsky:id="@id/promo_offer_introductory_text" finsky:layout_width="-1" finsky:layout_height="-2" style="@style/SetupWizardLightText" />
+        <com.google.android.play.image.FifeImageView finsky:id="@id/promo_offer_image" finsky:visibility="2" finsky:layout_width="-1" finsky:layout_height="128dp" finsky:layout_marginTop="16dp" finsky:layout_marginBottom="24dp" finsky:scaleType="7" finsky:fixed_bounds="true" finsky:fade_in_after_load="false" />
+        <TextView finsky:id="@id/promo_offer_description" finsky:paddingTop="24dp" finsky:visibility="2" finsky:layout_width="-1" finsky:layout_height="-2" style="@style/SetupWizardLightText" />
+        <TextView finsky:id="@id/promo_offer_terms" finsky:paddingTop="16dp" finsky:layout_width="-1" finsky:layout_height="-2" style="@style/SetupWizardDetails" />
+    </com.google.android.finsky.layout.AvailablePromoOfferContent>
+    <RadioGroup finsky:id="@id/promo_offer_radio_group" finsky:paddingTop="13dp" finsky:layout_width="-1" finsky:layout_height="-2">
+        <RadioButton finsky:id="@id/promo_offer_accept" finsky:paddingTop="13dp" finsky:paddingBottom="13dp" finsky:layout_width="-1" finsky:layout_height="-2" finsky:checked="true" finsky:text="@string/setup_wizard_promo_offer_accept" style="@style/SetupWizardLightText" />
+        <RadioButton finsky:id="@id/promo_offer_decline" finsky:paddingTop="13dp" finsky:paddingBottom="13dp" finsky:layout_width="-1" finsky:layout_height="-2" finsky:text="@string/setup_wizard_promo_offer_decline" style="@style/SetupWizardLightText" />
+    </RadioGroup>
+</LinearLayout>

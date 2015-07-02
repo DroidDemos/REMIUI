@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<transitionSet
+    <transitionSet>
+        <changeBounds />
+        <changeTransform />
+        <changeClipBounds />
+        <changeImageTransform />
+        <fade android:fadingMode="1" />
+        <arcMotion />
+        <targets>
+            <target android:targetId="@id/li_thumbnail" />
+            <target android:targetId="@id/title_thumbnail" />
+        </targets>
+    </transitionSet>
+    <transitionSet>
+        <fade android:fadingMode="1" />
+        <targets>
+            <target android:targetId="@id/li_title" />
+            <target android:targetId="@id/li_subtitle" />
+        </targets>
+    </transitionSet>
+</transitionSet>

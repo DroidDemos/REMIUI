@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.finsky.layout.AccessibleTableRow android:orientation="0" android:layout_width="-2" android:layout_height="-2">
+    <com.google.android.finsky.layout.StarLabel android:layout_gravity="10" android:id="@id/star_label" android:layout_width="-2" android:layout_height="-2" android:layout_marginRight="8dp" />
+    <com.google.android.finsky.layout.HistogramBar android:layout_gravity="10" android:id="@id/histogram_bar" android:layout_width="-2" android:layout_height="-2" />
+    <TextView android:textSize="@dimen/content_generic_xsmall_size" android:textColor="@color/play_fg_secondary" android:layout_gravity="10" android:id="@id/count_label" android:paddingLeft="6dp" android:layout_width="-2" android:layout_height="-2" />
+</com.google.android.finsky.layout.AccessibleTableRow>

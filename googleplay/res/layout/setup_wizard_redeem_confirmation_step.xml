@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout finsky:orientation="0" finsky:layout_width="-1" finsky:layout_height="-2">
+    <com.google.android.play.image.FifeImageView finsky:id="@id/image" finsky:layout_width="75dp" finsky:layout_height="-2" finsky:layout_marginTop="4dp" finsky:layout_marginRight="16dp" finsky:scaleType="3" finsky:fixed_bounds="true" />
+    <LinearLayout finsky:orientation="1" finsky:id="@id/title_wrapper" finsky:layout_width="-1" finsky:layout_height="-2" finsky:layout_toLeftOf="@id/price_wrapper" finsky:layout_toRightOf="@id/image" finsky:layout_alignWithParentIfMissing="true">
+        <com.google.android.play.layout.PlayTextView finsky:textSize="@dimen/play_purchase_primary_size" finsky:ellipsize="3" finsky:id="@id/title" finsky:layout_width="-1" finsky:layout_height="-2" finsky:maxLines="2" finsky:allowsCompactLineSpacing="true" />
+        <com.google.android.play.layout.PlayTextView finsky:id="@id/title_byline" finsky:layout_width="-1" finsky:layout_height="-2" />
+    </LinearLayout>
+    <LinearLayout finsky:orientation="1" finsky:id="@id/price_wrapper" finsky:paddingLeft="6dp" finsky:layout_width="-2" finsky:layout_height="-2" finsky:layout_alignParentRight="true">
+        <com.google.android.play.layout.PlayTextView finsky:textSize="@dimen/play_purchase_primary_size" finsky:layout_gravity="5" finsky:id="@id/price" finsky:layout_width="-2" finsky:layout_height="-2" finsky:maxWidth="200dp" finsky:maxLines="1" />
+        <com.google.android.play.layout.PlayTextView finsky:layout_gravity="5" finsky:id="@id/price_byline" finsky:layout_width="-2" finsky:layout_height="-2" finsky:maxWidth="200dp" finsky:maxLines="1" />
+    </LinearLayout>
+    <LinearLayout finsky:orientation="1" finsky:layout_width="-1" finsky:layout_height="-2" finsky:layout_toRightOf="@id/image" finsky:layout_below="@id/title_wrapper" finsky:layout_alignWithParentIfMissing="true">
+        <TextView finsky:id="@id/message" finsky:layout_width="-1" finsky:layout_height="-2" finsky:layout_marginTop="16dp" style="@style/SetupWizardLightText" />
+        <TextView finsky:id="@id/voucher_footer" finsky:layout_width="-1" finsky:layout_height="-2" finsky:layout_marginTop="10dp" style="@style/SetupWizardLightText" />
+        <TextView finsky:id="@id/tos_footer" finsky:layout_width="-1" finsky:layout_height="-2" finsky:layout_marginTop="10dp" style="@style/LightPurchase_Footer" />
+    </LinearLayout>
+</RelativeLayout>

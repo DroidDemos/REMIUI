@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:id="@id/action_bar_container" android:layout_width="-1" android:layout_height="-2">
+    <include android:id="@id/action_bar" layout="@layout/search_toolbar" />
+</FrameLayout>

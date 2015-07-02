@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="utf-8"?>
+<appwidget-provider android:minWidth="@dimen/rec_widget_default_width" android:minHeight="@dimen/rec_widget_default_height" android:updatePeriodMillis="43200000" android:initialLayout="@layout/rec_widget_base" android:configure="com.google.android.finsky.widget.recommendation.RecommendedTrampoline" android:previewImage="@drawable/widget_preview_jfy" android:resizeMode="1" android:minResizeWidth="@dimen/rec_widget_min_resize_width" />

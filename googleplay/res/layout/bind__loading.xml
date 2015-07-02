@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:gravity="11" android:layout_gravity="11" android:padding="5dp" android:layout_width="-1" android:layout_height="-2">
+    <ProgressBar android:layout_gravity="11" android:id="@id/spinner" android:layout_width="-2" android:layout_height="-2" android:indeterminate="true" />
+</FrameLayout>

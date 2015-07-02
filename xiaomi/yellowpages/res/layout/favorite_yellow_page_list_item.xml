@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.miui.yellowpage.ui.FavoriteYellowPageListItem android:layout_width="-1" android:layout_height="-2" style="0x80d004e">
+    <ImageView android:id="@id/thumbnail" android:contentDescription="@transactionxmlfile/MODE_PRIVATE" style="@style/Widget.ImageView.Thumbnail" />
+    <LinearLayout android:layout_gravity="10" android:orientation="1" android:layout_width="-1" android:layout_height="-2" android:layout_marginLeft="15dp"
+        <LinearLayout android:gravity="10" android:layout_width="-2" android:layout_height="-2">
+            <TextView android:id="@id/name" android:layout_width="-2" android:layout_height="-2" android:singleLine="true" android:layout_weight="1.0" style="0x80d000c" />
+            <ImageView android:id="@id/auth_icon" android:visibility="2" android:layout_width="@dimen/nearby_list_item_service_icon_size" android:layout_height="@dimen/nearby_list_item_service_icon_size" android:layout_marginLeft="@dimen/list_item_margin_medium" />
+        </LinearLayout>
+        <TextView android:id="@id/address" android:visibility="2" android:layout_width="-2" android:layout_height="-2" android:singleLine="true" style="0x80d000d" />
+    </LinearLayout>
+</com.miui.yellowpage.ui.FavoriteYellowPageListItem>

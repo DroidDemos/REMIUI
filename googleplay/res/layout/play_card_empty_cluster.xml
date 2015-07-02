@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.finsky.layout.play.PlayCardEmptyClusterView finsky:paddingTop="@dimen/play_cluster_vpadding" finsky:layout_width="-1" finsky:layout_height="-2">
+    <include layout="@layout/play_card_cluster_header" />
+    <com.google.android.play.image.FifeImageView finsky:id="@id/empty_image" finsky:layout_width="-2" finsky:layout_height="@dimen/play_empty_cluster_graphic_height" finsky:layout_marginTop="24dp" finsky:scaleType="7" finsky:fixed_bounds="true" />
+    <TextView finsky:id="@id/empty_text" finsky:paddingTop="4dp" finsky:paddingBottom="64dp" finsky:layout_width="-2" finsky:layout_height="-2" style="@style/PlayEmptyTitle" />
+</com.google.android.finsky.layout.play.PlayCardEmptyClusterView>

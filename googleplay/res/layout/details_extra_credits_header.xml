@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.finsky.layout.SeparatorLinearLayout finsky:layout_width="-1" finsky:layout_height="-2" finsky:separator_position="1">
+    <com.google.android.finsky.layout.DecoratedTextView finsky:id="@id/section_header" finsky:background="@drawable/play_highlight_overlay_light" finsky:paddingLeft="0dp" finsky:paddingTop="24dp" finsky:paddingRight="0dp" finsky:paddingBottom="20dp" finsky:focusable="true" finsky:layout_width="-1" finsky:layout_height="-2" finsky:drawablePadding="4dp" finsky:decoration_position="1" style="@style/PlayDetailsTextTitle" />
+</com.google.android.finsky.layout.SeparatorLinearLayout>

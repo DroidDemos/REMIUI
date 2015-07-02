@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="10" android:orientation="1" android:id="@id/permission_row" android:background="@drawable/focus_overlay" android:paddingLeft="11dp" android:paddingTop="4dp" android:paddingRight="10dp" android:paddingBottom="4dp" android:focusable="true" android:layout_width="-1" android:layout_height="-2" android:minHeight="45dp"
+    <LinearLayout android:orientation="0" android:layout_width="-1" android:layout_height="-2">
+        <ImageView android:id="@id/bucket_icon" android:layout_width="-2" android:layout_height="-2" />
+        <TextView android:textSize="16sp" android:textColor="@color/play_primary_text" android:id="@id/header" android:paddingLeft="22dp" android:paddingTop="1dp" android:paddingRight="16dp" android:layout_width="0dp" android:layout_height="-2" android:layout_weight="1.0" android:lineSpacingExtra="0sp" style="@style/PermissionRow" />
+        <ImageView android:layout_gravity="10" android:id="@id/expander_icon" android:layout_width="-2" android:layout_height="-1" android:src="@drawable/ic_more_arrow_down" android:contentDescription="@string/content_description_toggle_expand" />
+    </LinearLayout>
+    <TextView android:id="@id/content" android:paddingLeft="50dp" android:paddingTop="5dp" android:layout_width="-1" android:lineSpacingExtra="1sp" style="@style/PermissionRow" />
+</LinearLayout>

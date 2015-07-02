@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout finsky:layout_width="-1" finsky:layout_height="-2">
+    <com.google.android.play.layout.PlayActionButton finsky:id="@id/positive_button" finsky:layout_alignParentLeft="true" finsky:layout_centerVertical="true" style="@style/Play_Purchase_ActionButton" />
+    <com.google.android.play.layout.PlayActionButton finsky:id="@id/negative_button" finsky:layout_alignParentRight="true" finsky:layout_centerVertical="true" finsky:action_style="2" style="@style/Play_Purchase_ActionButton" />
+</RelativeLayout>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout style="@style/SetupWizardNavbar">
+    <view android:id="@id/negative_button" android:contentDescription="@string/setup_wizard_back_button_label" android:drawableStart="@drawable/setup_wizard_navbar_ic_back" class="com.google.android.finsky.setup.SetupWizardNavBar$NavButton" style="@style/SetupWizardNavbarButton" />
+    <View android:visibility="1" android:layout_width="0dp" android:layout_height="-2" android:layout_weight="1.0" />
+    <view android:gravity="800015" android:id="@id/positive_button" android:text="@string/setup_wizard_next_button_label" android:drawableEnd="@drawable/setup_wizard_navbar_ic_next" class="com.google.android.finsky.setup.SetupWizardNavBar$NavButton" style="@style/SetupWizardNavbarButton" />
+</LinearLayout>

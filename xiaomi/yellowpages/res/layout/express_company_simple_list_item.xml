@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:orientation="0" android:paddingLeft="0dp" android:descendantFocusability="2" android:layout_width="-1" android:layout_height="-2" style="0x80d004e">
+    <RadioButton android:id="@id/radio" android:clickable="false" android:layout_width="-2" android:layout_height="-1" />
+    <ImageView android:layout_gravity="10" android:id="@id/icon" android:layout_width="@dimen/express_company_list_icon_size" android:layout_height="@dimen/express_company_list_icon_size" android:layout_marginLeft="@dimen/express_company_icon_margin_left" />
+    <LinearLayout android:layout_gravity="10" android:orientation="1" android:layout_width="-1" android:layout_height="-2" android:layout_marginLeft="@dimen/express_company_content_margin_left">
+        <TextView android:id="@id/name" android:layout_width="-1" android:layout_height="-2" style="0x80d005f" />
+        <TextView android:id="@id/description" android:layout_width="-1" android:layout_height="-2" android:maxLines="1" style="0x80d0058" />
+    </LinearLayout>
+</FrameLayout>

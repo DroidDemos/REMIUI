@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge>
+    <FrameLayout android:layout_gravity="1" android:id="@id/fl_inner" android:paddingTop="@dimen/pull_to_refresh_header_padding" android:paddingBottom="@dimen/pull_to_refresh_header_padding" android:layout_width="-1" android:layout_height="-2">
+        <LinearLayout android:layout_gravity="1" android:orientation="0" android:layout_width="-2" android:layout_height="-2">
+            <FrameLayout android:layout_gravity="10" android:layout_width="-2" android:layout_height="-2">
+                <ImageView android:layout_gravity="11" android:id="@id/pull_to_refresh_image" android:layout_width="-2" android:layout_height="-2" />
+                <ProgressBar android:layout_gravity="11" android:id="@id/pull_to_refresh_progress" android:visibility="2" android:layout_width="-2" android:layout_height="-2" android:indeterminate="true" style="?unknown_attr_ref: 1010079" />
+            </FrameLayout>
+            <LinearLayout android:gravity="1" android:layout_gravity="11" android:orientation="1" android:layout_width="-2" android:layout_height="-2">
+                <TextView android:id="@id/pull_to_refresh_text" android:layout_width="-2" android:layout_height="-2" android:singleLine="true" style="0x80d0004" />
+                <TextView android:id="@id/pull_to_refresh_sub_text" android:visibility="2" android:layout_width="-2" android:layout_height="-2" android:singleLine="true" style="0x80d0004" />
+            </LinearLayout>
+        </LinearLayout>
+    </FrameLayout>
+</merge>

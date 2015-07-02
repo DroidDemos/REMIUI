@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextView android:textSize="@dimen/content_generic_small_size" android:textColor="@color/play_secondary_text" android:paddingLeft="@dimen/details_content_margin" android:paddingTop="8dp" android:paddingRight="@dimen/details_content_margin" android:paddingBottom="8dp" android:layout_width="-1" android:layout_height="-2" android:text="@string/no_filtered_reviews" />

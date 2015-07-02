@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="0" android:id="@id/tab_placeholder" android:background="@drawable/quickcontact_tab_placeholder" android:layout_width="-1" android:layout_height="-2" />

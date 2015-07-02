@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:gravity="@transactionxmlfile/MODE_PRIVATE" android:id="@id/picker_custom_view" android:layout_width="-1" android:layout_height="-1">
+    <Button android:id="@id/cancel" android:layout_width="-2" android:layout_height="-2" android:layout_marginLeft="@dimen/yellow_page_picker_custom_view_margin_left" android:layout_marginTop="@dimen/yellow_page_picker_custom_view_margin_top" android:text="0x1040000" android:layout_centerVertical="true" style="0x80d0028" />
+    <TextView android:gravity="11" android:id="@id/title" android:layout_width="-1" android:layout_height="-1" android:text="@string/app_label" android:singleLine="true" android:layout_toLeftOf="@id/place_holder" android:layout_toRightOf="@id/cancel" style="0x80d0010" />
+    <Button android:id="@id/place_holder" android:visibility="1" android:layout_width="-2" android:layout_height="-2" android:layout_marginTop="@dimen/yellow_page_picker_custom_view_margin_top" android:layout_alignParentRight="true" style="0x80d0028" />
+</RelativeLayout>

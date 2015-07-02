@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="10" android:id="@id/title_layout" android:layout_width="-2" android:layout_height="-2" android:layout_alignParentLeft="true" android:layout_centerVertical="true">
+    <ImageView android:gravity="11" android:id="0x102002c" android:layout_width="-2" android:layout_height="-2" android:src="?unknown_attr_ref: 101030b" />
+    <TextView android:textAppearance="0x80d0008" android:ellipsize="3" android:gravity="11" android:id="@id/title" android:layout_width="-2" android:layout_height="-2" android:singleLine="true" android:layout_weight="1.0" />
+    <ImageView android:gravity="11" android:id="@id/auth_icon" android:visibility="2" android:layout_width="@dimen/nearby_list_item_service_icon_size" android:layout_height="@dimen/nearby_list_item_service_icon_size" android:layout_marginLeft="@dimen/list_item_margin_medium" />
+</LinearLayout>

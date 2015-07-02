@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_gravity="15" android:layout_width="-2" android:layout_height="-1">
+    <miui.widget.ProgressBar android:layout_gravity="10" android:id="@id/progress_bar" android:layout_width="-2" android:layout_height="-2" android:layout_marginRight="@dimen/webview_custom_view_progress_bar_margin_right" style="?unknown_attr_ref: 1010079" />
+    <Button android:layout_gravity="10" android:id="@id/history_btn" android:background="@drawable/history_button_bg" android:visibility="2" android:layout_width="-2" android:layout_height="-2" android:layout_marginRight="@dimen/history_button_margin_right" />
+</LinearLayout>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.finsky.detailspage.SongListModuleLayout finsky:orientation="1" finsky:id="@id/song_list" finsky:background="@color/play_white" finsky:paddingLeft="@dimen/details_listing_section_extra_padding" finsky:paddingTop="24dp" finsky:paddingRight="@dimen/details_listing_section_extra_padding" finsky:paddingBottom="24dp" finsky:layout_width="-1" finsky:layout_height="-2">
+    <com.google.android.finsky.layout.PlaylistHeader finsky:id="@id/song_list_header" finsky:background="@drawable/play_highlight_overlay_light" finsky:paddingTop="4dp" finsky:paddingBottom="4dp" finsky:focusable="true" finsky:layout_width="-1" finsky:layout_height="-2">
+        <com.google.android.finsky.layout.AccessibleTextView finsky:id="@id/header" finsky:paddingLeft="@dimen/details_new_content_margin" finsky:focusable="false" finsky:layout_width="-2" finsky:layout_height="-2" style="@style/Play_DetailsPage_HeaderText" />
+        <TextView finsky:textSize="@dimen/content_generic_small_size" finsky:textColor="@color/play_fg_secondary" finsky:id="@id/subheader" finsky:paddingLeft="@dimen/details_new_content_margin" finsky:paddingRight="@dimen/details_new_content_margin" finsky:visibility="2" finsky:layout_width="-1" finsky:layout_height="-2" />
+        <com.google.android.finsky.layout.PlaylistControlButtons finsky:id="@id/song_list_control" finsky:layout_marginRight="@dimen/details_new_content_margin" finsky:text="@string/play_all" finsky:action_style="2" style="@style/DetailsPage_SmallActionButton" />
+    </com.google.android.finsky.layout.PlaylistHeader>
+    <LinearLayout finsky:orientation="1" finsky:id="@id/songs" finsky:layout_width="-1" finsky:layout_height="-2" />
+</com.google.android.finsky.detailspage.SongListModuleLayout>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:id="@id/people_details" android:layout_width="-1" android:layout_height="-1">
+    <com.google.android.finsky.layout.play.PlayRecyclerView android:id="@id/people_details_stream_list" android:paddingBottom="4dp" android:fadingEdgeLength="0dp" android:clipToPadding="false" android:layout_width="-1" android:layout_height="-1" android:cacheColorHint="@color/play_main_background" android:divider="@styleable/WalletImButtonBar_capitalizeButtonText" />
+    <include android:id="@id/loading_indicator" layout="@layout/page_loading_indicator" />
+    <include android:id="@id/error_indicator" layout="@layout/page_error_indicator" />
+</FrameLayout>

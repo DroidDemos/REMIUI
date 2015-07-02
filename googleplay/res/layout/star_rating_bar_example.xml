@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.play.layout.StarRatingBar playcommon:padding="6dp" playcommon:layout_width="-2" playcommon:layout_height="-2" playcommon:rating="2.1" playcommon:range="8" playcommon:star_height="30dp" playcommon:star_color="@color/play_white" playcommon:star_bg_color="#0f9d58" playcommon:gap="4dp" />

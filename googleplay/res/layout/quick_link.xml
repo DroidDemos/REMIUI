@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.finsky.layout.play.PlayQuickLinkBase android:focusable="true" android:layout_width="0dp" android:layout_height="@dimen/quick_link_height" android:layout_weight="1.0" style="@style/PlayCardViewGroup">
+    <com.google.android.play.image.FifeImageView android:id="@id/li_icon" android:layout_width="0dp" android:layout_height="-1" android:layout_marginLeft="@dimen/quick_link_padding" android:layout_marginTop="@dimen/quick_link_padding" android:layout_marginBottom="@dimen/quick_link_padding" android:scaleType="3" />
+    <TextView android:textSize="@dimen/play_quick_link_size" android:ellipsize="4" android:id="@id/li_title" android:paddingLeft="@dimen/quick_link_padding" android:paddingRight="@dimen/quick_link_padding" android:layout_width="-2" android:layout_height="-1" android:maxLines="2" />
+</com.google.android.finsky.layout.play.PlayQuickLinkBase>

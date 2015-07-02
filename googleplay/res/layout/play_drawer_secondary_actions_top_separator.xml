@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:focusable="false" android:layout_width="-1" android:layout_height="16dp">
+    <View android:layout_gravity="10" android:background="@color/play_drawer_separator" android:layout_width="-1" android:layout_height="1dp" />
+</FrameLayout>

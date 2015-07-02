@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.finsky.layout.WarningMessageSection android:orientation="0" android:id="@id/warning_message_panel" android:paddingLeft="@dimen/details_new_content_margin" android:paddingTop="8dp" android:paddingRight="@dimen/details_new_content_margin" android:paddingBottom="8dp" android:focusable="true" android:visibility="2" android:layout_width="-1" android:layout_height="-2" android:minHeight="@dimen/details_special_row_min_height">
+    <ImageView android:layout_gravity="10" android:id="@id/details_warning_info_icon" android:paddingRight="24dp" android:layout_width="-2" android:layout_height="-2" android:contentDescription="@styleable/WalletImButtonBar_capitalizeButtonText" />
+    <LinearLayout android:layout_gravity="10" android:orientation="1" android:layout_width="0dp" android:layout_height="-2" android:layout_weight="1.0">
+        <TextView android:id="@id/details_warning_info_first_line" style="@style/WarningMessageText" />
+        <TextView android:textStyle="1" android:id="@id/details_warning_info_second_line" android:paddingTop="2dp" style="@style/WarningMessageText" />
+    </LinearLayout>
+</com.google.android.finsky.layout.WarningMessageSection>

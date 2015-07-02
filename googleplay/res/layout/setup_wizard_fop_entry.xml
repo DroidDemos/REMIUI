@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.finsky.layout.SetupWizardFopSeparator android:gravity="10" android:focusable="true" android:layout_width="-1" android:layout_height="-2" android:minHeight="68dp">
+    <com.google.android.play.image.FifeImageView android:id="@id/image_icon" android:layout_width="32dp" android:layout_height="32dp" android:layout_marginRight="18dp" />
+    <TextView android:id="@id/title" android:layout_width="0dp" android:layout_height="-2" android:layout_weight="1.0" style="@style/SetupWizardPlainText" />
+    <RadioButton android:id="@id/radio" android:focusable="false" android:clickable="false" android:layout_width="-2" android:layout_height="-2" />
+</com.google.android.finsky.layout.SetupWizardFopSeparator>

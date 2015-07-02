@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="1" android:layout_width="-1" android:layout_height="-1"
+    <LinearLayout android:orientation="0" android:layout_width="-1" android:layout_height="0dp" android:baselineAligned="false" android:layout_weight="1.0"
+        <LinearLayout android:gravity="5" android:orientation="1" android:layout_width="0dp" android:layout_height="-1" android:layout_weight="1.0"
+            <LinearLayout android:gravity="50" android:orientation="1" android:id="@id/widget_content_1" android:layout_width="-2" android:layout_height="0dp" android:layout_weight="1.0" />
+            <LinearLayout android:gravity="30" android:orientation="1" android:id="@id/widget_content_3" android:layout_width="-2" android:layout_height="0dp" android:layout_weight="1.0" /> />
+        <LinearLayout android:gravity="3" android:orientation="1" android:layout_width="0dp" android:layout_height="-1" android:layout_weight="1.0"
+            <LinearLayout android:gravity="50" android:orientation="1" android:id="@id/widget_content_2" android:layout_width="-2" android:layout_height="0dp" android:layout_weight="1.0" />
+            <LinearLayout android:gravity="30" android:orientation="1" android:id="@id/widget_content_4" android:layout_width="-2" android:layout_height="0dp" android:layout_weight="1.0" /> /> />
+    <include layout="@layout/now_playing_widget_hotseat" />
+</LinearLayout>

@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.finsky.layout.ExpandedDescriptionMarginBox android:id="@id/details_layout" android:layout_width="-1" android:layout_height="-1">
+    <include layout="@layout/generic_details_expanded_content" />
+</com.google.android.finsky.layout.ExpandedDescriptionMarginBox>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.miui.yellowpage.ui.YellowPagePhonesListItem android:layout_width="-1" android:layout_height="-2" style="0x80d004e">
+    <LinearLayout android:gravity="10" android:layout_gravity="10" android:orientation="1" android:id="@id/primary_action_view" android:paddingTop="@dimen/yellow_page_detail_list_item_padding_vertical" android:paddingRight="@dimen/yellow_page_detail_list_item_padding_horizontal" android:paddingBottom="@dimen/yellow_page_detail_list_item_padding_vertical" android:layout_width="-1" android:layout_height="-2">
+        <TextView android:id="@id/data" android:layout_width="-2" android:layout_height="-2" style="@style/YellowPageListItemTextAppearancePrimary" />
+        <TextView android:ellipsize="3" android:id="@id/type" android:layout_width="-2" android:layout_height="-2" android:singleLine="true" style="@style/YellowPageListItemTextAppearanceSecondary" />
+    </LinearLayout>
+    <ImageView android:layout_gravity="30" android:id="@id/type_icon" android:layout_width="-2" android:layout_height="-2" android:layout_marginLeft="@dimen/yellow_page_detail_type_icon_left_margin" android:layout_marginTop="@dimen/yellow_page_detail_type_icon_top_margin" />
+    <ImageView android:layout_gravity="15" android:id="@id/secondary_action_button" android:duplicateParentState="false" android:layout_width="-2" android:layout_height="-2" android:scaleType="1" android:adjustViewBounds="true" android:minHeight="@dimen/yellow_page_module_action_icon_size" android:contentDescription="@string/content_desc_send_sms" />
+</com.miui.yellowpage.ui.YellowPagePhonesListItem>

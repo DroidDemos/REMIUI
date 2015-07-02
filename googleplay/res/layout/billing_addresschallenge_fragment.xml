@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="1" android:id="@id/instrument_details" android:background="@color/play_white" android:layout_width="-1" android:layout_height="-1">
+    <ScrollView android:layout_width="-1" android:layout_height="0dp" android:layout_weight="1.0">
+        <LinearLayout android:orientation="1" android:id="@id/content" android:paddingLeft="@dimen/addinstrument_content_padding" android:paddingRight="@dimen/addinstrument_content_padding" android:layout_width="-1" android:layout_height="-2">
+            <TextView android:textSize="@dimen/content_generic_large_size" android:textStyle="1" android:textColor="@color/play_primary_text" android:id="@id/challenge_title" android:paddingLeft="@dimen/details_content_margin" android:paddingRight="@dimen/details_content_margin" android:layout_width="-1" android:layout_height="-2" android:layout_marginTop="10dp" android:layout_marginBottom="6dp" />
+            <TextView android:textSize="@dimen/content_generic_small_size" android:textColor="@color/play_primary_text" android:id="@id/challenge_description" android:paddingLeft="@dimen/details_content_margin" android:paddingRight="@dimen/details_content_margin" android:layout_width="-1" android:layout_height="-2" android:layout_marginTop="10dp" android:layout_marginBottom="6dp" />
+            <com.google.android.finsky.layout.BillingAddress android:orientation="1" android:id="@id/billing_address" android:layout_width="-1" android:layout_height="-2" />
+        </LinearLayout>
+    </ScrollView>
+    <include layout="@layout/button_bar" />
+</LinearLayout>

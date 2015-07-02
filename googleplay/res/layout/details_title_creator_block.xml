@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.finsky.layout.DetailsTitleCreatorBlock finsky:id="@id/title_creator_block" finsky:background="@drawable/play_highlight_overlay_light" finsky:paddingRight="@dimen/details_new_content_margin" finsky:layout_width="-1" finsky:layout_height="-2">
+    <com.google.android.play.image.FifeImageView finsky:id="@id/creator_image" finsky:layout_width="@dimen/review_avatar_size" finsky:layout_height="@dimen/review_avatar_size" finsky:layout_marginTop="2dp" finsky:layout_marginRight="8dp" finsky:scaleType="2" finsky:layout_centerVertical="true" finsky:fixed_bounds="true" finsky:request_scale_factor="@dimen/details_title_creator_scale_factor" />
+    <LinearLayout finsky:orientation="1" finsky:layout_width="-2" finsky:layout_height="-2" finsky:layout_toRightOf="@id/creator_image" finsky:layout_centerVertical="true">
+        <com.google.android.finsky.layout.DecoratedTextView finsky:textSize="@dimen/content_generic_small_size" finsky:textColor="@color/play_fg_primary" finsky:ellipsize="4" finsky:id="@id/creator_title" finsky:layout_width="-2" finsky:layout_height="-2" finsky:singleLine="true" finsky:drawablePadding="4dp" style="@style/PlayPlainText" />
+        <TextView finsky:textSize="@dimen/content_generic_xsmall_size" finsky:textColor="@color/play_fg_secondary" finsky:ellipsize="4" finsky:id="@id/creator_date" finsky:layout_width="-2" finsky:layout_height="-2" finsky:singleLine="true" style="@style/PlayPlainText" />
+    </LinearLayout>
+</com.google.android.finsky.layout.DetailsTitleCreatorBlock>

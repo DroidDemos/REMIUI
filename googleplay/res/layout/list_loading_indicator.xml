@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:gravity="11" android:id="@id/lists_loading_indicator" android:padding="32dp" android:layout_width="-1" android:layout_height="-1">
+    <ProgressBar android:layout_width="-2" android:layout_height="-2" android:indeterminate="true" />
+</RelativeLayout>

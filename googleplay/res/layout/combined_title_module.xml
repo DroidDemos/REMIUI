@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.finsky.detailspage.CombinedTitleModuleLayout finsky:orientation="0" finsky:id="@id/details_title_combined" finsky:background="@color/white" finsky:clipToPadding="false" finsky:layout_width="-1" finsky:layout_height="-2">
+    <include layout="@layout/details_summary_thumbnail" />
+    <com.google.android.finsky.layout.DetailsSectionStack finsky:orientation="1" finsky:id="@id/secondary_stack" finsky:clipToPadding="false" finsky:layout_width="0dp" finsky:layout_height="-2" finsky:layout_weight="1.0" finsky:separator_inset="@dimen/details_new_content_margin" finsky:show_trailing_separator="true">
+        <com.google.android.finsky.layout.DetailsSummary finsky:id="@id/item_details_panel" finsky:clipToPadding="false" finsky:layout_width="-1" finsky:layout_height="-2">
+            <View finsky:id="@id/title_background" finsky:background="@color/play_white" finsky:layout_width="-2" finsky:layout_height="-2" />
+            <include layout="@layout/details_summary_content" />
+        </com.google.android.finsky.layout.DetailsSummary>
+        <include finsky:layout_width="-1" finsky:layout_height="-2" finsky:layout_marginLeft="@dimen/details_new_content_margin" finsky:layout_marginRight="@dimen/details_new_content_margin" layout="@layout/details_warning_message" />
+        <include finsky:layout_width="-1" finsky:layout_height="-2" layout="@layout/discovery_bar" />
+    </com.google.android.finsky.layout.DetailsSectionStack>
+</com.google.android.finsky.detailspage.CombinedTitleModuleLayout>

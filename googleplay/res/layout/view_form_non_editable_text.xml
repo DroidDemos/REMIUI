@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextView android:textAppearance="?attr/imFormInputTextAppearance" android:gravity="10" android:paddingLeft="@dimen/wallet_im_form_non_editable_text_left_margin" android:layout_width="-1" android:layout_height="-2" android:layout_marginTop="?attr/imFormVerticalMargin" android:layout_marginBottom="?attr/imFormVerticalMargin" android:minHeight="?attr/imFormItemHeight" android:freezesText="true" />

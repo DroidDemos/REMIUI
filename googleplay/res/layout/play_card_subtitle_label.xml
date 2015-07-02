@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.finsky.layout.play.PlayCardSubtitleLabel android:id="@id/li_subtitle_label" android:layout_width="-2" android:layout_height="-2">
+    <include android:id="@id/li_subtitle" android:layout_width="-2" android:layout_height="-2" android:layout_marginRight="6dp" layout="@layout/play_card_subtitle" />
+    <com.google.android.play.layout.PlayCardLabelView android:id="@id/li_label" android:layout_marginLeft="6dp" style="@style/PlayCardLabel" />
+</com.google.android.finsky.layout.play.PlayCardSubtitleLabel>

@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="1" android:layout_width="-1" android:layout_height="-1">
+    <GridView android:id="@id/grid" android:paddingTop="@dimen/list_item_padding" android:paddingBottom="@dimen/list_item_padding" android:layout_width="-1" android:layout_height="-1" android:layout_marginBottom="@dimen/yellow_page_more_services_dialog_vertical_margin" android:listSelector="0x106000d" android:verticalSpacing="@dimen/yellow_page_more_services_dialog_vertical_spacing" android:numColumns="@integer/service_grid_view_num_of_columns" />
+</LinearLayout>

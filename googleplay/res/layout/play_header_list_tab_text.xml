@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextView android:gravity="10" android:layout_gravity="50" android:id="@id/title" android:paddingBottom="@dimen/play_header_list_tab_text_bottom_padding" android:layout_width="-2" android:layout_height="-1" style="@style/PlayHeaderListTabText" />

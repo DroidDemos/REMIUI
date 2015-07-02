@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.finsky.layout.SeparatorLinearLayout finsky:orientation="0" finsky:paddingTop="@dimen/details_text_section_extras_padding" finsky:paddingBottom="@dimen/details_text_section_extras_padding" finsky:layout_width="-1" finsky:layout_height="-2" finsky:separator_position="1" />

@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu>
+    <item android:icon="0x802000f" android:id="@id/new_address" android:title="@string/express_add_new_address" android:showAsAction="6" />
+</menu>

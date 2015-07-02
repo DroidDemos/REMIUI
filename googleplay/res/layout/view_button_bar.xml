@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.wallet.instrumentmanager.ui.common.ButtonBar im:orientation="0" im:layout_width="-1" im:layout_height="-2" im:capitalizeButtonText="?attr/imButtonBarTextCapitalized">
+    <ImageView im:id="@id/logo" im:layout_width="-2" im:layout_height="-2" im:layout_alignParentLeft="true" im:layout_centerVertical="true" im:contentDescription="@styleable/WalletImButtonBar_capitalizeButtonText" />
+    <Button im:id="@id/expand_btn" im:visibility="2" im:layout_width="-2" im:layout_height="-2" im:layout_alignParentLeft="true" im:layout_centerVertical="true" style="?attr/imExpandButtonBarStyle" />
+    <Button im:id="@id/positive_btn" im:layout_width="-2" im:layout_height="-2" im:text="0x104000a" im:freezesText="true" im:layout_alignParentRight="true" im:layout_centerVertical="true" style="?attr/imPositiveButtonBarStyle" />
+</com.google.android.wallet.instrumentmanager.ui.common.ButtonBar>

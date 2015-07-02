@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.finsky.layout.EpisodeList android:orientation="1" android:id="@id/episode_list" android:background="@color/play_white" android:paddingLeft="@dimen/details_listing_section_extra_padding" android:paddingTop="24dp" android:paddingRight="@dimen/details_listing_section_extra_padding" android:paddingBottom="24dp" android:layout_width="-1" android:layout_height="-2">
+    <TextView android:textSize="@dimen/content_generic_small_size" android:textColor="@color/play_fg_secondary" android:id="@id/episode_list_in_progress_snippet" android:background="@drawable/play_highlight_overlay_light" android:focusable="true" android:visibility="2" android:clickable="false" android:layout_width="-1" android:layout_height="-2" android:layout_marginLeft="@dimen/details_new_content_margin" android:layout_marginTop="10dp" android:layout_marginRight="@dimen/details_new_content_margin" android:layout_marginBottom="10dp" android:text="@string/in_progress_season" />
+    <RelativeLayout android:gravity="10" android:orientation="0" android:id="@id/episode_list_header" android:background="@drawable/play_highlight_overlay_light" android:focusable="true" android:layout_width="-1" android:layout_height="-2" android:minHeight="@dimen/base_new_row_height">
+        <com.google.android.play.layout.PlayActionButton android:id="@id/buy_button" android:visibility="0" android:layout_marginLeft="@dimen/details_new_content_margin" android:layout_marginRight="@dimen/details_new_content_margin" android:layout_alignParentRight="true" android:layout_centerVertical="true" style="@style/DetailsPage_SmallActionButton" />
+        <FrameLayout android:layout_width="-1" android:layout_height="-2" android:layout_toLeftOf="@id/buy_button" android:layout_alignParentLeft="true" android:layout_centerVertical="true">
+            <Spinner android:id="@id/header_spinner" android:background="@drawable/spinner_background_movies" android:paddingLeft="@dimen/details_new_content_margin" android:paddingRight="@dimen/details_new_content_margin" android:layout_width="-2" android:layout_height="-2" android:spinnerMode="0" style="@style/Play_DetailsPage_HeaderText" />
+        </FrameLayout>
+    </RelativeLayout>
+    <RelativeLayout android:layout_width="-1" android:layout_height="-2">
+        <LinearLayout android:orientation="1" android:id="@id/episodes" android:layout_width="-1" android:layout_height="-2" />
+        <View android:id="@id/overlay" android:background="@color/season_switching_overlay" android:visibility="1" android:layout_width="-1" android:layout_height="-2" android:layout_alignTop="@id/episodes" android:layout_alignBottom="@id/episodes" />
+    </RelativeLayout>
+</com.google.android.finsky.layout.EpisodeList>

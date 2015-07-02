@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.finsky.layout.ReviewReplyLayout android:orientation="1" android:id="@id/review_reply_container" android:background="@drawable/play_highlight_overlay_light" android:paddingLeft="@dimen/details_new_content_margin" android:paddingTop="16dp" android:paddingRight="@dimen/details_new_content_margin" android:focusable="true" android:layout_width="-1" android:layout_height="-2">
+    <TextView android:id="@id/review_reply_header" android:layout_width="-1" android:layout_height="-2" style="@style/PlayDetailDescription" />
+    <TextView android:id="@id/review_reply_text" android:layout_width="-1" android:layout_height="-2" android:layout_marginTop="4dp" style="@style/PlayDetailDescription" />
+    <ImageView android:layout_gravity="5" android:id="@id/review_reply_toggle" android:visibility="2" android:layout_width="-2" android:layout_height="-2" android:layout_marginTop="-6dp" />
+</com.google.android.finsky.layout.ReviewReplyLayout>

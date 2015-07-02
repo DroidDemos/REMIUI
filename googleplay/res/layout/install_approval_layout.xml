@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="1" android:layout_width="-1" android:layout_height="-1">
+    <include layout="@layout/permissions_learn_more_header" />
+    <LinearLayout android:orientation="0" android:paddingLeft="20dp" android:paddingTop="16dp" android:paddingRight="20dp" android:layout_width="-1" android:layout_height="-2">
+        <TextView android:id="@id/title" android:layout_width="0dp" android:layout_height="-2" android:maxLines="2" android:layout_weight="1.0" style="@style/LightPurchase_TitleText" />
+        <TextView android:textSize="@dimen/content_generic_small_size" android:textColor="@color/play_fg_purchase_secondary" android:id="@id/progress_text" android:layout_width="-2" android:layout_height="-2" style="@style/PlayLightText" />
+    </LinearLayout>
+    <com.google.android.finsky.layout.ObservableScrollView android:paddingLeft="20dp" android:paddingRight="20dp" android:layout_width="-1" android:layout_height="0dp" android:layout_marginBottom="10dp" android:layout_weight="1.0">
+        <LinearLayout android:orientation="1" android:layout_width="-1" android:layout_height="-2">
+            <TextView android:textSize="@dimen/content_generic_small_size" android:textColor="@color/play_fg_purchase_secondary" android:id="@id/content_text" android:visibility="2" android:layout_width="-2" android:layout_height="-2" android:singleLine="false" />
+            <com.google.android.finsky.layout.AppSecurityPermissions android:orientation="1" android:id="@id/app_permissions" android:paddingTop="@dimen/permissions_header_padding" android:visibility="2" android:layout_width="-1" android:layout_height="-2" />
+        </LinearLayout>
+    </com.google.android.finsky.layout.ObservableScrollView>
+</LinearLayout>

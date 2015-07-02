@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu>
+    <item android:icon="0x8020005" android:id="@id/menu_delete_call_log" android:title="@string/menu_delete_call_log" android:showAsAction="2" />
+</menu>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout finsky:orientation="1" finsky:layout_width="-1" finsky:layout_height="-1">
+    <TextView finsky:textSize="@dimen/content_generic_medium_size" finsky:textColor="?unknown_attr_ref: 1010036" finsky:id="@id/setup_wizard_device_selection_header" finsky:layout_width="-1" finsky:layout_height="-2" finsky:text="@string/setup_wizard_restore_apps_title" />
+    <TextView finsky:textSize="@dimen/content_generic_medium_size" finsky:textColor="?unknown_attr_ref: 1010036" finsky:id="@id/setup_wizard_device_selection_snippet" finsky:layout_width="-1" finsky:layout_height="-2" finsky:layout_marginTop="24dp" finsky:layout_marginBottom="12dp" finsky:text="@string/setup_wizard_restore_apps_snippet" />
+    <TextView finsky:id="@id/setup_wizard_device_selection_title" finsky:layout_marginTop="36dp" finsky:text="@string/setup_wizard_device_prompt" style="@style/SetupWizardRestoreSectionTitle" />
+    <include finsky:id="@id/setup_wizard_device_list_selector" layout="@layout/setup_wizard_restore_apps_selector" />
+    <TextView finsky:id="@id/setup_wizard_apps_selection_title" finsky:text="@string/setup_wizard_apps_selection_title" style="@style/SetupWizardRestoreSectionTitle" />
+    <include finsky:id="@id/setup_wizard_apps_list_selector" layout="@layout/setup_wizard_restore_apps_selector" />
+</LinearLayout>

@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout finsky:gravity="11" finsky:orientation="1" finsky:id="@id/no_results_view" finsky:visibility="2" finsky:layout_width="-1" finsky:layout_height="-1">
+    <com.google.android.play.image.FifeImageView finsky:id="@id/empty_list_image" finsky:visibility="2" finsky:layout_width="@dimen/play_empty_page_graphic_size" finsky:layout_height="@dimen/play_empty_page_graphic_size" finsky:layout_marginBottom="12dp" finsky:scaleType="3" finsky:fixed_bounds="true" />
+    <TextView finsky:textSize="@dimen/content_generic_large_size" finsky:textColor="@color/play_secondary_text" finsky:gravity="11" finsky:id="@id/no_results_textview" finsky:paddingLeft="@dimen/details_content_margin" finsky:paddingRight="@dimen/details_content_margin" finsky:layout_width="-2" finsky:layout_height="-2" finsky:text="@string/no_results" />
+</LinearLayout>

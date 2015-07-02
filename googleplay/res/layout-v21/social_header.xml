@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.finsky.layout.play.PlaySocialHeader finsky:id="@id/social_header" finsky:focusable="true" finsky:layout_width="-1" finsky:layout_height="-2">
+    <com.google.android.finsky.layout.play.PlayAvatarPack finsky:id="@id/avatar_pack" finsky:layout_width="-1" finsky:layout_height="-2" finsky:transitionGroup="true" finsky:primary_avatar_size="@dimen/play_profile_avatar_size" />
+</com.google.android.finsky.layout.play.PlaySocialHeader>

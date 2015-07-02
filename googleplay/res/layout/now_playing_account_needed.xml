@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/configuration_container" android:layout_width="-1" android:layout_height="-1">
+    <TextView android:textSize="@dimen/content_generic_large_size" android:textColor="@color/play_white" android:gravity="11" android:id="@id/error_msg" android:paddingLeft="20dp" android:paddingRight="20dp" android:layout_width="-2" android:layout_height="-2" android:text="@string/auth_required_error" android:drawablePadding="16dp" android:layout_centerInParent="true" />
+</RelativeLayout>

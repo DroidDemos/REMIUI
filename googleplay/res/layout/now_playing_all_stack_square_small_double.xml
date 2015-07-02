@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="1" android:layout_width="@dimen/now_playing_all_square_small" android:layout_height="@dimen/now_playing_all_square_very_large">
+    <FrameLayout android:layout_width="-1" android:layout_height="@dimen/now_playing_all_square_small" style="@style/NowPlayingImageCell">
+        <ImageView android:id="@id/large_image_1" style="@style/NowPlayingImage" />
+        <include android:id="@id/accessibility_overlay_1" layout="@layout/widget_accessibility_overlay" />
+    </FrameLayout>
+    <FrameLayout android:layout_width="-1" android:layout_height="@dimen/now_playing_all_square_small" style="@style/NowPlayingImageCell">
+        <ImageView android:id="@id/large_image_2" style="@style/NowPlayingImage" />
+        <include android:id="@id/accessibility_overlay_2" layout="@layout/widget_accessibility_overlay" />
+    </FrameLayout>
+</LinearLayout>

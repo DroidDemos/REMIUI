@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:layout_width="-1" android:layout_height="-1">
+    <LinearLayout android:orientation="1" android:layout_width="-1" android:layout_height="-2">
+        <TextView android:textSize="@dimen/content_generic_large_size" android:textStyle="1" android:ellipsize="3" android:gravity="10" android:id="@id/header" android:paddingLeft="@dimen/details_content_margin" android:paddingRight="@dimen/details_content_margin" android:layout_width="-1" android:layout_height="@dimen/play_cluster_header_height" android:singleLine="true" />
+        <View android:id="@id/header_separator" android:layout_width="-1" android:layout_height="2dp" />
+        <include android:id="@id/summary_panel" android:layout_width="-1" android:layout_height="-2" layout="@layout/free_song_of_the_day_summary" />
+        <FrameLayout android:layout_width="-1" android:layout_height="-2">
+            <TextView android:textColor="@color/play_primary_text" android:id="@id/description" android:background="@drawable/play_highlight_overlay_light" android:paddingLeft="@dimen/details_content_margin" android:paddingTop="8dp" android:paddingRight="@dimen/details_content_margin" android:paddingBottom="8dp" android:focusable="true" android:lineSpacingExtra="0sp" style="@style/Play_DetailsPage_ContentText" />
+        </FrameLayout>
+        <include android:id="@id/album_panel" android:layout_width="-1" android:layout_height="-2" layout="@layout/free_song_of_the_day_album" />
+    </LinearLayout>
+</ScrollView>

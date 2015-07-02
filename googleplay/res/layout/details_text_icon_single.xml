@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.play.image.FifeImageView android:id="@id/badge_icon" android:layout_width="@dimen/details_text_section_icon_size" android:layout_height="@dimen/details_text_section_icon_size" />

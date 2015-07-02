@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.miui.yellowpage.ui.InquiryHistoryListItem android:gravity="@transactionxmlfile/MODE_PRIVATE" style="0x80d004e">
+    <LinearLayout android:orientation="1" android:layout_width="-1" android:layout_height="-2" android:layout_toLeftOf="@id/status" android:layout_centerVertical="true"
+        <LinearLayout android:layout_width="-1" android:layout_height="-2">
+            <TextView android:ellipsize="3" android:id="@id/title" android:layout_width="-2" android:layout_height="-2" android:singleLine="true" style="0x80d000c" />
+            <TextView android:id="@id/description" android:visibility="2" android:layout_width="-2" android:layout_height="-2" android:singleLine="true" style="0x80d000d" />
+        </LinearLayout>
+        <LinearLayout android:orientation="0" android:layout_width="-1" android:layout_height="-2">
+            <TextView android:layout_width="-2" android:layout_height="-2" android:text="@string/express_inquiry_serial_number_prefix" android:singleLine="true" style="0x80d000d" />
+            <TextView android:id="@id/serial_number" android:layout_width="-1" android:layout_height="-2" android:singleLine="true" style="0x80d000d" />
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout android:orientation="0" android:id="@id/status" android:layout_width="-2" android:layout_height="-2" android:layout_alignParentRight="true" android:layout_centerVertical="true">
+        <TextView android:gravity="11" android:id="@id/state" android:visibility="2" android:layout_width="-2" android:layout_height="-2" android:text="@string/express_inquiry_delivered" style="0x80d000d" />
+        <ImageView android:layout_gravity="11" android:background="@drawable/ic_arrow_right" android:layout_width="-2" android:layout_height="-2" android:scaleType="3" android:contentDescription="@transactionxmlfile/MODE_PRIVATE" />
+    </LinearLayout>
+    <CheckBox android:gravity="11" android:id="0x1020001" android:focusable="false" android:clickable="false" android:layout_width="-2" android:layout_height="-2" android:scaleType="3" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+</com.miui.yellowpage.ui.InquiryHistoryListItem>

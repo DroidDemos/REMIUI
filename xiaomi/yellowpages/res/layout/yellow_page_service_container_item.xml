@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.miui.yellowpage.ui.YellowPageServiceContainerItem android:layout_width="-1" android:layout_height="-2" style="@style/Widget.ListView.Item.ServiceContainer">
+    <com.miui.yellowpage.ui.YellowPageServiceGridView android:id="@id/container" android:layout_width="-1" android:layout_height="-2" android:layout_marginTop="@dimen/yellow_page_service_container_margin_top" android:listSelector="0x106000d" android:numColumns="@integer/service_grid_view_num_of_columns" />
+</com.miui.yellowpage.ui.YellowPageServiceContainerItem>

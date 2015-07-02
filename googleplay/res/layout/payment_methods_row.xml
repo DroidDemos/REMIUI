@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.play.layout.ForegroundRelativeLayout android:paddingLeft="20dp" android:paddingTop="@dimen/my_account_row_ypadding" android:paddingRight="@dimen/my_account_row_xpadding" android:paddingBottom="@dimen/my_account_row_ypadding" android:focusable="true" android:layout_width="-1" android:layout_height="-2" android:foreground="@drawable/play_highlight_overlay_light" android:minHeight="@dimen/my_account_row_height">
+    <com.google.android.play.image.FifeImageView android:id="@id/image_icon" android:layout_width="32dp" android:layout_height="32dp" android:layout_marginRight="20dp" android:layout_centerVertical="true" />
+    <RelativeLayout android:layout_width="-1" android:layout_height="-2" android:layout_toRightOf="@id/image_icon" android:layout_alignParentRight="true" android:layout_centerVertical="true" android:layout_alignWithParentIfMissing="true">
+        <TextView android:id="@id/title" android:layout_width="-2" android:layout_height="-2" style="@style/PlayCardTitle" />
+        <ImageView android:id="@id/checkmark" android:visibility="2" android:layout_width="-2" android:layout_height="-2" android:layout_marginLeft="@dimen/my_account_row_xpadding" android:src="@drawable/ic_selected_instrument_light" android:layout_toRightOf="@id/title" android:contentDescription="@string/content_description_selected_billing_profile_entry" />
+        <TextView android:id="@id/byline" android:layout_width="-2" android:layout_height="-2" android:layout_below="@id/title" style="@style/PlayCardSubtitle" />
+    </RelativeLayout>
+</com.google.android.play.layout.ForegroundRelativeLayout>

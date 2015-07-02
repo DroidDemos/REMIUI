@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.finsky.layout.MaxWidthLinearLayout finsky:orientation="1" finsky:paddingBottom="12dp" finsky:layout_width="-1" finsky:layout_height="-2" finsky:minWidth="@dimen/light_purchase_dialog_width" finsky:minHeight="@dimen/light_purchase_dialog_tall_height" finsky:max_width="@dimen/light_purchase_dialog_width">
+    <include layout="@layout/light_activity_header" />
+    <FrameLayout finsky:id="@id/content_frame" finsky:layout_width="-1" finsky:layout_height="0dp" finsky:layout_weight="1.0">
+        <include finsky:id="@id/placeholder_loading" finsky:visibility="2" layout="@layout/page_loading_indicator" />
+        <include finsky:id="@id/placeholder_error" finsky:visibility="2" layout="@layout/page_error_indicator" />
+    </FrameLayout>
+</com.google.android.finsky.layout.MaxWidthLinearLayout>

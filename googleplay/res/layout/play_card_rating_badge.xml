@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.play.layout.PlayRatingBadgeContainer android:id="@id/rating_badge_container" android:layout_width="-2" android:layout_height="-2">
+    <com.google.android.play.layout.StarRatingBar android:id="@id/li_rating" android:visibility="2" android:layout_width="-2" android:layout_height="-2" android:numStars="5" android:stepSize="0.5" android:isIndicator="true" style="@style/PlayRatingBarSmall" />
+    <include android:id="@id/li_badge" layout="@layout/play_card_badge" />
+</com.google.android.play.layout.PlayRatingBadgeContainer>

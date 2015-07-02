@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="-1" android:layout_height="-1">
+    <com.miui.yellowpage.widget.pulltorefresh.PullToRefreshWebView ptr:id="@id/browser" ptr:layout_width="-1" ptr:layout_height="-1" ptr:ptrMaximumPullScroll="333dp" />
+    <com.miui.yellowpage.widget.LoadingProgressView ptr:gravity="11" ptr:layout_gravity="50" ptr:id="@id/loading_view" ptr:layout_width="-1" ptr:layout_height="-1" />
+</FrameLayout>

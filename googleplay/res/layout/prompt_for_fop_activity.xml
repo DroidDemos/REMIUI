@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.finsky.layout.MaxWidthLinearLayout finsky:orientation="1" finsky:layout_width="-1" finsky:layout_height="-2" finsky:minWidth="@dimen/light_purchase_dialog_width" finsky:minHeight="@dimen/light_purchase_dialog_small_height" finsky:max_width="@dimen/light_purchase_dialog_width">
+    <FrameLayout finsky:id="@id/content_frame" finsky:layout_width="-1" finsky:layout_height="0dp" finsky:layout_weight="1.0" />
+</com.google.android.finsky.layout.MaxWidthLinearLayout>

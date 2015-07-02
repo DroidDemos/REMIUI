@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextView android:textAppearance="?attr/imFormInputTextAppearance" android:gravity="10" android:id="@id/description" android:paddingLeft="?attr/imFormAutocompleteLeftRightPadding" android:paddingTop="?attr/imFormAutocompleteTopBottomPadding" android:paddingRight="?attr/imFormAutocompleteLeftRightPadding" android:paddingBottom="?attr/imFormAutocompleteTopBottomPadding" android:layout_width="-1" android:layout_height="-2" android:minHeight="@dimen/wallet_im_minimum_tappable_item_size" android:singleLine="false" />

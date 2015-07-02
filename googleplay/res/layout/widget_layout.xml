@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="-1" android:layout_height="-2"
+    <FrameLayout android:gravity="11" android:orientation="0" android:id="@id/widget_empty" android:visibility="2" android:layout_width="-1" android:layout_height="-1">
+        <LinearLayout android:layout_gravity="11" android:orientation="1" android:layout_width="-1" android:layout_height="-2">
+            <ImageView android:layout_gravity="11" android:background="@drawable/phonesky_widget_top" android:paddingLeft="20dp" android:paddingRight="20dp" android:layout_width="-1" android:layout_height="@dimen/widget_image_max_height" android:src="@color/black" android:adjustViewBounds="true" />
+            <ImageView android:orientation="0" android:background="@drawable/phonesky_widget_bottom" android:paddingTop="4dp" android:paddingBottom="8dp" android:layout_width="-1" android:layout_height="@dimen/widget_bottom_height" />
+        </LinearLayout>
+        <ImageView android:layout_gravity="11" android:id="@id/app_icon" android:layout_width="80dp" android:layout_height="80dp" android:src="@mipmap/ic_launcher_play_store" android:scaleType="3" />
+    </FrameLayout>
+    <ViewFlipper android:gravity="11" android:layout_gravity="11" android:id="@id/widget_flipper" android:addStatesFromChildren="true" android:layout_width="-1" android:layout_height="-2" android:measureAllChildren="false" android:inAnimation="@anim/play_fade_in" android:outAnimation="@anim/fade_out" android:flipInterval="7000" android:autoStart="true" />
+</FrameLayout>

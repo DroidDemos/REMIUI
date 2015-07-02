@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="1" android:layout_width="-1" android:layout_height="-1">
+    <ScrollView android:scrollbarStyle="1000000" android:orientation="1" android:id="@id/scroll_content" android:layout_width="-1" android:layout_height="0dp" android:layout_marginBottom="12dp" android:layout_weight="1.0">
+        <LinearLayout android:gravity="31" android:orientation="1" android:id="@id/edit_section" android:paddingLeft="@dimen/addinstrument_content_padding" android:paddingRight="@dimen/addinstrument_content_padding" android:nextFocusDown="@id/name" android:layout_width="-1" android:layout_height="-2">
+            <TextView android:id="@id/enter_your_billing_address" android:layout_width="-1" android:layout_height="-2" android:layout_marginTop="10dp" android:text="@string/enter_your_address_sentence" style="@style/AddInstrumentBodyTextPrimary" />
+            <EditText android:id="@id/phone_number_edit" android:visibility="2" android:layout_width="-1" android:layout_height="-2" android:layout_marginTop="10dp" android:hint="@string/phone_number" android:singleLine="true" android:inputType="3" />
+            <EditText android:id="@id/name" android:layout_width="-1" android:layout_height="-2" android:layout_marginBottom="10dp" android:hint="@string/name_label" android:singleLine="true" android:inputType="2061" />
+            <include android:id="@id/address_widget" android:layout_width="-1" android:layout_height="-2" layout="@layout/address_layout" />
+        </LinearLayout>
+    </ScrollView>
+    <include layout="@layout/play_button_bar" />
+</LinearLayout>

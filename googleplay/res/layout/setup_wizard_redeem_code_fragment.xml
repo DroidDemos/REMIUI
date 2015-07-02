@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="-1" android:layout_height="-1">
+    <ProgressBar android:layout_gravity="11" android:id="@id/progress_bar" android:visibility="1" android:layout_width="-2" android:layout_height="-2" />
+    <LinearLayout android:orientation="1" android:layout_width="-1" android:layout_height="-1">
+        <ScrollView android:layout_width="-1" android:layout_height="0dp" android:fillViewport="true" android:layout_weight="1.0">
+            <FrameLayout android:id="@id/content_frame_above_button" android:visibility="1" android:layout_width="-1" android:layout_height="0dp" android:layout_weight="1.0" />
+        </ScrollView>
+        <RelativeLayout android:id="@id/continue_button_bar" android:layout_width="-1" android:layout_height="-2">
+            <Button android:id="@id/cancel_button" android:layout_alignParentLeft="true" style="@style/SetupWizardButton" />
+            <Button android:id="@id/continue_button" android:layout_alignParentRight="true" style="@style/SetupWizardButton" />
+        </RelativeLayout>
+    </LinearLayout>
+</FrameLayout>

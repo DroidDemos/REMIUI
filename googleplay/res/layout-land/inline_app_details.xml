@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView finsky:layout_width="-1" finsky:layout_height="-1" finsky:fillViewport="true">
+    <com.google.android.finsky.layout.DetailsSectionStack finsky:orientation="1" finsky:layout_width="-1" finsky:layout_height="-1" finsky:separator_inset="16dp">
+        <include layout="@layout/details_warning_message" />
+        <include finsky:id="@id/item_details_panel" finsky:layout_width="-1" finsky:layout_height="-2" layout="@layout/inline_app_details_summary" />
+        <LinearLayout finsky:orientation="0" finsky:background="@color/play_white" finsky:paddingTop="8dp" finsky:paddingBottom="8dp" finsky:layout_width="-1" finsky:layout_height="140dp">
+            <com.google.android.play.layout.PlayTextView finsky:gravity="11" finsky:id="@id/short_description_panel" finsky:paddingLeft="16dp" finsky:paddingTop="12dp" finsky:paddingRight="16dp" finsky:paddingBottom="16dp" finsky:layout_width="220dp" finsky:layout_height="-1" finsky:lastLineOverdrawColor="@color/play_white" style="@style/PlayInlineDetailDescription" />
+            <include finsky:id="@id/screenshots_panel" finsky:layout_width="-1" finsky:layout_height="-1" layout="@layout/details_screenshots" />
+        </LinearLayout>
+        <include finsky:id="@id/footer" layout="@layout/inline_app_details_footer" />
+    </com.google.android.finsky.layout.DetailsSectionStack>
+</ScrollView>

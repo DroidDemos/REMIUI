@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.finsky.layout.SeparatorLinearLayout android:orientation="1" android:paddingBottom="@dimen/play_expanding_text_bottom_padding" android:layout_width="-1" android:layout_height="-2">
+    <com.google.android.finsky.layout.DetailsTextLayout android:orientation="1" android:id="@id/section_layout" android:background="@drawable/play_highlight_overlay_light" android:paddingLeft="@dimen/details_content_margin" android:paddingTop="@dimen/flat_text_top_padding" android:paddingRight="@dimen/details_content_margin" android:focusable="true" android:clickable="true" android:layout_width="-1" android:layout_height="-2">
+        <TextView android:id="@id/section_content" android:paddingBottom="0dp" style="@style/Play_DetailsPage_ContentText" />
+        <ImageView android:layout_gravity="5" android:id="@id/footer_icon" android:layout_width="-2" android:layout_height="-2" android:src="@drawable/ic_more_arrow_down" />
+    </com.google.android.finsky.layout.DetailsTextLayout>
+</com.google.android.finsky.layout.SeparatorLinearLayout>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.finsky.layout.SeparatorLinearLayout android:gravity="10" android:background="@drawable/play_highlight_overlay_light" android:paddingLeft="8dp" android:paddingRight="8dp" android:focusable="true" android:layout_width="-1" android:layout_height="-2" android:minHeight="48dp">
+    <com.google.android.play.image.FifeImageView android:id="@id/image_icon" android:layout_width="32dp" android:layout_height="32dp" android:layout_marginRight="8dp" />
+    <TextView android:id="@id/title" android:layout_width="0dp" android:layout_height="-2" android:layout_weight="1.0" style="@style/BillingProfile_Entry" />
+    <RadioButton android:id="@id/radio" android:focusable="false" android:clickable="false" android:layout_width="-2" android:layout_height="-2" />
+</com.google.android.finsky.layout.SeparatorLinearLayout>

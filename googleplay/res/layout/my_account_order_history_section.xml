@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.finsky.layout.OrderHistorySection android:orientation="1" android:paddingLeft="@dimen/my_account_section_xpadding" android:paddingRight="@dimen/my_account_section_xpadding" android:layout_width="-1" android:layout_height="-2" style="@style/PlayCardViewGroup">
+    <TextView android:gravity="10" android:id="@id/title" android:paddingLeft="16dp" android:paddingRight="16dp" android:layout_width="-1" android:layout_height="@dimen/base_row_height" style="@style/PlayClusterTitle" />
+    <include layout="@layout/my_account_separator" />
+    <LinearLayout android:orientation="1" android:id="@id/order_history_holder" android:paddingTop="@dimen/my_account_separator_ypadding" android:layout_width="-1" android:layout_height="-2" />
+    <include android:visibility="2" layout="@layout/page_loading_indicator" />
+    <com.google.android.finsky.layout.ForegroundLinearLayout android:orientation="1" android:id="@id/more_footer" android:focusable="true" android:visibility="2" android:layout_width="-1" android:layout_height="-2" android:layout_marginTop="@dimen/my_account_separator_ypadding" android:foreground="@drawable/play_highlight_overlay_light">
+        <include layout="@layout/my_account_separator" />
+        <TextView android:gravity="10" android:layout_width="-1" android:text="@string/section_more_results" android:drawableLeft="@drawable/ic_myaccount_more" style="@style/MyAccountAction" />
+    </com.google.android.finsky.layout.ForegroundLinearLayout>
+</com.google.android.finsky.layout.OrderHistorySection>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.miui.yellowpage.ui.ExpressInquiryProgressListItem android:orientation="0" android:paddingLeft="@dimen/express_progress_item_padding_left" android:layout_width="-1" android:layout_height="-2">
+    <ImageView android:id="@id/progress_icon" android:layout_width="-2" android:layout_height="-1" android:contentDescription="@transactionxmlfile/MODE_PRIVATE" />
+    <LinearLayout android:orientation="1" android:id="@id/context_view" android:paddingTop="@dimen/express_progress_item_padding_vertical" android:paddingRight="@dimen/express_progress_item_padding_right" android:paddingBottom="@dimen/express_progress_item_padding_vertical" android:layout_width="-1" android:layout_height="-2">
+        <TextView android:id="@id/context" android:layout_width="-1" android:layout_height="-2" style="0x80d000c" />
+        <TextView android:id="@id/time" android:layout_width="-1" android:layout_height="-2" android:textIsSelectable="true" style="0x80d000d" />
+    </LinearLayout>
+</com.miui.yellowpage.ui.ExpressInquiryProgressListItem>

@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.finsky.layout.ContentFrame finsky:layout_width="-1" finsky:layout_height="-1" finsky:content="@layout/inline_app_details" />

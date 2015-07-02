@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge app:layout_width="-1" app:layout_height="-1">
+    <FrameLayout app:id="@id/background_container" app:layout_width="-1" app:layout_height="-2" />
+    <FrameLayout app:id="@id/alt_play_background" app:visibility="2" app:layout_width="-1" app:layout_height="-1" />
+    <FrameLayout app:id="@id/content_container" app:layout_width="-1" app:layout_height="-1" />
+    <FrameLayout app:id="@id/controls_container" app:layout_width="-1" app:layout_height="-1" app:layout_marginTop="-1px" app:layout_marginBottom="@dimen/play_header_list_header_shadow_height"
+        <FrameLayout app:layout_gravity="11" app:id="@id/hero_container" app:layout_width="-2" app:layout_height="-2" />
+        <FrameLayout app:layout_gravity="50" app:id="@id/tab_bar" app:layout_width="-1" app:layout_height="@dimen/play_header_list_tab_strip_height">
+            <com.google.android.play.headerlist.PlayHeaderListTabStrip app:id="@id/pager_tab_strip" app:visibility="2" app:layout_width="-1" app:layout_height="-1">
+                <HorizontalScrollView app:id="@id/play_header_list_tab_scroll" app:scrollbars="0" app:layout_width="-2" app:layout_height="-1" style="@style/PlayHeaderListTabScrollview">
+                    <com.google.android.play.headerlist.PlayHeaderListTabContainer app:orientation="0" app:id="@id/play_header_list_tab_container" app:paddingLeft="@dimen/play_header_list_tab_floating_padding" app:paddingRight="@dimen/play_header_list_tab_floating_padding" app:layout_width="-2" app:layout_height="-1" app:layoutDirection="0" />
+                </HorizontalScrollView>
+            </com.google.android.play.headerlist.PlayHeaderListTabStrip>
+            <TextView app:textColor="0x106000b" app:layout_gravity="11" app:id="@id/tab_bar_title" app:visibility="2" app:layout_width="-1" app:layout_height="-2" style="@style/PlayHeaderListTabText" />
+        </FrameLayout>
+    </FrameLayout>
+    <View app:id="@id/header_shadow" app:background="@drawable/play_header_list_shadow" app:visibility="2" app:layout_width="-1" app:layout_height="@dimen/play_header_list_header_shadow_height" />
+    <FrameLayout app:id="@id/toolbar_container" app:visibility="2" app:layout_width="-1" app:layout_height="-2" app:layout_marginTop="-1dp">
+        <android.support.v7.widget.Toolbar app:id="@id/play_header_toolbar" app:layout_width="-1" app:layout_height="?attr/actionBarSize" app:popupTheme="?attr/actionBarPopupTheme" app:theme="?attr/actionBarTheme" />
+    </FrameLayout>
+    <com.google.android.play.headerlist.PlayHeaderStatusBarUnderlay app:id="@id/play_header_status_bar_underlay" app:visibility="2" app:layout_width="-1" app:layout_height="-2" />
+    <TextView app:gravity="11" app:id="@id/play_header_banner" app:background="@drawable/play_header_list_layout_banner_bg" app:layout_width="-1" app:layout_height="@dimen/play_header_list_banner_height" style="@style/PlayHeaderListBannerText" />
+    <include layout="@layout/play_header_list_pull_refresh" />
+</merge>

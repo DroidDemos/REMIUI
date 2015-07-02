@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.finsky.layout.actionbar.FinskySearchToolbar android:layout_width="-1" android:layout_height="@dimen/search_toolbar_height" android:elevation="0dp" android:contentInsetStart="0dp" android:popupTheme="@style/ThemeOverlay_AppCompat_Light" android:titleTextAppearance="@style/FinskyToolbarTextAppearance" android:theme="@style/ThemeOverlay_AppCompat_Dark_ActionBar">
+    <include android:layout_gravity="11" android:id="@id/toolbar_play_search" android:layout_width="-1" android:layout_height="-2" layout="@layout/search" />
+</com.google.android.finsky.layout.actionbar.FinskySearchToolbar>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen>
+    <CheckBoxPreference android:persistent="false" android:title="@string/debug_image_debugging_title" android:key="image_debugging" android:summary="@string/debug_image_debugging_summary" android:defaultValue="false" />
+    <CheckBoxPreference android:title="@string/debug_skip_all_caches" android:key="skip_all_caches" android:summaryOn="@string/debug_skip_all_caches_on" android:summaryOff="@string/debug_skip_all_caches_off" />
+    <CheckBoxPreference android:state_enabled="false" android:title="@string/debug_volley_logging_title" android:key="verbose_volley_logging" android:summaryOn="@string/debug_volley_logging_on" android:summaryOff="@string/debug_volley_logging_off" />
+    <Preference android:persistent="false" android:title="@string/debug_environments_title" android:key="environments" android:summary="@string/debug_environments_summary" />
+    <Preference android:persistent="false" android:title="@string/debug_carrier_override_title" android:key="country" android:summary="@string/debug_carrier_override_summary" />
+    <Preference android:title="@string/debug_play_country_override_title" android:key="play_country" android:summary="@string/debug_play_country_override_summary" />
+    <Preference android:title="@string/debug_reset_all_title" android:key="reset_all" android:summary="@string/debug_reset_all_summary" />
+    <Preference android:title="@string/debug_clear_cache_title" android:key="clear_cache" android:summary="@string/debug_clear_cache_summary" />
+    <Preference android:title="@string/debug_export_library_title" android:key="export_library" android:summary="@string/debug_export_library_summary" />
+    <CheckBoxPreference android:title="@string/show_staging_data_title" android:key="show_staging_data" android:summaryOn="@string/show_staging_data_on" android:summaryOff="@string/show_staging_data_off" />
+    <CheckBoxPreference android:title="@string/disable_personalization" android:key="disable_personalization" android:summaryOn="@string/personalization_disabled" android:summaryOff="@string/personalization_enabled" />
+    <Preference android:persistent="false" android:title="@string/dump_library_state_title" android:key="dump_library_state" android:summary="@string/dump_library_state_summary" />
+    <CheckBoxPreference android:title="@string/fake_item_rater_title" android:key="fake_item_rater" android:summaryOn="@string/fake_item_rater_on" android:summaryOff="@string/fake_item_rater_off" />
+    <CheckBoxPreference android:title="@string/details_page_v2_title" android:key="details_page_v2" android:summaryOn="@string/details_page_v2_on" android:summaryOff="@string/details_page_v2_off" />
+</PreferenceScreen>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout im:orientation="1" im:layout_width="-1" im:layout_height="-1">
+    <include im:id="@id/legal_country_selector" im:visibility="2" layout="@layout/view_region_code" />
+    <FrameLayout im:id="@id/tax_info_fragment_holder" im:visibility="2" im:layout_width="-1" im:layout_height="-2" />
+    <FrameLayout im:id="@id/legal_address_entry_fragment_holder" im:visibility="2" im:layout_width="-1" im:layout_height="-2" />
+    <FrameLayout im:id="@id/instrument_form_fragment_holder" im:visibility="2" im:layout_width="-1" im:layout_height="-2" />
+    <com.google.android.wallet.instrumentmanager.ui.common.InfoMessageTextView im:id="@id/customer_legal_message_text" im:layout_width="-2" im:layout_height="-2" im:layout_marginTop="8dp" im:inlineExpandLabel="false" style="?attr/imLegalMessagesTextAppearance" />
+</LinearLayout>

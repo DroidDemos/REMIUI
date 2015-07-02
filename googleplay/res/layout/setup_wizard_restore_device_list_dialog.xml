@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.finsky.setup.SetupWizardRestoreDeviceDialogView android:orientation="1" android:paddingTop="@dimen/setup_wizard_dialog_top_padding" android:layout_width="-1" android:layout_height="-1">
+    <TextView android:text="@string/setup_wizard_restore_device_dialog_title" style="@style/SetupWizardListDialogTitle" />
+    <ListView android:scrollbarStyle="2000000" android:id="@id/setup_wizard_device_list" android:layout_width="-1" android:layout_height="-1" android:divider="@styleable/WalletImButtonBar_capitalizeButtonText" android:dividerHeight="0dp" android:choiceMode="1" />
+</com.google.android.finsky.setup.SetupWizardRestoreDeviceDialogView>

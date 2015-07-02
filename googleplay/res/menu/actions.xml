@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu>
+    <item finsky:icon="@drawable/ic_menu_translate" finsky:id="@id/translate_button" finsky:visible="false" finsky:showAsAction="6" />
+    <item finsky:id="@id/auto_update_button" finsky:visible="false" finsky:title="@string/allow_auto_updating" finsky:showAsAction="0" />
+    <item finsky:id="@id/env_button" finsky:visible="false" finsky:title="@string/debug_environment_action_bar_title" finsky:showAsAction="2" />
+    <item finsky:icon="@drawable/ic_search_white" finsky:id="@id/search_button" finsky:title="@string/search_hint" finsky:showAsAction="a" finsky:actionViewClass="android.support.v7.widget.SearchView" />
+</menu>

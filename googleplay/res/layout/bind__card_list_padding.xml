@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.libraries.bind.card.CardListPadding android:layout_width="-1" android:layout_height="-2" android:minHeight="@dimen/bind__card_list_view_padding" android:importantForAccessibility="2" android:bind__supportsAnimationCapture="false" />

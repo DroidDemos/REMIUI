@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="1" android:id="@id/ratings_summary_box" android:focusable="true" android:layout_width="-2" android:layout_height="-2" android:baselineAlignedChildIndex="1">
+    <com.google.android.play.layout.StarRatingBar android:id="@id/summary_rating_bar" android:layout_width="-2" android:layout_height="-2" style="@style/PlayRatingBarSmall" />
+    <RelativeLayout android:layout_width="-2" android:layout_height="-2">
+        <TextView android:textSize="@dimen/content_generic_xsmall_size" android:textColor="@color/play_fg_secondary" android:id="@id/num_reviews" android:layout_width="-2" android:layout_height="-2" android:includeFontPadding="false" />
+        <ImageView android:layout_width="-2" android:layout_height="-2" android:layout_marginLeft="3dp" android:src="@drawable/ic_user_rating" android:baselineAlignBottom="true" android:layout_toRightOf="@id/num_reviews" android:layout_alignBaseline="@id/num_reviews" android:contentDescription="@styleable/WalletImButtonBar_capitalizeButtonText" />
+    </RelativeLayout>
+</LinearLayout>

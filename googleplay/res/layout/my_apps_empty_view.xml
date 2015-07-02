@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.finsky.activities.myapps.MyAppsEmptyView android:id="@id/no_results_view" android:visibility="2" android:layout_width="-1" android:layout_height="-1" android:fillViewport="true">
+    <LinearLayout android:gravity="11" android:orientation="1" android:layout_width="-1" android:layout_height="-2">
+        <com.google.android.finsky.layout.AccountSelectorView android:textSize="@dimen/content_generic_medium_size" android:textColor="@color/play_primary_text" android:gravity="13" android:id="@id/account_name" android:background="@drawable/account_selector" style="@style/AccountSelector" />
+        <TextView android:textSize="@dimen/content_generic_large_size" android:textColor="@color/play_primary_text" android:gravity="11" android:id="@id/empty_myapps_textview" android:paddingLeft="@dimen/details_content_margin" android:paddingRight="@dimen/details_content_margin" android:paddingBottom="12dp" android:layout_width="-2" android:layout_height="-2" android:layout_marginTop="12dp" />
+        <LinearLayout android:orientation="1" android:layout_width="-2" android:layout_height="-2">
+            <Button android:textSize="@dimen/content_generic_medium_size" android:textColor="@color/play_primary_text" android:id="@id/myapps_browse_apps" android:layout_width="-1" android:layout_height="-2" android:text="@string/empty_myapps_browse_apps" />
+            <Button android:textSize="@dimen/content_generic_medium_size" android:textColor="@color/play_primary_text" android:id="@id/myapps_browse_games" android:layout_width="-1" android:layout_height="-2" android:text="@string/empty_myapps_browse_games" />
+        </LinearLayout>
+    </LinearLayout>
+</com.google.android.finsky.activities.myapps.MyAppsEmptyView>

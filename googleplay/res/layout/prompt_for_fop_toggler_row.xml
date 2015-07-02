@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.finsky.layout.SeparatorLinearLayout android:gravity="10" android:id="@id/fop_more_toggle" android:background="@drawable/play_highlight_overlay_light" android:paddingLeft="8dp" android:paddingRight="8dp" android:focusable="true" android:layout_width="-1" android:layout_height="-2" android:minHeight="48dp">
+    <TextView android:gravity="10" android:id="@id/fop_more_toggle_title" android:layout_width="0dp" android:layout_height="-2" android:text="@string/setup_account_more_options" android:drawableLeft="@drawable/ic_more_options_light" android:drawableRight="@drawable/ic_menu_expander_minimized_light" android:drawablePadding="8dp" android:layout_weight="1.0" style="@style/BillingProfile_Entry" />
+</com.google.android.finsky.layout.SeparatorLinearLayout>

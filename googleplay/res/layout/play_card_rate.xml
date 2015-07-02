@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.finsky.layout.play.PlayCardViewRate finsky:id="@id/play_card" finsky:focusable="true" finsky:nextFocusRight="@id/li_overflow" finsky:layout_width="-1" finsky:layout_height="0dp" finsky:foreground="@drawable/play_highlight_round_overlay_light" style="@style/PlayCardViewGroup">
+    <com.google.android.play.layout.PlayCardThumbnail finsky:id="@id/li_thumbnail_frame" finsky:layout_width="0dp" finsky:layout_height="0dp" finsky:app_thumbnail_padding="@dimen/play_featured_grid_image_margin">
+        <include finsky:id="@id/li_thumbnail" layout="@layout/play_card_thumbnail" />
+    </com.google.android.play.layout.PlayCardThumbnail>
+    <com.google.android.play.layout.PlayTextView finsky:id="@id/li_title" finsky:layout_width="-2" finsky:layout_height="-2" finsky:layout_marginLeft="@dimen/play_card_content_horizontal_inset" finsky:layout_marginTop="@dimen/play_card_content_vertical_inset" finsky:layout_marginRight="@dimen/play_card_overflow_safe" style="@style/PlayCardTitle" />
+    <com.google.android.play.layout.PlayCardLabelView finsky:id="@id/li_label" finsky:layout_marginLeft="6dp" finsky:layout_marginTop="2dp" finsky:layout_marginRight="@dimen/play_card_content_horizontal_inset" finsky:layout_below="@id/li_title" finsky:layout_alignParentRight="true" style="@style/PlayCardLabel" />
+    <include finsky:id="@id/li_subtitle" finsky:layout_width="-1" finsky:layout_height="-2" finsky:layout_marginLeft="@dimen/play_card_content_horizontal_inset" finsky:layout_marginRight="@dimen/play_card_content_horizontal_inset" layout="@layout/play_card_subtitle" />
+    <ImageView finsky:id="@id/li_overflow" finsky:nextFocusLeft="@id/play_card" finsky:layout_marginTop="@dimen/play_card_overflow_top_margin" finsky:layout_marginRight="@dimen/play_card_overflow_inset" finsky:layout_alignTop="@id/li_title" finsky:layout_alignParentRight="true" style="@style/PlayCardOverflow" />
+    <include finsky:id="@id/li_snippet_1" finsky:layout_width="-1" finsky:layout_height="-2" finsky:layout_marginLeft="@dimen/play_card_content_horizontal_inset" finsky:layout_marginRight="@dimen/play_card_content_horizontal_inset" layout="@layout/play_card_snippet" />
+    <View finsky:id="@id/rate_separator" finsky:background="@color/play_translucent_separator_line" finsky:layout_width="-1" finsky:layout_height="1px" finsky:layout_marginLeft="@dimen/play_card_content_horizontal_inset" finsky:layout_marginRight="@dimen/play_card_content_horizontal_inset" />
+    <include finsky:id="@id/rate_bar" finsky:layout_width="-1" finsky:layout_height="-2" layout="@layout/rating_bar" />
+    <com.google.android.finsky.layout.play.PlayCardViewRateOverlay finsky:id="@id/content_overlay" finsky:background="@color/play_rated_overlay" finsky:visibility="2" finsky:layout_width="-2" finsky:layout_height="-2" />
+    <ProgressBar finsky:id="@id/loading_progress_bar" finsky:layout_width="-2" finsky:layout_height="-2" finsky:indeterminate="true" finsky:layout_centerInParent="true" />
+</com.google.android.finsky.layout.play.PlayCardViewRate>

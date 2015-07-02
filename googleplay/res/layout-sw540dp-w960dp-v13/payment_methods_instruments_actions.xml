@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge>
+    <include layout="@layout/my_account_separator" />
+    <LinearLayout android:orientation="0" android:layout_width="-1" android:layout_height="-2">
+        <TextView android:gravity="10" android:id="@id/actions_switcher" android:background="@drawable/play_highlight_overlay_light" android:focusable="true" android:layout_width="0dp" android:text="@string/add_payment_method" android:drawableLeft="@drawable/ic_myaccount_add" android:layout_weight="1.0" style="@style/MyAccountAction" />
+        <TextView android:gravity="10" android:id="@id/edit_footer" android:background="@drawable/play_highlight_overlay_light" android:focusable="true" android:layout_width="0dp" android:text="@string/edit_payment_method" android:drawableLeft="@drawable/ic_myaccount_wallet" android:layout_weight="1.0" style="@style/MyAccountAction" />
+    </LinearLayout>
+</merge>

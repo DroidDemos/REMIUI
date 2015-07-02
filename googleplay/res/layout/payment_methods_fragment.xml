@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.finsky.layout.CardLinearLayout android:orientation="1" android:paddingLeft="@dimen/my_account_section_xpadding" android:paddingRight="@dimen/my_account_section_xpadding" android:layout_width="-1" android:layout_height="-2" style="@style/PlayCardViewGroup">
+    <TextView android:gravity="10" android:id="@id/title" android:paddingLeft="16dp" android:paddingRight="16dp" android:layout_width="-1" android:layout_height="@dimen/base_row_height" android:text="@string/payment_methods" style="@style/PlayClusterTitle" />
+    <include layout="@layout/my_account_separator" />
+    <include android:visibility="2" layout="@layout/page_loading_indicator" />
+    <include android:visibility="2" layout="@layout/error_indicator" />
+    <FrameLayout android:id="@id/profile" android:paddingTop="@dimen/my_account_separator_ypadding" android:layout_width="-1" android:layout_height="-2">
+        <include android:id="@id/instruments" layout="@layout/payment_methods_instruments" />
+        <include android:id="@id/actions" android:visibility="2" layout="@layout/payment_methods_actions" />
+    </FrameLayout>
+</com.google.android.finsky.layout.CardLinearLayout>

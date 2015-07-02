@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_gravity="15" android:layout_width="-2" android:layout_height="-2">
+    <Button android:id="@id/history_button" android:background="@drawable/history_button_bg" android:layout_width="-2" android:layout_height="-2" android:layout_marginRight="@dimen/history_button_margin_right" />
+</RelativeLayout>

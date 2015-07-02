@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.miui.yellowpage.ui.YellowPagePickerListItem android:orientation="1" android:layout_width="-1" android:layout_height="-2">
+    <TextView android:id="@id/section_header" android:visibility="2" android:layout_width="-1" android:layout_height="-2" android:text="@string/scan" style="@style/YellowPagePickerSectionHeaderTextStyle" />
+    <LinearLayout android:layout_width="-1" android:layout_height="-2" style="0x80d004d">
+        <TextView android:id="@id/presentation" android:layout_width="-1" android:layout_height="-2" android:singleLine="true" style="0x80d000c" />
+    </LinearLayout>
+</com.miui.yellowpage.ui.YellowPagePickerListItem>

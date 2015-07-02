@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="1" android:paddingLeft="16dp" android:paddingTop="12dp" android:paddingRight="16dp" android:layout_width="-1" android:layout_height="-1">
+    <com.google.android.play.layout.PlayTextView android:layout_width="-1" android:layout_height="-2" android:text="@string/payment_success" style="@style/LightPurchase_TitleText" />
+    <TextView android:textSize="@dimen/play_purchase_secondary_size" android:textColor="@color/play_fg_purchase_secondary" android:id="@id/description" android:layout_width="-1" android:layout_height="-2" android:layout_marginTop="8dp" style="@style/PlayPlainText" />
+    <RelativeLayout android:id="@id/play_purchase_auth_choices_button_bar" android:layout_width="-2" android:layout_height="-2" android:layout_marginTop="16dp" android:layout_marginBottom="16dp">
+        <com.google.android.play.layout.PlayActionButton android:id="@id/choice_everytime_button" android:layout_marginRight="8dp" android:layout_toLeftOf="@id/choice_session_button" android:layout_centerVertical="true" style="@style/Play_Purchase_ActionButton" />
+        <com.google.android.play.layout.PlayActionButton android:id="@id/choice_session_button" android:layout_alignParentRight="true" android:layout_centerVertical="true" style="@style/Play_Purchase_ActionButton" />
+    </RelativeLayout>
+</LinearLayout>

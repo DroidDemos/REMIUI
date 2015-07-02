@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.play.search.PlaySearch android:orientation="1" android:id="@id/play_search" android:layout_width="-1" android:layout_height="-2">
+    <View android:id="@id/play_search_overlay" android:background="@color/play_search_overlay_color" android:visibility="2" android:layout_width="-1" android:layout_height="-1" />
+    <LinearLayout android:orientation="1" android:id="@id/play_search_container" android:layout_width="-1" android:layout_height="-2">
+        <include android:id="@id/play_search_plate" android:layout_width="-1" android:layout_height="-2" layout="@layout/play_search_plate" />
+        <include android:id="@id/play_search_suggestions_list" android:layout_width="-1" android:layout_height="-2" android:layout_marginTop="@dimen/play_search_suggestions_list_top_margin" android:layout_marginBottom="@dimen/play_search_suggestions_list_bottom_margin" layout="@layout/play_search_suggestions_list" />
+    </LinearLayout>
+</com.google.android.play.search.PlaySearch>

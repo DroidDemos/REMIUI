@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="0" android:id="@id/bind__card_group_parent" android:focusable="false" android:focusableInTouchMode="false" android:layout_width="-1" android:layout_height="-2" android:importantForAccessibility="2" />

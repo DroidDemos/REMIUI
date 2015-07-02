@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="0" android:layout_width="-1" android:layout_height="-1" android:baselineAligned="false"
+    <LinearLayout android:gravity="10" android:orientation="1" android:id="@id/widget_content_1" android:layout_width="0dp" android:layout_height="-1" android:layout_weight="1.0" />
+    <LinearLayout android:gravity="10" android:orientation="1" android:id="@id/widget_content_2" android:layout_width="0dp" android:layout_height="-1" android:layout_weight="1.0" /> />

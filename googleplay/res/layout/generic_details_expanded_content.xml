@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.finsky.layout.DetailsExpandedFrame android:id="@id/details_expanded_frame" android:visibility="2" android:layout_width="-1" android:layout_height="-1">
+    <View android:id="@id/left_bar" android:background="@color/white" android:layout_width="0dp" android:layout_height="-1" />
+    <com.google.android.finsky.layout.scroll.GestureScrollView android:id="@id/details_expanded_scroller" android:fadingEdgeLength="0dp" android:layout_width="-1" android:layout_height="-1" android:fillViewport="true">
+        <com.google.android.finsky.layout.DetailsExpandedContainer android:orientation="1" android:id="@id/details_expanded_container" android:background="@color/white" android:paddingLeft="@dimen/details_listing_section_extra_padding" android:paddingTop="32dp" android:paddingRight="@dimen/details_listing_section_extra_padding" android:layout_width="-1" android:layout_height="-2">
+            <TextView android:id="@id/details_expanded_callout" android:paddingLeft="@dimen/details_text_callout_padding" android:paddingRight="@dimen/details_text_callout_padding" android:layout_width="-1" android:layout_height="-2" android:layout_marginBottom="24dp" style="@style/PlayDetailDescriptionCallout" />
+            <include android:id="@id/body_container1" layout="@layout/details_text_block" />
+            <include android:id="@id/body_container2" layout="@layout/details_text_block" />
+            <LinearLayout android:orientation="1" android:id="@id/details_expanded_extras" android:paddingLeft="@dimen/details_text_section_padding" android:paddingTop="24dp" android:paddingRight="@dimen/details_text_section_padding" android:layout_width="-1" android:layout_height="-2" />
+        </com.google.android.finsky.layout.DetailsExpandedContainer>
+    </com.google.android.finsky.layout.scroll.GestureScrollView>
+    <View android:id="@id/right_bar" android:background="@color/white" android:layout_width="0dp" android:layout_height="-1" />
+</com.google.android.finsky.layout.DetailsExpandedFrame>

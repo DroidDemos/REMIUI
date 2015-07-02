@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list>
+    <item>
+        <shape>
+            <solid android:color="@color/purchase_button_icon_background" />
+            <corners android:radius="@dimen/play_action_button_corner" android:topLeftRadius="@dimen/play_action_button_corner" android:topRightRadius="0dp" android:bottomLeftRadius="@dimen/play_action_button_corner" android:bottomRightRadius="0dp" />
+        </shape>
+    </item>
+</layer-list>

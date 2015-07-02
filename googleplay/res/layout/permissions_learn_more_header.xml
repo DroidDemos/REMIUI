@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="0" android:id="@id/learn_more_header" android:background="@drawable/permissions_header_with_highlight" android:paddingLeft="14dp" android:paddingRight="14dp" android:focusable="true" android:visibility="2" android:layout_width="-1" android:layout_height="-2" android:minHeight="50dp">
+    <TextView android:textColor="@color/play_white" android:layout_gravity="10" android:focusable="true" android:layout_width="0dp" android:layout_height="-2" android:text="@string/simplified_permissions_learn_more" android:layout_weight="1.0" style="@style/LightPurchase_AccountName" />
+    <TextView android:textSize="@dimen/play_purchase_small_size" android:textColor="@color/purchase_flow_permission_learn_more_link" android:layout_gravity="10" android:id="@id/learn_more_link" android:layout_width="-2" android:layout_height="-2" android:text="@string/permissions_flow_learn_more" />
+</LinearLayout>

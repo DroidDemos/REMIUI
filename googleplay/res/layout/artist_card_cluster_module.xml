@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.finsky.detailspage.ArtistClusterModuleLayout android:orientation="1" android:paddingTop="@dimen/play_cluster_vpadding" android:paddingBottom="@dimen/play_cluster_vpadding" android:layout_width="-1" android:layout_height="-2">
+    <include layout="@layout/details_section_header" />
+    <include android:id="@id/bucket_row" layout="@layout/card_cluster_module_row" />
+</com.google.android.finsky.detailspage.ArtistClusterModuleLayout>

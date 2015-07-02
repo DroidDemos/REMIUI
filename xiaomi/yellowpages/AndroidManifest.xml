@@ -1,0 +1,317 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:"http://schemas.android.com/apk/res/android" android:sharedUserId="android.uid.shared" android:versionCode="19" android:versionName="4.4.2-5.3.13" package="com.miui.yellowpage">
+    <uses-sdk android:minSdkVersion="19" android:targetSdkVersion="19" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.CALL_PRIVILEGED" />
+    <uses-permission android:name="android.permission.WRITE_CALL_LOG" />
+    <uses-permission android:name="android.permission.READ_CALL_LOG" />
+    <uses-permission android:name="com.android.voicemail.permission.ADD_VOICEMAIL" />
+    <uses-permission android:name="com.android.voicemail.permission.READ_WRITE_ALL_VOICEMAIL" />
+    <uses-permission android:name="android.permission.READ_CONTACTS" />
+    <uses-permission android:name="android.permission.WRITE_CONTACTS" />
+    <uses-permission android:name="android.permission.WRITE_SETTINGS" />
+    <uses-permission android:name="com.miui.notes.permission.ACCESS_NOTE" />
+    <uses-permission android:name="android.permission.SEND_SMS" />
+    <uses-permission android:name="com.xiaomi.permission.CLOUD_MANAGER" />
+    <uses-permission android:name="android.permission.READ_SYNC_SETTINGS" />
+    <uses-permission android:name="android.permission.READ_SYNC_STATS" />
+    <uses-permission android:name="android.permission.WRITE_SYNC_SETTINGS" />
+    <uses-permission android:name="android.permission.AUTHENTICATE_ACCOUNTS" />
+    <uses-permission android:name="com.miui.mipub.permission.READ_HMS" />
+    <permission android:name="com.miui.yellowpage.permission.MIPUSH_RECEIVE" android:protectionLevel="dangerous|signature|signatureOrSystem" />
+    <uses-permission android:name="com.miui.yellowpage.permission.MIPUSH_RECEIVE" />
+    <permission android:name="com.miui.yellowpage.permission.ACCESS_YELLOWPAGE" android:protectionLevel="dangerous|signature|signatureOrSystem" />
+    <application android:label="@string/app_label" android:icon="@drawable/ic_launcher_navigation" android:name="com.miui.yellowpage.Application" android:allowClearUserData="false" android:allowBackup="true" android:killAfterRestore="false">
+        <uses-library android:name="yellowpage-common.jar" />
+        <uses-library android:name="cloud-common.jar" />
+        <provider android:name=".providers.telocation.TelocationProvider" android:permission="com.miui.yellowpage.permission.ACCESS_YELLOWPAGE" android:exported="true" android:multiprocess="false" android:authorities="telocation" />
+        <provider android:name=".providers.yellowpage.YellowPageProvider" android:permission="com.miui.yellowpage.permission.ACCESS_YELLOWPAGE" android:exported="true" android:process="android.process.acore" android:authorities="miui.yellowpage" android:syncable="true" android:initOrder="101" />
+        <receiver android:name="com.miui.yellowpage.base.mipub.MiPubUpdateReceiver">
+            <intent-filter>
+                <action android:name="com.miui.yellowpage.action.MULTI_DEVICE_LOGIN" />
+                <action android:name="android.accounts.LOGIN_ACCOUNTS_PRE_CHANGED" />
+                <action android:name="com.miui.yellowpage.action.YELLOWPAGE_LOGIN" />
+                <action android:name="com.miui.yellowpage.action.UPDATE_LOGIN_DEVICE" />
+            </intent-filter>
+        </receiver>
+        <receiver android:name="com.miui.yellowpage.sync.PushMessageReceiver" android:exported="true">
+            <intent-filter>
+                <action android:name="com.xiaomi.mipush.RECEIVE_MESSAGE" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="com.xiaomi.mipush.ERROR" />
+            </intent-filter>
+        </receiver>
+        <activity android:theme="@style/YellowPageTheme" android:label="@string/app_label" android:name=".activity.YellowPageActivity" android:screenOrientation="portrait" android:configChanges="keyboardHidden|orientation|screenSize" android:uiOptions="splitActionBarWhenNarrow">
+            <intent-filter>
+                <action android:name="com.miui.yellowpage.action.VIEW" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+                <data android:scheme="yellowpage" android:host="details" android:path="" />
+            </intent-filter>
+        </activity>
+        <activity android:theme="@style/Theme.Translucent.NoTitle" android:name=".activity.MarkNumberActivity" android:screenOrientation="portrait" android:configChanges="keyboardHidden|orientation|screenSize">
+            <intent-filter>
+                <action android:name="android.intent.action.MARK_ANTISPAM" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:theme="@style/Theme.Translucent.NoTitle" android:name=".activity.RemindUserSuspectNumberActivity" android:screenOrientation="portrait" android:configChanges="keyboardHidden|orientation|screenSize">
+            <intent-filter>
+                <action android:name="com.miui.yellowpage.intent.action.REMIND_USER_SUSPECT_NUMBER" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:theme="@style/Theme.Translucent.NoTitle" android:name=".activity.UserNoticeActivity" android:screenOrientation="portrait" android:configChanges="keyboardHidden|orientation|screenSize">
+            <intent-filter>
+                <action android:name="com.miui.yellowpage.intent.action.USER_NOTICE" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:theme="0x80d0017" android:name=".activity.LoginActivity" android:screenOrientation="portrait" android:configChanges="keyboardHidden|orientation|screenSize">
+            <intent-filter>
+                <action android:name="com.miui.yellowpage.action.LOGIN" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:theme="0x80d0017" android:name=".activity.MultiModuleIntentActivity" android:screenOrientation="portrait" android:configChanges="keyboardHidden|orientation|screenSize">
+            <intent-filter>
+                <action android:name="com.miui.yellowpage.action.MULTI_MODULE_CLICKED" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:theme="0x80d0017" android:name=".activity.InternalWebActivity" android:screenOrientation="portrait" android:configChanges="keyboardHidden|orientation|screenSize" android:hardwareAccelerated="@bool/hardware_accelerated">
+            <intent-filter>
+                <action android:name="com.miui.yellowppage.action.LOAD_WEBVIEW" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+                <category android:name="com.miui.yellowpage.category.SCAN_QR" />
+                <data android:scheme="yellowpage" android:host="web" android:path="" />
+            </intent-filter>
+        </activity>
+        <activity android:theme="0x80d0017" android:name=".openapi.OpenWebActivity" android:screenOrientation="portrait" android:configChanges="keyboardHidden|orientation|screenSize" android:hardwareAccelerated="@bool/hardware_accelerated">
+            <intent-filter>
+                <action android:name="com.miui.yellowpage.action.LOAD_OPEN_WEBVIEW" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+                <category android:name="com.miui.yellowpage.category.SCAN_QR" />
+                <data android:scheme="yellowpage" android:host="openweb" android:path="" />
+            </intent-filter>
+        </activity>
+        <activity android:theme="0x80d0017" android:label="@string/order_merchant_title" android:name=".activity.OrderActivity" android:screenOrientation="portrait" android:configChanges="keyboardHidden|orientation|screenSize">
+            <intent-filter>
+                <action android:name="com.miui.yellowpage.action.ORDER" />
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+                <data android:scheme="yellowpage" android:host="order" android:path="" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="com.miui.yellowpage.action.ORDER" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:theme="0x80d0017" android:name=".activity.FlowOfPackageActivity" android:screenOrientation="portrait" android:configChanges="keyboardHidden|orientation|screenSize">
+            <intent-filter>
+                <action android:name="com.miui.yellowpage.operator_flow_of_packages" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:theme="0x80d0017" android:name=".activity.OrderDetailActivity" android:screenOrientation="portrait" android:configChanges="keyboardHidden|orientation|screenSize">
+            <intent-filter>
+                <action android:name="com.miui.yellowpage.action.ORDER_DETAIL" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:theme="0x80d0017" android:label="@string/smart_antispam" android:name=".activity.SettingActivity" android:screenOrientation="portrait" android:configChanges="keyboardHidden|orientation|screenSize">
+            <intent-filter>
+                <action android:name="android.intent.action.TURN_ON_SMART_ANTISPAM" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:theme="0x80d0017" android:name=".activity.PaymentActivity" android:screenOrientation="portrait" android:configChanges="keyboardHidden|orientation|screenSize" />
+        <activity android:theme="0x80d0017" android:label="@string/express_inquiry" android:name=".activity.ExpressInquiryActivity" android:screenOrientation="portrait" android:configChanges="keyboardHidden|orientation|screenSize" android:windowSoftInputMode="23" android:uiOptions="splitActionBarWhenNarrow">
+            <intent-filter>
+                <action android:name="com.miui.yellowppage.express_inquiry" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+                <data android:scheme="yellowpage" android:host="express_inquiry" android:path="" />
+            </intent-filter>
+        </activity>
+        <activity android:theme="0x80d0053" android:label="@string/recharge_title" android:name=".business.recharge.RechargeRouterActivity" android:exported="true" android:screenOrientation="portrait" android:configChanges="keyboardHidden|orientation|screenSize" android:windowSoftInputMode="22">
+            <intent-filter>
+                <action android:name="com.miui.yellowppage.recharge" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+                <data android:scheme="yellowpage" android:host="recharge_phone" android:path="" />
+            </intent-filter>
+        </activity>
+        <activity android:theme="0x80d0017" android:label="@string/recharge_title" android:name=".activity.RechargeActivity" android:exported="true" android:screenOrientation="portrait" android:configChanges="keyboardHidden|orientation|screenSize" android:windowSoftInputMode="22" />
+        <activity android:theme="0x80d0017" android:label="@string/recharge_title" android:name=".business.recharge.RechargeActivity" android:exported="true" android:screenOrientation="portrait" android:configChanges="keyboardHidden|orientation|screenSize" android:windowSoftInputMode="22" />
+        <activity android:theme="0x80d0017" android:name=".business.recharge.PaymentActivity" android:screenOrientation="portrait" android:configChanges="keyboardHidden|orientation|screenSize" />
+        <activity android:theme="0x80d0017" android:name=".activity.YellowPagePickerActivity" android:screenOrientation="portrait" android:configChanges="keyboardHidden|orientation|screenSize">
+            <intent-filter>
+                <action android:name="com.miui.yellowpage.action.PICK" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:theme="0x80d0017" android:label="@string/general_yellow_page_title" android:name=".activity.GeneralYellowPageActivity" android:screenOrientation="portrait" android:configChanges="keyboardHidden|orientation|screenSize">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+                <action android:name="com.miui.yellowpage.action.VIEW_RECENT" />
+                <action android:name="com.miui.yellowpage.action.VIEW_FAVORITE" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+                <category android:name="android.intent.category.DEFAULT" />
+                <data android:mimeType="vnd.android.cursor.item/lookup_starred_yellowpage" />
+            </intent-filter>
+        </activity>
+        <activity android:theme="0x80d0017" android:label="@string/nearby_yellow_page_title" android:name=".activity.NearbyYellowPageActivity" android:screenOrientation="portrait" android:configChanges="keyboardHidden|orientation|screenSize">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+                <data android:scheme="yellowpage" android:host="nearby" android:path="" />
+                <data android:scheme="yellowpage" android:host="nearby_hotcat" android:path="" />
+            </intent-filter>
+        </activity>
+        <activity android:theme="0x80d0017" android:label="@string/account_title" android:name=".activity.AccountActivity" android:screenOrientation="portrait" android:configChanges="keyboardHidden|orientation|screenSize">
+            <intent-filter>
+                <action android:name="com.miui.yellowpage.action.VIEW_ACCOUNT" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:theme="@style/Theme.Translucent.NoTitle" android:name=".activity.BalanceInquiryRoutingActivity" android:screenOrientation="portrait" android:configChanges="keyboardHidden|orientation|screenSize">
+            <intent-filter>
+                <action android:name="com.miui.yellowpage.balance_inquiry" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:theme="0x80d0017" android:name=".activity.SendExpressActivity" android:screenOrientation="portrait" android:configChanges="keyboardHidden|orientation|screenSize" android:windowSoftInputMode="22">
+            <intent-filter>
+                <action android:name="com.miui.yellowpage.action.SEND_EXPRESS" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+                <data android:scheme="yellowpage" android:host="express_send" android:path="" />
+            </intent-filter>
+        </activity>
+        <activity android:theme="0x80d0017" android:name=".activity.ExpressAddressEditorActivity" android:screenOrientation="portrait" android:configChanges="keyboardHidden|orientation|screenSize">
+            <intent-filter>
+                <action android:name="com.miui.yellowpage.action.NEW_ADDRESS" />
+                <action android:name="com.miui.yellowpage.action.EDIT_ADDRESS" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:theme="0x80d0017" android:name=".activity.ExpressAddressListActivity" android:screenOrientation="portrait" android:configChanges="keyboardHidden|orientation|screenSize" android:uiOptions="splitActionBarWhenNarrow">
+            <intent-filter>
+                <action android:name="com.miui.yellowpage.action.MANAGE_ADDRESS" />
+                <action android:name="com.miui.yellowpage.action.PICK_ADDRESS" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:theme="0x80d0017" android:name=".activity.RegionPickerActivity" android:screenOrientation="portrait" android:configChanges="keyboardHidden|orientation|screenSize" android:uiOptions="splitActionBarWhenNarrow">
+            <intent-filter>
+                <action android:name="com.miui.yellowpage.action.PICK_REGION" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:theme="0x80d0017" android:name=".activity.ExpressInquiryHistoryActivity" android:screenOrientation="portrait" android:configChanges="keyboardHidden|orientation|screenSize" android:uiOptions="splitActionBarWhenNarrow">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+                <data android:scheme="yellowpage" android:host="inquiry_history" android:path="" />
+            </intent-filter>
+        </activity>
+        <activity android:theme="0x80d0017" android:name=".activity.ExpressOrderActivity" android:screenOrientation="portrait" android:configChanges="keyboardHidden|orientation|screenSize">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+                <data android:scheme="yellowpage" android:host="express_order" android:path="" />
+            </intent-filter>
+        </activity>
+        <activity android:theme="0x80d0017" android:name=".activity.ExpressCompanyListActivity" android:screenOrientation="portrait" android:configChanges="keyboardHidden|orientation|screenSize" />
+        <activity android:theme="0x80d0053" android:name=".activity.InstallYellowPageShortCutIconActivity" android:screenOrientation="portrait" android:configChanges="keyboardHidden|orientation|screenSize">
+            <intent-filter>
+                <action android:name="android.intent.action.CREATE_SHORTCUT" />
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+                <data android:scheme="yellowpage" android:host="shortcut" android:path="" />
+            </intent-filter>
+        </activity>
+        <activity android:theme="@style/QuickYellowPageTheme" android:name=".activity.QuickYellowPageActivity" android:taskAffinity="" android:excludeFromRecents="true" android:launchMode="singleTop" android:windowSoftInputMode="1" android:noHistory="true">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+                <category android:name="android.intent.category.DEFAULT" />
+                <data android:scheme="yellowpage" android:host="quick_yellow_page" android:path="" />
+            </intent-filter>
+        </activity>
+        <activity android:theme="0x80d0053" android:name=".activity.NavigationRoutingActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+                <category android:name="android.intent.category.DEFAULT" />
+                <data android:scheme="yellowpage" android:host="navigation" android:path="" />
+            </intent-filter>
+        </activity>
+        <activity android:theme="0x80d0053" android:name=".activity.RemarkActivity" android:screenOrientation="portrait" android:configChanges="keyboardHidden|orientation|screenSize">
+            <intent-filter>
+                <action android:name="com.miui.yellowpage.action.REMARK" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name="com.alipay.sdk.app.H5PayActivity" android:exported="false" android:screenOrientation="behind" android:configChanges="keyboardHidden|navigation|orientation|screenSize" />
+        <activity android:name="com.alipay.sdk.auth.AuthActivity" android:exported="false" android:screenOrientation="behind" android:configChanges="keyboardHidden|navigation|orientation|screenSize" />
+        <activity android:theme="0x80d0053" android:name="com.miui.yellowpage.activity.DummyActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+                <category android:name="android.intent.category.DEFAULT" />
+                <data android:scheme="yellowpage" android:host="dummy" android:path="" />
+            </intent-filter>
+        </activity>
+        <service android:name="com.miui.yellowpage.base.mipub.MiPubUpdateService" />
+        <service android:name="com.xiaomi.push.service.XMPushService" android:enabled="true" />
+        <service android:name="com.xiaomi.mipush.sdk.PushMessageHandler" android:enabled="true" android:exported="true" />
+        <service android:name="com.miui.yellowpage.sync.SyncService" android:exported="true">
+            <intent-filter>
+                <action android:name="android.content.SyncAdapter" />
+            </intent-filter>
+            <meta-data android:name="android.content.SyncAdapter" android:resource="@xml/sync_adapter" />
+        </service>
+        <service android:name="com.miui.yellowpage.sync.AuthenticatorService">
+            <intent-filter>
+                <action android:name="android.accounts.AccountAuthenticator" />
+            </intent-filter>
+            <meta-data android:name="android.accounts.AccountAuthenticator" android:resource="@xml/authenticator" />
+        </service>
+    </application>
+</manifest>

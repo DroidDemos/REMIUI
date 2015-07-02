@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.finsky.layout.play.PlayCardOrderedClusterView android:orientation="1" android:paddingTop="8dp" android:paddingBottom="4dp" android:layout_width="-1" android:layout_height="-2">
+    <include layout="@layout/play_card_cluster_header" />
+    <LinearLayout android:orientation="1" android:id="@id/cluster_content" android:layout_width="-1" android:layout_height="-2" />
+</com.google.android.finsky.layout.play.PlayCardOrderedClusterView>

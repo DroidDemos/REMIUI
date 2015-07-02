@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.finsky.setup.SetupWizardRestoreAppsDialogView finsky:orientation="1" finsky:paddingTop="@dimen/setup_wizard_dialog_top_padding" finsky:layout_width="-1" finsky:layout_height="-1">
+    <TextView finsky:text="@string/setup_wizard_restore_apps_dialog_title" style="@style/SetupWizardListDialogTitle" />
+    <ListView finsky:scrollbarStyle="2000000" finsky:id="@id/restore_apps_list" finsky:layout_width="-1" finsky:layout_height="-1" finsky:divider="@styleable/WalletImButtonBar_capitalizeButtonText" finsky:dividerHeight="0dp" finsky:choiceMode="2" />
+</com.google.android.finsky.setup.SetupWizardRestoreAppsDialogView>

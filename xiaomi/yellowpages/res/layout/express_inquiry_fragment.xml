@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="-1" android:layout_height="-1">
+    <LinearLayout android:orientation="1" android:paddingTop="@dimen/express_inquiry_fragment_padding_top" android:layout_width="-1" android:layout_height="-2">
+        <FrameLayout android:orientation="0" android:layout_width="-1" android:layout_height="@dimen/express_text_field_height" android:layout_marginLeft="@dimen/send_express_button_margin" android:layout_marginTop="@dimen/express_inquiry_fragment_logistics_margin_vertical" android:layout_marginRight="@dimen/send_express_button_margin" android:layout_marginBottom="@dimen/express_inquiry_fragment_logistics_margin_vertical">
+            <miui.widget.ClearableEditText android:id="@id/serial_number" android:paddingRight="@dimen/express_inquiry_fragment_serial_number_clear_btn_padding_right" android:hint="@string/express_inquiry_serial_number_indication" android:inputType="1" style="@style/ExpressEditText" />
+            <Button android:layout_gravity="5" android:id="@id/scan" android:background="@drawable/scan_bg" android:layout_width="-2" android:layout_height="-1" android:layout_marginLeft="@dimen/express_inquiry_scan_margin_left" />
+        </FrameLayout>
+        <LinearLayout android:orientation="1" android:paddingLeft="@dimen/express_inquiry_fragment_serial_number_padding_horizontal" android:paddingRight="@dimen/express_inquiry_fragment_serial_number_padding_horizontal" android:layout_width="-1" android:layout_height="-2" android:layout_marginTop="3dp">
+            <Button android:id="@id/button" android:layout_width="-1" android:layout_height="-2" android:layout_marginTop="18dp" android:text="@string/express_inquiry_button_text" style="0x80d0037" />
+            <Button android:id="@id/history" android:layout_width="-1" android:layout_height="-2" android:text="@string/express_inquiry_history" />
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout android:layout_gravity="50" android:orientation="1" android:id="@id/source_info_container" android:visibility="2" android:layout_width="-1" android:layout_height="-2">
+        <TextView android:gravity="11" android:id="@id/info" android:layout_width="-1" android:layout_height="-2" android:text="@string/express_inquiry_provider_info" style="0x80d0058" />
+        <LinearLayout android:layout_gravity="1" android:orientation="0" android:id="@id/container" android:layout_width="-2" android:layout_height="-2" android:layout_marginTop="5dp" android:layout_marginBottom="17dp" /> />
+</FrameLayout>

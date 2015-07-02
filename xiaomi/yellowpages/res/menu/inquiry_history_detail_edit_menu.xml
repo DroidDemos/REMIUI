@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu>
+    <item android:icon="@drawable/action_button_remark" android:id="@id/remark" android:title="@string/express_inquiry_history_remark" android:showAsAction="2" />
+    <item android:icon="@drawable/action_button_trace" android:id="@id/trace" android:title="@string/express_inquiry_trace" android:checkable="true" android:showAsAction="2" />
+    <item android:icon="0x8020009" android:id="@id/edit_logistics" android:visible="false" android:title="@string/express_inquiry_edit_logistics" android:showAsAction="2" />
+</menu>

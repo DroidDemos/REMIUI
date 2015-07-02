@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="@dimen/now_playing_all_square_very_large" android:layout_height="@dimen/now_playing_all_square_very_large" style="@style/NowPlayingImageCell">
+    <ImageView android:id="@id/large_image_1" style="@style/NowPlayingImage" />
+    <include layout="@layout/now_playing_widget_metadata" />
+    <include android:id="@id/accessibility_overlay_1" layout="@layout/widget_accessibility_overlay" />
+</RelativeLayout>

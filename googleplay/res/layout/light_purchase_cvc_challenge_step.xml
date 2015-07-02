@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="1" android:paddingLeft="16dp" android:paddingTop="12dp" android:paddingRight="16dp" android:layout_width="-1" android:layout_height="-1">
+    <com.google.android.play.layout.PlayTextView android:ellipsize="3" android:id="@id/title" android:layout_width="-1" android:layout_height="-2" android:singleLine="true" style="@style/LightPurchase_TitleText" />
+    <TextView android:id="@id/message" android:layout_width="-1" android:layout_height="-2" android:layout_marginTop="6dp" style="@style/LightPurchase_Details" />
+    <LinearLayout android:orientation="0" android:layout_width="-1" android:layout_height="-2" android:layout_marginTop="10dp">
+        <EditText android:textSize="@dimen/content_entry_large_size" android:layout_gravity="10" android:id="@id/cvc_entry" android:layout_width="0dp" android:layout_height="-2" android:hint="@string/cvc_code" android:lines="1" android:layout_weight="1.0" android:inputType="2" android:imeOptions="10000000" />
+        <ImageView android:layout_gravity="10" android:id="@id/cvc_image" android:background="@drawable/play_highlight_overlay_light" android:focusable="true" android:clickable="true" android:layout_width="-2" android:layout_height="-2" android:layout_marginLeft="8dp" android:src="@drawable/cvc_hint" android:contentDescription="@string/content_description_cvc_code_popup" />
+    </LinearLayout>
+</LinearLayout>

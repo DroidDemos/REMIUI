@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge>
+    <EditText android:id="@id/name_entry" android:nextFocusUp="@id/cvc_entry" android:layout_width="-1" android:layout_height="-2" android:hint="@string/name" android:singleLine="true" android:inputType="2061" />
+    <EditText android:id="@id/first_name" android:visibility="2" android:layout_width="-1" android:layout_height="-2" android:hint="@string/first_name" android:singleLine="true" android:inputType="2061" />
+    <EditText android:id="@id/last_name" android:visibility="2" android:layout_width="-1" android:layout_height="-2" android:hint="@string/last_name" android:singleLine="true" android:inputType="2061" />
+    <Spinner android:id="@id/country" android:visibility="2" android:layout_width="-1" android:layout_height="-2" android:drawSelectorOnTop="true" />
+    <include android:id="@id/address_widget" android:layout_width="-1" android:layout_height="-2" layout="@layout/address_layout" />
+    <EditText android:id="@id/phone_number" android:layout_width="-1" android:layout_height="-2" android:hint="@string/phone_number" android:singleLine="true" android:inputType="3" />
+    <EditText android:id="@id/email_address" android:visibility="2" android:layout_width="-1" android:layout_height="-2" android:hint="@string/email_address" android:singleLine="true" android:inputType="21" />
+</merge>

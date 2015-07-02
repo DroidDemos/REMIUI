@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge>
+    <com.google.android.play.layout.PlayActionButton finsky:id="@id/buy_button" finsky:visibility="2" finsky:action_style="0" finsky:local_priority="0" style="@style/Play_DetailsPage_ActionButton" />
+    <com.google.android.play.layout.PlayActionButton finsky:id="@id/buy_button2" finsky:visibility="2" finsky:action_style="0" finsky:local_priority="0" style="@style/Play_DetailsPage_ActionButton" />
+    <com.google.android.play.layout.PlayActionButton finsky:id="@id/try_button" finsky:visibility="2" finsky:text="@string/sample" finsky:action_style="2" finsky:local_priority="1" style="@style/Play_DetailsPage_ActionButton" />
+    <com.google.android.play.layout.PlayActionButton finsky:id="@id/launch_button" finsky:visibility="2" finsky:text="@string/open" finsky:action_style="2" finsky:local_priority="2" style="@style/Play_DetailsPage_ActionButton" />
+    <com.google.android.play.layout.PlayActionButton finsky:id="@id/update_button" finsky:visibility="2" finsky:text="@string/update" finsky:action_style="2" finsky:local_priority="3" style="@style/Play_DetailsPage_ActionButton" />
+    <com.google.android.play.layout.PlayActionButton finsky:id="@id/uninstall_button" finsky:visibility="2" finsky:text="@string/uninstall" finsky:action_style="2" finsky:local_priority="4" style="@style/Play_DetailsPage_ActionButton" />
+    <com.google.android.play.layout.PlayActionButton finsky:id="@id/download_button" finsky:visibility="2" finsky:text="@string/download" finsky:action_style="2" finsky:local_priority="5" style="@style/Play_DetailsPage_ActionButton" />
+</merge>

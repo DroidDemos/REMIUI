@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.finsky.layout.MaxWidthLinearLayout finsky:orientation="1" finsky:layout_width="-1" finsky:layout_height="-2" finsky:minWidth="@dimen/light_purchase_dialog_width" finsky:minHeight="@dimen/light_purchase_dialog_tall_height" finsky:max_width="@dimen/light_purchase_dialog_width">
+    <include finsky:layout_width="-1" finsky:layout_height="0dp" finsky:layout_weight="1.0" layout="@layout/page_loading_indicator" />
+    <LinearLayout finsky:orientation="1" finsky:id="@id/contents" finsky:layout_width="-1" finsky:layout_height="0dp" finsky:layout_weight="1.0">
+        <include layout="@layout/permissions_learn_more_header" />
+        <LinearLayout finsky:orientation="0" finsky:background="@drawable/play_highlight_overlay_light" finsky:paddingLeft="14dp" finsky:paddingTop="14dp" finsky:paddingRight="14dp" finsky:paddingBottom="@dimen/permissions_header_padding" finsky:focusable="true" finsky:layout_width="-1" finsky:layout_height="-2">
+            <com.google.android.play.image.FifeImageView finsky:id="@id/application_icon" finsky:layout_width="50dp" finsky:layout_height="50dp" />
+            <LinearLayout finsky:layout_gravity="10" finsky:orientation="1" finsky:paddingLeft="10dp" finsky:layout_width="0dp" finsky:layout_height="-2" finsky:layout_marginTop="-2dp" finsky:layout_weight="1.0">
+                <com.google.android.play.layout.PlayTextView finsky:id="@id/title" finsky:layout_width="-1" finsky:layout_height="-2" style="@style/LightPurchase_TitleText" />
+                <TextView finsky:id="@id/account" finsky:paddingRight="16dp" finsky:paddingBottom="8dp" finsky:visibility="2" finsky:layout_width="-1" finsky:layout_height="-2" style="@style/LightPurchase_AccountName" />
+            </LinearLayout>
+        </LinearLayout>
+        <com.google.android.finsky.layout.ObservableScrollView finsky:paddingLeft="14dp" finsky:paddingRight="14dp" finsky:layout_width="-1" finsky:layout_height="0dp" finsky:layout_weight="1.0">
+            <com.google.android.finsky.layout.AppSecurityPermissions finsky:orientation="1" finsky:id="@id/app_permissions" finsky:layout_width="-1" finsky:layout_height="-2" />
+        </com.google.android.finsky.layout.ObservableScrollView>
+        <include finsky:paddingTop="38dp" layout="@layout/light_purchase_button_bar" />
+        <TextView finsky:textSize="@dimen/play_purchase_small_size" finsky:textColor="@color/detailed_permissions_footer_text" finsky:id="@id/detailed_footer_text" finsky:background="@drawable/footer_bg_with_highlight" finsky:padding="14dp" finsky:focusable="true" finsky:layout_width="-1" finsky:layout_height="-2" />
+    </LinearLayout>
+</com.google.android.finsky.layout.MaxWidthLinearLayout>

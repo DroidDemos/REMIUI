@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:paddingLeft="6dp" android:paddingTop="4dp" android:paddingRight="6dp" android:layout_width="-1" android:layout_height="-1">
+    <EditText android:textColor="?unknown_attr_ref: 1010036" android:gravity="30" android:id="@id/flag_message" android:layout_width="-1" android:layout_height="-1" android:minLines="5" android:maxLength="@integer/max_review_length" android:freezesText="true" android:inputType="2c001" />
+</FrameLayout>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:id="@id/wishlist_panel" android:layout_width="-1" android:layout_height="-1">
+    <com.google.android.finsky.layout.play.PlayRecyclerView android:id="@id/tab_recycler_view" android:paddingBottom="4dp" android:fadingEdgeLength="0dp" android:clipToPadding="false" android:layout_width="-1" android:layout_height="-1" android:cacheColorHint="@color/play_main_background" android:divider="@styleable/WalletImButtonBar_capitalizeButtonText" />
+    <com.google.android.finsky.layout.MarginBox android:id="@id/no_results_view" android:visibility="2" android:layout_width="-1" android:layout_height="-1">
+        <TextView android:textSize="@dimen/content_generic_large_size" android:textColor="@color/play_fg_secondary" android:gravity="11" android:layout_gravity="11" android:paddingLeft="16dp" android:paddingRight="16dp" android:layout_width="-1" android:layout_height="-2" android:text="@string/my_wishlist_empty" android:drawableTop="@drawable/ic_empty_wish" android:drawablePadding="10dp" style="@style/PlayLightText" />
+    </com.google.android.finsky.layout.MarginBox>
+</FrameLayout>

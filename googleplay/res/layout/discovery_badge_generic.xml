@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.finsky.layout.play.DiscoveryBadgeGeneric style="@style/DiscoveryBadge">
+    <RelativeLayout finsky:gravity="11" finsky:id="@id/icon_container" finsky:duplicateParentState="true" style="@style/DiscoveryBadgeIconContainer">
+        <com.google.android.play.image.FifeImageView finsky:id="@id/icon" finsky:duplicateParentState="true" finsky:layout_width="-1" finsky:layout_height="-1" finsky:scaleType="3" finsky:fixed_bounds="true" />
+    </RelativeLayout>
+    <TextView finsky:id="@id/title" finsky:duplicateParentState="true" finsky:contentDescription="@styleable/WalletImButtonBar_capitalizeButtonText" style="@style/DiscoveryBadgeTitle" />
+</com.google.android.finsky.layout.play.DiscoveryBadgeGeneric>

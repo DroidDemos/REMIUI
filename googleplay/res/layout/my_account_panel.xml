@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:id="@id/my_account_panel" android:layout_width="-1" android:layout_height="-1">
+    <LinearLayout android:orientation="1" android:paddingTop="@dimen/card_list_vpadding" android:paddingBottom="@dimen/card_list_vpadding" android:layout_width="-1" android:layout_height="-2">
+        <FrameLayout android:id="@id/payment_methods" android:layout_width="-1" android:layout_height="-2" />
+        <include android:id="@id/order_history" layout="@layout/my_account_order_history_section" />
+    </LinearLayout>
+</ScrollView>

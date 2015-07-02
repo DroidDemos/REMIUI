@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout finsky:orientation="1" finsky:id="@id/item_details_panel" finsky:background="@color/play_white" finsky:paddingLeft="16dp" finsky:paddingTop="16dp" finsky:paddingRight="16dp" finsky:paddingBottom="8dp" finsky:layout_width="-1" finsky:layout_height="-2">
+    <RelativeLayout finsky:layout_width="-1" finsky:layout_height="-2">
+        <include layout="@layout/details_summary_thumbnail" />
+        <com.google.android.finsky.layout.DetailsSummaryWishlistView finsky:id="@id/title_wishlist_button" finsky:background="@drawable/play_highlight_overlay_light" finsky:focusable="true" finsky:layout_width="-2" finsky:layout_height="-2" finsky:layout_alignParentRight="true" />
+        <LinearLayout finsky:orientation="1" finsky:paddingLeft="16dp" finsky:layout_width="-2" finsky:layout_height="-2" finsky:layout_toLeftOf="@id/wishlist_button" finsky:layout_toRightOf="@id/title_thumbnail_frame">
+            <com.google.android.play.layout.PlayTextView finsky:id="@id/title_title" finsky:layout_width="-1" finsky:layout_height="-2" finsky:allowsCompactLineSpacing="true" style="@style/PlayDetailTitle" />
+            <LinearLayout finsky:orientation="0" finsky:id="@id/title_creator_panel" finsky:background="@drawable/play_highlight_overlay_light" finsky:paddingBottom="2dp" finsky:layout_width="-1" finsky:layout_height="-2">
+                <com.google.android.finsky.layout.DecoratedTextView finsky:id="@id/title_creator" finsky:layout_width="-2" finsky:layout_height="-2" finsky:drawablePadding="4dp" style="@style/Play_DetailsPage_Subtitle" />
+            </LinearLayout>
+        </LinearLayout>
+    </RelativeLayout>
+    <RelativeLayout finsky:layout_width="-1" finsky:layout_height="-2" finsky:layout_marginTop="8dp">
+        <LinearLayout finsky:orientation="1" finsky:layout_width="-2" finsky:layout_height="-2" finsky:layout_alignParentBottom="true"
+            <LinearLayout finsky:gravity="10" finsky:orientation="0" finsky:layout_width="-2" finsky:layout_height="-2">
+                <include layout="@layout/inline_app_star_rating" />
+            </LinearLayout>
+            <TextView finsky:textSize="@dimen/content_generic_xsmall_size" finsky:id="@id/title_extra_label_in_app_purchase" finsky:visibility="2" finsky:layout_width="-2" finsky:layout_height="-2" style="@style/Play_DetailsPage_Subtitle" />
+        </LinearLayout>
+        <FrameLayout finsky:layout_width="-2" finsky:layout_height="-2" finsky:layout_alignParentRight="true" finsky:layout_alignParentBottom="true">
+            <com.google.android.play.layout.PlayActionButton finsky:id="@id/buy_button" finsky:visibility="2" finsky:action_style="0" finsky:local_priority="0" style="@style/Play_DetailsPage_ActionButton" />
+            <com.google.android.play.layout.PlayActionButton finsky:id="@id/launch_button" finsky:visibility="2" finsky:text="@string/open" finsky:action_style="2" finsky:local_priority="2" style="@style/Play_DetailsPage_ActionButton" />
+        </FrameLayout>
+    </RelativeLayout>
+</LinearLayout>

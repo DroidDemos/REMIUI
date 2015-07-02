@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape>
+    <solid android:color="@color/play_card_light_background" />
+    <corners android:radius="@dimen/play_card_default_radius" android:topLeftRadius="@dimen/play_card_default_radius" android:topRightRadius="@dimen/play_card_default_radius" android:bottomLeftRadius="0dp" android:bottomRightRadius="0dp" />
+</shape>

@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector>
+    <item android:state_enabled="false" android:color="@color/play_fg_secondary" />
+    <item android:color="@color/play_movies_primary" />
+</selector>

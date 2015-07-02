@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextView android:textSize="@dimen/content_generic_small_size" android:textColor="@color/play_secondary_text" android:padding="16dp" android:layout_width="-1" android:layout_height="-2" android:text="@string/no_order_history" />

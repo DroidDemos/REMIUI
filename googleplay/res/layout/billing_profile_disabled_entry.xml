@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.finsky.layout.SeparatorLinearLayout android:gravity="10" android:background="@drawable/focus_overlay" android:paddingLeft="8dp" android:paddingRight="8dp" android:focusable="true" android:layout_width="-1" android:layout_height="-2" android:minHeight="60dp">
+    <com.google.android.play.image.FifeImageView android:id="@id/image_icon" android:layout_width="32dp" android:layout_height="32dp" android:layout_marginRight="8dp" />
+    <LinearLayout android:orientation="1" android:layout_width="-1" android:layout_height="-2">
+        <TextView android:id="@id/title" android:layout_width="-2" android:layout_height="-2" style="@style/BillingProfile_Disabled_Entry" />
+        <TextView android:id="@id/byline" android:layout_width="-2" android:layout_height="-2" style="@style/BillingProfile_Disabled_Entry_Byline" />
+    </LinearLayout>
+</com.google.android.finsky.layout.SeparatorLinearLayout>

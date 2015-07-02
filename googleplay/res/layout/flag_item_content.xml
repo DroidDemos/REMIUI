@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="1" android:paddingLeft="@dimen/details_content_margin" android:paddingRight="@dimen/details_content_margin" android:layout_width="-1" android:layout_height="-2">
+    <TextView android:textSize="@dimen/content_generic_large_size" android:textColor="@color/play_primary_text" android:id="@id/flag_content_instruction" android:background="@drawable/play_highlight_overlay_light" android:paddingTop="8dp" android:paddingBottom="8dp" android:focusable="true" android:layout_width="-1" android:layout_height="-2" android:text="@string/flag_page_description" />
+    <RadioGroup android:textSize="@dimen/content_generic_large_size" android:textColor="@color/play_primary_text" android:orientation="1" android:id="@id/flag_item_list" android:layout_width="-1" android:layout_height="-2" />
+    <TextView android:textSize="@dimen/content_generic_large_size" android:textColor="@color/play_primary_text" android:id="@id/flag_content_footer" android:background="@drawable/play_highlight_overlay_light" android:paddingTop="8dp" android:paddingBottom="8dp" android:focusable="true" android:visibility="2" android:layout_width="-1" android:layout_height="-2" />
+</LinearLayout>

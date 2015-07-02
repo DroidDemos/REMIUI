@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector android:height="24dp" android:width="24dp" android:autoMirrored="true" android:viewportHeight="24.0">
+    <path android:pathData="M10,6 l-1.4,1.4 4.6,4.6 -4.6,4.6 1.4,1.4 6,-6z" />
+</vector>

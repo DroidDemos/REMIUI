@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:id="@id/container" android:layout_width="-1" android:layout_height="-1">
+    <ListView android:id="@id/list" android:scrollbars="0" android:layout_width="-1" android:layout_height="-1" />
+    <miui.widget.AlphabetFastIndexer android:id="@id/fast_indexer" android:visibility="2" android:layout_width="-2" android:layout_height="-1" style="0x80d005e" />
+    <com.miui.yellowpage.widget.LoadingProgressView android:gravity="11" android:layout_gravity="50" android:id="@id/loading_view" android:visibility="2" android:layout_width="-1" android:layout_height="-1" />
+</FrameLayout>

@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<set android:interpolator="0x10a0008" android:shareInterpolator="false">
+    <translate android:duration="@integer/play_onboard__slide_duration_ms" android:fromXDelta="-100%" android:toXDelta="0%" android:fromYDelta="0%" android:toYDelta="0%" />
+</set>

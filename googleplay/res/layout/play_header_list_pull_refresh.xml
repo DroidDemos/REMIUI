@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge>
+    <com.google.android.play.widget.TouchBlockingFrameLayout android:id="@id/swipe_refresh_layout_parent" android:visibility="2" android:layout_width="-1" android:layout_height="-1">
+        <android.support.v4.widget.SwipeRefreshLayout android:id="@id/swipe_refresh_layout" android:layout_width="-1" android:layout_height="-1">
+            <com.google.android.play.widget.ScrollProxyView android:id="@id/scroll_proxy" android:layout_width="-1" android:layout_height="-1" />
+        </android.support.v4.widget.SwipeRefreshLayout>
+    </com.google.android.play.widget.TouchBlockingFrameLayout>
+</merge>

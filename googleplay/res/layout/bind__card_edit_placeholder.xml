@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.libraries.bind.experimental.card.CardEditPlaceHolder android:background="@drawable/bind__card_edit_placeholder_bg" android:layout_width="-1" android:layout_height="-1" />

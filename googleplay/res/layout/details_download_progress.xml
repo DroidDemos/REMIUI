@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="-1" android:layout_height="-2">
+    <ImageView android:id="@id/cancel_download" android:background="@drawable/play_highlight_overlay_light" android:focusable="true" android:layout_width="-2" android:layout_height="-2" android:layout_marginLeft="4dp" android:src="@drawable/ic_menu_close_clear_cancel_light" android:layout_alignParentTop="true" android:layout_alignParentRight="true" android:contentDescription="@string/content_description_cancel_download" />
+    <TextView android:textSize="@dimen/content_generic_small_size" android:textColor="@color/play_fg_secondary" android:id="@id/downloading_percentage" android:layout_width="-2" android:layout_height="-2" android:singleLine="true" android:layout_toLeftOf="@id/cancel_download" android:layout_alignParentTop="true" style="@style/PlayLightText" />
+    <TextView android:textSize="@dimen/content_generic_small_size" android:textColor="@color/play_fg_secondary" android:id="@id/downloading_bytes" android:layout_width="-2" android:layout_height="-2" android:singleLine="true" android:layout_alignParentLeft="true" android:layout_alignParentTop="true" style="@style/PlayLightText" />
+    <ProgressBar android:id="@id/progress_bar" android:layout_width="-1" android:layout_height="-2" android:max="100" android:layout_toLeftOf="@id/cancel_download" android:layout_below="@id/downloading_percentage" android:layout_alignParentLeft="true" style="?unknown_attr_ref: 1010078" />
+</RelativeLayout>

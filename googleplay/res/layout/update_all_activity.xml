@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.finsky.layout.MaxSizeLinearLayout finsky:orientation="1" finsky:paddingBottom="10dp" finsky:layout_width="-1" finsky:layout_height="-1" finsky:minWidth="@dimen/update_all_dialog_width" finsky:minHeight="@dimen/update_all_dialog_height" finsky:max_size_layout_height="@dimen/update_all_dialog_height" finsky:max_width="@dimen/update_all_dialog_width">
+    <FrameLayout finsky:id="@id/main_layout" finsky:layout_width="-1" finsky:layout_height="0dp" finsky:layout_marginBottom="10dp" finsky:layout_weight="1.0" />
+    <include finsky:layout_width="-1" finsky:layout_height="-2" finsky:layout_marginLeft="20dp" finsky:layout_marginRight="20dp" layout="@layout/play_button_bar" />
+</com.google.android.finsky.layout.MaxSizeLinearLayout>

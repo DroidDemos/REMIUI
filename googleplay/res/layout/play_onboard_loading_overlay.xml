@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:background="@color/play_onboard__loading_overlay_background" android:paddingBottom="@dimen/play_onboard__onboard_nav_footer_height" android:layout_width="-1" android:layout_height="-1">
+    <ProgressBar android:layout_gravity="11" android:layout_width="-2" android:layout_height="-2" android:indeterminate="true" />
+</FrameLayout>

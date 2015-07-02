@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextView android:textSize="@dimen/content_generic_xsmall_size" android:textColor="@color/play_fg_secondary" android:id="@id/extra_attributions" android:background="@drawable/play_highlight_overlay_light" android:paddingTop="@dimen/details_text_section_extras_padding" android:paddingRight="6dp" android:paddingBottom="@dimen/details_text_section_extras_padding" android:focusable="true" android:layout_width="-1" android:layout_height="-2" style="@style/PlayPlainText" />

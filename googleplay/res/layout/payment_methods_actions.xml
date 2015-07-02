@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="1" android:layout_width="-1" android:layout_height="-2"
+    <LinearLayout android:orientation="1" android:id="@id/actions_container" android:layout_width="-1" android:layout_height="-2" />
+    <com.google.android.finsky.layout.ForegroundLinearLayout android:orientation="1" android:id="@id/instruments_switcher" android:paddingTop="@dimen/my_account_separator_ypadding" android:focusable="true" android:layout_width="-1" android:layout_height="-2" android:foreground="@drawable/play_highlight_overlay_light">
+        <include layout="@layout/my_account_separator" />
+        <TextView android:gravity="10" android:layout_width="-1" android:text="@string/payment_methods" android:drawableLeft="@drawable/ic_myaccount_back" style="@style/MyAccountAction" />
+    </com.google.android.finsky.layout.ForegroundLinearLayout>
+</LinearLayout>

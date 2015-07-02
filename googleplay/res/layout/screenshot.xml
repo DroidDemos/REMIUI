@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.finsky.layout.ScreenshotView android:background="@color/black" android:layout_width="-1" android:layout_height="-1">
+    <ProgressBar android:layout_gravity="11" android:id="@id/screenshot_progress_bar" android:visibility="2" android:layout_width="-2" android:layout_height="-2" android:indeterminate="true" />
+    <com.google.android.play.image.FifeImageView android:id="@id/screenshot_content" android:layout_width="-1" android:layout_height="-1" android:foreground="@drawable/play_highlight_overlay_dark" />
+</com.google.android.finsky.layout.ScreenshotView>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.play.onboard.InterstitialOverlay android:background="@color/play_onboard__interstitial_overlay_background" android:layout_width="-1" android:layout_height="-1">
+    <LinearLayout android:gravity="11" android:layout_gravity="11" android:orientation="1" android:layout_width="-2" android:layout_height="-2"
+        <LinearLayout style="@style/PlayOnboardInterstitialGridRow">
+            <View style="@style/PlayOnboardInterstitialGridCell" />
+            <View style="@style/PlayOnboardInterstitialGridCell" />
+            <View style="@style/PlayOnboardInterstitialGridCell" />
+        </LinearLayout>
+        <LinearLayout style="@style/PlayOnboardInterstitialGridRow">
+            <View style="@style/PlayOnboardInterstitialGridCell" />
+            <View style="@style/PlayOnboardInterstitialGridCell" />
+            <View style="@style/PlayOnboardInterstitialGridCell" />
+        </LinearLayout>
+        <LinearLayout style="@style/PlayOnboardInterstitialGridRow">
+            <View style="@style/PlayOnboardInterstitialGridCell" />
+            <View style="@style/PlayOnboardInterstitialGridCell" />
+            <View style="@style/PlayOnboardInterstitialGridCell" />
+        </LinearLayout>
+        <TextView android:textSize="@dimen/play_onboard__onboard_interstitial_overlay_caption_text_size" android:textColor="@color/play_onboard_app_color_dark" android:gravity="11" android:layout_gravity="1" android:id="@id/caption" android:paddingTop="@dimen/play_onboard__onboard_interstitial_overlay_caption_padding_top" android:layout_width="-2" android:layout_height="-2" android:maxLines="2" android:minLines="1" />
+    </LinearLayout>
+</com.google.android.play.onboard.InterstitialOverlay>

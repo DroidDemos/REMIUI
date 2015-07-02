@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.wallet.instrumentmanager.ui.common.RegionCodeView android:layout_width="-1" android:layout_height="-2">
+    <com.google.android.wallet.instrumentmanager.ui.common.RegionCodeSelectorSpinner android:gravity="10" android:id="@id/region_code_spinner" android:visibility="2" android:layout_width="-1" android:layout_height="-2" android:layout_marginTop="?attr/imFormVerticalMargin" android:layout_marginBottom="?attr/imFormVerticalMargin" android:minHeight="?attr/imFormItemHeight" android:prompt="@string/select_location" style="?attr/imFormSpinnerStyle" />
+    <include android:id="@id/region_code_text" android:visibility="2" layout="@layout/view_form_non_editable_text" />
+</com.google.android.wallet.instrumentmanager.ui.common.RegionCodeView>

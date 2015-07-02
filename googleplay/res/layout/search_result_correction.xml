@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.finsky.layout.SearchResultCorrectionLayout android:orientation="1" android:background="@drawable/play_highlight_overlay_light" android:layout_width="-1" android:layout_height="-2">
+    <include android:id="@id/suggestion_line" layout="@layout/suggestion_bar" />
+    <include android:id="@id/replaced_line" layout="@layout/suggestion_bar" />
+</com.google.android.finsky.layout.SearchResultCorrectionLayout>

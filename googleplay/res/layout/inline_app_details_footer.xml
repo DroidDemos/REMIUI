@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/inline_app_details_footer" android:background="@color/play_white" android:paddingLeft="16dp" android:paddingTop="8dp" android:paddingRight="16dp" android:paddingBottom="8dp" android:layout_width="-1" android:layout_height="-2">
+    <TextView android:textColor="@color/play_apps_primary" android:orientation="0" android:id="@id/more_details" android:background="@drawable/play_highlight_overlay_light" android:padding="8dp" android:focusable="true" android:clickable="true" android:layout_width="-2" android:layout_height="-2" android:layout_alignParentRight="true" android:layout_centerVertical="true" style="@style/PlayCardAction" />
+    <ImageView android:id="@id/logo" android:layout_width="-2" android:layout_height="-2" android:src="@drawable/logo_play_purchase_flow_gray_light" android:layout_alignParentLeft="true" android:layout_centerVertical="true" />
+</RelativeLayout>

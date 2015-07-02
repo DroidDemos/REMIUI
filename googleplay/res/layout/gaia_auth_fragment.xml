@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="1" android:id="@id/gaia_auth_fragment" android:layout_width="-1" android:layout_height="-1"
+    <LinearLayout android:orientation="1" android:id="@id/content" android:paddingLeft="@dimen/addinstrument_content_padding" android:paddingRight="@dimen/addinstrument_content_padding" android:layout_width="-1" android:layout_height="-2">
+        <TextView android:textSize="@dimen/content_generic_large_size" android:id="@id/challenge_description" android:layout_width="-1" android:layout_height="-2" android:layout_marginLeft="16dp" android:layout_marginTop="10dp" android:layout_marginRight="16dp" />
+        <EditText android:textSize="@dimen/content_generic_large_size" android:id="@id/authentication_gaia_input" android:visibility="2" android:layout_width="-1" android:layout_height="-2" android:layout_marginLeft="8dp" android:layout_marginTop="6dp" android:layout_marginRight="8dp" android:layout_marginBottom="6dp" android:singleLine="true" />
+        <TextView android:textSize="@dimen/content_generic_small_size" android:textColor="@color/grey" android:id="@id/opt_out_info" android:visibility="2" android:layout_width="-1" android:layout_height="-2" android:layout_marginLeft="16dp" android:layout_marginRight="8dp" android:layout_marginBottom="10dp" />
+        <TextView android:textSize="@dimen/content_generic_small_size" android:layout_gravity="10" android:id="@id/challenge_footer" android:layout_width="-2" android:layout_height="-2" android:layout_marginLeft="16dp" android:layout_marginRight="8dp" android:layout_marginBottom="12dp" />
+    </LinearLayout>
+    <include layout="@layout/button_bar" />
+</LinearLayout>

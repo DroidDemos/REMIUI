@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.play.layout.PlayCardViewMini playcommon:id="@id/play_card" playcommon:focusable="true" playcommon:nextFocusRight="@id/li_overflow" playcommon:layout_width="-1" playcommon:layout_height="0dp" playcommon:foreground="@drawable/play_highlight_round_overlay_light" style="@style/PlayCardViewGroup">
+    <com.google.android.play.layout.PlayCardThumbnail playcommon:id="@id/li_thumbnail_frame" playcommon:layout_width="-1" playcommon:layout_height="0dp" playcommon:app_thumbnail_padding="6dp">
+        <include playcommon:id="@id/li_thumbnail" layout="@layout/play_card_thumbnail" />
+    </com.google.android.play.layout.PlayCardThumbnail>
+    <com.google.android.play.layout.PlayTextView playcommon:id="@id/li_title" playcommon:layout_width="-1" playcommon:layout_height="-2" playcommon:layout_marginLeft="@dimen/play_card_content_horizontal_inset_mini" playcommon:layout_marginTop="@dimen/play_card_content_vertical_inset_mini" playcommon:layout_marginRight="20dp" style="@style/PlayCardTitle_Mini" />
+    <com.google.android.play.layout.PlayCardLabelView playcommon:id="@id/li_label" playcommon:layout_marginLeft="6dp" playcommon:layout_marginRight="@dimen/play_card_content_horizontal_inset_mini" playcommon:layout_marginBottom="@dimen/play_card_content_vertical_inset_mini" style="@style/PlayCardLabel" />
+    <com.google.android.play.layout.StarRatingBar playcommon:id="@id/li_rating" playcommon:layout_width="-2" playcommon:layout_height="-2" playcommon:layout_marginLeft="@dimen/play_card_content_horizontal_inset_mini" playcommon:layout_marginRight="2dp" style="@style/PlayRatingBarMini" />
+    <include playcommon:id="@id/li_subtitle" playcommon:layout_width="-1" playcommon:layout_height="-2" playcommon:layout_marginLeft="@dimen/play_card_content_horizontal_inset_mini" playcommon:layout_marginRight="6dp" layout="@layout/play_card_subtitle" />
+    <ProgressBar playcommon:id="@id/loading_progress_bar" playcommon:layout_width="-2" playcommon:layout_height="-2" playcommon:indeterminate="true" playcommon:layout_centerInParent="true" />
+    <ImageView playcommon:id="@id/li_overflow" playcommon:nextFocusLeft="@id/play_card" playcommon:layout_marginTop="@dimen/play_card_overflow_top_margin" playcommon:layout_marginRight="@dimen/play_card_overflow_inset_mini" style="@style/PlayCardOverflow" />
+</com.google.android.play.layout.PlayCardViewMini>

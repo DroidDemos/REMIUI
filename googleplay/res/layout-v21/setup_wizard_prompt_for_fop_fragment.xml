@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="-1" android:layout_height="-2">
+    <LinearLayout android:gravity="5" android:orientation="1" android:id="@id/profile" android:layout_width="-1" android:layout_height="-2">
+        <TextView android:id="@id/primer" android:paddingBottom="13dp" android:layout_width="-1" android:layout_height="-2" android:textAlignment="4" style="@style/SetupWizardLightText" />
+        <LinearLayout android:orientation="1" android:id="@id/actions_container" android:layout_width="-1" android:layout_height="-2"
+            <LinearLayout android:orientation="1" android:id="@id/actions" android:layout_width="-1" android:layout_height="-2" />
+            <include layout="@layout/prompt_for_fop_toggler_row" />
+            <LinearLayout android:orientation="1" android:id="@id/more_actions" android:visibility="2" android:layout_width="-1" android:layout_height="-2" /> /> />
+    <ProgressBar android:layout_gravity="11" android:id="@id/loading_indicator" android:layout_width="-2" android:layout_height="-2" />
+</FrameLayout>

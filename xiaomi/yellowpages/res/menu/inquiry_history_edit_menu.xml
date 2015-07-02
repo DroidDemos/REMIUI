@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu>
+    <item android:icon="0x8020005" android:id="@id/delete" android:title="@string/delete" android:showAsAction="2" />
+    <item android:icon="@drawable/action_button_remark" android:id="@id/remark" android:title="@string/express_inquiry_history_remark" android:showAsAction="2" />
+</menu>

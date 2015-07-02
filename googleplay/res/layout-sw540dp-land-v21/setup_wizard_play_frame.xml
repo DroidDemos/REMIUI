@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="-1" android:layout_height="-1">
+    <FrameLayout android:layout_width="-1" android:layout_height="-1" android:layout_above="@id/navigation_bar">
+        <com.google.android.finsky.layout.SetupWizardIllustration android:orientation="1" android:id="@id/illustration" android:background="@drawable/setup_wizard_header_bg" android:layout_width="-1" android:layout_height="-1">
+            <com.google.android.play.image.FifeImageView android:id="@id/setup_wizard_header_graphic" android:layout_width="-1" android:layout_height="256dp" />
+        </com.google.android.finsky.layout.SetupWizardIllustration>
+        <LinearLayout android:gravity="800033" android:orientation="0" android:layout_width="-1" android:layout_height="-1" android:weightSum="8.0">
+            <TextView android:id="@id/title" android:layout_width="0dp" android:layout_marginTop="256dp" android:layout_weight="3.0" style="@style/SetupWizardCardTitle" />
+            <ScrollView android:id="@id/bottom_scroll_view" android:background="?unknown_attr_ref: 1010031" android:layout_width="0dp" android:layout_height="-1" android:layout_marginTop="128dp" android:layout_weight="4.0" android:elevation="5dp">
+                <FrameLayout android:layout_width="-1" android:layout_height="-2">
+                    <include layout="@layout/setup_wizard_divider_and_progress" />
+                    <include android:visibility="2" layout="@layout/page_loading_indicator" />
+                    <FrameLayout android:id="@id/content_frame" android:layout_width="-1" android:layout_height="-2" style="@style/SetupWizardContentFrame" /> />
+            </ScrollView>
+        </LinearLayout> />
+    <fragment android:name="com.google.android.finsky.setup.SetupWizardNavBar" android:id="@id/navigation_bar" style="@style/SetupWizardNavbar" />
+</RelativeLayout>

@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.play.onboard.OnboardTutorialPage android:layout_width="-1" android:layout_height="-1">
+    <include android:layout_width="-1" android:layout_height="-1" layout="@layout/play_onboard_tutorial_page_content" />
+</com.google.android.play.onboard.OnboardTutorialPage>

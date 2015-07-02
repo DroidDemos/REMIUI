@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.finsky.layout.BucketRow android:gravity="1" android:id="@id/bucket_items" android:paddingLeft="4dp" android:paddingRight="4dp" android:layout_width="-1" android:layout_height="-2" />

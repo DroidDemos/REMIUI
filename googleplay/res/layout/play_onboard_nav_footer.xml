@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge android:layout_width="-1" android:layout_height="-1">
+    <TextView android:layout_gravity="800013" android:id="@id/start_button" style="@style/PlayOnboardNavFooterButton" />
+    <com.google.android.play.widget.PageIndicator android:layout_gravity="11" android:orientation="0" android:id="@id/page_indicator" android:layout_width="-2" android:layout_height="-2" />
+    <TextView android:layout_gravity="800015" android:id="@id/end_button" style="@style/PlayOnboardNavFooterButton" />
+</merge>

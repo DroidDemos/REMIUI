@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextView android:textAppearance="?attr/imFormInputTextAppearance" android:id="@id/description" android:paddingLeft="@dimen/wallet_im_form_spinner_view_left_padding" android:layout_width="-1" android:layout_height="-2" android:singleLine="true" />

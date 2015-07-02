@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.miui.yellowpage.ui.YellowPageGroupHeaderItem android:layout_width="-1" android:layout_height="@dimen/list_preferred_item_height_group_header" style="0x80d004d">
+    <TextView android:textColor="@color/yellow_page_group_header_text_color" android:layout_gravity="53" android:id="@id/name" android:layout_width="-1" android:layout_height="-2" android:layout_marginBottom="@dimen/group_header_margin_bottom" style="0x80d0056" />
+</com.miui.yellowpage.ui.YellowPageGroupHeaderItem>

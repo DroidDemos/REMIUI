@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="utf-8"?>
+<searchable android:label="@string/app_name" android:hint="@string/search_hint" android:searchSuggestAuthority="com.google.android.finsky.RecentSuggestionsProvider" android:searchSuggestSelection=" ?" android:voiceSearchMode="5" android:imeOptions="3" />

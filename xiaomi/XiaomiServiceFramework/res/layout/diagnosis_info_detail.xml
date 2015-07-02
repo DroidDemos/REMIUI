@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_width="-1" android:layout_height="-1">
+    <WebView android:id="@id/web_view" android:layout_width="-1" android:layout_height="-1" />
+</LinearLayout>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/continue_button_bar" android:paddingLeft="16dp" android:paddingTop="14dp" android:paddingRight="16dp" android:paddingBottom="14dp" android:layout_width="-1" android:layout_height="-2">
+    <com.google.android.finsky.layout.IconButtonGroup android:orientation="0" android:id="@id/continue_button" android:focusable="true" android:layout_width="-2" android:layout_height="-2" android:foreground="@drawable/play_highlight_round_overlay_dark" android:layout_alignParentRight="true" android:layout_centerVertical="true">
+        <ImageView android:id="@id/continue_button_icon" android:background="@drawable/light_purchase_icon_background" android:visibility="2" android:layout_width="@dimen/purchase_button_icon_width" android:layout_height="28dp" />
+        <TextView android:id="@id/continue_button_label" android:focusable="false" android:layout_height="28dp" style="@style/Play_Purchase_TextViewButton" />
+    </com.google.android.finsky.layout.IconButtonGroup>
+    <ImageView android:id="@id/logo" android:layout_width="-2" android:layout_height="-2" android:src="@drawable/logo_play_purchase_flow_gray_light" android:layout_alignParentLeft="true" android:layout_centerVertical="true" />
+</RelativeLayout>

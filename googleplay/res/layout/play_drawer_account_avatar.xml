@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.play.image.FifeImageView play_common:layout_width="-2" play_common:layout_height="-2" play_common:scaleType="2" play_common:fixed_bounds="true" play_common:is_avatar_no_ring="true" />

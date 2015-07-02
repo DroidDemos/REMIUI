@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextView android:textSize="@dimen/content_generic_large_size" android:textStyle="1" android:gravity="13" android:id="@id/user_review_header" android:background="@drawable/play_highlight_overlay_light" android:paddingLeft="@dimen/details_content_margin" android:paddingTop="6dp" android:paddingRight="@dimen/details_content_margin" android:paddingBottom="6dp" android:focusable="true" android:nextFocusDown="@id/review_form" android:layout_width="-1" android:layout_height="-2" android:text="@string/details_user_review">
+    <requestFocus />
+</TextView>

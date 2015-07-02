@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="-1" android:layout_height="-1">
+    <ImageView android:id="@id/widget_background_top" android:layout_width="-1" android:layout_height="-1" android:scaleType="6" />
+    <TextView android:id="@id/widget_background_top_overlay" android:background="@color/now_playing_widget_bg" android:visibility="2" android:layout_width="-1" android:layout_height="-1" />
+    <LinearLayout android:orientation="1" android:layout_width="-1" android:layout_height="-1" android:baselineAligned="false">
+        <include layout="@layout/now_playing_title" />
+        <FrameLayout android:layout_width="-1" android:layout_height="0dp" android:layout_weight="1.0">
+            <LinearLayout android:gravity="10" android:orientation="1" android:id="@id/widget_content" android:layout_width="-1" android:layout_height="-1" />
+            <LinearLayout android:orientation="1" android:layout_width="-1" android:layout_height="-1">
+                <RelativeLayout android:id="@id/message_holder" android:visibility="1" android:layout_width="-1" android:layout_height="0dp" android:layout_weight="1.0">
+                    <ImageView android:id="@id/message_background" android:visibility="0" android:layout_width="-1" android:layout_height="-1" android:src="@color/now_playing_widget_empty_bg" />
+                    <TextView android:textSize="@dimen/library_widget_empty_state_size" android:textStyle="1" android:textColor="@color/now_playing_widget_empty_fg" android:gravity="11" android:id="@id/message_text" android:layout_width="-2" android:layout_height="-2" android:text="@string/widget_welcome_empty_legend" android:drawableTop="@drawable/flo_widget_empty_logo" android:drawablePadding="16dp" android:layout_centerInParent="true" />
+                </RelativeLayout>
+                <include layout="@layout/now_playing_widget_hotseat" />
+            </LinearLayout>
+        </FrameLayout>
+    </LinearLayout>
+    <include android:id="@id/widget_background_accessibility" android:visibility="2" layout="@layout/widget_accessibility_overlay" />
+</FrameLayout>

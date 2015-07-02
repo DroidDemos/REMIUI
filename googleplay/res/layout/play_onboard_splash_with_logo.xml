@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge>
+    <LinearLayout android:orientation="1" android:id="@id/splash" android:background="@color/play_onboard_app_color" android:layout_width="-1" android:layout_height="-1">
+        <FrameLayout android:layout_width="-1" android:layout_height="0dp" android:layout_weight="1.0">
+            <ImageView android:layout_gravity="11" android:id="@id/app_logo" android:layout_width="@dimen/play_onboard__splash_app_logo_width" android:layout_height="-2" android:src="@drawable/play_onboard_splash_app_logo" android:scaleType="3" android:adjustViewBounds="true" android:contentDescription="@styleable/WalletImButtonBar_capitalizeButtonText" />
+        </FrameLayout>
+        <ImageView android:layout_gravity="1" android:layout_width="@dimen/play_onboard__splash_play_logo_width" android:layout_height="-2" android:layout_marginBottom="@dimen/play_onboard__splash_play_logo_bottom_margin" android:src="@drawable/ic_googleplay" android:scaleType="3" android:adjustViewBounds="true" android:contentDescription="@styleable/WalletImButtonBar_capitalizeButtonText" />
+    </LinearLayout>
+</merge>

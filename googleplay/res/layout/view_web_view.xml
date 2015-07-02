@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="-1" android:layout_height="-1">
+    <ProgressBar android:layout_gravity="11" android:id="@id/progress_bar" android:layout_width="-2" android:layout_height="-2" android:layout_marginTop="4dp" android:layout_marginBottom="4dp" android:indeterminate="true" style="?attr/imProgressBarLarge" />
+    <TextView android:layout_gravity="11" android:id="@id/error_msg" android:visibility="2" android:layout_width="-2" android:layout_height="-2" android:text="@string/wallet_im_error_loading_page" />
+</FrameLayout>

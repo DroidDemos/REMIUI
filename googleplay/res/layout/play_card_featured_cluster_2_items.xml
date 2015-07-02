@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="1" android:layout_width="-1" android:layout_height="-2">
+    <include android:id="@id/primary_item" android:layout_width="-1" android:layout_height="-2" android:layout_marginBottom="@dimen/play_featured_card_spacing" layout="@layout/play_card_featured" />
+    <include android:id="@id/second_item" android:layout_width="-1" android:layout_height="-2" layout="@layout/play_card_featured" />
+</LinearLayout>

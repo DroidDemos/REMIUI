@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.finsky.layout.MaxWidthLinearLayout finsky:orientation="1" finsky:layout_width="-2" finsky:layout_height="-2" finsky:minWidth="@dimen/light_purchase_dialog_width" finsky:max_width="@dimen/light_purchase_dialog_width">
+    <com.google.android.finsky.layout.AccountSelectorView finsky:textSize="@dimen/content_generic_small_size" finsky:textColor="@color/play_fg_secondary" finsky:id="@id/account_name" finsky:background="@drawable/play_highlight_overlay_light" finsky:layout_width="-1" finsky:layout_height="-2" style="@style/AccountSelector" />
+    <ScrollView finsky:layout_width="-1" finsky:layout_height="0dp" finsky:layout_weight="1.0">
+        <TextView finsky:textSize="@dimen/content_generic_medium_size" finsky:textColor="@color/play_fg_primary" finsky:layout_gravity="1" finsky:id="@id/content" finsky:paddingLeft="@dimen/details_new_content_margin" finsky:paddingTop="@dimen/details_new_content_margin" finsky:paddingRight="@dimen/details_new_content_margin" finsky:paddingBottom="16dp" finsky:layout_width="-1" finsky:layout_height="-2" />
+    </ScrollView>
+    <CheckBox finsky:textSize="@dimen/content_generic_medium_size" finsky:textColor="@color/play_fg_primary" finsky:id="@id/email_opt_in" finsky:layout_width="-1" finsky:layout_height="-2" finsky:layout_marginLeft="@dimen/details_new_content_margin" finsky:layout_marginRight="@dimen/details_new_content_margin" finsky:layout_marginBottom="12dp" />
+    <include layout="@layout/button_bar" />
+</com.google.android.finsky.layout.MaxWidthLinearLayout>

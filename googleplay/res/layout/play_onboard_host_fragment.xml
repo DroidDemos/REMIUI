@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="-1" android:layout_height="-1">
+    <com.google.android.play.onboard.OnboardPager android:layout_gravity="11" android:id="@id/play_onboard_pager" android:paddingBottom="@dimen/play_onboard__onboard_pager_padding_bottom" android:layout_width="-1" android:layout_height="-1" />
+    <com.google.android.play.onboard.OnboardNavFooter android:layout_gravity="50" android:id="@id/play_onboard_footer" android:layout_width="-1" android:layout_height="@dimen/play_onboard__onboard_nav_footer_height" />
+    <ImageView android:id="@id/play_onboard_drops" android:layout_width="-1" android:layout_height="-1" android:contentDescription="@styleable/WalletImButtonBar_capitalizeButtonText" />
+    <include android:layout_width="-1" android:layout_height="-1" layout="@layout/play_onboard_splash_with_logo" />
+</FrameLayout>

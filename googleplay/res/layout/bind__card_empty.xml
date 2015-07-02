@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.libraries.bind.card.CardEmpty android:focusable="false" android:focusableInTouchMode="false" android:clickable="false" android:longClickable="false" android:layout_width="-1" android:layout_height="-1" android:contentDescription="@styleable/WalletImButtonBar_capitalizeButtonText" android:bind__supportsAnimationCapture="false" />

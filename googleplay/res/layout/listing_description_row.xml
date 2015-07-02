@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.finsky.layout.ListingDescriptionRow android:orientation="0" android:background="@drawable/play_highlight_overlay_light" android:paddingBottom="2dp" android:focusable="true" android:layout_width="-1" android:layout_height="-2">
+    <com.google.android.play.image.FifeImageView android:id="@id/listing_description_icon" android:layout_width="24dp" android:layout_height="24dp" android:layout_marginRight="2dp" />
+    <TextView android:id="@id/listing_description_text" android:paddingTop="2dp" android:layout_width="0dp" android:layout_height="-2" android:layout_weight="1.0" style="@style/Play_DetailsPage_ListingContent" />
+</com.google.android.finsky.layout.ListingDescriptionRow>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector>
+    <item>
+        <ripple android:color="@color/play_onboard_app_color_dark">
+            <item>
+                <shape>
+                    <solid android:color="@color/play_onboard_app_color" />
+                </shape>
+            </item>
+        </ripple>
+    </item>
+</selector>

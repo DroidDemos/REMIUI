@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animation-list android:id="@id/finish" android:oneshot="true">
+    <item android:duration="@integer/play_download_finish_frame_ms" android:drawable="@drawable/play_ic_dl_l_finish_00000" />
+    <item android:duration="@integer/play_download_finish_frame_ms" android:drawable="@drawable/play_ic_dl_l_finish_00001" />
+    <item android:duration="@integer/play_download_finish_frame_ms" android:drawable="@drawable/play_ic_dl_l_finish_00002" />
+    <item android:duration="@integer/play_download_finish_frame_ms" android:drawable="@drawable/play_ic_dl_l_finish_00003" />
+    <item android:duration="@integer/play_download_finish_frame_ms" android:drawable="@drawable/play_ic_dl_l_finish_00004" />
+    <item android:duration="@integer/play_download_finish_frame_ms" android:drawable="@drawable/play_ic_dl_l_finish_00005" />
+    <item android:duration="@integer/play_download_finish_frame_ms" android:drawable="@drawable/play_ic_dl_l_finish_00006" />
+    <item android:duration="@integer/play_download_finish_frame_ms" android:drawable="@drawable/play_ic_dl_l_finish_00007" />
+    <item android:duration="@integer/play_download_finish_frame_ms" android:drawable="@drawable/play_ic_dl_l_finish_00008" />
+    <item android:duration="@integer/play_download_finish_frame_ms" android:drawable="@drawable/play_ic_dl_l_finish_00009" />
+    <item android:duration="@integer/play_download_finish_frame_ms" android:drawable="@drawable/play_ic_dl_l_finish_00010" />
+    <item android:duration="@integer/play_download_finish_frame_ms" android:drawable="@drawable/play_ic_dl_l_finish_00011" />
+    <item android:duration="@integer/play_download_finish_frame_ms" android:drawable="@drawable/play_ic_dl_l_finish_00012" />
+    <item android:duration="@integer/play_download_finish_frame_ms" android:drawable="@drawable/play_ic_dl_l_finish_00013" />
+    <item android:duration="@integer/play_download_finish_frame_ms" android:drawable="@drawable/play_ic_dl_l_finish_00014" />
+    <item android:duration="@integer/play_download_finish_frame_ms" android:drawable="@drawable/play_ic_dl_l_finish_00015" />
+</animation-list>

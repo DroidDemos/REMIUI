@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.finsky.detailspage.TitleModuleLayout android:id="@id/item_details_panel" android:clipToPadding="false" android:layout_width="-1" android:layout_height="-2">
+    <View android:id="@id/title_background" android:background="@color/play_white" android:layout_width="-2" android:layout_height="-2" />
+    <include layout="@layout/details_summary_thumbnail" />
+    <include layout="@layout/details_summary_content" />
+</com.google.android.finsky.detailspage.TitleModuleLayout>

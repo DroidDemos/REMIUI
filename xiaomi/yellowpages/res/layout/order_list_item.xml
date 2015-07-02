@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.miui.yellowpage.ui.OrderListItem android:layout_width="-1" android:layout_height="-2" style="0x80d004f">
+    <LinearLayout android:orientation="1" android:layout_width="-2" android:layout_height="-2" android:layout_toLeftOf="@id/detail" android:layout_alignParentLeft="true">
+        <RelativeLayout android:layout_width="-1" android:layout_height="-2">
+            <TextView android:id="@id/provider_name" android:layout_width="-2" android:layout_height="-2" android:singleLine="true" android:layout_toLeftOf="@id/order_date" android:layout_alignParentLeft="true" style="0x80d000c" />
+            <TextView android:id="@id/order_date" android:layout_width="-2" android:layout_height="-2" android:layout_alignParentRight="true" style="0x80d000d" />
+        </RelativeLayout>
+        <RelativeLayout android:layout_width="-1" android:layout_height="-2">
+            <TextView android:id="@id/order_title" android:layout_width="-2" android:layout_height="-2" android:singleLine="true" android:layout_toLeftOf="@id/order_status" android:layout_alignParentLeft="true" style="0x80d000d" />
+            <TextView android:textColor="@color/highlight_text_color" android:id="@id/order_status" android:layout_width="-2" android:layout_height="-2" android:layout_alignParentRight="true" style="0x80d000d" />
+        </RelativeLayout>
+        <TextView android:id="@id/order_short_info" android:layout_width="-2" android:layout_height="-2" android:singleLine="true" style="0x80d0058" />
+    </LinearLayout>
+    <ImageView android:id="@id/detail" android:background="@drawable/ic_arrow_right" android:layout_width="-2" android:layout_height="-2" android:scaleType="3" android:layout_alignParentRight="true" android:layout_centerVertical="true" android:contentDescription="@transactionxmlfile/MODE_PRIVATE" />
+</com.miui.yellowpage.ui.OrderListItem>

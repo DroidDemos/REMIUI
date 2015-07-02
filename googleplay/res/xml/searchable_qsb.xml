@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="utf-8"?>
+<searchable android:label="@string/app_name" android:hint="@string/search_hint" android:searchSuggestAuthority="com.google.android.finsky.QSBSuggestionsProvider2" android:searchSuggestSelection=" ?" android:searchSuggestIntentAction="android.Intent.action.VIEW" android:voiceSearchMode="5" android:imeOptions="3" android:includeInGlobalSearch="false" android:queryAfterZeroResults="true" android:searchSettingsDescription="@string/search_description" />

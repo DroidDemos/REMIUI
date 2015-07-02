@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animation-list android:id="@id/pressed" android:oneshot="true">
+    <item android:duration="@integer/play_download_press_frame_ms" android:drawable="@drawable/play_ic_dl_m_click_00000" />
+    <item android:duration="@integer/play_download_press_frame_ms" android:drawable="@drawable/play_ic_dl_m_click_00001" />
+    <item android:duration="@integer/play_download_press_frame_ms" android:drawable="@drawable/play_ic_dl_m_click_00002" />
+    <item android:duration="@integer/play_download_press_frame_ms" android:drawable="@drawable/play_ic_dl_m_click_00003" />
+    <item android:duration="@integer/play_download_press_frame_ms" android:drawable="@drawable/play_ic_dl_m_click_00004" />
+    <item android:duration="@integer/play_download_press_frame_ms" android:drawable="@drawable/play_ic_dl_m_click_00005" />
+    <item android:duration="@integer/play_download_press_frame_ms" android:drawable="@drawable/play_ic_dl_m_click_00006" />
+    <item android:duration="@integer/play_download_press_frame_ms" android:drawable="@drawable/play_ic_dl_m_click_00007" />
+</animation-list>

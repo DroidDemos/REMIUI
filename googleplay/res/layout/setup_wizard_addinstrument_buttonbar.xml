@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="-1" android:layout_height="-2">
+    <Button android:id="@id/positive_button" android:layout_alignParentLeft="true" style="@style/SetupWizardButton" />
+    <Button android:id="@id/negative_button" android:layout_alignParentRight="true" style="@style/SetupWizardButton" />
+</RelativeLayout>

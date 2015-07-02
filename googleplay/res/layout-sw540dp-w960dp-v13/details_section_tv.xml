@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge>
+    <include layout="@layout/details_title_combined" />
+    <include android:id="@id/description_panel" layout="@layout/details_text_description" />
+    <include layout="@layout/rate_review_section" />
+    <include android:id="@id/secondary_actions_panel" layout="@layout/details_secondary_actions" />
+    <include android:id="@id/share_panel" layout="@layout/details_share" />
+    <include android:id="@id/episode_list" layout="@layout/episode_list" />
+    <include android:id="@id/sample_reviews_panel" layout="@layout/details_reviews" />
+    <include android:id="@id/related_panel" layout="@layout/details_pack_layout" />
+    <include layout="@layout/details_flag_item" />
+    <include layout="@layout/details_footer" />
+    <include android:id="@id/loading_footer" android:layout_width="-1" android:layout_height="-2" layout="@layout/details_loading_footer" />
+</merge>

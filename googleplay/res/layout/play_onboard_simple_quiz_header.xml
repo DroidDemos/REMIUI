@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.libraries.bind.widget.BindingFrameLayout play:layout_width="-1" play:layout_height="-2">
+    <com.google.android.libraries.bind.widget.BoundTextView play:bindText="@id/play_onboard__OnboardSimpleQuizPage_title" style="@style/PlayOnboardSimpleQuizHeaderText" />
+</com.google.android.libraries.bind.widget.BindingFrameLayout>

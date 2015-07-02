@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="-1" android:layout_height="-2"
+    <FrameLayout android:id="@id/content_frame_above_button" android:visibility="1" android:layout_width="-1" android:layout_height="-2" />
+    <ProgressBar android:layout_gravity="11" android:id="@id/progress_bar" android:visibility="1" android:layout_width="-2" android:layout_height="-2" />
+</FrameLayout>

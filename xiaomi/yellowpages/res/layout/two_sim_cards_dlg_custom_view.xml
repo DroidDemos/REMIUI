@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="11" android:orientation="1" android:layout_width="-1" android:layout_height="-2">
+    <TextView android:gravity="1" android:id="@id/message" android:layout_width="-2" android:layout_height="-2" android:layout_marginBottom="@dimen/sim_card_picker_dlg_icon_and_text_margin" android:singleLine="true" />
+    <LinearLayout android:gravity="11" android:layout_width="-1" android:layout_height="-2" android:layout_marginBottom="@dimen/sim_card_picker_dlg_margin_bottom" android:baselineAligned="false"
+        <LinearLayout android:gravity="11" android:orientation="1" android:layout_width="0dp" android:layout_height="-2" android:layout_weight="1.0">
+            <ImageView android:id="@id/icon_sim_card1" android:layout_width="@dimen/sim_card_icon_size" android:layout_height="@dimen/sim_card_icon_size" android:layout_marginBottom="@dimen/sim_card_picker_dlg_icon_and_text_margin" android:contentDescription="@string/sim1" />
+            <TextView android:id="@id/text_sim_card1" android:layout_width="-2" android:layout_height="-2" style="0x80d000c" />
+        </LinearLayout>
+        <LinearLayout android:gravity="11" android:orientation="1" android:layout_width="0dp" android:layout_height="-2" android:layout_weight="1.0">
+            <ImageView android:id="@id/icon_sim_card2" android:layout_width="@dimen/sim_card_icon_size" android:layout_height="@dimen/sim_card_icon_size" android:layout_marginBottom="@dimen/sim_card_picker_dlg_icon_and_text_margin" android:contentDescription="@string/sim2" />
+            <TextView android:id="@id/text_sim_card2" android:layout_width="-2" android:layout_height="-2" style="0x80d000c" />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

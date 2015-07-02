@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.finsky.layout.IdentifiableLinearLayout android:gravity="10" android:orientation="0" android:id="@id/my_apps_section_header" android:background="@drawable/play_highlight_overlay_light" android:paddingLeft="@dimen/play_cluster_header_xpadding" android:paddingTop="4dp" android:paddingRight="@dimen/play_cluster_header_xpadding" android:focusable="true" android:nextFocusRight="@id/bulk_action_button" android:layout_width="-1" android:layout_height="@dimen/play_cluster_header_height">
+    <TextView android:id="@id/header_text" android:paddingRight="4dp" android:focusable="false" android:layout_width="0dp" android:layout_height="-2" android:layout_weight="1.0" style="@style/PlayClusterTitle" />
+    <ProgressBar android:id="@id/loading_progress" android:layout_width="-2" android:layout_height="-2" android:indeterminate="true" style="@style/FinskyProgressSmallInverse" />
+    <TextView android:textColor="@color/play_secondary_text" android:id="@id/count" android:paddingLeft="10dp" android:layout_width="-2" android:layout_height="-2" style="@style/PlayClusterTitle" />
+    <com.google.android.play.layout.PlayActionButton android:id="@id/bulk_action_button" android:nextFocusLeft="@id/my_apps_section_header" android:minWidth="0dp" android:layout_weight="0.0" style="@style/Play_DetailsPage_ActionButton" />
+</com.google.android.finsky.layout.IdentifiableLinearLayout>

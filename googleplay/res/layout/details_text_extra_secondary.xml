@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.finsky.layout.DetailsExpandedExtraSecondaryView android:orientation="1" android:background="@drawable/play_highlight_overlay_light" android:paddingTop="@dimen/details_text_section_extras_padding" android:paddingBottom="@dimen/details_text_section_extras_padding" android:focusable="true" android:layout_width="0dp" android:layout_height="-2" android:layout_weight="1.0">
+    <TextView android:textSize="@dimen/content_generic_xsmall_size" android:textColor="@color/play_fg_primary" android:id="@id/extra_title" android:paddingRight="6dp" android:layout_width="-1" android:layout_height="-2" style="@style/PlayPlainText" />
+    <TextView android:textSize="@dimen/content_generic_xsmall_size" android:textColor="@color/play_fg_secondary" android:id="@id/extra_description" android:paddingRight="6dp" android:layout_width="-1" android:layout_height="-2" style="@style/PlayPlainText" />
+</com.google.android.finsky.layout.DetailsExpandedExtraSecondaryView>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout internal:paddingLeft="@dimen/notification_padding_left" internal:paddingRight="@dimen/notification_padding_right" internal:layout_width="-1" internal:layout_height="64dp" internal:layout_maxHeight="64dp" internal:layout_minHeight="64dp">
+    <ImageView internal:layout_gravity="10" internal:id="0x1020006" internal:layout_width="0x1050005" internal:layout_height="0x1050006" internal:scaleType="7" />
+    <LinearLayout internal:gravity="10" internal:layout_gravity="10" internal:orientation="1" internal:id="@id/doubleline" internal:paddingLeft="@dimen/notification_content_to_icon_length" internal:layout_width="0dp" internal:layout_height="-2" internal:layout_weight="1.0">
+        <TextView internal:textAppearance="@*internal:style/TextAppearance.StatusBar.EventContent.Title" internal:ellipsize="4" internal:id="@id/title" internal:fadingEdge="1000" internal:layout_width="-1" internal:layout_height="-2" internal:singleLine="true" />
+        <TextView internal:textAppearance="@*internal:style/TextAppearance.StatusBar.EventContent" internal:ellipsize="4" internal:id="@id/sub_title" internal:visibility="2" internal:fadingEdge="1000" internal:layout_width="-1" internal:layout_height="-2" internal:singleLine="true" />
+    </LinearLayout>
+    <TextView internal:textAppearance="@*internal:style/TextAppearance.StatusBar.EventContent" internal:textColor="@color/notification_action_button_color" internal:gravity="11" internal:layout_gravity="10" internal:id="@id/action_button" internal:background="@drawable/notification_action_button_bg" internal:visibility="2" internal:layout_width="-2" internal:layout_height="-2" />
+</LinearLayout>

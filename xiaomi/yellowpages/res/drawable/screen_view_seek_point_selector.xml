@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector android:constantSize="true">
+    <item android:state_selected="false" android:drawable="@drawable/screen_view_seek_point_normal" />
+    <item android:state_selected="true" android:drawable="@drawable/screen_view_seek_point_highlight" />
+</selector>

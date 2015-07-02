@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge>
+    <com.google.android.finsky.layout.DetailsSummaryWishlistView finsky:id="@id/title_wishlist_button" finsky:background="@drawable/play_highlight_overlay_light" finsky:focusable="true" finsky:layout_width="-2" finsky:layout_height="-2" />
+    <com.google.android.play.layout.PlayTextView finsky:id="@id/title_title" finsky:layout_width="-1" finsky:layout_height="-2" finsky:allowsCompactLineSpacing="true" style="@style/PlayDetailTitle" />
+    <LinearLayout finsky:orientation="0" finsky:id="@id/title_creator_panel" finsky:background="@drawable/play_highlight_overlay_light" finsky:paddingBottom="2dp" finsky:layout_width="-1" finsky:layout_height="-2">
+        <com.google.android.finsky.layout.DecoratedTextView finsky:id="@id/title_creator" finsky:layout_width="-2" finsky:layout_height="-2" finsky:drawablePadding="4dp" style="@style/Play_DetailsPage_Subtitle" />
+        <ImageView finsky:layout_gravity="10" finsky:id="@id/content_rating_image" finsky:layout_width="@dimen/play_details_subtitle_size" finsky:layout_height="@dimen/play_details_subtitle_size" finsky:layout_marginLeft="5dp" finsky:scaleType="1" />
+    </LinearLayout>
+    <com.google.android.finsky.layout.DecoratedTextView finsky:textSize="13sp" finsky:ellipsize="3" finsky:id="@id/title_tipper_sticker" finsky:paddingLeft="4dp" finsky:paddingRight="4dp" finsky:visibility="2" finsky:layout_width="-2" finsky:layout_height="-2" finsky:layout_marginTop="2dp" finsky:singleLine="true" />
+    <include layout="@layout/details_title_creator_block" />
+    <com.google.android.finsky.layout.FlowLayout finsky:id="@id/title_bylines" finsky:layout_width="-2" finsky:layout_height="-2" />
+    <LinearLayout finsky:gravity="5" finsky:orientation="1" finsky:id="@id/title_extra_labels" finsky:paddingLeft="6dp" finsky:paddingBottom="4dp" finsky:layout_width="-2" finsky:layout_height="-2" />
+    <com.google.android.finsky.layout.DetailsSummaryDynamic finsky:id="@id/title_details_summary_dynamic" finsky:layout_width="-2" finsky:layout_height="-2">
+        <com.google.android.finsky.layout.DetailsButtonRowLayout finsky:id="@id/button_container" finsky:layout_width="-2" finsky:layout_height="-2">
+            <include layout="@layout/details_action_buttons" />
+        </com.google.android.finsky.layout.DetailsButtonRowLayout>
+        <include finsky:id="@id/download_progress_panel" finsky:visibility="1" finsky:layout_width="-1" finsky:layout_height="-2" layout="@layout/details_download_progress" />
+        <TextView finsky:textSize="@dimen/content_generic_small_size" finsky:textColor="@color/play_fg_secondary" finsky:gravity="11" finsky:id="@id/summary_dynamic_status" finsky:paddingTop="4dp" finsky:visibility="1" finsky:layout_width="-1" finsky:layout_height="-2" finsky:singleLine="true" style="@style/PlayLightText" />
+    </com.google.android.finsky.layout.DetailsSummaryDynamic>
+    <LinearLayout finsky:orientation="0" finsky:id="@id/title_extra_labels_bottom" finsky:paddingTop="4dp" finsky:visibility="2" finsky:layout_width="-1" finsky:layout_height="-2">
+        <com.google.android.finsky.layout.FlowLayout finsky:id="@id/extra_labels_bottom_leading" finsky:layout_width="0dp" finsky:layout_height="-2" finsky:layout_weight="1.0" />
+        <include finsky:id="@id/title_extra_label_in_app_purchase" layout="@layout/details_summary_extra_label_bottom" />
+    </LinearLayout>
+</merge>

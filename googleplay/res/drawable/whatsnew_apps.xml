@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<inset>
+    <shape android:shape="0">
+        <solid android:color="@color/whatsnew_apps" />
+        <corners android:radius="@dimen/details_whatsnew_corner" />
+        <padding android:left="@dimen/details_whatsnew_xpadding" android:top="@dimen/details_whatsnew_ypadding" android:right="@dimen/details_whatsnew_xpadding" android:bottom="@dimen/details_whatsnew_ypadding" />
+    </shape>
+</inset>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="1" android:id="@id/carrier_tos_and_address_main" android:layout_width="-1" android:layout_height="-1">
+    <ScrollView android:scrollbarStyle="1000000" android:id="@id/scroll_content" android:layout_width="-1" android:layout_height="0dp" android:layout_marginBottom="12dp" android:layout_weight="1.0">
+        <LinearLayout android:orientation="1" android:id="@id/info_section" android:layout_width="-1" android:layout_height="-2">
+            <TextView android:textSize="@dimen/play_large_size" android:id="@id/addinstrument_introduction" android:layout_width="-1" android:layout_height="-2" android:layout_marginTop="10dp" style="@style/PlayPlainText" />
+            <TextView android:textSize="@dimen/play_large_size" android:id="@id/addinstrument_password_info" android:layout_width="-1" android:layout_height="-2" android:layout_marginTop="10dp" style="@style/PlayPlainText" />
+            <TextView android:textSize="@dimen/play_large_size" android:id="@id/billing_information_description" android:layout_width="-2" android:layout_height="-2" android:layout_marginTop="10dp" style="@style/PlayPlainText" />
+            <LinearLayout android:gravity="10" android:orientation="0" android:layout_width="-1" android:layout_height="-2">
+                <TextView android:id="@id/address_display" android:layout_width="0dp" android:layout_height="-2" android:layout_weight="1.0" style="@style/AddInstrumentBodyTextAddressSnippet" />
+                <ImageButton android:id="@id/address_edit_button" android:layout_width="48dp" android:layout_height="48dp" android:src="@drawable/ic_btn_billing_edit" android:contentDescription="@string/content_description_edit_address" />
+            </LinearLayout>
+            <TextView android:id="@id/phone_number_display" android:layout_width="-1" android:layout_height="-2" android:layout_marginTop="6dp" style="@style/AddInstrumentBodyTextAddressSnippet" />
+        </LinearLayout>
+    </ScrollView>
+    <TextView android:id="@id/tos_footer" android:layout_width="-1" android:layout_height="-2" android:layout_marginTop="10dp" android:layout_marginBottom="10dp" style="@style/LightPurchase_Footer" />
+    <include layout="@layout/play_button_bar" />
+</LinearLayout>

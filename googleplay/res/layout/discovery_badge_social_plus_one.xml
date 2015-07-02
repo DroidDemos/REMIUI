@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.finsky.layout.play.DiscoveryBadgeSocialPlusOne style="@style/DiscoveryBadge">
+    <RelativeLayout finsky:gravity="1" finsky:id="@id/icon_container" finsky:duplicateParentState="true" style="@style/DiscoveryBadgeIconContainer">
+        <com.google.android.play.image.FifeImageView finsky:id="@id/icon" finsky:duplicateParentState="true" finsky:layout_width="-1" finsky:layout_height="-1" finsky:scaleType="2" finsky:layout_alignParentBottom="true" finsky:fixed_bounds="true" finsky:is_avatar="true" />
+        <LinearLayout finsky:gravity="11" finsky:id="@id/plus_one_container" finsky:layout_width="@dimen/discovery_badge_download_count_magnitude_height" finsky:layout_height="@dimen/discovery_badge_download_count_magnitude_height" finsky:layout_alignParentRight="true" finsky:layout_alignParentBottom="true">
+            <TextView finsky:textSize="@dimen/discovery_badge_plus_one_size" finsky:textStyle="1" finsky:textColor="@color/play_white" finsky:gravity="11" finsky:id="@id/plus_one" finsky:layout_width="-2" finsky:layout_height="-2" finsky:text="@string/plusone_sign" finsky:includeFontPadding="false" style="@style/PlayPlainText" />
+        </LinearLayout>
+    </RelativeLayout>
+    <TextView finsky:id="@id/title" finsky:duplicateParentState="true" style="@style/DiscoveryBadgeTitle" />
+</com.google.android.finsky.layout.play.DiscoveryBadgeSocialPlusOne>

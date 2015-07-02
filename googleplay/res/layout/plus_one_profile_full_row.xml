@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout finsky:background="@drawable/play_highlight_overlay_light" finsky:layout_width="-1" finsky:layout_height="-2">
+    <com.google.android.play.image.FifeImageView finsky:id="@id/profile_avatar" finsky:layout_width="48dp" finsky:layout_height="48dp" finsky:scaleType="3" finsky:fixed_bounds="true" finsky:is_avatar="true" />
+    <TextView finsky:textSize="@dimen/content_generic_large_size" finsky:textColor="@color/play_fg_primary" finsky:layout_gravity="10" finsky:id="@id/profile_name" finsky:paddingLeft="10dp" finsky:paddingTop="6dp" finsky:paddingRight="6dp" finsky:paddingBottom="6dp" finsky:layout_width="-2" finsky:layout_height="-2" />
+</LinearLayout>

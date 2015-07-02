@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ripple android:color="@color/play_ripple_dark">
+    <item android:drawable="@drawable/play_highlight_overlay_selector" />
+    <item android:id="0x102002e" android:drawable="@drawable/play_highlight_overlay_mask_round" />
+</ripple>

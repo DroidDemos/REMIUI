@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.miui.yellowpage.ui.ReviewDetailListItem android:orientation="1" android:layout_width="-1" android:layout_height="-2" style="@style/Widget.ListView.Item.Review">
+    <TextView android:textStyle="0" android:id="@id/name" android:layout_width="-1" android:layout_height="-2" style="0x80d005f" />
+    <LinearLayout android:gravity="10" android:orientation="0" android:layout_width="-1" android:layout_height="-2" android:layout_marginTop="5dp">
+        <RatingBar android:id="@id/rating_bar" android:layout_width="-2" android:layout_height="-2" style="@style/Widget.Rating" />
+        <TextView android:id="@id/price" android:layout_width="-2" android:layout_height="-2" android:layout_marginLeft="5dp" style="0x80d0058" />
+    </LinearLayout>
+    <TextView android:layout_gravity="10" android:id="@id/detail" android:layout_width="-1" android:layout_height="-2" android:layout_marginTop="3dp" style="@style/TextAppearance.List.Primary.Review" />
+    <TextView android:id="@id/time" android:layout_width="-1" android:layout_height="-2" android:layout_marginTop="3dp" style="0x80d0058" />
+</com.miui.yellowpage.ui.ReviewDetailListItem>

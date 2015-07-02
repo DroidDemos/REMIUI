@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextView android:textAppearance="?attr/imFormTitleTextAppearance" android:visibility="2" android:layout_width="-1" android:layout_height="-2" android:layout_marginLeft="@dimen/wallet_im_form_non_editable_text_left_margin" android:layout_marginTop="?attr/imFormTitleMarginTop" android:layout_marginBottom="?attr/imFormTitleMarginBottom" android:layout_marginStart="@dimen/wallet_im_form_non_editable_text_left_margin" />

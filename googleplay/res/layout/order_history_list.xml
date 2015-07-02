@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.finsky.layout.play.PlayRecyclerView android:scrollbarStyle="2000000" android:id="@id/order_history_list" android:paddingBottom="@dimen/card_list_vpadding" android:fadingEdgeLength="0dp" android:clipToPadding="false" android:layout_width="-1" android:layout_height="-1" android:cacheColorHint="@color/play_main_background" android:divider="@styleable/WalletImButtonBar_capitalizeButtonText" />

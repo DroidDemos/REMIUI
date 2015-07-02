@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.miui.yellowpage.ui.HmsMessageNotificationListItem android:paddingRight="0dp" android:layout_width="-1" android:layout_height="-2" style="0x80d004d">
+    <LinearLayout android:gravity="10" android:layout_gravity="10" android:orientation="1" android:background="@drawable/list_item_bg" android:paddingTop="@dimen/yellow_page_detail_list_item_padding_vertical" android:paddingRight="@dimen/yellow_page_detail_list_item_padding_horizontal" android:paddingBottom="@dimen/yellow_page_detail_list_item_padding_vertical" android:layout_width="-1" android:layout_height="-2"
+        <LinearLayout android:orientation="0" android:layout_width="-2" android:layout_height="-2">
+            <TextView android:layout_width="-2" android:layout_height="-2" android:text="@string/hms_notification" style="@style/YellowPageListItemTextAppearancePrimary" />
+            <TextView android:textColor="0x8070000" android:gravity="11" android:layout_gravity="10" android:id="@id/unread_count" android:background="@drawable/sms_unread_count_bg" android:layout_width="-2" android:layout_height="-2" />
+        </LinearLayout>
+        <TextView android:ellipsize="3" android:id="@id/snippet" android:layout_width="-2" android:layout_height="-2" android:singleLine="true" style="@style/YellowPageListItemTextAppearanceSecondary" />
+    </LinearLayout>
+    <ImageView android:layout_gravity="15" android:paddingLeft="@dimen/yellow_page_list_item_secondary_action_padding_left" android:paddingRight="@dimen/yellow_page_list_item_secondary_action_padding_right" android:duplicateParentState="false" android:layout_width="@dimen/yellow_page_module_action_icon_size" android:layout_height="@dimen/yellow_page_module_action_icon_size" android:layout_marginRight="@dimen/yellow_page_list_item_secondary_action_padding_right" android:src="@drawable/ic_arrow_right" android:scaleType="5" android:adjustViewBounds="true" android:contentDescription="@transactionxmlfile/MODE_PRIVATE" />
+</com.miui.yellowpage.ui.HmsMessageNotificationListItem>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="1" android:id="@id/address_fields" android:layout_width="-1" android:layout_height="-2">
+    <FrameLayout android:orientation="0" style="@style/ExpressAddressFieldsStsyle">
+        <EditText android:id="@id/name" android:drawableRight="@transactionxmlfile/MODE_PRIVATE" android:inputType="1" style="@style/ExpressEditText" />
+        <Button android:layout_gravity="5" android:id="@id/pick_name" android:background="@drawable/express_contact_bg" android:layout_width="-2" android:layout_height="-1" android:layout_marginLeft="@dimen/express_inquiry_scan_margin_left" />
+    </FrameLayout>
+    <FrameLayout android:orientation="0" style="@style/ExpressAddressFieldsStsyle">
+        <EditText android:id="@id/phone" android:paddingRight="10dp" android:hint="@string/express_phone" android:drawableRight="@transactionxmlfile/MODE_PRIVATE" android:inputType="3" style="@style/ExpressEditText" />
+    </FrameLayout>
+    <TextView android:gravity="10" android:id="@id/area" android:background="@drawable/express_select_button_bg" android:visibility="0" android:layout_width="-1" android:layout_height="@dimen/express_text_field_height" android:layout_marginTop="@dimen/express_address_fields_margin_vertical" android:layout_marginBottom="@dimen/express_address_fields_margin_vertical" android:singleLine="true" style="0x80d0057" />
+    <FrameLayout android:orientation="0" android:layout_height="-2" style="@style/ExpressAddressFieldsStsyle">
+        <EditText android:id="@id/detailed_address" style="@style/ExpressDetailedAddressStyle" />
+    </FrameLayout>
+</LinearLayout>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.finsky.layout.CardLinearLayout android:orientation="1" android:layout_width="0dp" android:layout_height="-2" android:layout_weight="1.0" style="@style/PlayCardViewGroup">
+    <include android:id="@id/videoimage" layout="@layout/hero_graphic" />
+    <com.google.android.play.layout.PlayTextView android:id="@id/video_text" android:paddingLeft="@dimen/play_card_content_horizontal_inset" android:paddingTop="@dimen/play_card_content_vertical_inset" android:paddingRight="@dimen/play_card_content_horizontal_inset" android:layout_width="-1" android:layout_height="-2" style="@style/PlayCardTitle" />
+    <com.google.android.play.layout.PlayTextView android:id="@id/video_description" android:paddingLeft="@dimen/play_card_content_horizontal_inset" android:paddingRight="@dimen/play_card_content_horizontal_inset" android:paddingBottom="@dimen/play_card_content_vertical_inset" android:layout_width="-1" android:layout_height="-2" style="@style/PlayCardDescription" />
+</com.google.android.finsky.layout.CardLinearLayout>

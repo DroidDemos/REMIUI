@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.miui.yellowpage.ui.AppRecommendationListItem android:gravity="@transactionxmlfile/MODE_PRIVATE" android:layout_width="-1" android:layout_height="-2" style="@style/Widget.ListView.Item.AppRecommendation">
+    <ImageView android:id="@id/icon" android:layout_alignParentLeft="true" android:layout_centerVertical="true" style="@style/Widget.ImageView.Detail.Recommendation" />
+    <LinearLayout android:orientation="1" android:layout_width="-2" android:layout_height="-2" android:layout_marginLeft="@dimen/yellow_page_content_margin_left" android:layout_toLeftOf="@id/install" android:layout_toRightOf="@id/icon" android:layout_centerVertical="true">
+        <TextView android:id="@id/description" android:layout_width="-2" android:layout_height="-2" android:singleLine="true" style="0x80d0058" />
+        <TextView android:id="@id/name" android:layout_width="-2" android:layout_height="-2" android:singleLine="true" style="0x80d005f" />
+        <RatingBar android:id="@id/rating" android:layout_width="-2" android:layout_height="-2" android:layout_marginTop="4dp" style="@style/Widget.Rating" />
+    </LinearLayout>
+    <Button android:id="@id/install" android:layout_width="-2" android:layout_height="-2" android:text="@string/app_recommendation_install" android:layout_alignParentRight="true" android:layout_centerVertical="true" style="0x80d0040" />
+</com.miui.yellowpage.ui.AppRecommendationListItem>

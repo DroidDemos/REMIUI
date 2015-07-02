@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.finsky.layout.AccessibleTextView android:textSize="@dimen/content_generic_small_size" android:textColor="@color/play_fg_secondary" android:paddingRight="@dimen/details_content_margin" android:focusable="true" android:layout_width="-2" android:layout_height="-2" android:singleLine="true" style="@style/PlayPlainText" />

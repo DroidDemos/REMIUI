@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.finsky.layout.ErrorFooter android:gravity="11" android:orientation="0" android:paddingTop="6dp" android:paddingBottom="6dp" android:layout_width="-1" android:layout_height="-2">
+    <TextView android:textSize="@dimen/content_generic_small_size" android:gravity="11" android:id="@id/error_message" android:paddingRight="10dp" android:layout_width="-2" android:layout_height="-2" android:text="@string/network_error" android:drawableLeft="@drawable/ic_network_error" android:drawablePadding="6dp" />
+    <Button android:ellipsize="4" android:id="@id/retry_button" android:layout_width="-2" android:layout_height="-2" android:text="@string/network_retry" android:singleLine="true" />
+</com.google.android.finsky.layout.ErrorFooter>

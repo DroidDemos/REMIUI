@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextView android:id="@id/widget_overlay" android:background="#20000000" android:layout_width="-1" android:layout_height="6dp" android:layout_below="@id/widget_strip" />

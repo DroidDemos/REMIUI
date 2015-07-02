@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="1" android:orientation="1" android:layout_width="-1" android:layout_height="-1">
+    <TextView android:gravity="1" android:id="0x1020016" android:layout_width="-1" android:layout_height="-2" android:layout_marginTop="20dp" android:layout_marginBottom="20dp" style="?unknown_attr_ref: 1010040" />
+    <TextView android:id="@id/desc" android:layout_width="-1" android:layout_height="-2" android:layout_marginLeft="16dp" android:layout_marginTop="8dp" android:layout_marginRight="16dp" style="?unknown_attr_ref: 1010041" />
+    <LinearLayout android:gravity="11" android:id="@id/phone_group" android:visibility="2" android:layout_width="-1" android:layout_height="-2" android:layout_marginLeft="16dp" android:layout_marginTop="10dp" android:layout_marginRight="16dp">
+        <TextView android:textColor="?unknown_attr_ref: 101009a" android:id="@id/country_code" android:layout_width="-2" android:layout_height="-2" style="?unknown_attr_ref: 101006e" />
+        <EditText android:id="@id/phone" android:background="@ttransportexception/UNKNOWN" android:layout_width="0dp" android:layout_height="-2" android:layout_marginLeft="5dp" android:minHeight="48dp" android:singleLine="true" android:digits="0123456789" android:layout_weight="1.0" android:inputType="3" style="?unknown_attr_ref: 101006e" />
+    </LinearLayout>
+    <TextView android:gravity="10" android:layout_gravity="10" android:id="@id/diagnosisInfo" android:visibility="2" android:layout_width="-1" android:layout_height="-2" android:layout_marginLeft="16dp" android:layout_marginTop="8dp" android:layout_marginRight="16dp" style="?unknown_attr_ref: 1010041" />
+    <LinearLayout android:layout_width="-1" android:layout_height="-2" android:layout_marginTop="8dp" android:measureWithLargestChild="true" style="?unknown_attr_ref: 101032e">
+        <Button android:id="@id/cancel" android:layout_width="0dp" android:layout_height="-2" android:text="0x1040000" android:layout_weight="1.0" style="?unknown_attr_ref: 101032f" />
+        <Button android:id="@id/confirm" android:layout_width="0dp" android:layout_height="-2" android:text="0x104000a" android:layout_weight="1.0" style="?unknown_attr_ref: 101032f" />
+    </LinearLayout>
+</LinearLayout>

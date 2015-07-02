@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen>
+    <PreferenceCategory android:key="pref_category_setting">
+        <CheckBoxPreference android:persistent="false" android:layout_width="-2" android:layout_height="-2" android:title="@string/turn_on_smart_antispam_title" android:key="pref_enable_smart_antispam" android:summary="@string/turn_on_smart_antispam_summary_on" android:disableDependentsState="false" />
+        <CheckBoxPreference android:persistent="false" android:layout_width="-2" android:layout_height="-2" android:title="@string/fraud_number_online_identification" android:key="pref_enable_fraud_num_identification_online" android:summary="@string/upload_and_verify_fraud_num_off" android:dependency="pref_enable_smart_antispam" />
+        <CheckBoxPreference android:persistent="false" android:layout_width="-2" android:layout_height="-2" android:title="@string/notify_connect_title" android:key="pref_show_user_notice_yp_detail" android:summary="@string/notify_connect_summary" />
+    </PreferenceCategory>
+    <PreferenceCategory android:key="pref_category_info">
+        <PreferenceScreen android:layout_width="-2" android:layout_height="-2" android:title="@string/about_smart_antispam_summary" android:key="pref_about_smart_antispam" />
+        <PreferenceScreen android:layout_width="-2" android:layout_height="-2" android:title="@string/about_fraud_num_online_identification" android:key="pref_about_fraud_num_identification_online" />
+        <PreferenceScreen android:layout_width="-2" android:layout_height="-2" android:title="@string/about_telephone_fraud" android:key="pref_about_telephone_fraud" />
+    </PreferenceCategory> />

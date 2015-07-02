@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge>
+    <include layout="@layout/list_loading_indicator" />
+    <include android:visibility="2" layout="@layout/page_error_indicator" />
+    <com.google.android.finsky.layout.play.PlayListView android:scrollbarStyle="2000000" android:id="@id/my_apps_content_list" android:paddingBottom="@dimen/card_list_vpadding" android:visibility="2" android:fadingEdgeLength="0dp" android:clipToPadding="false" android:layout_width="-1" android:layout_height="-1" android:cacheColorHint="@color/play_main_background" android:divider="@styleable/WalletImButtonBar_capitalizeButtonText" />
+</merge>

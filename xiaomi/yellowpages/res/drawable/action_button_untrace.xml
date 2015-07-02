@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector>
+    <item android:state_pressed="true" android:drawable="@drawable/action_button_untrace_p" />
+    <item android:state_enabled="false" android:drawable="@drawable/action_button_untrace_d" />
+    <item android:drawable="@drawable/action_button_untrace_n" />
+</selector>

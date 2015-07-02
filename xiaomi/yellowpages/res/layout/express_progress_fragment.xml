@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:orientation="1" android:layout_width="-1" android:layout_height="-1">
+    <LinearLayout android:orientation="1" android:id="@id/root_view" android:visibility="2" android:layout_width="-1" android:layout_height="-1">
+        <RelativeLayout android:id="@id/meta_view" android:layout_width="-1" android:layout_height="-2">
+            <LinearLayout android:layout_gravity="10" android:orientation="1" android:paddingLeft="@dimen/express_progress_serial_number_padding_left" android:layout_width="-2" android:layout_height="-2" android:layout_toLeftOf="@id/state" android:layout_alignParentLeft="true" android:layout_centerVertical="true" style="0x80d004e">
+                <TextView android:ellipsize="3" android:id="@id/title" android:text="@string/express_inquiry_serial_number_prefix" style="@style/ExpressProgressBannerContentAppearance.Primary" />
+                <TextView android:ellipsize="3" android:id="@id/description" android:visibility="2" style="@style/ExpressProgressBannerContentAppearance.Secondary" />
+            </LinearLayout>
+            <TextView android:id="@id/state" style="@style/ExpressProgressStateAppearance" />
+        </RelativeLayout>
+        <LinearLayout android:layout_width="-1" android:layout_height="-1">
+            <ListView android:id="@id/progress_list" android:background="@drawable/express_progress_background" android:layout_width="-1" android:layout_height="-1" />
+        </LinearLayout>
+    </LinearLayout>
+    <TextView android:gravity="11" android:layout_gravity="11" android:id="@id/progress_err_result" android:paddingLeft="@dimen/express_inquiry_error_text_padding_horizontal" android:paddingRight="@dimen/express_inquiry_error_text_padding_horizontal" android:visibility="1" android:layout_width="-2" android:layout_height="-2" android:drawableTop="@drawable/list_empty" />
+    <com.miui.yellowpage.widget.LoadingProgressView android:gravity="11" android:layout_gravity="50" android:id="@id/loading_view" android:layout_width="-1" android:layout_height="-1" />
+</FrameLayout>

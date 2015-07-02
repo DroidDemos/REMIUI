@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="1" android:id="@id/instrument_details" android:layout_width="-1" android:layout_height="-1">
+    <ScrollView android:layout_width="-1" android:layout_height="0dp" android:layout_weight="1.0">
+        <LinearLayout android:orientation="1" android:paddingLeft="@dimen/addinstrument_content_padding" android:paddingRight="@dimen/addinstrument_content_padding" android:layout_width="-1" android:layout_height="-2">
+            <TextView android:id="@id/updateinstrument_header" android:layout_width="-1" android:layout_height="-2" android:layout_marginTop="10dp" android:layout_marginBottom="6dp" style="@style/AddInstrumentBodyTextPrimary" />
+            <TextView android:id="@id/instrument_name" android:layout_width="-1" android:layout_height="-2" android:layout_marginTop="10dp" android:layout_marginBottom="10dp" android:singleLine="true" style="@style/UpdateAddressInstrumentTitle" />
+            <TextView android:id="@id/billing_information_title" android:layout_width="-1" android:layout_height="-2" android:text="@string/billing_information_title" android:singleLine="true" style="@style/UpdateAddressBillingInformationTitle" />
+            <com.google.android.finsky.layout.BillingAddress android:orientation="1" android:id="@id/billing_address" android:layout_width="-1" android:layout_height="-2" />
+        </LinearLayout>
+    </ScrollView>
+    <include layout="@layout/play_button_bar" />
+</LinearLayout>

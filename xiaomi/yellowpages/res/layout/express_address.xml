@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="1" android:id="@id/address" android:layout_width="-1" android:layout_height="-2"
+    <LinearLayout android:orientation="0" android:layout_width="-1" android:layout_height="-2" android:layout_marginBottom="3dp">
+        <TextView android:id="@id/name" android:layout_width="-2" android:layout_height="-2" android:layout_marginRight="10dp" android:singleLine="true" style="0x80d005f" />
+        <TextView android:id="@id/phone" android:layout_width="-2" android:layout_height="-2" android:singleLine="true" style="0x80d005f" />
+    </LinearLayout>
+    <TextView android:id="@id/area" android:layout_width="-2" android:layout_height="-2" android:singleLine="true" style="0x80d0058" />
+    <TextView android:id="@id/detailed_address" android:layout_width="-2" android:layout_height="-2" android:singleLine="true" style="0x80d0058" />
+</LinearLayout>

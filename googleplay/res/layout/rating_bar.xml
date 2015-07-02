@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.finsky.layout.play.PlayRatingBar android:layout_width="-2" android:layout_height="-2">
+    <include android:id="@id/star1" layout="@layout/rating_star" />
+    <include android:id="@id/star2" layout="@layout/rating_star" />
+    <include android:id="@id/star3" layout="@layout/rating_star" />
+    <include android:id="@id/star4" layout="@layout/rating_star" />
+    <include android:id="@id/star5" layout="@layout/rating_star" />
+</com.google.android.finsky.layout.play.PlayRatingBar>

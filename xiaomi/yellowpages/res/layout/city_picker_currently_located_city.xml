@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.miui.yellowpage.ui.CityPickerLocatedCityItem android:orientation="1" android:layout_width="-1" android:layout_height="-2">
+    <TextView android:id="@id/section_header" android:layout_width="-1" android:layout_height="-2" android:text="@string/navigation_search_automatically_positioned_city" style="@style/YellowPagePickerSectionHeaderTextStyle" />
+    <RelativeLayout android:id="@id/content" android:layout_width="-1" style="0x80d004d">
+        <TextView android:id="@id/city_name" android:layout_width="-1" android:layout_height="-2" android:text="@string/navigation_search_positioning" android:singleLine="true" android:layout_toLeftOf="@id/progress" android:layout_alignParentLeft="true" android:layout_centerVertical="true" style="0x80d000c" />
+        <com.miui.yellowpage.widget.AnimatedImageView android:id="@id/progress" android:layout_width="-2" android:layout_height="-2" android:layout_marginRight="10dp" android:src="@drawable/ic_list_sync_anim" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+    </RelativeLayout>
+</com.miui.yellowpage.ui.CityPickerLocatedCityItem>

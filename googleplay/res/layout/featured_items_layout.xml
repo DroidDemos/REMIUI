@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.finsky.layout.FeaturedItemsSection android:orientation="1" android:paddingLeft="4dp" android:paddingTop="@dimen/play_cluster_vpadding" android:paddingRight="4dp" android:paddingBottom="@dimen/play_cluster_vpadding" android:layout_width="-1" android:layout_height="-2">
+    <include layout="@layout/details_section_header" />
+    <FrameLayout android:id="@id/listing_content" android:layout_width="-1" android:layout_height="-2">
+        <LinearLayout android:orientation="1" android:id="@id/listing_layout" android:layout_width="-1" android:layout_height="-2" />
+        <include android:id="@id/loading_indicator" android:visibility="2" android:layout_width="-1" android:layout_height="-1" layout="@layout/fullscreen_loading_indicator" />
+        <include android:visibility="2" android:layout_width="-1" android:layout_height="-1" layout="@layout/error_indicator" />
+    </FrameLayout>
+</com.google.android.finsky.layout.FeaturedItemsSection>

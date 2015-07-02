@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.miui.yellowpage.ui.SearchResultServiceItem style="@style/SearchResultListItemStyle">
+    <ImageView android:id="@id/thumbnail" android:contentDescription="@transactionxmlfile/MODE_PRIVATE" style="@style/Widget.ImageView.Thumbnail" />
+    <LinearLayout android:gravity="10" android:orientation="1" android:layout_width="-2" android:layout_height="-2" android:layout_marginLeft="15dp" android:layout_toLeftOf="@id/indicator" android:layout_toRightOf="@id/thumbnail" android:layout_centerVertical="true">
+        <TextView android:id="@id/name" android:layout_width="-2" android:layout_height="-2" android:singleLine="true" style="0x80d000c" />
+        <TextView android:id="@id/description" android:visibility="2" android:layout_width="-2" android:layout_height="-2" android:singleLine="true" style="0x80d000d" />
+    </LinearLayout>
+    <ImageView android:id="@id/indicator" android:background="@drawable/ic_arrow_right" android:layout_width="-2" android:layout_height="-2" android:layout_alignParentRight="true" android:layout_centerVertical="true" android:contentDescription="@transactionxmlfile/MODE_PRIVATE" />
+</com.miui.yellowpage.ui.SearchResultServiceItem>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge>
+    <com.google.android.finsky.layout.DetailsTextView finsky:id="@id/callout" finsky:paddingLeft="@dimen/details_text_callout_padding" finsky:paddingRight="@dimen/details_text_callout_padding" finsky:paddingBottom="12dp" finsky:layout_width="-1" finsky:layout_height="-2" finsky:lastLineOverdrawColor="@color/white" style="@style/PlayDetailDescriptionCallout" />
+    <View finsky:id="@id/spacer" finsky:visibility="2" finsky:layout_width="-1" finsky:layout_height="12dp" />
+    <include finsky:id="@id/body_container" layout="@layout/details_text_block" />
+    <com.google.android.finsky.layout.DetailsTextIconContainer finsky:layout_gravity="11" finsky:orientation="0" finsky:id="@id/icon_container" finsky:paddingLeft="@dimen/details_text_section_padding" finsky:paddingRight="@dimen/details_text_section_padding" finsky:paddingBottom="8dp" finsky:layout_width="-1" finsky:layout_height="-2" />
+    <com.google.android.finsky.layout.DecoratedTextView finsky:layout_gravity="11" finsky:id="@id/top_developer_label" finsky:paddingLeft="@dimen/details_text_section_padding" finsky:paddingRight="@dimen/details_text_section_padding" finsky:visibility="2" finsky:layout_width="-2" finsky:layout_height="-2" finsky:drawablePadding="4dp" finsky:allowsCompactLineSpacing="true" finsky:decoration_position="0" style="@style/Play_DetailsPage_Subtitle" />
+    <TextView finsky:textSize="@dimen/content_generic_small_size" finsky:gravity="11" finsky:id="@id/footer_message" finsky:paddingLeft="@dimen/details_text_section_padding" finsky:paddingTop="6dp" finsky:paddingRight="@dimen/details_text_section_padding" finsky:layout_width="-1" finsky:layout_height="-2" style="@style/PlayMediumPlainText" />
+</merge>

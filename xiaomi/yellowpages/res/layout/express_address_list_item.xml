@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.miui.yellowpage.ui.ExpressAddressListItem android:orientation="0" android:background="0x8020027" android:paddingLeft="0dp" android:layout_width="-1" android:layout_height="-2">
+    <RadioButton android:id="@id/button" android:clickable="false" android:layout_width="-2" android:layout_height="-1" />
+    <com.miui.yellowpage.widget.ExpressAddressView android:id="@id/address_view" android:layout_width="0dp" android:layout_height="-2" android:layout_marginTop="@dimen/express_list_item_address_view_margin" android:layout_marginBottom="@dimen/express_list_item_address_view_margin" android:layout_weight="1.0" />
+    <Button android:layout_gravity="10" android:id="@id/detail_button" android:layout_width="-2" android:layout_height="-2" style="0x80d0044" />
+</com.miui.yellowpage.ui.ExpressAddressListItem>

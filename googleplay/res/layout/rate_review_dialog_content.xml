@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:padding="16dp" android:layout_width="-1" android:layout_height="0dp" android:layout_weight="1.0">
+    <LinearLayout android:gravity="11" android:orientation="1" android:layout_width="-1" android:layout_height="-2"
+        <LinearLayout android:orientation="1" android:focusableInTouchMode="true" android:layout_width="0dp" android:layout_height="0dp" />
+        <TextView android:textSize="20sp" android:textColor="#202020" android:gravity="1" android:id="@id/item_title" android:paddingLeft="16dp" android:paddingTop="8dp" android:paddingRight="16dp" android:paddingBottom="24dp" android:visibility="2" android:layout_width="-1" android:layout_height="-2" android:maxLines="2" style="@style/PlayPlainText" />
+        <include android:id="@id/rating_setter" android:layout_width="-1" android:layout_height="-2" layout="@layout/rating_bar" />
+        <TextView android:textAppearance="?unknown_attr_ref: 1010042" android:id="@id/rating_description" android:paddingTop="6dp" android:paddingBottom="6dp" android:layout_width="-2" android:layout_height="-2" android:text="@string/review_dialog_unrated" android:freezesText="true" />
+        <EditText android:id="@id/review_subject" android:layout_width="-1" android:layout_height="-2" android:hint="@string/review_dialog_subject_hint" android:freezesText="true" android:inputType="c001" android:imeOptions="5" />
+        <com.google.android.finsky.layout.MultiLineDoneButtonEditText android:gravity="30" android:id="@id/review_body" android:layout_width="-1" android:layout_height="-2" android:hint="@string/review_dialog_body_hint" android:minLines="3" android:maxLength="@integer/max_review_length" android:freezesText="true" android:inputType="2c001" />
+    </LinearLayout>
+</ScrollView>

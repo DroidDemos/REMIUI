@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:layout_width="-1" android:layout_height="-1">
+    <LinearLayout android:gravity="11" android:orientation="1" android:padding="10dp" android:layout_width="-1" android:layout_height="-2">
+        <TextView android:layout_width="-1" android:layout_height="-2" android:layout_marginBottom="5dp" android:text="@string/cvc_code_popup_visa_description" />
+        <ImageView android:layout_width="-2" android:layout_height="-2" android:layout_marginBottom="10dp" android:src="@drawable/wallet_im_cvc_image_default" />
+        <TextView android:layout_width="-1" android:layout_height="-2" android:layout_marginBottom="5dp" android:text="@string/cvc_code_popup_amex_description" />
+        <ImageView android:layout_width="-2" android:layout_height="-2" android:src="@drawable/wallet_im_cvc_image_amex" />
+    </LinearLayout>
+</ScrollView>

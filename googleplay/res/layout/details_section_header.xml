@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.finsky.layout.play.PlayCardClusterViewHeader finsky:id="@id/cluster_header" finsky:focusable="true" finsky:layout_width="-1" finsky:layout_height="-2" finsky:foreground="@drawable/play_highlight_overlay_light" finsky:min_header_height="@dimen/details_section_header_height" finsky:header_xpadding="@dimen/play_cluster_header_xpadding">
+    <com.google.android.play.image.FifeImageView finsky:id="@id/cluster_image" finsky:visibility="2" finsky:layout_width="@dimen/play_cluster_header_icon_size" finsky:layout_height="@dimen/play_cluster_header_icon_size" finsky:layout_marginRight="8dp" />
+    <LinearLayout finsky:gravity="10" finsky:orientation="1" finsky:id="@id/cluster_title" finsky:layout_width="-2" finsky:layout_height="-2">
+        <TextView finsky:id="@id/header_title_main" finsky:paddingLeft="0dp" finsky:focusable="false" finsky:layout_width="-2" finsky:layout_height="-2" finsky:layout_marginTop="2dp" finsky:maxLines="1" finsky:singleLine="true" style="@style/PlayClusterTitle" />
+        <TextView finsky:id="@id/header_title_secondary" finsky:paddingLeft="0dp" finsky:layout_width="-2" finsky:layout_height="-2" finsky:layout_marginLeft="2dp" finsky:layout_marginTop="-3dp" finsky:maxLines="1" finsky:singleLine="true" style="@style/PlayClusterSubtitle" />
+    </LinearLayout>
+    <TextView finsky:id="@id/header_more" style="@style/PlayClusterMore" />
+</com.google.android.finsky.layout.play.PlayCardClusterViewHeader>

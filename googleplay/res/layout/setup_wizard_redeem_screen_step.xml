@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="1" android:layout_width="-1" android:layout_height="-2">
+    <TextView android:id="@id/account" android:layout_width="-1" android:layout_height="-2" style="@style/SetupWizardPlainText" />
+    <EditText android:id="@id/pin_entry" android:layout_marginTop="12dp" android:hint="@string/gift_card_code_hint" android:lines="1" android:inputType="81001" android:imeOptions="6" style="@style/RedeemCodeEditText" />
+    <TextView android:id="@id/error" android:visibility="2" android:layout_width="-1" android:layout_height="-2" style="@style/LightPurchase_ErrorByline" />
+    <TextView android:id="@id/footer" android:visibility="0" android:layout_width="-1" android:layout_height="-2" style="@style/LightPurchase_Footer" />
+</LinearLayout>

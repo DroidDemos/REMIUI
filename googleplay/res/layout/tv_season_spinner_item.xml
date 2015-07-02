@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="0" android:background="@drawable/play_highlight_overlay_light" android:layout_width="-1" android:layout_height="@dimen/base_new_row_height">
+    <com.google.android.finsky.layout.AccessibleTextView android:layout_gravity="13" android:id="@id/dropdown_text" android:layout_width="-2" android:layout_height="-2" android:layout_marginLeft="@dimen/search_spinner_dropdown_margin_left" android:layout_marginRight="@dimen/search_spinner_dropdown_margin_left" android:singleLine="true" />
+</LinearLayout>

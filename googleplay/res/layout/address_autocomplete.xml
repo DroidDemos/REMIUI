@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.finsky.layout.AddressAutoComplete android:textAppearance="?unknown_attr_ref: 1010041" android:layout_width="-1" android:layout_height="-2" android:singleLine="true" android:inputType="2071" android:imeOptions="5" style="?unknown_attr_ref: 101006b" />

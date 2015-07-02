@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="10" android:orientation="1" android:id="@id/permission_row" android:background="@drawable/play_highlight_overlay_light" android:paddingTop="15dp" android:paddingBottom="4dp" android:focusable="true" android:layout_width="-1" android:layout_height="-2" android:minHeight="45dp">
+    <View android:id="@id/bucket_separator" android:background="@color/grey" android:paddingLeft="11dp" android:paddingRight="10dp" android:layout_width="-1" android:layout_height="1dp" android:layout_marginBottom="15dp" />
+    <LinearLayout android:orientation="0" android:paddingLeft="11dp" android:paddingRight="10dp" android:layout_width="-1" android:layout_height="-2">
+        <ImageView android:id="@id/bucket_icon" android:layout_width="-2" android:layout_height="-2" />
+        <TextView android:id="@id/header" android:paddingLeft="22dp" android:paddingTop="1dp" android:paddingRight="16dp" android:layout_width="0dp" android:layout_height="-2" android:layout_weight="1.0" android:lineSpacingExtra="1sp" style="@style/PermissionRow" />
+        <ImageView android:layout_gravity="10" android:id="@id/expander_icon" android:layout_width="-2" android:layout_height="-1" android:src="@drawable/ic_more_arrow_down" android:contentDescription="@string/content_description_toggle_expand" />
+    </LinearLayout>
+    <TextView android:id="@id/short_description" android:paddingLeft="61dp" android:paddingTop="5dp" android:paddingRight="10dp" android:layout_width="-1" android:lineSpacingExtra="1sp" style="@style/PermissionRow" />
+    <LinearLayout android:orientation="1" android:id="@id/detailed_buckets" android:paddingTop="15dp" android:visibility="2" android:layout_width="-1" android:layout_height="-2" /> />

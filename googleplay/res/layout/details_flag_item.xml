@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.finsky.layout.DetailsFlagItemSection android:orientation="1" android:id="@id/flag_content_panel" android:background="@color/play_main_background" android:paddingTop="8dp" android:paddingBottom="12dp" android:layout_width="-1" android:layout_height="-2">
+    <include android:id="@id/flag_row" android:layout_width="-1" android:layout_height="-2" android:layout_marginLeft="@dimen/details_new_content_margin" android:layout_marginRight="@dimen/details_new_content_margin" layout="@layout/details_bylines_cell" />
+</com.google.android.finsky.layout.DetailsFlagItemSection>

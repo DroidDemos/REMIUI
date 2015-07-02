@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape android:shape="0">
+    <solid android:color="@color/play_highlight_grey_fill_light" />
+    <corners android:radius="@dimen/play_action_button_corner" />
+</shape>

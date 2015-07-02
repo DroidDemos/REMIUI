@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout finsky:layout_width="-1" finsky:layout_height="-1">
+    <com.google.android.finsky.layout.SetupWizardStickyHeaderScrollView finsky:id="@id/bottom_scroll_view" finsky:layout_width="-1" finsky:layout_height="-1" finsky:layout_above="@id/navigation_bar">
+        <LinearLayout finsky:orientation="1" finsky:layout_width="-1" finsky:layout_height="-2">
+            <com.google.android.finsky.layout.SetupWizardIllustration finsky:orientation="1" finsky:id="@id/illustration" finsky:tag="stickyContainer" finsky:background="@drawable/setup_wizard_header_bg" finsky:layout_width="-1" finsky:layout_height="-2" finsky:elevation="3dp" finsky:collapsable="true" finsky:aspectRatio="2.0">
+                <com.google.android.play.image.FifeImageView finsky:id="@id/setup_wizard_header_graphic" finsky:layout_width="-1" finsky:layout_height="-2" />
+                <TextView finsky:id="@id/title" finsky:tag="sticky" style="@style/SetupWizardHeaderTitle" />
+            </com.google.android.finsky.layout.SetupWizardIllustration>
+            <FrameLayout finsky:layout_width="-1" finsky:layout_height="0dp" finsky:layout_weight="1.0">
+                <include layout="@layout/setup_wizard_divider_and_progress" />
+                <include finsky:visibility="2" layout="@layout/page_loading_indicator" />
+                <FrameLayout finsky:id="@id/content_frame" finsky:layout_width="-1" finsky:layout_height="-2" style="@style/SetupWizardContentFrame" /> />
+        </LinearLayout>
+    </com.google.android.finsky.layout.SetupWizardStickyHeaderScrollView>
+    <fragment finsky:name="com.google.android.finsky.setup.SetupWizardNavBar" finsky:id="@id/navigation_bar" style="@style/SetupWizardNavbar" />
+</RelativeLayout>

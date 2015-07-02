@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:paddingLeft="16dp" android:paddingTop="10dp" android:paddingRight="16dp" android:paddingBottom="10dp" android:layout_width="-1" android:layout_height="-2">
+    <com.google.android.play.layout.PlayActionButton android:id="@id/positive_button" android:layout_alignParentRight="true" android:layout_centerVertical="true" style="@style/Play_Purchase_ActionButton" />
+</RelativeLayout>

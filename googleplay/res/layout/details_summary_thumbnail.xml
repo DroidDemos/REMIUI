@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.play.layout.PlayCardThumbnail finsky:id="@id/title_thumbnail_frame" finsky:clipToPadding="false" finsky:layout_width="0dp" finsky:layout_height="0dp" finsky:thumbnail_id="@id/title_thumbnail" finsky:app_thumbnail_padding="@dimen/play_details_image_margin">
+    <include finsky:id="@id/title_thumbnail" layout="@layout/play_card_thumbnail" />
+</com.google.android.play.layout.PlayCardThumbnail>

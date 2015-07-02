@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout im:orientation="1" im:layout_width="-1" im:layout_height="-2">
+    <com.google.android.wallet.instrumentmanager.ui.common.InfoMessageTextView im:id="@id/required_message_text" im:visibility="2" im:layout_width="-1" im:layout_height="-2" im:inlineExpandLabel="false" style="?attr/imLegalMessagesTextAppearance" />
+</LinearLayout>

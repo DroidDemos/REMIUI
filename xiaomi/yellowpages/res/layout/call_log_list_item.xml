@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.miui.yellowpage.ui.CallLogListItem android:orientation="1" android:id="@id/call_log_list_item" android:layout_width="-1" android:layout_height="-2">
+    <LinearLayout android:gravity="10" android:orientation="1" android:layout_width="-1" style="0x80d004e">
+        <TextView android:layout_gravity="10" android:id="@id/call_date" android:layout_width="-2" android:layout_height="-2" style="@style/CallLogListItemTextAppearancePrimary" />
+        <LinearLayout android:layout_width="-1" android:layout_height="-2"
+            <LinearLayout android:layout_width="0dp" android:layout_height="-2" android:layout_weight="1.0">
+                <TextView android:ellipsize="3" android:layout_gravity="10" android:id="@id/number" android:layout_width="-2" android:layout_height="-2" android:layout_marginRight="@dimen/call_log_list_item_location_margin" android:singleLine="true" style="@style/CallLogListItemTextAppearanceSecondary" />
+                <TextView android:layout_gravity="10" android:id="@id/location" android:layout_width="-2" android:layout_height="-2" android:layout_marginRight="@dimen/call_log_list_item_location_margin" android:singleLine="true" style="@style/CallLogListItemTextAppearanceSecondary" />
+                <ImageView android:layout_gravity="10" android:id="@id/call_type" android:layout_width="-2" android:layout_height="-2" android:layout_marginRight="@dimen/call_log_list_item_type_margin_right" android:contentDescription="@transactionxmlfile/MODE_PRIVATE" />
+            </LinearLayout>
+            <TextView android:layout_gravity="10" android:id="@id/duration" android:layout_width="-2" android:layout_height="-2" android:singleLine="true" style="@style/CallLogListItemTextAppearanceSecondary" />
+            <ImageView android:layout_gravity="10" android:id="@id/sim" android:layout_width="-2" android:layout_height="-2" android:layout_marginLeft="3dp" />
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout android:id="@id/call_note" android:visibility="2" android:layout_width="-1" style="0x80d004d">
+        <ImageView android:layout_gravity="10" android:layout_width="-2" android:layout_height="-2" android:src="@drawable/call_note_icon_in_call_log_list_item" android:contentDescription="@transactionxmlfile/MODE_PRIVATE" />
+        <TextView android:layout_gravity="10" android:id="@id/call_note_title" android:layout_width="-2" android:layout_height="-2" android:layout_marginLeft="10dp" style="@style/CallLogListItemTextAppearanceSecondary" />
+    </LinearLayout>
+    <LinearLayout android:id="@id/call_record" android:visibility="2" android:layout_width="-1" style="0x80d004d">
+        <ImageView android:layout_gravity="10" android:layout_width="-2" android:layout_height="-2" android:src="@drawable/call_record_icon_in_call_log_list_item" android:contentDescription="@transactionxmlfile/MODE_PRIVATE" />
+        <TextView android:layout_gravity="10" android:id="@id/call_record_title" android:layout_width="-2" android:layout_height="-2" android:layout_marginLeft="10dp" style="@style/CallLogListItemTextAppearanceSecondary" />
+    </LinearLayout>
+</com.miui.yellowpage.ui.CallLogListItem>

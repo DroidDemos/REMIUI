@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="1" android:padding="16dp" android:layout_width="-1" android:layout_height="-1">
+    <com.google.android.play.layout.PlayTextView android:ellipsize="3" android:id="@id/title" android:layout_width="-1" android:layout_height="-2" android:singleLine="true" style="@style/LightPurchase_TitleText" />
+    <TextView android:id="@id/message" android:layout_width="-2" android:layout_height="0dp" android:layout_marginTop="12dp" android:layout_weight="1.0" style="@style/LightPurchase_ErrorDialogMessage" />
+    <include layout="@layout/play_button_bar" />
+</LinearLayout>

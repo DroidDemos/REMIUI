@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.finsky.layout.AccessibleTextView android:textSize="@dimen/play_cluster_header_title_size" android:textColor="@color/play_primary_text" android:layout_width="-2" android:layout_height="-2" style="@style/PlayCardTitle" />

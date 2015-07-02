@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animation-list android:id="@id/download" android:oneshot="false">
+    <item android:duration="@integer/play_download_download_frame_ms" android:drawable="@drawable/play_ic_dl_m_download_00000" />
+    <item android:duration="@integer/play_download_download_frame_ms" android:drawable="@drawable/play_ic_dl_m_download_00001" />
+    <item android:duration="@integer/play_download_download_frame_ms" android:drawable="@drawable/play_ic_dl_m_download_00002" />
+    <item android:duration="@integer/play_download_download_frame_ms" android:drawable="@drawable/play_ic_dl_m_download_00003" />
+    <item android:duration="@integer/play_download_download_frame_ms" android:drawable="@drawable/play_ic_dl_m_download_00004" />
+</animation-list>

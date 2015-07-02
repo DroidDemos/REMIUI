@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="-1" android:layout_height="-1">
+    <LinearLayout android:orientation="1" android:id="@id/container" android:layout_width="-1" android:layout_height="-1">
+        <WebView android:id="@id/banner_view" android:visibility="2" android:layout_width="-1" android:layout_height="-2" />
+        <com.miui.yellowpage.widget.pulltorefresh.PullToRefreshWebView ptr:id="@id/browser" ptr:layout_width="-1" ptr:layout_height="0dp" ptr:layout_weight="1.0" ptr:ptrMaximumPullScroll="333dp" />
+        <RelativeLayout ptr:id="@id/bottom_bar" ptr:background="@drawable/bottom_bar_bg" ptr:paddingLeft="@dimen/webview_bottom_bar_padding_horizontal" ptr:paddingRight="@dimen/webview_bottom_bar_padding_horizontal" ptr:visibility="2" ptr:layout_width="-1" ptr:layout_height="-2">
+            <ImageButton ptr:id="@id/back" ptr:background="@drawable/webview_back_button" ptr:layout_width="-2" ptr:layout_height="-2" ptr:layout_alignParentLeft="true" ptr:layout_centerVertical="true" ptr:contentDescription="@string/back" />
+            <ImageButton ptr:id="@id/refresh" ptr:background="@drawable/webview_refresh_button" ptr:layout_width="-2" ptr:layout_height="-2" ptr:layout_alignParentRight="true" ptr:layout_centerVertical="true" ptr:contentDescription="@string/refresh" />
+        </RelativeLayout>
+    </LinearLayout>
+    <com.miui.yellowpage.widget.LoadingProgressView ptr:gravity="11" ptr:id="@id/loading_view" ptr:layout_width="-1" ptr:layout_height="-1" />
+</FrameLayout>

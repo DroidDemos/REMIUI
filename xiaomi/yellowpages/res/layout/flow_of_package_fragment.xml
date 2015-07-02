@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:orientation="1" android:layout_width="-1" android:layout_height="-1">
+    <ScrollView android:id="@id/root_view" android:visibility="2" android:layout_width="-1" android:layout_height="-1" android:fillViewport="true" android:overScrollMode="2">
+        <LinearLayout android:gravity="11" android:orientation="1" android:layout_width="-1" android:layout_height="-2"
+            <LinearLayout android:orientation="1" android:layout_width="-1" android:layout_height="0dp" android:layout_weight="1.0"
+                <LinearLayout android:orientation="1" android:background="@drawable/flow_of_packages_banner_bg" android:padding="@dimen/payment_padding" android:layout_width="-1" android:layout_height="-2">
+                    <TextView android:textSize="25sp" android:textColor="@color/primary_color_inverse" android:id="@id/packages_title" android:layout_width="-1" android:layout_height="-2" android:singleLine="false" />
+                    <TextView android:textColor="@color/primary_color_inverse" android:id="@id/packages_description" android:paddingTop="@dimen/payment_padding" android:layout_width="-1" android:layout_height="-2" android:singleLine="false" />
+                </LinearLayout>
+                <RadioGroup android:orientation="1" android:id="@id/packages" android:layout_width="-1" android:layout_height="-2" />
+            </LinearLayout>
+            <Button android:id="@id/pay" android:layout_width="-1" android:layout_height="-2" android:layout_margin="@dimen/payment_padding" android:text="@string/packages_pay" style="0x80d0037" />
+        </LinearLayout>
+    </ScrollView>
+    <com.miui.yellowpage.widget.LoadingProgressView android:gravity="11" android:layout_gravity="50" android:id="@id/loading_view" android:visibility="2" android:layout_width="-1" android:layout_height="-1" />
+</FrameLayout>

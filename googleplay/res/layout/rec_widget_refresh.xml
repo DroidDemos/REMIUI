@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ImageView android:id="@id/widget_refresh" android:background="@drawable/play_highlight_overlay_dark" android:paddingLeft="10dp" android:paddingTop="12dp" android:paddingRight="8dp" android:paddingBottom="10dp" android:layout_width="-2" android:layout_height="-2" android:src="@drawable/ic_play_widgets_refresh" android:layout_alignParentRight="true" android:layout_alignParentBottom="true" android:contentDescription="@string/content_description_recommendation_refresh" />

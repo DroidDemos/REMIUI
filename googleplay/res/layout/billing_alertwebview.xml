@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.finsky.billing.SimpleAlertDialogWebView android:layout_width="-1" android:layout_height="-2">
+    <include android:layout_width="-2" android:layout_height="-2" layout="@layout/page_loading_indicator" />
+    <WebView android:id="@id/billing_url_webview" android:visibility="2" android:layout_width="-2" android:layout_height="-2" />
+    <TextView android:id="@id/error_msg" android:visibility="2" android:layout_width="-2" android:layout_height="-2" android:text="@string/error" />
+</com.google.android.finsky.billing.SimpleAlertDialogWebView>

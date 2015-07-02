@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.wallet.instrumentmanager.ui.creditcard.CreditCardImagesView android:layout_width="-1" android:layout_height="-2">
+    <ImageView android:id="@id/general_logo" android:visibility="1" android:layout_width="-2" android:layout_height="-2" android:layout_marginLeft="@dimen/wallet_im_spacing_between_credit_card_images" android:src="@drawable/wallet_im_card_general" android:contentDescription="@styleable/WalletImButtonBar_capitalizeButtonText" android:layerType="2" />
+</com.google.android.wallet.instrumentmanager.ui.creditcard.CreditCardImagesView>

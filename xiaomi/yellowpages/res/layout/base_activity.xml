@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="1" android:layout_width="-1" android:layout_height="-1">
+    <WebView android:id="@id/banner_view" android:visibility="2" android:layout_width="-1" android:layout_height="-2" />
+    <FrameLayout android:id="@id/content" android:layout_width="-1" android:layout_height="-1" />
+</LinearLayout>

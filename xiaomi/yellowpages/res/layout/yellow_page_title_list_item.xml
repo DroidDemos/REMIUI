@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.miui.yellowpage.ui.YellowPageTitleListItem android:gravity="@transactionxmlfile/MODE_PRIVATE" android:layout_width="-1" android:layout_height="-1" style="@style/Widget.ListView.Item.Title">
+    <FrameLayout android:id="@id/album_container" android:layout_width="-2" android:layout_height="-2">
+        <ImageView android:id="@id/album" style="@style/Widget.ImageView.Detail.Title" />
+        <TextView android:textSize="0x80a0002" android:textColor="0x8070000" android:layout_gravity="55" android:id="@id/photo_count" android:background="@drawable/album_photo_count_bg" android:visibility="2" android:layout_width="-2" android:layout_height="-2" android:layout_marginRight="@dimen/yellow_page_album_photo_count_margin" android:layout_marginBottom="@dimen/yellow_page_album_photo_count_margin" />
+    </FrameLayout>
+    <LinearLayout android:orientation="1" android:layout_width="-1" android:layout_height="-2" android:layout_marginLeft="@dimen/yellow_page_content_margin_left" android:layout_toRightOf="@id/album_container" android:layout_alignParentRight="true" android:layout_centerVertical="true"
+        <LinearLayout android:orientation="1" android:id="@id/standard_container" android:layout_width="-1" android:layout_height="-2">
+            <TextView android:id="@id/price" android:layout_width="-2" android:layout_height="-2" android:singleLine="true" style="0x80d0058" />
+            <TextView android:id="@id/evaluation" android:layout_width="-2" android:layout_height="-2" android:layout_marginTop="5dp" android:singleLine="true" style="0x80d0058" />
+            <RatingBar android:id="@id/rating" android:layout_width="-2" android:layout_height="-2" android:layout_marginTop="6.5dp" style="@style/Widget.Rating" />
+        </LinearLayout>
+        <LinearLayout android:id="@id/public_container" android:layout_width="-1" android:layout_height="-2">
+            <TextView android:id="@id/brief" android:layout_width="-1" android:layout_height="-2" style="@style/TextAppearance.List.Secondary.Brief" />
+        </LinearLayout>
+        <LinearLayout android:id="@id/enterprise_container" android:layout_width="-1" android:layout_height="-2">
+            <TextView android:id="@id/title" android:layout_width="-1" android:layout_height="-2" style="@style/TextAppearance.List.Primary.Title" />
+        </LinearLayout>
+    </LinearLayout>
+</com.miui.yellowpage.ui.YellowPageTitleListItem>

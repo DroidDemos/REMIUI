@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="1" android:layout_width="-1" android:layout_height="-1"
+    <LinearLayout android:gravity="11" android:orientation="1" android:id="@id/addressee_container" android:layout_width="-1" android:layout_height="0dp" android:layout_weight="1.0">
+        <ImageView android:id="@id/result_view" android:layout_width="-2" android:layout_height="-2" />
+        <TextView android:gravity="11" android:id="@id/result_description" android:layout_width="-2" android:layout_height="-2" android:layout_marginTop="@dimen/send_express_result_description_margin_top" style="0x80d005f" />
+        <TextView android:gravity="11" android:id="@id/result_detail" android:layout_width="-2" android:layout_height="-2" android:layout_marginTop="@dimen/send_express_result_detail" style="0x80d0058" />
+    </LinearLayout>
+    <LinearLayout android:orientation="1" android:layout_width="-1" android:layout_height="-2">
+        <Button android:id="@id/view_order" android:visibility="1" android:layout_width="-1" android:layout_height="-2" android:layout_marginLeft="@dimen/send_express_button_margin" android:layout_marginRight="@dimen/send_express_button_margin" android:text="@string/express_view_order" style="0x80d0037" />
+        <LinearLayout android:orientation="0" android:id="@id/placeholder" android:layout_width="-2" android:layout_height="-2" />
+        <Button android:id="@id/go_back" android:layout_width="-1" android:layout_height="-2" android:layout_marginLeft="@dimen/send_express_button_margin" android:layout_marginRight="@dimen/send_express_button_margin" android:layout_marginBottom="@dimen/send_express_button_margin" android:text="@string/express_go_back" style="0x80d003b" />
+    </LinearLayout>
+</LinearLayout>

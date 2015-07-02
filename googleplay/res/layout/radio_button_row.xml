@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RadioButton android:textSize="@dimen/content_generic_large_size" android:textColor="@color/play_primary_text" android:layout_width="-1" android:layout_height="-2" />

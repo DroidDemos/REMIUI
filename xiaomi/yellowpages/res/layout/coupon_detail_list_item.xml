@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.miui.yellowpage.ui.CouponListItem android:layout_width="-1" android:layout_height="-2" style="0x80d004e">
+    <RelativeLayout android:paddingTop="@dimen/extended_data_list_item_margin_vertical" android:paddingBottom="@dimen/extended_data_list_item_margin_vertical" android:layout_width="-1" android:layout_height="-2">
+        <FrameLayout android:id="@id/icon_frame" android:layout_width="-2" android:layout_height="-2">
+            <ImageView android:id="@id/image" android:background="@transactionxmlfile/MODE_PRIVATE" android:layout_width="@dimen/coupon_image_width" android:layout_height="@dimen/coupon_image_height" android:layout_marginRight="10dp" />
+            <ImageView android:id="@id/item_res" android:visibility="2" android:layout_width="-2" android:layout_height="-2" android:layout_marginLeft="5dp" android:layout_marginTop="5dp" android:src="@drawable/item_reservation" />
+        </FrameLayout>
+        <LinearLayout android:orientation="1" android:layout_width="-1" android:layout_height="-2" android:layout_toRightOf="@id/icon_frame">
+            <TextView android:ellipsize="3" android:id="@id/title" android:layout_width="-2" android:layout_height="-2" android:lines="1" style="0x80d005f" />
+            <TextView android:ellipsize="3" android:gravity="30" android:id="@id/description" android:layout_width="-2" android:layout_height="-2" android:lines="1" style="0x80d0058" />
+        </LinearLayout>
+        <LinearLayout android:gravity="50" android:orientation="0" android:layout_width="-2" android:layout_height="-2" android:baselineAligned="false" android:layout_toRightOf="@id/icon_frame" android:layout_alignBottom="@id/icon_frame" android:layout_alignParentBottom="true">
+            <TextView android:textSize="@dimen/coupon_current_price_text_size" android:textColor="@color/yellow_page_highlight_text_color" android:gravity="50" android:id="@id/currentprice" android:layout_width="-2" android:layout_height="-2" />
+            <TextView android:gravity="50" android:id="@id/pricemoney" android:layout_width="-2" android:layout_height="-2" android:layout_marginLeft="2.5dp" android:text="@string/currency_character" style="0x80d0058" />
+            <TextView android:gravity="50" android:id="@id/listprice" android:layout_width="-2" android:layout_height="-2" android:layout_marginLeft="5dp" style="0x80d0058" />
+            <TextView android:gravity="50" android:id="@id/purchasecount" android:visibility="2" android:layout_width="-2" android:layout_height="-2" android:layout_marginLeft="5dp" style="0x80d0058" />
+        </LinearLayout>
+    </RelativeLayout>
+</com.miui.yellowpage.ui.CouponListItem>

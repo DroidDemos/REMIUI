@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextView android:paddingLeft="16dp" android:paddingTop="8dp" android:paddingRight="16dp" android:paddingBottom="4dp" android:layout_width="-2" android:layout_height="-2" android:maxLines="1" android:singleLine="true" style="@style/PlayClusterTitle" />

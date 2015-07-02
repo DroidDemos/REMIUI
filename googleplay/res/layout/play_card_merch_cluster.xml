@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.finsky.layout.play.PlayCardMerchClusterView finsky:paddingTop="8dp" finsky:paddingBottom="8dp" finsky:layout_width="-1" finsky:layout_height="-2">
+    <include layout="@layout/play_card_cluster_header" />
+    <com.google.android.finsky.layout.play.PlayCardMerchClusterViewContent finsky:id="@id/cluster_content" finsky:layout_width="-1" finsky:layout_height="-2" finsky:layout_marginTop="@dimen/play_merch_content_vmargin" finsky:layout_marginBottom="@dimen/play_merch_content_vmargin" finsky:card_content_padding_top="@dimen/play_merch_content_vpadding" finsky:card_content_padding_bottom="@dimen/play_merch_content_vpadding">
+        <com.google.android.finsky.layout.FadingEdgeImageView finsky:id="@id/merch_image" finsky:layout_width="-2" finsky:layout_height="-2" finsky:foreground="@drawable/play_highlight_overlay_dark" finsky:scaleType="6" finsky:fixed_bounds="true" />
+    </com.google.android.finsky.layout.play.PlayCardMerchClusterViewContent>
+</com.google.android.finsky.layout.play.PlayCardMerchClusterView>

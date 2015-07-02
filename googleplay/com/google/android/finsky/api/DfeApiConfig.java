@@ -1,0 +1,87 @@
+package com.google.android.finsky.api;
+
+import com.google.android.play.utils.config.GservicesValue;
+
+public class DfeApiConfig {
+    public static final GservicesValue<Float> addReviewBackoffMultiplier;
+    public static final GservicesValue<Integer> addReviewMaxRetries;
+    public static final GservicesValue<Integer> addReviewTimeoutMs;
+    public static final GservicesValue<Integer> ageVerificationTimeoutMs;
+    public static final GservicesValue<Long> androidId;
+    public static final GservicesValue<String> authTokenType;
+    public static final GservicesValue<Float> backupDevicesBackoffMultiplier;
+    public static final GservicesValue<Integer> backupDevicesMaxRetries;
+    public static final GservicesValue<Integer> backupDevicesTimeoutMs;
+    public static final GservicesValue<Float> bulkDetailsBackoffMultiplier;
+    public static final GservicesValue<Integer> bulkDetailsMaxRetries;
+    public static final GservicesValue<Integer> bulkDetailsTimeoutMs;
+    public static final GservicesValue<String> clientId;
+    public static final GservicesValue<Float> dfeBackoffMultipler;
+    public static final GservicesValue<Integer> dfeMaxRetries;
+    public static final GservicesValue<Integer> dfeRequestTimeoutMs;
+    public static final GservicesValue<Float> earlyUpdateBackoffMultiplier;
+    public static final GservicesValue<Integer> earlyUpdateMaxRetries;
+    public static final GservicesValue<Integer> earlyUpdateTimeoutMs;
+    public static final GservicesValue<String> ipCountryOverride;
+    public static final GservicesValue<String> loggingId;
+    public static GservicesValue<Integer> maxVouchersInDetailsRequest;
+    public static final GservicesValue<String> mccMncOverride;
+    public static final GservicesValue<Float> plusProfileBgBackoffMult;
+    public static final GservicesValue<Integer> plusProfileBgMaxRetries;
+    public static final GservicesValue<Integer> plusProfileBgTimeoutMs;
+    public static final GservicesValue<Boolean> prexDisabled;
+    public static final GservicesValue<String> protoLogUrlRegexp;
+    public static final GservicesValue<Integer> purchaseStatusTimeoutMs;
+    public static final GservicesValue<Float> replicateLibraryBackoffMultiplier;
+    public static final GservicesValue<Integer> replicateLibraryMaxRetries;
+    public static final GservicesValue<Integer> replicateLibraryTimeoutMs;
+    public static final GservicesValue<Boolean> sendAdIdInRequestsForRads;
+    public static final GservicesValue<Boolean> sendPublicAndroidIdInRequestsForRads;
+    public static final GservicesValue<Boolean> showStagingData;
+    public static final GservicesValue<Boolean> skipAllCaches;
+    public static final GservicesValue<Integer> verifyAssociationMaxRetries;
+    public static final GservicesValue<Integer> verifyAssociationTimeoutMs;
+    public static GservicesValue<Boolean> vouchersInDetailsRequestsEnabled;
+
+    static {
+        mccMncOverride = GservicesValue.value("finsky.mcc_mnc_override", (String) null);
+        protoLogUrlRegexp = GservicesValue.value("finsky.proto_log_url_regexp", ".*");
+        sendPublicAndroidIdInRequestsForRads = GservicesValue.value("finsky.send_public_android_id_in_requests_for_rads", Boolean.valueOf(true));
+        sendAdIdInRequestsForRads = GservicesValue.value("finsky.send_ad_id_in_requests_for_rads", Boolean.valueOf(true));
+        dfeRequestTimeoutMs = GservicesValue.value("finsky.dfe_request_timeout_ms", Integer.valueOf(2500));
+        dfeMaxRetries = GservicesValue.value("finsky.dfe_max_retries", Integer.valueOf(1));
+        dfeBackoffMultipler = GservicesValue.value("finsky.dfe_backoff_multiplier", Float.valueOf(1.0f));
+        plusProfileBgTimeoutMs = GservicesValue.value("finsky.plus_profile_bg_timeout_ms", Integer.valueOf(8000));
+        plusProfileBgMaxRetries = GservicesValue.value("finsky.plus_profile_bg_max_retries", Integer.valueOf(0));
+        plusProfileBgBackoffMult = GservicesValue.value("finsky.plus_profile_bg_backoff_mult", Float.valueOf(1.0f));
+        ipCountryOverride = GservicesValue.value("finsky.ip_country_override", (String) null);
+        androidId = GservicesValue.value("android_id", Long.valueOf(0));
+        authTokenType = GservicesValue.value("finsky.auth_token_type", "androidmarket");
+        loggingId = GservicesValue.partnerSetting("logging_id2", "");
+        clientId = GservicesValue.partnerSetting("market_client_id", "am-google");
+        purchaseStatusTimeoutMs = GservicesValue.value("finsky.purchase_status_timeout_ms", Integer.valueOf(35000));
+        ageVerificationTimeoutMs = GservicesValue.value("finsky.age_verification_timeout_ms", Integer.valueOf(35000));
+        backupDevicesTimeoutMs = GservicesValue.value("finsky.backup_devices_timeout_ms", Integer.valueOf(15000));
+        backupDevicesMaxRetries = GservicesValue.value("finsky.backup_devices_max_retries", Integer.valueOf(1));
+        backupDevicesBackoffMultiplier = GservicesValue.value("finsky.backup_devices_backoff_multiplier", Float.valueOf(1.0f));
+        bulkDetailsTimeoutMs = GservicesValue.value("finsky.bulk_details_timeout_ms", Integer.valueOf(30000));
+        bulkDetailsMaxRetries = GservicesValue.value("finsky.bulk_details_max_retries", Integer.valueOf(1));
+        bulkDetailsBackoffMultiplier = GservicesValue.value("finsky.bulk_details_backoff_multiplier", Float.valueOf(1.0f));
+        verifyAssociationTimeoutMs = GservicesValue.value("finsky.verify_association_timeout_ms", Integer.valueOf(35000));
+        verifyAssociationMaxRetries = GservicesValue.value("finsky.verify_association_max_retries", Integer.valueOf(0));
+        replicateLibraryTimeoutMs = GservicesValue.value("finsky.replicate_library_timeout_ms", Integer.valueOf(30000));
+        replicateLibraryMaxRetries = GservicesValue.value("finsky.replicate_library_max_retries", Integer.valueOf(0));
+        replicateLibraryBackoffMultiplier = GservicesValue.value("finsky.replicate_library_backoff_multiplier", Float.valueOf(1.0f));
+        earlyUpdateTimeoutMs = GservicesValue.value("finsky.early_update_timeout_ms", Integer.valueOf(2500));
+        earlyUpdateMaxRetries = GservicesValue.value("finsky.early_update_max_retries", Integer.valueOf(1));
+        earlyUpdateBackoffMultiplier = GservicesValue.value("finsky.early_update_backoff_multiplier", Float.valueOf(1.0f));
+        addReviewTimeoutMs = GservicesValue.value("finsky.add_review_timeout_ms", Integer.valueOf(2500));
+        addReviewMaxRetries = GservicesValue.value("finsky.add_review_max_retries", Integer.valueOf(1));
+        addReviewBackoffMultiplier = GservicesValue.value("finsky.add_review_backoff_multiplier", Float.valueOf(1.0f));
+        skipAllCaches = GservicesValue.value("finsky.skip_all_caches", Boolean.valueOf(false));
+        showStagingData = GservicesValue.value("finsky.show_staging_data", Boolean.valueOf(false));
+        prexDisabled = GservicesValue.value("finsky.prex_disabled", Boolean.valueOf(false));
+        vouchersInDetailsRequestsEnabled = GservicesValue.value("finsky.vouchers_in_details_requests_enabled", Boolean.valueOf(true));
+        maxVouchersInDetailsRequest = GservicesValue.value("finsky.max_vouchers_in_details_request", Integer.valueOf(25));
+    }
+}

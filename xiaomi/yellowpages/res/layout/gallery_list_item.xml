@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.miui.yellowpage.ui.GalleryListItem android:paddingRight="0dp" android:layout_width="-1" android:layout_height="@dimen/list_preferred_item_height" style="0x80d004e">
+    <TextView android:layout_width="-2" android:layout_height="-2" android:text="@string/gallery" android:layout_alignParentLeft="true" android:layout_centerVertical="true" style="@style/YellowPageListItemTextAppearancePrimary" />
+    <ImageView android:id="@id/arrow" android:duplicateParentState="false" android:layout_width="@dimen/yellow_page_module_action_icon_size" android:layout_height="-2" android:layout_marginRight="@dimen/yellow_page_detail_action_icon_right_margin" android:src="@drawable/ic_arrow_right" android:scaleType="5" android:adjustViewBounds="true" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+</com.miui.yellowpage.ui.GalleryListItem>

@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextView android:layout_gravity="11" android:id="@id/error_dialog_message" android:padding="10dp" android:layout_width="-1" android:layout_height="-2" android:singleLine="false" />

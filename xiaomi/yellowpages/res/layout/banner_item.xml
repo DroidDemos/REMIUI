@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:paddingTop="@dimen/banner_container_padding" android:paddingBottom="@dimen/banner_container_padding" android:layout_width="-2" android:layout_height="-2">
+    <ImageView android:layout_gravity="11" android:id="@id/picture" android:scaleType="1" style="@style/Widget.Banner.Item" />
+</FrameLayout>

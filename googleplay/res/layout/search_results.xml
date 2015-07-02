@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:id="@id/search_results" android:layout_width="-1" android:layout_height="-1">
+    <com.google.android.finsky.layout.play.PlayRecyclerView android:id="@id/search_results_list" android:paddingBottom="@dimen/card_list_vpadding" android:fadingEdgeLength="0dp" android:clipToPadding="false" android:layout_width="-1" android:layout_height="-1" android:cacheColorHint="@color/play_main_background" android:divider="@styleable/WalletImButtonBar_capitalizeButtonText" />
+    <include android:layout_width="-1" android:layout_height="-1" layout="@layout/no_results_view" />
+</FrameLayout>

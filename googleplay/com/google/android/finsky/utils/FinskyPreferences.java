@@ -1,0 +1,156 @@
+package com.google.android.finsky.utils;
+
+import com.google.android.finsky.config.PreferenceFile;
+import com.google.android.finsky.config.PreferenceFile.PrefixSharedPreference;
+import com.google.android.finsky.config.PreferenceFile.SharedPreference;
+
+public class FinskyPreferences {
+    public static SharedPreference<Boolean> AUTO_UPDATE_ENABLED;
+    public static SharedPreference<Boolean> AUTO_UPDATE_WIFI_ONLY;
+    public static final SharedPreference<Boolean> acceptedAntiMalwareConsent;
+    public static final PrefixSharedPreference<Boolean> acceptedPlusReviews;
+    public static final PrefixSharedPreference<String> acceptedTosToken;
+    public static final PrefixSharedPreference<Boolean> accountHasFop;
+    public static final PrefixSharedPreference<Long> accountHasFopLastUpdateMs;
+    public static final PrefixSharedPreference<String> autoAcquireTags;
+    public static final SharedPreference<Boolean> autoUpdateFirstTimeForAccounts;
+    public static final SharedPreference<Integer> autoUpdateMigrationDialogShownCount;
+    public static final PrefixSharedPreference<Boolean> checkPromoOffers;
+    public static final SharedPreference<Integer> contentFilterLevel;
+    public static final SharedPreference<String> contentPin;
+    public static final SharedPreference<String> currentAccount;
+    public static final SharedPreference<Integer> dailyHygieneFailedCount;
+    public static final SharedPreference<Boolean> dailyHygieneHoldoffComplete;
+    public static final SharedPreference<Long> dailyHygieneLastSuccessMs;
+    public static final SharedPreference<String> deviceConfigToken;
+    public static final SharedPreference<String> dfeNotificationPendingAcks;
+    public static final SharedPreference<Boolean> directedRestoreStarted;
+    public static final SharedPreference<Boolean> downloadManagerUsesFroyoStrings;
+    public static final PrefixSharedPreference<Boolean> earlyUpdateSkipPackage;
+    public static final PrefixSharedPreference<String> experimentList;
+    public static final SharedPreference<String> gcmRegistrationIdOnServer;
+    public static final SharedPreference<Boolean> hadPreJsAutoUpdateSettings;
+    public static final SharedPreference<Boolean> hasAcceptedAutoUpdateMigrationDialog;
+    public static final SharedPreference<Boolean> hasSeenPermissionBucketsLearnMore;
+    public static final PrefixSharedPreference<Boolean> hasSeenPurchaseSessionMessage;
+    public static final SharedPreference<Integer> installationReplicationRetries;
+    public static final SharedPreference<Boolean> internalDetailsPageV2Enabled;
+    public static final SharedPreference<Boolean> internalFakeItemRaterEnabled;
+    @Deprecated
+    public static final PrefixSharedPreference<Boolean> isGaiaAuthOptedOut;
+    public static final PrefixSharedPreference<Long> lastAutomaticHeroSequenceOnDetailsTimeShown;
+    public static final SharedPreference<Long> lastDeviceFeatureLoggedTimestampMs;
+    public static final PrefixSharedPreference<Long> lastGaiaAuthTimestamp;
+    public static final SharedPreference<Integer> lastReplicatedDatabaseVersion;
+    public static final PrefixSharedPreference<Long> lastSurveyActionMs;
+    public static final SharedPreference<Long> lastTimeBackStackUpdatedMs;
+    public static final SharedPreference<Long> lastUpdateAvailNotificationTimestampMs;
+    public static final SharedPreference<Long> lastUpdateMigrationDialogTimeShown;
+    public static final PrefixSharedPreference<String> libraryWidgetData;
+    public static final SharedPreference<String> myLibraryWidgetBottomAffinity;
+    public static final SharedPreference<String> myLibraryWidgetLeftAffinity;
+    public static final SharedPreference<String> myLibraryWidgetRightAffinity;
+    public static final SharedPreference<String> myLibraryWidgetTopAffinity;
+    public static final SharedPreference<Integer> nlpCleanupConfigurationId;
+    public static final SharedPreference<Boolean> nlpCleanupHoldoffAfterInstall;
+    public static final SharedPreference<Boolean> nlpCleanupHoldoffUntilBoot;
+    public static final SharedPreference<Long> playGamesInstallSuggestionLastTimeShown;
+    public static final SharedPreference<Integer> playGamesInstallSuggestionShownCount;
+    public static final PrefixSharedPreference<Boolean> promptForFopAddedFop;
+    public static final PrefixSharedPreference<Long> promptForFopLastSnoozedTimestampMs;
+    public static final PrefixSharedPreference<Integer> promptForFopNumDialogImpressions;
+    public static final PrefixSharedPreference<Integer> promptForFopNumFopSelectorImpressions;
+    public static final PrefixSharedPreference<Integer> promptForFopNumSnoozed;
+    public static final PrefixSharedPreference<Integer> purchaseAuthType;
+    public static final PrefixSharedPreference<Integer> purchaseAuthVersionCode;
+    public static final PrefixSharedPreference<Integer> replicatedAccountAppsHash;
+    public static final PrefixSharedPreference<Integer> replicatedSystemAppsHash;
+    private static final PreferenceFile sPrefs;
+    public static final SharedPreference<Boolean> setupWizardStartDownloads;
+    public static final SharedPreference<String> successfulUpdateNotificationAppList;
+    public static final SharedPreference<Long> verifyInstalledPackagesLastSuccessMs;
+    public static final SharedPreference<Integer> versionCode;
+    public static final SharedPreference<Boolean> warmWelcomeOwnProfileAcknowledged;
+    public static final PrefixSharedPreference<String> widgetUrlsByBackend;
+    public static final SharedPreference<Integer> wifiAutoUpdateFailedAttempts;
+    public static final SharedPreference<Long> wifiAutoUpdateFirstFailMs;
+
+    static {
+        sPrefs = new PreferenceFile("finsky", 0);
+        versionCode = sPrefs.value("last_version_code", Integer.valueOf(-1));
+        contentFilterLevel = sPrefs.value("content-filter-level", Integer.valueOf(-1));
+        currentAccount = sPrefs.value("account", (String) null);
+        contentPin = sPrefs.value("pin_code", (String) null);
+        hadPreJsAutoUpdateSettings = sPrefs.value("had-pre-js-auto-update-settings", Boolean.valueOf(false));
+        hasAcceptedAutoUpdateMigrationDialog = sPrefs.value("update-migration-dialog-accepted", Boolean.valueOf(false));
+        autoUpdateMigrationDialogShownCount = sPrefs.value("update-migration-dialog-times-shown-count", Integer.valueOf(0));
+        lastUpdateMigrationDialogTimeShown = sPrefs.value("last-update-migration-dialog-times-shown", Long.valueOf(0));
+        lastDeviceFeatureLoggedTimestampMs = sPrefs.value("last-device-feature-logged-timestamp-ms", Long.valueOf(0));
+        playGamesInstallSuggestionShownCount = sPrefs.value("play-games-install-suggestion-shown-count", Integer.valueOf(0));
+        playGamesInstallSuggestionLastTimeShown = sPrefs.value("play-games-install-suggestion-last-time-shown", Long.valueOf(0));
+        deviceConfigToken = sPrefs.value("device-config-token", (String) null);
+        gcmRegistrationIdOnServer = sPrefs.value("gcm-registration-id-on-server", (String) null);
+        dailyHygieneFailedCount = sPrefs.value("dailyhygiene-failed", Integer.valueOf(0));
+        dailyHygieneLastSuccessMs = sPrefs.value("dailyhygiene-lastsuccess", Long.valueOf(0));
+        dailyHygieneHoldoffComplete = sPrefs.value("dailyhygiene-holdoff-complete", Boolean.valueOf(false));
+        AUTO_UPDATE_ENABLED = sPrefs.value("auto_update_enabled", Boolean.valueOf(true));
+        AUTO_UPDATE_WIFI_ONLY = sPrefs.value("update_over_wifi_only", Boolean.valueOf(true));
+        installationReplicationRetries = sPrefs.value("installation-replication-retries", Integer.valueOf(0));
+        dfeNotificationPendingAcks = sPrefs.value("dfe-notification-pending-acks", (String) null);
+        lastReplicatedDatabaseVersion = sPrefs.value("last-replicated-database-version", Integer.valueOf(-1));
+        replicatedSystemAppsHash = sPrefs.prefixPreference("replicated-system-apps-hash", Integer.valueOf(0));
+        acceptedTosToken = sPrefs.prefixPreference("last-tos-token", "");
+        acceptedAntiMalwareConsent = sPrefs.value("accepted-anti-malware-consent", Boolean.valueOf(false));
+        verifyInstalledPackagesLastSuccessMs = sPrefs.value("verify-installed-apps-last-success-ms", Long.valueOf(0));
+        replicatedAccountAppsHash = sPrefs.prefixPreference("replicated-account-apps-hash:", Integer.valueOf(0));
+        checkPromoOffers = sPrefs.prefixPreference("check-promo-offers", Boolean.valueOf(false));
+        accountHasFop = sPrefs.prefixPreference("has-fop", Boolean.valueOf(false));
+        accountHasFopLastUpdateMs = sPrefs.prefixPreference("has-fop-last-update-ms", Long.valueOf(0));
+        promptForFopNumSnoozed = sPrefs.prefixPreference("prompt-for-fop-num-snoozed", Integer.valueOf(0));
+        promptForFopLastSnoozedTimestampMs = sPrefs.prefixPreference("prompt-for-fop-last-snooze-timestamp-ms", Long.valueOf(0));
+        promptForFopNumDialogImpressions = sPrefs.prefixPreference("prompt-for-fop-num-dialog-impressions", Integer.valueOf(0));
+        promptForFopNumFopSelectorImpressions = sPrefs.prefixPreference("prompt-for-fop-num-fop-selector-impressions", Integer.valueOf(0));
+        promptForFopAddedFop = sPrefs.prefixPreference("prompt-for-fop-fop-added", Boolean.valueOf(false));
+        lastGaiaAuthTimestamp = sPrefs.prefixPreference("last-gaia-auth-timestamp", Long.valueOf(0));
+        isGaiaAuthOptedOut = sPrefs.prefixPreference("gaia-auth-opt-out", (Boolean) null);
+        purchaseAuthType = sPrefs.prefixPreference("purchase-auth-type", Integer.valueOf(-1));
+        purchaseAuthVersionCode = sPrefs.prefixPreference("purchase-auth-version-code", (Integer) null);
+        experimentList = sPrefs.prefixPreference("experiment-list", (String) null);
+        autoAcquireTags = sPrefs.prefixPreference("autoAcquireTags", (String) null);
+        myLibraryWidgetTopAffinity = sPrefs.value("my-library-widget-top-affinities", "");
+        myLibraryWidgetBottomAffinity = sPrefs.value("my-library-widget-bottom-affinities", "");
+        myLibraryWidgetLeftAffinity = sPrefs.value("my-library-widget-left-affinities", "");
+        myLibraryWidgetRightAffinity = sPrefs.value("my-library-widget-right-affinities", "");
+        downloadManagerUsesFroyoStrings = sPrefs.value("download-manager-uses-froyo-strings", Boolean.valueOf(false));
+        acceptedPlusReviews = sPrefs.prefixPreference("accepted-plus-reviews", Boolean.valueOf(false));
+        nlpCleanupConfigurationId = sPrefs.value("nlp-cleanup-config-id", Integer.valueOf(0));
+        nlpCleanupHoldoffUntilBoot = sPrefs.value("nlp-cleanup-config-holdoff-until-boot", Boolean.valueOf(false));
+        nlpCleanupHoldoffAfterInstall = sPrefs.value("nlp-cleanup-config-holdoff-after-install", Boolean.valueOf(false));
+        widgetUrlsByBackend = sPrefs.prefixPreference("widgetUrl", (String) null);
+        libraryWidgetData = sPrefs.prefixPreference("libraryWidgetData", (String) null);
+        successfulUpdateNotificationAppList = sPrefs.value("successful-update-notification-app-list", "");
+        lastUpdateAvailNotificationTimestampMs = sPrefs.value("last-update-avail-notification-timestamp-ms", Long.valueOf(0));
+        wifiAutoUpdateFailedAttempts = sPrefs.value("wifi-auto-update-failed-attempts", Integer.valueOf(0));
+        wifiAutoUpdateFirstFailMs = sPrefs.value("wifi-auto-update-first-fail-ms", Long.valueOf(0));
+        warmWelcomeOwnProfileAcknowledged = sPrefs.value("warm-welcome-own-profile-acknowledged", Boolean.valueOf(false));
+        internalFakeItemRaterEnabled = sPrefs.value("internal-fake-item-rater-enabled", Boolean.valueOf(false));
+        autoUpdateFirstTimeForAccounts = sPrefs.value("auto-update-first-time-for-accounts", Boolean.valueOf(true));
+        hasSeenPurchaseSessionMessage = sPrefs.prefixPreference("has-seen-purchase-session-message", Boolean.valueOf(false));
+        hasSeenPermissionBucketsLearnMore = sPrefs.value("has-seen-permission-buckets-learn-more", Boolean.valueOf(false));
+        lastAutomaticHeroSequenceOnDetailsTimeShown = sPrefs.prefixPreference("last-automatic-hero-sequence-on-details-time-shown", Long.valueOf(0));
+        directedRestoreStarted = sPrefs.value("directed-restore-started", Boolean.valueOf(false));
+        earlyUpdateSkipPackage = sPrefs.prefixPreference("early-update-skip-package", Boolean.valueOf(false));
+        setupWizardStartDownloads = sPrefs.value("setup-wizard-start-downloads", Boolean.valueOf(false));
+        internalDetailsPageV2Enabled = sPrefs.value("internal-details-page-v2-enabled", Boolean.valueOf(true));
+        lastTimeBackStackUpdatedMs = sPrefs.value("last-time-back-stack-updated-ms", Long.valueOf(Long.MAX_VALUE));
+        lastSurveyActionMs = sPrefs.prefixPreference("last-survey-action-ms", (Long) null);
+    }
+
+    public static PrefixSharedPreference<String> getLibraryServerToken(String libraryId) {
+        return sPrefs.prefixPreference("server_token:" + libraryId + ":", "");
+    }
+
+    public static PreferenceFile getPreferencesFile() {
+        return sPrefs;
+    }
+}

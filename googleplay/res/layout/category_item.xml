@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.finsky.layout.CategoryRow android:focusable="true" android:layout_width="-1" android:layout_height="@dimen/category_row_height" android:foreground="@drawable/play_highlight_overlay_light">
+    <View android:id="@id/separator" android:background="@color/play_reason_separator" android:layout_width="-1" android:layout_height="@dimen/play_hairline_separator_thickness" android:layout_alignParentBottom="true" />
+    <ImageView android:id="@id/category_item_image" android:visibility="2" android:layout_width="50dp" android:layout_height="50dp" android:layout_marginLeft="7dp" android:layout_marginRight="7dp" android:scaleType="3" android:layout_above="@id/separator" android:layout_alignParentLeft="true" android:layout_centerVertical="true" />
+    <com.google.android.finsky.layout.AccessibleTextView android:textSize="@dimen/content_generic_large_size" android:ellipsize="3" android:gravity="13" android:id="@id/category_item_title" android:paddingLeft="16dp" android:paddingRight="16dp" android:layout_width="-2" android:layout_height="-1" android:singleLine="true" android:layout_toRightOf="@id/category_item_image" android:layout_above="@id/separator" android:layout_centerVertical="true" style="@style/PlayPlainText" />
+</com.google.android.finsky.layout.CategoryRow>

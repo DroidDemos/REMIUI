@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.miui.yellowpage.ui.EnrollingListItem android:orientation="1" android:layout_width="-1" android:layout_height="-2">
+    <LinearLayout android:id="@id/manage" android:layout_width="-1" android:layout_height="-2" style="0x80d004d">
+        <TextView android:id="@id/manage_hint" android:layout_width="-2" android:layout_height="-2" style="0x80d005f" />
+    </LinearLayout>
+    <LinearLayout android:gravity="1" android:id="@id/enroll" android:layout_width="-1" android:layout_height="@dimen/list_preferred_item_height">
+        <TextView android:layout_gravity="50" android:id="@id/enroll_hint" android:layout_width="-2" android:layout_height="-2" style="@style/TextAppearance.Info.Enroll" />
+    </LinearLayout>
+</com.miui.yellowpage.ui.EnrollingListItem>

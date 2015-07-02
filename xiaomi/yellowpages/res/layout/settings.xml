@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="1" android:orientation="1" android:layout_width="-1" android:layout_height="-1">
+    <TextView android:textAppearance="0x80d000d" android:gravity="11" android:paddingLeft="@dimen/antispam_hint_padding_vertical" android:paddingRight="@dimen/antispam_hint_padding_vertical" android:layout_width="-1" android:layout_height="-2" android:layout_marginTop="15dp" android:text="@string/turn_on_smart_antispam_hint" />
+    <ImageView android:background="@drawable/turn_on_smart_antispam" android:layout_width="-2" android:layout_height="-2" android:layout_margin="20dp" android:scaleType="7" android:contentDescription="@transactionxmlfile/MODE_PRIVATE" />
+    <FrameLayout android:id="@id/switcher_container" android:layout_width="-1" android:layout_height="-2" />
+</LinearLayout>

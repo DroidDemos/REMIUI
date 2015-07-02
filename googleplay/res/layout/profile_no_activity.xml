@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.finsky.layout.IdentifiableTextView android:textSize="@dimen/play_large_size" android:textColor="@color/play_fg_secondary" android:gravity="11" android:paddingTop="24dp" android:paddingBottom="12dp" android:focusable="true" android:layout_width="-1" android:layout_height="-2" android:drawableTop="@drawable/ic_empty_activities" android:drawablePadding="12dp" style="@style/PlayLightText" />

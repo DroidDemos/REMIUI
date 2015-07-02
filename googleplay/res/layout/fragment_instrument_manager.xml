@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.wallet.instrumentmanager.ui.InstrumentManagerRootFrameLayout im:orientation="1" im:paddingLeft="?attr/imFormLeftRightMargin" im:paddingRight="?attr/imFormLeftRightMargin" im:layout_width="-1" im:layout_height="-1" im:minWidth="420dp" im:maxWidth="?attr/imMaxWidth">
+    <LinearLayout im:orientation="1" im:id="@id/main_content" im:layout_width="-1" im:layout_height="-1" im:minHeight="200dp">
+        <include im:id="@id/top_bar" im:layout_width="-1" im:layout_height="-2" im:layout_marginTop="?attr/imTitleTopMargin" im:layout_marginBottom="?attr/imTitleBottomMargin" layout="@layout/view_top_bar" />
+        <ScrollView im:layout_width="-1" im:layout_height="0dp" im:layout_weight="1.0">
+            <LinearLayout im:orientation="1" im:layout_width="-1" im:layout_height="-2">
+                <com.google.android.wallet.instrumentmanager.ui.common.InfoMessageTextView im:id="@id/top_info_text" im:layout_width="-1" im:layout_height="-2" im:layout_marginBottom="@dimen/wallet_im_info_message_bottom_margin" style="?attr/imInfoMessageTextAppearance" />
+                <FrameLayout im:id="@id/sub_form" im:layout_width="-1" im:layout_height="-2" />
+                <TextView im:id="@id/error_message" im:visibility="2" im:layout_width="-2" im:layout_height="-2" im:textIsSelectable="true" style="?attr/imErrorMessageTextAppearance" />
+                <TextView im:textAppearance="?unknown_attr_ref: 1010042" im:id="@id/error_code" im:visibility="2" im:layout_width="-2" im:layout_height="-2" im:layout_marginTop="4dp" im:textIsSelectable="true" />
+            </LinearLayout>
+        </ScrollView>
+        <include im:id="@id/button_bar" im:layout_width="-1" im:layout_height="-2" im:layout_marginTop="?attr/imButtonBarTopMargin" im:layout_marginBottom="?attr/imButtonBarBottomMargin" layout="@layout/view_button_bar" />
+        <View im:id="@id/focus_stealer" im:focusableInTouchMode="true" im:layout_width="-1" im:layout_height="0dp" />
+    </LinearLayout>
+    <ProgressBar im:layout_gravity="11" im:id="@id/progress_bar" im:visibility="1" im:layout_width="-2" im:layout_height="-2" />
+</com.google.android.wallet.instrumentmanager.ui.InstrumentManagerRootFrameLayout>

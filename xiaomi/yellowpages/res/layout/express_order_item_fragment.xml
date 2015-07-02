@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="-1" android:layout_height="-1">
+    <LinearLayout android:orientation="1" android:id="@id/root" android:visibility="2" android:layout_width="-1" android:layout_height="-1">
+        <RelativeLayout android:layout_gravity="1" android:layout_width="-1" android:layout_height="@dimen/express_order_item_banner_height"
+            <RelativeLayout android:layout_width="-2" android:layout_height="-2" android:layout_centerInParent="true">
+                <LinearLayout android:gravity="10" android:orientation="0" android:id="@id/express_company_container" android:layout_width="-2" android:layout_height="-2" android:layout_centerHorizontal="true">
+                    <TextView android:id="@id/express_company" style="@style/ExpressOrderItemBannerPrefixAppearance" />
+                    <TextView android:text="@string/express_info_divider" style="@style/ExpressOrderItemBannerPrefixAppearance" />
+                    <TextView android:text="@string/express_tracking_number" style="@style/ExpressOrderItemBannerPrefixAppearance" />
+                </LinearLayout>
+                <LinearLayout android:gravity="1" android:orientation="1" android:id="@id/track_container" android:layout_width="-2" android:layout_height="-2" android:layout_below="@id/express_company_container" android:layout_centerHorizontal="true">
+                    <TextView android:ellipsize="4" android:id="@id/tracking_number" style="@style/ExpressOrderItemBannerTrackingNumberAppearance" />
+                    <Button android:id="@id/track_order" android:layout_width="-2" android:layout_height="-2" android:text="@string/express_track_order" style="0x80d005f" />
+                </LinearLayout>
+                <LinearLayout android:gravity="11" android:orientation="0" android:paddingLeft="@dimen/express_order_item_padding_horizontal" android:paddingRight="@dimen/express_order_item_padding_horizontal" android:layout_width="-2" android:layout_height="-2" android:layout_below="@id/track_container" android:layout_centerHorizontal="true">
+                    <TextView android:id="@id/state" android:singleLine="true" style="@style/ExpressOrderItemBannerStateAppearance" />
+                    <LinearLayout android:orientation="0" android:id="@id/state_note_container" android:layout_width="-2" android:layout_height="-2" android:layout_weight="1.0">
+                        <TextView android:text="@string/express_info_divider" style="@style/ExpressOrderItemBannerStateAppearance" />
+                        <TextView android:ellipsize="3" android:id="@id/state_note" android:singleLine="true" style="@style/ExpressOrderItemBannerStateAppearance" />
+                    </LinearLayout>
+                </LinearLayout>
+            </RelativeLayout>
+        </RelativeLayout>
+        <LinearLayout android:orientation="1" android:paddingLeft="@dimen/express_order_item_padding_horizontal" android:paddingRight="@dimen/express_order_item_padding_horizontal" android:layout_width="-1" android:layout_height="-1">
+            <ImageView android:background="@drawable/divider" android:layout_width="-1" android:layout_height="1px" />
+            <ScrollView android:layout_width="-1" android:layout_height="0dp" android:layout_weight="1.0" android:overScrollMode="2">
+                <com.miui.yellowpage.widget.ExpressOrderDetailView android:id="@id/detail" android:layout_width="-1" android:layout_height="-2" />
+            </ScrollView>
+            <LinearLayout android:orientation="1" android:layout_width="-1" android:layout_height="-2" android:layout_marginTop="@dimen/express_order_item_btn_margin_vertical" android:layout_marginBottom="@dimen/express_order_item_btn_margin_vertical">
+                <Button android:id="@id/cancel" android:layout_width="-1" android:layout_height="-2" />
+                <Button android:id="@id/contact" android:layout_width="-1" android:layout_height="-1" android:layout_marginTop="@dimen/bottom_buttons_margin" />
+                <Button android:id="@id/view_status" android:layout_width="-1" android:layout_height="-1" android:layout_marginTop="@dimen/bottom_buttons_margin" android:text="@string/express_view_status" style="0x80d0037" />
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+    <com.miui.yellowpage.widget.LoadingProgressView android:gravity="11" android:layout_gravity="50" android:id="@id/loading_view" android:visibility="2" android:layout_width="-1" android:layout_height="-1" />
+    <TextView android:layout_gravity="11" android:id="0x1020004" android:visibility="2" android:layout_width="-2" android:layout_height="-2" android:text="@string/express_no_order_info" />
+</FrameLayout>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="1" android:id="@id/root_view" android:layout_width="-1" android:layout_height="-1"
+    <LinearLayout android:gravity="11" android:orientation="1" android:layout_width="-1" android:layout_height="0dp" android:layout_weight="1.0">
+        <ImageView android:id="@id/payment_result_icon" android:layout_width="-2" android:layout_height="-2" android:contentDescription="@transactionxmlfile/MODE_PRIVATE" />
+        <TextView android:id="@id/payment_result_title" android:layout_width="-2" android:layout_height="-2" style="@style/PaymentResultTitleTextAppearance" />
+        <TextView android:gravity="11" android:id="@id/payment_result_summary" android:layout_width="-2" android:layout_height="-2" android:singleLine="false" style="@style/PaymentResultSummaryTextAppearance" />
+    </LinearLayout>
+    <LinearLayout android:orientation="1" android:paddingLeft="@dimen/payment_padding" android:paddingRight="@dimen/payment_padding" android:paddingBottom="@dimen/payment_padding" android:layout_width="-1" android:layout_height="-2">
+        <TextView android:textStyle="1" android:gravity="11" android:id="@id/payment_failed_hint" android:layout_width="-1" android:layout_height="-2" android:layout_marginBottom="@dimen/payment_vertical_margin" android:text="@string/payment_failed_common_problems" style="@style/TextAppearance.Info" />
+        <Button android:id="@id/payment_back" android:layout_width="-1" android:layout_height="-2" android:text="@string/payment_back" />
+    </LinearLayout>
+</LinearLayout>

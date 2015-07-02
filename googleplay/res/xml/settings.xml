@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen>
+    <PreferenceCategory android:title="@string/settings_general_section_header">
+        <CheckBoxPreference android:title="@string/notifications" android:key="update-notifications" android:summary="@string/notification_description" />
+        <com.google.android.finsky.activities.SettingsListPreference android:title="@string/auto_update_label" android:key="auto-update-mode" />
+        <CheckBoxPreference android:title="@string/auto_add_shortcuts_label" android:key="auto-add-shortcuts" android:summary="@string/auto_add_shortcuts_description" />
+        <Preference android:title="@string/clear_local_history_title" android:key="clear-history" android:summary="@string/clear_local_history_summary" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="@string/settings_user_controls_section_header">
+        <Preference android:title="@string/content_filtering_label" android:key="content-level" android:summary="@string/content_filtering_description" />
+        <com.google.android.finsky.activities.SettingsListPreference android:title="@string/purchase_auth_dialog_label" android:key="purchase-auth" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="@string/settings_about_header">
+        <Preference android:title="@string/os_licenses_label" android:key="os-licenses" android:summary="@string/os_licenses_summary" />
+        <Preference android:title="@string/settings_build_version" android:key="build-version" />
+    </PreferenceCategory>
+</PreferenceScreen>

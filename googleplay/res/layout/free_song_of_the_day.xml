@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.finsky.layout.MarginBox android:layout_width="-1" android:layout_height="-1">
+    <include layout="@layout/free_song_of_the_day_content" />
+</com.google.android.finsky.layout.MarginBox>

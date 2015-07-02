@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.finsky.layout.DetailsColumnLayout finsky:id="@id/details_layout" finsky:layout_width="-1" finsky:layout_height="-1" finsky:has_leading_gap="false" finsky:leading_hero_section_id="@id/hero_promo">
+    <include layout="@layout/generic_details_expanded_content" />
+    <com.google.android.finsky.layout.scroll.DetailsScrollView finsky:orientation="1" finsky:id="@id/details_scroller" finsky:fadingEdge="0" finsky:layout_width="-1" finsky:layout_height="-1" finsky:fillViewport="true">
+        <com.google.android.finsky.layout.DetailsInnerColumnLayout finsky:orientation="1" finsky:id="@id/details_container" finsky:layout_width="-1" finsky:layout_height="-2" finsky:separator_inset="@dimen/details_new_content_margin" finsky:show_trailing_separator="true">
+            <include finsky:id="@id/hero_promo" layout="@layout/hero_graphic" />
+            <include layout="@layout/antenna_sections" />
+        </com.google.android.finsky.layout.DetailsInnerColumnLayout>
+    </com.google.android.finsky.layout.scroll.DetailsScrollView>
+</com.google.android.finsky.layout.DetailsColumnLayout>

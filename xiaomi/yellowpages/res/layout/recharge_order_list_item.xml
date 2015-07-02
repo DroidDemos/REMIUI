@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.miui.yellowpage.ui.RechargeOrderListItem android:orientation="1" android:layout_width="-1" android:layout_height="-2">
+    <LinearLayout android:orientation="1" android:layout_width="-1" android:layout_height="-2" style="0x80d004f"
+        <LinearLayout android:orientation="0" android:layout_width="-2" android:layout_height="-2">
+            <TextView android:id="@id/original_price" android:layout_width="-2" android:layout_height="-2" style="0x80d000c" />
+            <TextView android:id="@id/phone_number" android:paddingLeft="@dimen/recharge_order_phone_number_padding_left" android:layout_width="-2" android:layout_height="-2" style="0x80d000c" />
+        </LinearLayout>
+        <LinearLayout android:orientation="0" android:layout_width="-2" android:layout_height="-2"
+            <LinearLayout android:orientation="0" android:layout_width="-2" android:layout_height="-2">
+                <TextView android:id="@id/actual_price_prefix" android:layout_width="-2" android:layout_height="-2" android:text="@string/recharge_actual_price" style="0x80d000d" />
+                <TextView android:id="@id/actual_price" android:layout_width="-2" android:layout_height="-2" style="0x80d000d" />
+            </LinearLayout>
+            <LinearLayout android:orientation="0" android:paddingLeft="@dimen/recharge_order_status_description_padding_left" android:layout_width="-2" android:layout_height="-2">
+                <TextView android:id="@id/status_description_prefix" android:layout_width="-2" android:layout_height="-2" android:text="@string/recharge_status_description" style="0x80d000d" />
+                <TextView android:id="@id/status_description" android:layout_width="-2" android:layout_height="-2" style="0x80d000d" />
+            </LinearLayout>
+        </LinearLayout>
+        <LinearLayout android:orientation="0" android:layout_width="-2" android:layout_height="-2">
+            <TextView android:id="@id/order_id_prefix" android:layout_width="-2" android:layout_height="-2" android:text="@string/recharge_order_id" style="0x80d000d" />
+            <TextView android:id="@id/order_id" android:layout_width="-2" android:layout_height="-2" style="0x80d000d" />
+        </LinearLayout>
+    </LinearLayout>
+</com.miui.yellowpage.ui.RechargeOrderListItem>

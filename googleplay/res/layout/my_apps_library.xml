@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="-1" android:layout_height="-1">
+    <include layout="@layout/my_apps_tab_content" />
+    <include layout="@layout/my_apps_empty_view" />
+</FrameLayout>

@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="utf-8"?>
+<bitmap android:gravity="30" android:src="@drawable/setup_wizard_illustration_horizontal_tile" android:tileModeY="-1" />

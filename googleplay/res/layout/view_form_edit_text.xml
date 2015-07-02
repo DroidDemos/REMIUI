@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.wallet.instrumentmanager.ui.common.FormEditText android:layout_width="-1" android:layout_height="-2" android:layout_marginTop="?attr/imFormVerticalMargin" android:layout_marginBottom="?attr/imFormVerticalMargin" android:minHeight="?attr/imFormItemHeight" style="?attr/imFormInputTextAppearance" />

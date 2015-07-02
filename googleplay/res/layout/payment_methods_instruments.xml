@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="1" android:layout_width="-1" android:layout_height="-2"
+    <LinearLayout android:orientation="1" android:id="@id/instruments_container" android:paddingBottom="@dimen/my_account_separator_ypadding" android:layout_width="-1" android:layout_height="-2" />
+    <include layout="@layout/payment_methods_instruments_actions" />
+</LinearLayout>

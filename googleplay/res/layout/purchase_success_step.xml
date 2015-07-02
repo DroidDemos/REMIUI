@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.play.layout.PlayTextView finsky:textSize="24sp" finsky:textColor="@color/play_fg_purchase_secondary" finsky:gravity="13" finsky:id="@id/message" finsky:padding="16dp" finsky:layout_width="-1" finsky:layout_height="-1" finsky:allowsCompactLineSpacing="true" style="@style/PlayLightText" />

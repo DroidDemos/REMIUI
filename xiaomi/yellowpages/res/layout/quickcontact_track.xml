@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge android:layout_width="-1" android:layout_height="-2">
+    <LinearLayout android:orientation="0" android:id="@id/track_background" android:layout_width="-1" android:layout_height="-2" />
+    <HorizontalScrollView android:id="@id/track_scroller" android:scrollbars="0" android:fadingEdgeLength="0dp" android:layout_width="-1" android:layout_height="-2">
+        <RelativeLayout android:layout_gravity="33" android:layout_width="-2" android:layout_height="-2">
+            <LinearLayout android:orientation="0" android:id="@id/track" android:background="@drawable/quickcontact_track_background" android:layout_width="-2" android:layout_height="-2" />
+            <LinearLayout android:orientation="0" android:id="@id/selected_tab_indicator" android:background="@drawable/quickcontact_tab_indicator" android:layout_width="-2" android:layout_height="-2" android:layout_alignBottom="@id/track" android:layout_alignParentLeft="true" />
+        </RelativeLayout>
+    </HorizontalScrollView>
+</merge>

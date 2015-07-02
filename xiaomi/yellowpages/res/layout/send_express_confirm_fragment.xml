@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="1" android:layout_width="-1" android:layout_height="-1">
+    <ScrollView android:layout_width="-1" android:layout_height="0dp" android:layout_weight="1.0" android:overScrollMode="2">
+        <LinearLayout android:orientation="1" android:paddingLeft="@dimen/express_confirm_padding_horizontal" android:paddingRight="@dimen/express_confirm_padding_horizontal" android:layout_width="-1" android:layout_height="-2">
+            <ImageView android:layout_gravity="1" android:id="@id/company_logo" android:layout_width="-2" android:layout_height="-2" android:layout_marginTop="@dimen/express_confirm_company_info_margin_top" android:layout_marginBottom="@dimen/express_confirm_company_logo_margin_bottom" />
+            <TextView android:textAppearance="0x80d0004" android:layout_gravity="1" android:id="@id/company" android:layout_width="-2" android:layout_height="-2" android:layout_marginBottom="@dimen/express_confirm_company_info_margin_bottom" />
+            <ImageView style="@style/SendExpressConfirmDivider" />
+            <TextView android:text="@string/express_contact_label" style="@style/SendExpressConfirmLabel" />
+            <TextView android:textAppearance="0x80d0002" android:textSize="@dimen/express_confirm_phone_size" android:textStyle="1" android:id="@id/number" android:layout_width="-1" android:layout_height="-2" android:layout_marginTop="@dimen/express_confirm_phone_margin_top" />
+            <TextView android:textAppearance="0x80d0004" android:id="@id/src_city" android:layout_width="-1" android:layout_height="-2" android:singleLine="false" />
+            <ImageView style="@style/SendExpressConfirmDivider" />
+            <TextView android:text="@string/express_dest_city_label" style="@style/SendExpressConfirmLabel" />
+            <TextView android:textAppearance="0x80d0004" android:id="@id/dest_city" android:layout_width="-1" android:layout_height="-2" android:layout_marginTop="@dimen/express_confirm_dest_margin_top" android:singleLine="false" />
+            <ImageView style="@style/SendExpressConfirmDivider" />
+        </LinearLayout>
+    </ScrollView>
+    <Button android:id="@id/submit" android:text="@string/express_submit_order" style="@style/ExpressPositiveWarn" />
+</LinearLayout>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.play.drawer.PlayDrawerProfileInfoView play_common:layout_width="-1" play_common:layout_height="@dimen/play_drawer_profile_info_height">
+    <com.google.android.play.image.FifeImageView play_common:id="@id/cover_photo" play_common:layout_width="-1" play_common:layout_height="-1" play_common:foreground="@color/play_drawer_profile_overlay_shade" play_common:scaleType="6" play_common:fixed_bounds="true" />
+    <include play_common:layout_gravity="800053" play_common:id="@id/avatar" play_common:layout_width="64dp" play_common:layout_height="64dp" play_common:layout_marginLeft="@dimen/play_drawer_item_left_padding" play_common:layout_marginRight="@dimen/play_drawer_item_right_padding" play_common:layout_marginBottom="68dp" layout="@layout/play_drawer_account_avatar" />
+    <include play_common:layout_gravity="800055" play_common:id="@id/secondary_avatar_left" play_common:layout_width="40dp" play_common:layout_height="40dp" play_common:layout_marginRight="72dp" play_common:layout_marginBottom="84dp" play_common:layout_marginEnd="72dp" layout="@layout/play_drawer_account_avatar" />
+    <include play_common:layout_gravity="800055" play_common:id="@id/secondary_avatar_right" play_common:layout_width="40dp" play_common:layout_height="40dp" play_common:layout_marginRight="16dp" play_common:layout_marginBottom="84dp" play_common:layout_marginEnd="16dp" layout="@layout/play_drawer_account_avatar" />
+    <FrameLayout play_common:layout_gravity="50" play_common:id="@id/account_info_container" play_common:paddingLeft="@dimen/play_drawer_item_left_padding" play_common:paddingRight="@dimen/play_drawer_item_right_padding" play_common:layout_width="-1" play_common:layout_height="56dp" play_common:layout_marginBottom="8dp">
+        <LinearLayout play_common:layout_gravity="800053" play_common:orientation="1" play_common:layout_width="-2" play_common:layout_height="-2" play_common:layout_marginBottom="8dp">
+            <TextView play_common:ellipsize="3" play_common:id="@id/display_name" play_common:layout_width="-2" play_common:layout_height="-2" play_common:maxLines="1" play_common:singleLine="true" style="@style/PlayDrawerProfileNameText" />
+            <TextView play_common:ellipsize="3" play_common:id="@id/account_name" play_common:layout_width="-2" play_common:layout_height="-2" play_common:maxLines="1" play_common:singleLine="true" style="@style/PlayDrawerProfileEmailText" />
+        </LinearLayout>
+        <ImageView play_common:layout_gravity="800055" play_common:id="@id/toggle_account_list_button" play_common:visibility="2" play_common:layout_width="24dp" play_common:layout_height="24dp" play_common:layout_marginBottom="8dp" play_common:scaleType="5" />
+    </FrameLayout>
+</com.google.android.play.drawer.PlayDrawerProfileInfoView>

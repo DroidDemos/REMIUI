@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextView android:textSize="@dimen/content_generic_small_size" android:textColor="@color/play_fg_purchase_secondary" android:background="@drawable/play_highlight_overlay_light" android:paddingBottom="8dp" android:focusable="true" style="@style/PlayPlainText" />

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="1" android:layout_width="-1" android:layout_height="-2">
+    <ImageView android:background="@drawable/divider" android:layout_width="-1" android:layout_height="1px" />
+    <ImageView android:layout_gravity="1" android:id="@id/thumbnail" android:layout_marginTop="@dimen/list_item_padding" android:layout_marginBottom="5dp" style="@style/Widget.ImageView.Thumbnail" />
+    <TextView android:layout_gravity="11" android:id="@id/summary" android:layout_width="-2" android:layout_height="-2" style="@style/TextAppearance.Info" />
+</LinearLayout>

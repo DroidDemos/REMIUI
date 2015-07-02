@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector>
+    <item android:state_pressed="true" android:drawable="@drawable/action_button_remark_p" />
+    <item android:state_selected="true" android:drawable="@drawable/action_button_remark_p" />
+    <item android:state_enabled="false" android:drawable="@drawable/action_button_remark_d" />
+    <item android:drawable="@drawable/action_button_remark_n" />
+</selector>

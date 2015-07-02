@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.miui.yellowpage.ui.ShopInformationListItem android:layout_width="-1" android:layout_height="-1" style="@style/Widget.ListView.Item.ShopInformation">
+    <TextView android:id="@id/info" android:layout_width="-1" android:layout_height="-2" style="@style/TextAppearance.List.Primary.Review" />
+</com.miui.yellowpage.ui.ShopInformationListItem>

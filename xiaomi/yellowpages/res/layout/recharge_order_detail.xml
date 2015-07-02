@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:orientation="1" android:layout_width="-1" android:layout_height="-1">
+    <LinearLayout android:gravity="11" android:orientation="1" android:id="@id/root_view" android:visibility="2" android:layout_width="-1" android:layout_height="-1"
+        <LinearLayout android:orientation="1" android:layout_width="-1" android:layout_height="0dp" android:layout_weight="1.0"
+            <LinearLayout android:orientation="1" android:layout_width="-1" android:layout_height="-2">
+                <TextView android:text="@string/order_product_name_label" style="@style/Widget.TextView.Label" />
+                <TextView android:gravity="11" android:id="@id/product_name" android:layout_width="-1" android:layout_height="-2" android:singleLine="true" style="0x80d005f" />
+                <TextView android:text="@string/recharge_phone" style="@style/Widget.TextView.Label" />
+                <TextView android:gravity="11" android:id="@id/product_shortinfo" android:layout_width="-1" android:layout_height="-2" android:singleLine="true" style="0x80d005f" />
+            </LinearLayout>
+            <ImageView style="@style/Widget.Divider" />
+            <LinearLayout android:orientation="1" android:layout_width="-1" android:layout_height="-2">
+                <TextView android:id="@id/order_status" style="@style/Widget.TextView.Label" />
+                <TextView android:id="@id/order_price" style="@style/Widget.TextView.Label" />
+                <TextView android:id="@id/order_id" style="@style/Widget.TextView.Label" />
+                <TextView android:id="@id/order_date" style="@style/Widget.TextView.Label" />
+            </LinearLayout>
+            <ImageView style="@style/Widget.Divider" />
+        </LinearLayout>
+        <LinearLayout android:orientation="1" android:paddingLeft="@dimen/payment_padding" android:paddingRight="@dimen/payment_padding" android:layout_width="-1" android:layout_height="-2">
+            <TextView android:gravity="11" android:id="@id/pay_hint" android:layout_width="-1" android:layout_height="-2" android:layout_marginBottom="@dimen/payment_vertical_margin" />
+            <Button android:id="@id/pay" android:layout_width="-1" android:layout_height="-2" android:text="@string/recharge_pay" />
+        </LinearLayout>
+    </LinearLayout>
+    <com.miui.yellowpage.widget.LoadingProgressView android:gravity="11" android:layout_gravity="50" android:id="@id/loading_view" android:layout_width="-1" android:layout_height="-1" />
+</FrameLayout>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge>
+    <include android:id="@id/description_panel" layout="@layout/details_text_description" />
+    <include android:id="@id/song_list" layout="@layout/music_song_list" />
+    <include android:id="@id/secondary_actions_panel" layout="@layout/details_secondary_actions" />
+    <include android:id="@id/body_of_work_panel" android:layout_width="-1" android:layout_height="-2" android:layout_marginLeft="@dimen/play_collection_edge_padding_minus_card_half_spacing" android:layout_marginRight="@dimen/play_collection_edge_padding_minus_card_half_spacing" layout="@layout/details_pack_layout" />
+</merge>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.miui.yellowpage.ui.FlowOfPackagesItem android:orientation="0" android:background="0x8020027" android:layout_width="-1" android:layout_height="-2">
+    <RadioButton android:id="@id/button" android:clickable="false" android:layout_width="-2" android:layout_height="-1" />
+    <LinearLayout android:layout_gravity="10" android:orientation="1" android:layout_width="0dp" android:layout_height="-2" android:layout_weight="1.0">
+        <TextView android:id="@id/title" android:layout_width="-1" android:layout_height="-2" style="0x80d005f" />
+        <TextView android:id="@id/subtitle" android:layout_width="-1" android:layout_height="-2" style="0x80d0058" />
+    </LinearLayout>
+</com.miui.yellowpage.ui.FlowOfPackagesItem>

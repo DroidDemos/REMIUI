@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout finsky:orientation="1" finsky:background="@drawable/play_highlight_overlay_light" finsky:focusable="true" finsky:visibility="2" finsky:layout_width="-1" finsky:layout_height="-2" finsky:layout_marginTop="20dp" finsky:layout_marginBottom="20dp">
+    <View finsky:background="@color/play_translucent_separator_line" finsky:layout_width="-1" finsky:layout_height="1dp" />
+    <RelativeLayout finsky:layout_width="-1" finsky:layout_height="-2" finsky:layout_marginLeft="8dp" finsky:layout_marginTop="12dp">
+        <ImageView finsky:id="@id/check_mark" finsky:layout_width="-2" finsky:layout_height="-2" finsky:layout_marginRight="8dp" finsky:src="@drawable/ic_purchase_check" finsky:layout_centerVertical="true" finsky:contentDescription="@string/content_description_selected_voucher_entry" />
+        <com.google.android.finsky.layout.play.SingleLineContainer finsky:id="@id/selected_voucher_price_and_title" finsky:layout_width="-1" finsky:layout_height="-2" finsky:layout_toRightOf="@id/check_mark" finsky:layout_centerVertical="true" finsky:flexibleChildId="@id/selected_voucher_title">
+            <TextView finsky:textStyle="1" finsky:ellipsize="3" finsky:id="@id/selected_voucher_title" finsky:paddingRight="12dp" finsky:layout_width="-2" finsky:layout_height="-2" finsky:maxLines="1" style="@style/LightPurchase_Voucher" />
+            <TextView finsky:textStyle="1" finsky:id="@id/selected_voucher_discount_price" finsky:layout_width="-2" finsky:layout_height="-2" style="@style/LightPurchase_Voucher" />
+        </com.google.android.finsky.layout.play.SingleLineContainer>
+    </RelativeLayout>
+    <TextView finsky:id="@id/selected_voucher_original_price" finsky:paddingLeft="32dp" finsky:layout_width="-1" finsky:layout_height="-2" finsky:layout_marginLeft="8dp" finsky:layout_marginBottom="12dp" finsky:layout_toRightOf="@id/check_mark" finsky:layout_below="@id/selected_voucher_price_and_title" style="@style/LightPurchase_Voucher_Byline" />
+    <View finsky:background="@color/play_translucent_separator_line" finsky:layout_width="-1" finsky:layout_height="1dp" />
+</LinearLayout>

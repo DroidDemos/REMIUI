@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.miui.yellowpage.ui.ShopRecommendationListItem android:gravity="@transactionxmlfile/MODE_PRIVATE" android:layout_width="-1" android:layout_height="-1" style="0x80d004f">
+    <ImageView android:id="@id/icon" android:layout_alignParentLeft="true" android:layout_centerVertical="true" style="@style/Widget.ImageView.Detail.Recommendation" />
+    <LinearLayout android:orientation="1" android:layout_width="-2" android:layout_height="-2" android:layout_marginLeft="@dimen/yellow_page_content_margin_left" android:layout_toRightOf="@id/icon" android:layout_alignParentRight="true" android:layout_centerVertical="true">
+        <TextView android:id="@id/name" android:layout_width="-2" android:layout_height="-2" android:singleLine="true" style="0x80d005f" />
+        <RelativeLayout android:layout_width="-1" android:layout_height="-2">
+            <TextView android:id="@id/address" android:layout_width="-2" android:layout_height="-2" android:singleLine="true" android:layout_toLeftOf="@id/distance" android:layout_alignParentLeft="true" style="0x80d0058" />
+            <TextView android:id="@id/distance" android:layout_width="-2" android:layout_height="-2" android:singleLine="true" android:layout_alignParentRight="true" style="0x80d0058" />
+        </RelativeLayout>
+        <RatingBar android:id="@id/rating" android:layout_width="-2" android:layout_height="-2" style="@style/Widget.Rating.ShopRecommendation" />
+    </LinearLayout>
+</com.miui.yellowpage.ui.ShopRecommendationListItem>

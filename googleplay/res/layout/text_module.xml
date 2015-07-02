@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.finsky.detailspage.TextModuleLayout android:orientation="1" android:background="@color/play_white" android:paddingLeft="@dimen/details_listing_section_extra_padding" android:paddingTop="12dp" android:paddingRight="@dimen/details_listing_section_extra_padding" android:paddingBottom="20dp" android:focusable="true" android:clickable="true" android:layout_width="-1" android:layout_height="-2" android:foreground="@drawable/play_highlight_overlay_light">
+    <include layout="@layout/details_text_description_content" />
+</com.google.android.finsky.detailspage.TextModuleLayout>

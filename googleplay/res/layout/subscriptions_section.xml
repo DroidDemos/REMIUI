@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.finsky.layout.SubscriptionsSection finsky:orientation="1" finsky:id="@id/subscriptions_section" finsky:background="@color/play_white" finsky:visibility="2" finsky:layout_width="-1" finsky:layout_height="-2" finsky:separator_inset="@dimen/details_new_content_margin" />

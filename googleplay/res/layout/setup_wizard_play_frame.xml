@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout finsky:orientation="1" finsky:background="@color/setupwizard_background_color" finsky:layout_width="-1" finsky:layout_height="-1">
+    <com.google.android.finsky.layout.ProportionalOuterFrame finsky:layout_width="-1" finsky:layout_height="-1" finsky:proportion="@dimen/setup_wizard_content_width">
+        <LinearLayout finsky:orientation="1" finsky:layout_width="-1" finsky:layout_height="-1">
+            <TextView finsky:gravity="50" finsky:id="@id/title" finsky:paddingLeft="@dimen/setup_wizard_screen_margin_sides" finsky:paddingRight="@dimen/setup_wizard_screen_margin_sides" finsky:layout_marginBottom="6dp" finsky:text="@string/setup_wizard_market_setup_title" style="@style/SetupWizardTitle" />
+            <LinearLayout finsky:orientation="1" finsky:paddingBottom="@dimen/setup_wizard_margin_bottom" finsky:layout_width="-1" style="@style/SetupWizardContentHeight">
+                <include layout="@layout/setup_wizard_divider_and_progress" />
+                <FrameLayout finsky:id="@id/content_frame" finsky:paddingTop="10dp" finsky:layout_width="-1" finsky:layout_height="-1">
+                    <include finsky:visibility="2" layout="@layout/page_loading_indicator" />
+                </FrameLayout>
+            </LinearLayout>
+        </LinearLayout>
+    </com.google.android.finsky.layout.ProportionalOuterFrame>
+</LinearLayout>

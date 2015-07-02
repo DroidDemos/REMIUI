@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout finsky:orientation="1" finsky:background="@color/setupwizard_background_color" finsky:layout_width="-1" finsky:layout_height="-1">
+    <ScrollView finsky:layout_width="-1" finsky:layout_height="0dp" finsky:layout_weight="1.0">
+        <com.google.android.finsky.layout.AvailablePromoOfferContent finsky:orientation="1" finsky:id="@id/promo_offer_content" finsky:paddingLeft="@dimen/addinstrument_content_padding" finsky:paddingRight="@dimen/addinstrument_content_padding" finsky:layout_width="-1" finsky:layout_height="-2">
+            <TextView finsky:id="@id/promo_offer_introductory_text" finsky:paddingBottom="6dp" finsky:layout_width="-1" finsky:layout_height="-2" style="@style/SetupWizardLightText" />
+            <com.google.android.play.image.FifeImageView finsky:id="@id/promo_offer_image" finsky:visibility="2" finsky:layout_width="-1" finsky:layout_height="128dp" finsky:layout_marginTop="16dp" finsky:layout_marginBottom="24dp" finsky:scaleType="7" finsky:fixed_bounds="true" finsky:fade_in_after_load="false" />
+            <TextView finsky:id="@id/promo_offer_description" finsky:paddingTop="8dp" finsky:visibility="2" finsky:layout_width="-1" finsky:layout_height="-2" style="@style/SetupWizardLightText" />
+            <TextView finsky:id="@id/promo_offer_terms" finsky:paddingTop="10dp" finsky:paddingBottom="4dp" finsky:layout_width="-1" finsky:layout_height="-2" style="@style/SetupWizardDetails" />
+        </com.google.android.finsky.layout.AvailablePromoOfferContent>
+    </ScrollView>
+    <include layout="@layout/setup_wizard_continue_button_bar" />
+</LinearLayout>

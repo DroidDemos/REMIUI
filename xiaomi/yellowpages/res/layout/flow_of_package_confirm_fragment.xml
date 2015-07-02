@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="11" android:orientation="1" android:id="@id/root_view" android:layout_width="-1" android:layout_height="-1"
+    <LinearLayout android:orientation="1" android:layout_width="-1" android:layout_height="0dp" android:layout_weight="1.0">
+        <TextView android:id="@id/packages_info" android:background="0x8020027" android:paddingLeft="36dp" android:paddingTop="@dimen/payment_padding" android:paddingRight="36dp" android:paddingBottom="@dimen/payment_padding" android:layout_width="-1" android:layout_height="-2" android:layout_marginTop="@dimen/payment_padding" android:singleLine="false" />
+        <TextView android:id="@id/packages_description" android:padding="@dimen/payment_padding" android:layout_width="-1" android:layout_height="-2" android:singleLine="false" />
+    </LinearLayout>
+    <LinearLayout android:orientation="1" android:paddingLeft="@dimen/payment_padding" android:paddingRight="@dimen/payment_padding" android:paddingBottom="@dimen/payment_padding" android:layout_width="-1" android:layout_height="-2">
+        <TextView android:gravity="11" android:id="@id/pay_hint" android:layout_width="-1" android:layout_height="-2" android:layout_marginBottom="@dimen/payment_vertical_margin" android:text="@string/packages_pay_hint" />
+        <Button android:id="@id/pay" android:layout_width="-1" android:layout_height="-2" android:text="@string/packages_pay_confirm" style="0x80d0037" />
+    </LinearLayout>
+</LinearLayout>

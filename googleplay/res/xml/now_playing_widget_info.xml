@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="utf-8"?>
+<appwidget-provider android:minWidth="@dimen/now_playing_default_width" android:minHeight="@dimen/now_playing_default_height" android:updatePeriodMillis="43200000" android:initialLayout="@layout/now_playing_base" android:configure="com.google.android.finsky.widget.consumption.NowPlayingTrampoline" android:previewImage="@drawable/widget_preview_library" android:resizeMode="3" android:minResizeWidth="@dimen/now_playing_min_width" android:minResizeHeight="@dimen/now_playing_min_height" />

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="1" android:padding="16dp" android:layout_width="-1" android:layout_height="-1"
+    <LinearLayout android:orientation="1" android:layout_width="-1" android:layout_height="0dp" android:layout_weight="1.0">
+        <com.google.android.play.layout.PlayTextView android:ellipsize="3" android:id="@id/title" android:layout_width="-1" android:layout_height="-2" android:singleLine="true" style="@style/LightPurchase_TitleText" />
+        <TextView android:id="@id/description" android:layout_width="-1" android:layout_height="-2" style="@style/LightPurchase_ExtendedDetails" />
+        <EditText android:id="@id/code_entry" android:layout_width="-1" android:layout_height="-2" android:layout_marginTop="10dp" android:lines="1" android:inputType="80003" android:imeOptions="10000000" />
+        <TextView android:id="@id/error" android:layout_width="-1" android:layout_height="-2" style="@style/LightPurchase_ErrorByline" />
+    </LinearLayout>
+    <include layout="@layout/play_button_bar" />
+</LinearLayout>

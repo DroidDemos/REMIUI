@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="1" android:layout_width="-1" android:layout_height="-1">
+    <include android:id="@id/tax_info_forms_spinner" android:visibility="2" layout="@layout/view_default_spinner" />
+    <LinearLayout android:orientation="1" android:id="@id/tax_info_fields_container" android:layout_width="-1" android:layout_height="-2" /> />

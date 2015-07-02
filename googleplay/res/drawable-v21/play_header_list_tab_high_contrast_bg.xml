@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ripple android:color="@color/play_header_list_tab_ripple_color">
+    <item android:id="0x102002e">
+        <color android:color="0x106000c" />
+    </item>
+</ripple>

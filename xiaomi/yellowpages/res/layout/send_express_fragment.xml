@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout miui:orientation="1" miui:layout_width="-1" miui:layout_height="-1">
+    <LinearLayout miui:orientation="1" miui:id="@id/root" miui:visibility="2" miui:layout_width="-1" miui:layout_height="-1"
+        <LinearLayout miui:orientation="0" miui:id="@id/express_company_container" miui:background="@drawable/send_express_company_bg" miui:paddingLeft="0dp" miui:paddingRight="0dp" miui:descendantFocusability="2" miui:layout_width="-1" style="0x80d004e">
+            <FrameLayout miui:orientation="0" miui:id="@id/express_company" miui:layout_width="0dp" miui:layout_height="-2" miui:layout_weight="1.0">
+                <ImageView miui:layout_gravity="10" miui:id="@id/express_company_icon" miui:layout_width="@dimen/express_company_list_icon_size" miui:layout_height="@dimen/express_company_list_icon_size" miui:layout_marginLeft="@dimen/express_company_icon_margin_left" />
+                <LinearLayout miui:layout_gravity="10" miui:orientation="1" miui:layout_width="-1" miui:layout_height="-2" miui:layout_marginLeft="@dimen/express_company_content_margin_left" miui:layout_marginRight="@dimen/express_company_content_margin_right">
+                    <TextView miui:id="@id/express_company_name" miui:layout_width="-1" miui:layout_height="-2" style="0x80d005f" />
+                    <TextView miui:ellipsize="3" miui:id="@id/express_company_description" miui:layout_width="-1" miui:layout_height="-2" miui:maxLines="1" style="0x80d0058" />
+                </LinearLayout>
+                <ImageView miui:layout_gravity="15" miui:id="@id/arrow" miui:layout_width="-2" miui:layout_height="-2" miui:layout_marginRight="20dp" miui:src="@drawable/expander_open" />
+            </FrameLayout>
+            <ImageView miui:background="@drawable/vertical_line" miui:layout_width="-2" miui:layout_height="-1" />
+            <ImageView miui:id="@id/express_company_list" miui:layout_width="@dimen/list_preferred_item_height" miui:layout_height="@dimen/list_preferred_item_height" miui:src="@drawable/express_detail" miui:scaleType="5" />
+        </LinearLayout>
+        <FrameLayout miui:layout_width="-1" miui:layout_height="-1">
+            <ImageView miui:background="@drawable/shadow_divider" miui:layout_width="-1" miui:layout_height="-2" />
+            <LinearLayout miui:orientation="1" miui:layout_width="-1" miui:layout_height="-1" miui:layout_marginLeft="@dimen/express_send_express_fragment_view_margin" miui:layout_marginRight="@dimen/express_send_express_fragment_view_margin">
+                <TextView miui:layout_width="-1" miui:layout_height="-2" miui:text="@string/express_contact_label" style="@style/SendExpressLabelTextViewStyle" />
+                <RelativeLayout miui:layout_width="-1" miui:layout_height="0dp" miui:layout_weight="1.0">
+                    <LinearLayout miui:orientation="1" miui:id="@id/address_container" miui:focusableInTouchMode="true" miui:descendantFocusability="0" miui:layout_width="-1" miui:layout_height="-2">
+                        <com.miui.yellowpage.ui.VerticallyClippedButton miui:gravity="13" miui:id="@id/src_city" miui:background="@drawable/edit_text_bg_first_light" miui:paddingLeft="@dimen/send_express_widget_padding_horizontal" miui:paddingRight="@dimen/send_express_widget_padding_horizontal" miui:layout_width="-1" miui:layout_height="-2" miui:text="@string/express_select_city" />
+                        <FrameLayout miui:layout_width="-1" miui:layout_height="-2">
+                            <miui.widget.ClearableEditText miui:id="@id/address" miui:background="@drawable/edit_text_bg_last_light" miui:paddingLeft="@dimen/send_express_widget_padding_horizontal" miui:paddingRight="@dimen/send_express_widget_padding_horizontal" miui:layout_width="-1" miui:layout_height="-2" miui:hint="@string/express_contact_address" miui:inputType="1" style="0x80d0049" />
+                            <ImageView miui:layout_gravity="15" miui:id="@id/location" miui:visibility="2" miui:layout_width="-2" miui:layout_height="-2" miui:src="@drawable/express_send_address_location_btn" />
+                        </FrameLayout>
+                        <TextView miui:layout_width="-1" miui:layout_height="-2" miui:text="@string/express_dest_city_label" style="@style/SendExpressLabelTextViewStyle" />
+                        <TextView miui:textAppearance="0x80d000e" miui:textStyle="0" miui:gravity="10" miui:id="@id/dest_city" miui:background="@drawable/express_select_button_bg" miui:layout_width="-1" miui:layout_height="-2" miui:text="@string/express_select_city" />
+                    </LinearLayout>
+                    <miui.widget.ClearableEditText miui:id="@id/phone" miui:background="@drawable/edit_text_bg_first_light" miui:paddingLeft="@dimen/send_express_widget_padding_horizontal" miui:paddingRight="@dimen/send_express_widget_padding_horizontal" miui:layout_width="-1" miui:layout_height="-2" miui:hint="@string/express_contact_phone" miui:inputType="3" miui:state_first_v="true" style="0x80d0049" />
+                </RelativeLayout>
+            </LinearLayout>
+            <LinearLayout miui:gravity="1" miui:layout_gravity="50" miui:orientation="1" miui:layout_width="-1" miui:layout_height="-2">
+                <TextView miui:id="@id/express_notice" miui:layout_width="-2" miui:layout_height="-2" miui:layout_marginBottom="@dimen/express_progress_item_padding_vertical" />
+                <Button miui:enabled="false" miui:id="@id/create_order" miui:text="@string/express_preview_order" style="@style/ExpressPositiveWarn" />
+            </LinearLayout>
+        </FrameLayout>
+    </LinearLayout>
+    <com.miui.yellowpage.widget.LoadingProgressView miui:gravity="11" miui:layout_gravity="50" miui:id="@id/loading_view" miui:visibility="2" miui:layout_width="-1" miui:layout_height="-1" />
+</FrameLayout>

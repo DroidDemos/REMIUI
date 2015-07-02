@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.finsky.search.FinskySearch android:layout_width="-1" android:layout_height="-2">
+    <include layout="@layout/play_search" />
+</com.google.android.finsky.search.FinskySearch>

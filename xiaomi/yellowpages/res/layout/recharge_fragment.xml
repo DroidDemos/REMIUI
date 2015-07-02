@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:orientation="1" android:layout_width="-1" android:layout_height="-1">
+    <LinearLayout android:gravity="11" android:orientation="1" android:id="@id/root_view" android:visibility="2" android:layout_width="-1" android:layout_height="-1"
+        <LinearLayout android:orientation="1" android:layout_width="-1" android:layout_height="0dp" android:layout_weight="1.0">
+            <TextView android:paddingLeft="@dimen/payment_padding" android:paddingTop="@dimen/payment_vertical_margin" android:paddingRight="@dimen/payment_padding" android:text="@string/recharge_input_phone_title" style="@style/PaymentLabel" />
+            <FrameLayout android:paddingLeft="@dimen/payment_padding" android:paddingRight="@dimen/payment_padding" android:layout_width="-1" android:layout_height="-2"
+                <FrameLayout android:orientation="0" android:layout_width="-1" android:layout_height="@dimen/express_text_field_height">
+                    <AutoCompleteTextView android:id="@id/phone" android:paddingLeft="@dimen/express_inquiry_fragment_serial_number_edit_text_padding_horizontal" android:paddingRight="75dp" android:layout_width="-1" android:layout_height="@dimen/express_text_field_height" android:inputType="3" android:imeOptions="6" style="0x80d0081" />
+                    <ImageView android:layout_gravity="5" android:id="@id/pick_phone" android:layout_width="-2" android:layout_height="-1" android:layout_marginLeft="@dimen/express_inquiry_scan_margin_left" android:src="@drawable/express_contact_bg" />
+                </FrameLayout>
+                <RelativeLayout android:layout_gravity="10" android:layout_width="-1" android:layout_height="-2" android:layout_marginRight="50dp">
+                    <TextView android:ellipsize="3" android:gravity="5" android:id="@id/contact_name" android:layout_width="-1" android:layout_height="-2" android:singleLine="true" android:layout_toLeftOf="@id/clear_button_place_holder" android:layout_centerVertical="true" style="0x80d0000" />
+                    <ImageView android:id="@id/clear_button_place_holder" android:visibility="1" android:layout_width="-2" android:layout_height="-2" android:src="@drawable/edit_text_search_clear_btn_on_light" android:layout_alignParentRight="true" android:contentDescription="@transactionxmlfile/MODE_PRIVATE" />
+                </RelativeLayout>
+            </FrameLayout>
+            <TextView android:paddingLeft="@dimen/payment_padding" android:paddingRight="@dimen/payment_padding" android:text="@string/recharge_select_money_title" style="@style/PaymentLabel" />
+            <ImageView android:background="@drawable/recharge_choice_divider" android:layout_width="-1" android:layout_height="1px" android:layout_marginLeft="@dimen/payment_padding" android:layout_marginRight="@dimen/payment_padding" />
+            <RadioGroup android:id="@id/charge_choices" android:layout_width="-1" android:layout_height="-2" />
+            <TextView android:id="@id/charge_range" android:paddingLeft="@dimen/payment_padding" android:paddingRight="@dimen/payment_padding" android:layout_width="-1" android:layout_height="-2" android:layout_marginTop="@dimen/payment_vertical_margin" android:minHeight="0dp" style="@style/TextAppearance.Info" />
+        </LinearLayout>
+        <LinearLayout android:orientation="1" android:paddingLeft="@dimen/payment_padding" android:paddingRight="@dimen/payment_padding" android:paddingBottom="@dimen/payment_button_padding_bottom" android:layout_width="-1" android:layout_height="-2">
+            <TextView android:gravity="11" android:id="@id/pay_hint" android:layout_width="-1" android:layout_height="-2" android:layout_marginBottom="@dimen/payment_vertical_margin" style="@style/TextAppearance.Info" />
+            <Button android:id="@id/pay" android:paddingBottom="0dp" android:layout_width="-1" android:layout_height="-2" android:text="@string/recharge_pay" style="0x80d0037" />
+        </LinearLayout>
+    </LinearLayout>
+    <com.miui.yellowpage.widget.LoadingProgressView android:gravity="11" android:layout_gravity="50" android:id="@id/loading_view" android:layout_width="-1" android:layout_height="-1" />
+</FrameLayout>

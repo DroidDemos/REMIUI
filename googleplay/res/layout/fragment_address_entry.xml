@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="1" android:id="@id/container" android:layout_width="-1" android:layout_height="-2">
+    <include android:id="@id/address_title" layout="@layout/view_form_title_text" />
+    <CheckBox android:textAppearance="?attr/imFormCheckboxTextAppearance" android:id="@id/hide_address_checkbox" android:visibility="2" android:layout_width="-1" android:layout_height="-2" android:layout_marginTop="?attr/imFormVerticalMargin" android:layout_marginBottom="?attr/imFormVerticalMargin" android:checked="true" android:minHeight="?attr/imFormItemHeight" />
+    <include android:id="@id/region_code_view" layout="@layout/view_region_code" />
+    <include android:id="@id/dynamic_address_fields_layout" layout="@layout/view_dynamic_address_fields" />
+</LinearLayout>

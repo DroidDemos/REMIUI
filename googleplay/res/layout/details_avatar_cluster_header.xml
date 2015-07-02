@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.finsky.layout.DetailsAvatarClusterHeader finsky:id="@id/cluster_header" finsky:background="@color/white" finsky:focusable="true" finsky:layout_width="-1" finsky:layout_height="-2" finsky:foreground="@drawable/play_highlight_overlay_dark" finsky:min_header_height="@dimen/details_section_header_height">
+    <com.google.android.play.image.FifeImageView finsky:id="@id/cluster_image" finsky:layout_width="-1" finsky:layout_height="@dimen/hero_image_height" finsky:layout_marginTop="@dimen/details_talent_entry_avatar_peek" finsky:scaleType="6" finsky:fixed_bounds="true" />
+    <com.google.android.play.image.FifeImageView finsky:id="@id/avatar" finsky:focusable="true" finsky:layout_width="@dimen/play_profile_avatar_size" finsky:layout_height="@dimen/play_profile_avatar_size" finsky:scaleType="2" finsky:layout_centerHorizontal="true" finsky:fixed_bounds="true" finsky:is_avatar="true" />
+    <LinearLayout finsky:gravity="10" finsky:orientation="1" finsky:id="@id/cluster_title" finsky:paddingBottom="@dimen/details_talent_entry_title_bottom_padding" finsky:layout_width="-1" finsky:layout_height="-2" finsky:layout_centerHorizontal="true">
+        <com.google.android.finsky.layout.DecoratedTextView finsky:textColor="@color/play_white" finsky:layout_gravity="11" finsky:id="@id/header_title_main" finsky:focusable="false" finsky:layout_width="-2" finsky:layout_height="-2" finsky:layout_marginTop="2dp" finsky:maxLines="1" finsky:singleLine="true" finsky:drawablePadding="4dp" style="@style/PlayClusterTitle" />
+        <TextView finsky:textColor="@color/play_fg_tertiary" finsky:layout_gravity="11" finsky:id="@id/header_title_secondary" finsky:layout_width="-2" finsky:layout_height="-2" finsky:layout_marginTop="-3dp" finsky:maxLines="1" finsky:singleLine="true" style="@style/Play_DetailsPage_SubheaderText" />
+    </LinearLayout>
+    <TextView finsky:id="@id/header_more" style="@style/PlayClusterMore" />
+</com.google.android.finsky.layout.DetailsAvatarClusterHeader>

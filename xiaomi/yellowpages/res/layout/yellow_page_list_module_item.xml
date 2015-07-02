@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.miui.yellowpage.ui.YellowPageListModuleItem android:paddingRight="0dp" android:layout_width="-1" android:layout_height="-2" style="0x80d004d">
+    <LinearLayout android:gravity="10" android:layout_gravity="10" android:orientation="1" android:id="@id/primary_action_view" android:paddingTop="@dimen/yellow_page_detail_list_item_padding_vertical" android:paddingRight="@dimen/yellow_page_detail_list_item_padding_horizontal" android:paddingBottom="@dimen/yellow_page_detail_list_item_padding_vertical" android:layout_width="-1" android:layout_height="-2"
+        <LinearLayout android:orientation="0" android:layout_width="-1" android:layout_height="-2">
+            <TextView android:layout_gravity="10" android:id="@id/title" android:layout_width="-2" android:layout_height="-2" style="@style/YellowPageListItemTextAppearancePrimary" />
+            <ImageView android:layout_gravity="10" android:id="@id/badge" android:layout_width="-2" android:layout_height="-2" android:layout_marginLeft="3dp" />
+        </LinearLayout>
+        <TextView android:ellipsize="3" android:id="@id/sub_title" android:layout_width="-2" android:layout_height="-2" android:singleLine="true" style="@style/YellowPageListItemTextAppearanceSecondary" />
+    </LinearLayout>
+    <ImageView android:layout_gravity="15" android:id="@id/action_button" android:paddingLeft="@dimen/yellow_page_list_item_secondary_action_padding_left" android:paddingRight="@dimen/yellow_page_list_item_secondary_action_padding_right" android:duplicateParentState="false" android:layout_width="@dimen/yellow_page_module_action_icon_size" android:layout_height="@dimen/yellow_page_module_action_icon_size" android:layout_marginRight="@dimen/yellow_page_list_item_secondary_action_padding_right" android:scaleType="5" android:adjustViewBounds="true" android:contentDescription="@transactionxmlfile/MODE_PRIVATE" />
+    <ImageView android:layout_gravity="15" android:id="@id/action_button_menu" android:duplicateParentState="false" android:layout_width="@dimen/yellow_page_module_action_icon_size" android:layout_height="@dimen/yellow_page_module_action_icon_size" android:layout_marginRight="@dimen/yellow_page_more_numbers_item_padding_right" android:src="@drawable/action_icon_mipub_menu" android:scaleType="7" />
+</com.miui.yellowpage.ui.YellowPageListModuleItem>

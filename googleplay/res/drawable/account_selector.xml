@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list>
+    <item android:drawable="@color/account_selector_background" />
+    <item android:drawable="@drawable/play_highlight_overlay_light" />
+</layer-list>

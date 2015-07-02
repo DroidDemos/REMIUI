@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animated-rotate android:drawable="@drawable/ic_sync_anim_holo" android:pivotX="50%" android:pivotY="50%" />

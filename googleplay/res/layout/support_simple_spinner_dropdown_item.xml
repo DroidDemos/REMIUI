@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextView android:ellipsize="4" android:id="0x1020014" android:layout_width="-1" android:layout_height="?attr/dropdownListPreferredItemHeight" android:singleLine="true" style="?attr/spinnerDropDownItemStyle" />

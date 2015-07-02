@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="1" android:id="@id/cart_details" android:paddingLeft="16dp" android:paddingTop="12dp" android:paddingRight="16dp" android:layout_width="-1" android:layout_height="-1"
+    <LinearLayout android:orientation="0" android:id="@id/header" android:background="@drawable/play_highlight_overlay_light" android:focusable="true" android:layout_width="-1" android:layout_height="-2" android:baselineAligned="false"
+        <LinearLayout android:orientation="1" android:layout_width="0dp" android:layout_height="-2" android:layout_weight="1.0">
+            <com.google.android.play.layout.PlayTextView android:ellipsize="4" android:id="@id/item_title" android:layout_width="-1" android:layout_height="-2" android:layout_marginRight="16dp" android:maxLines="2" style="@style/LightPurchase_TitleText" />
+            <TextView android:ellipsize="4" android:id="@id/instrument" android:layout_width="-1" android:layout_height="-2" android:layout_marginTop="-2dp" android:maxLines="2" style="@style/LightPurchase_Instrument" />
+        </LinearLayout>
+        <LinearLayout android:gravity="5" android:orientation="1" android:layout_width="-2" android:layout_height="-2">
+            <TextView android:id="@id/item_price" android:layout_width="-2" android:layout_height="-2" android:drawablePadding="3dp" style="@style/LightPurchase_Price" />
+            <TextView android:ellipsize="4" android:gravity="5" android:id="@id/price_byline" android:layout_width="-2" android:layout_height="-2" android:layout_marginTop="-2dp" android:maxWidth="160dp" android:maxLines="2" style="@style/LightPurchase_PriceByline" />
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout android:gravity="10" android:orientation="1" android:id="@id/detail_messages" android:visibility="2" android:layout_width="-1" android:layout_height="-2" android:layout_marginTop="6dp" />
+    <TextView android:gravity="10" android:id="@id/instrument_error_message" android:visibility="2" android:layout_width="-1" android:layout_height="-2" style="@style/LightPurchase_ErrorByline" />
+    <include android:id="@id/selected_voucher_container" layout="@layout/selected_voucher_container" />
+    <ScrollView android:id="@id/purchase_details" android:visibility="2" android:layout_width="-1" android:layout_height="0dp" android:layout_marginTop="10dp" android:layout_weight="1.0">
+        <LinearLayout android:orientation="1" android:layout_width="-1" android:layout_height="-2">
+            <View android:background="@color/play_translucent_separator_line" android:layout_width="-1" android:layout_height="1dp" />
+            <TextView android:gravity="10" android:id="@id/payment_settings" android:background="@drawable/play_highlight_overlay_light" android:paddingLeft="8dp" android:focusable="true" android:layout_width="-1" android:layout_height="-2" android:minHeight="44dp" android:text="@string/payment_methods" style="@style/LightPurchase_PaymentSettingsLink" />
+            <View android:id="@id/redeem_separator" android:background="@color/play_translucent_separator_line" android:layout_width="-1" android:layout_height="1dp" />
+            <TextView android:gravity="10" android:id="@id/redeem" android:background="@drawable/play_highlight_overlay_light" android:paddingLeft="8dp" android:focusable="true" android:layout_width="-1" android:layout_height="-2" android:minHeight="44dp" android:text="@string/redeem_gift_card_menu" style="@style/LightPurchase_PaymentSettingsLink" />
+            <View android:background="@color/play_translucent_separator_line" android:layout_width="-1" android:layout_height="1dp" />
+            <TextView android:gravity="10" android:id="@id/voucher_header" android:background="@drawable/focus_overlay" android:paddingLeft="8dp" android:focusable="true" android:visibility="2" android:layout_width="-1" android:layout_height="-2" android:minHeight="44dp" style="@style/LightPurchase_PaymentSettingsLink" />
+            <LinearLayout android:orientation="1" android:id="@id/vouchers" android:visibility="2" android:layout_width="-1" android:layout_height="-2" />
+            <View android:id="@id/voucher_separator" android:background="@color/play_translucent_separator_line" android:visibility="2" android:layout_width="-1" android:layout_height="1dp" />
+            <TextView android:id="@id/account" android:layout_width="-2" android:layout_height="-2" android:layout_marginTop="12dp" style="@style/LightPurchase_AccountName" />
+            <LinearLayout android:orientation="1" android:id="@id/extended_detail_messages" android:visibility="2" android:layout_width="-1" android:layout_height="-2" /> />
+    </ScrollView>
+    <TextView android:id="@id/instrument_setup_message" android:visibility="2" android:layout_width="-1" android:layout_height="-2" android:layout_marginTop="8dp" style="@style/LightPurchase_InstrumentSetupMessage" />
+    <TextView android:id="@id/footer" android:visibility="2" android:layout_width="-1" android:layout_height="-2" android:layout_marginTop="8dp" style="@style/LightPurchase_Footer" />
+</LinearLayout>
