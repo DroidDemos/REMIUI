@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.xiaomi.passport.ui.AreaCodePickerListItem android:orientation="1" android:layout_width="-1" android:layout_height="-2">
+    <LinearLayout android:gravity="50" android:orientation="1" android:id="@id/section_header_layout" android:visibility="2" android:layout_width="-1" android:layout_height="@dimen/passport_area_code_section_header_height">
+        <TextView android:id="@id/section_header" android:paddingLeft="@dimen/passport_list_item_padding_left" android:paddingBottom="@dimen/passport_picker_section_header_text_padding_vertical" android:layout_width="-1" android:layout_height="-2" style="@style/Passport_TextAppearance_List_Secondary_Preference" />
+        <View android:background="@color/passport_divider_color" android:layout_width="-1" android:layout_height="@dimen/passport_divider" android:layout_marginLeft="@dimen/passport_section_header_divider_margin_h" android:layout_marginRight="@dimen/passport_section_header_divider_margin_h" />
+    </LinearLayout>
+    <LinearLayout android:gravity="10" android:paddingLeft="@dimen/passport_list_item_padding_left" android:layout_width="-1" android:layout_height="@dimen/passport_area_code_list_height" style="@style/Passport_Widget_ListView_Item_SingleLine">
+        <TextView android:id="@id/area" android:layout_width="0dp" android:layout_height="-2" android:singleLine="true" android:layout_weight="1.0" style="@style/Passport_TextAppearance_List_Primary" />
+        <TextView android:layout_gravity="10" android:id="@id/area_code" android:layout_width="-2" android:layout_height="-2" android:layout_marginRight="@dimen/passport_list_item_margin_right" android:singleLine="true" style="@style/Passport_TextAppearance_List_Secondary" />
+    </LinearLayout>
+</com.xiaomi.passport.ui.AreaCodePickerListItem>

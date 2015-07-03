@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:gravity="10" android:paddingTop="6dp" android:paddingBottom="6dp" android:layout_width="-1" android:layout_height="-1">
+    <ImageView android:id="@id/phone_icon" android:layout_width="-2" android:layout_height="-2" android:src="@drawable/device_phone_icon" />
+    <TextView android:textAppearance="0x80d0057" android:id="@id/device_name" android:layout_width="-2" android:layout_height="-2" android:layout_marginLeft="@dimen/device_content_margin_h" android:layout_toRightOf="@id/phone_icon" />
+    <TextView android:textAppearance="0x80d0072" android:id="@id/phone_number" android:layout_width="-2" android:layout_height="-2" android:layout_marginTop="@dimen/device_content_margin_v" android:layout_below="@id/device_name" android:layout_alignLeft="@id/device_name" />
+    <TextView android:textAppearance="0x80d0072" android:id="@id/login_time" android:visibility="2" android:layout_width="-2" android:layout_height="-2" android:layout_toRightOf="@id/phone_number" />
+</RelativeLayout>

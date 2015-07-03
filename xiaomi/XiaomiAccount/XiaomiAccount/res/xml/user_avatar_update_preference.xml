@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory android:key="pref_using_sns_avatar">
+        <Preference android:title="@string/account_user_using_weibo_avatar" android:key="pref_using_weibo_avatar" />
+        <Preference android:title="@string/account_user_using_qq_avatar" android:key="pref_using_qq_avatar" />
+        <Preference android:title="@string/account_user_using_facebook_avatar" android:key="pref_using_facebook_avatar" />
+    </PreferenceCategory>
+    <PreferenceCategory android:key="pref_using_local_image">
+        <Preference android:title="@string/account_user_avatar_from_camera" android:key="pref_by_taking_a_photo" />
+        <Preference android:title="@string/account_user_avatar_from_album" android:key="pref_using_album_photo" />
+    </PreferenceCategory>
+</PreferenceScreen>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="1" android:paddingLeft="@dimen/content_horizontal_margin" android:paddingRight="@dimen/content_horizontal_margin" android:layout_width="-1" android:layout_height="-2"
+    <LinearLayout android:gravity="11" android:layout_width="-1" android:layout_height="209dp">
+        <ImageView android:id="@id/avatar_image" android:layout_width="@dimen/account_setting_avatar_size" android:layout_height="@dimen/account_setting_avatar_size" />
+    </LinearLayout>
+    <com.xiaomi.account.ui.ExpandedListView android:id="0x102000a" android:layout_width="-1" android:layout_height="-2" android:layout_marginLeft="@dimen/content_horizontal_margin_neg" android:layout_marginRight="@dimen/content_horizontal_margin_neg" />
+</LinearLayout>

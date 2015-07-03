@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="bottom" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/dialog_margin_h" android:layout_marginRight="@dimen/dialog_margin_h" android:minHeight="64.0dip">
+        <TextView android:gravity="center_horizontal" android:id="@android:id/title" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="20.0dip" android:layout_marginBottom="20.0dip" android:text="@string/quick_login_title" style="@style/DialogTitleStyle" />
+    </LinearLayout>
+    <View android:layout_width="fill_parent" android:layout_height="1.0px" style="@style/Divider" />
+    <RelativeLayout android:id="@id/inner_content" android:paddingLeft="@dimen/dialog_margin_h" android:paddingTop="17.0dip" android:paddingRight="@dimen/dialog_margin_h" android:paddingBottom="17.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <TextView android:id="@id/account_name" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="5.0dip" android:layout_alignParentLeft="true" android:layout_alignParentTop="true" style="@miui:style/TextAppearance.Medium" />
+        <TextView android:id="@id/tv_forget_pwd" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="5.0dip" android:text="@string/forget_password" android:layout_alignParentRight="true" style="@miui:style/TextAppearance.Medium" />
+        <LinearLayout android:id="@id/password_layout" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="8.0dip" android:layout_below="@id/account_name">
+            <FrameLayout android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <EditText android:id="@id/password" android:background="@drawable/group_single_item_normal_bg" android:paddingRight="@dimen/password_alert_icon_padding_right" android:layout_width="fill_parent" android:layout_height="wrap_content" android:hint="@string/input_password_hint" android:password="true" android:singleLine="true" style="@style/EditTextStyle" />
+                <ImageView android:layout_gravity="right" android:id="@id/show_password_img" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+            </FrameLayout>
+        </LinearLayout>
+        <LinearLayout android:gravity="center" android:id="@id/captcha_area" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="8.0dip" android:layout_below="@id/password_layout">
+            <EditText android:id="@id/captcha_code" android:background="@drawable/group_single_item_normal_bg" android:layout_width="0.0dip" android:layout_height="wrap_content" android:hint="@string/input_captcha_hint" android:singleLine="true" android:layout_weight="1.0" style="@style/EditTextStyle" />
+            <ImageView android:id="@id/captcha_image" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="4.0dip" />
+        </LinearLayout>
+    </RelativeLayout>
+    <LinearLayout android:orientation="vertical" android:id="@id/inner_content_step2" android:paddingLeft="@dimen/dialog_margin_h" android:paddingTop="17.0dip" android:paddingRight="@dimen/dialog_margin_h" android:paddingBottom="17.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <TextView android:id="@id/vcode_prompt" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="5.0dip" android:text="@string/vcode_prompt_long" style="?android:attr/textAppearanceMedium" />
+        <EditText android:id="@id/vcode" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="8.0dip" android:minHeight="@dimen/editor_height" android:hint="@string/input_vcode_hint" android:singleLine="true" android:digits="1234567890" android:inputType="number" style="?android:attr/textAppearance" />
+        <CheckBox android:id="@id/trust_device" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="12.0dip" android:text="@string/trust_device" />
+    </LinearLayout>
+    <View android:layout_width="fill_parent" android:layout_height="1.0px" style="@style/Divider" />
+    <LinearLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:measureWithLargestChild="true" style="?android:attr/buttonBarStyle">
+        <Button android:id="@id/cancel" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@android:string/cancel" android:layout_weight="1.0" style="?android:attr/buttonBarButtonStyle" />
+        <Button android:id="@id/confirm" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/confirm" android:layout_weight="1.0" style="?android:attr/buttonBarButtonStyle" />
+    </LinearLayout>
+</LinearLayout>

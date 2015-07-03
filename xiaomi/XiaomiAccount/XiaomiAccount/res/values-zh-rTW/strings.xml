@@ -1,0 +1,530 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="passport_app_name">我的小米</string>
+    <string name="passport_account_hint_text">電子信箱/手機號碼/小米ID</string>
+    <string name="passport_phone_num_hint_text">手機號碼</string>
+    <string name="passport_login">登入</string>
+    <string name="passport_login_with_email_or_id"><u>使用其他方式登入</u></string>
+    <string name="passport_email_or_id_hint_text">電子信箱/小米ID</string>
+    <string name="passport_verify">驗證</string>
+    <string name="passport_register">註冊</string>
+    <string name="passport_register_by_email"><u>電子信箱註冊</u></string>
+    <string name="passport_next">下一步</string>
+    <string name="passport_prev">上一步</string>
+    <string name="passport_forget_password"><u>忘記密碼</u></string>
+    <string name="passport_password">密碼</string>
+    <string name="passport_captcha">圖片驗證碼</string>
+    <string name="passport_vcode">驗證碼</string>
+    <string name="passport_bad_authentication">用戶名密碼不匹配</string>
+    <string name="passport_welcome_skip_login"><u>跳過此步驟</u></string>
+    <string name="passport_dspt_provision">小米手機、小米網、MIUI米柚、多看閱讀、米聊以上服務註冊的小米帳號可以直接登入</string>
+    <string name="passport_dspt_provision2">了解更多</string>
+    <string name="passport_provision_skip_login"><u>跳過</u></string>
+    <string name="passport_reg_new">註冊新帳號</string>
+    <string name="passport_error_empty_username">用戶名不能為空</string>
+    <string name="passport_error_empty_pwd">密碼不能為空</string>
+    <string name="passport_error_invalid_phone_num">手機號碼不合法</string>
+    <string name="passport_error_empty_phone_num">手機號碼不能為空</string>
+    <string name="passport_error_illegal_pwd">密碼格式錯誤</string>
+    <string name="passport_error_empty_captcha_code">圖片驗證碼不能為空</string>
+    <string name="passport_error_empty_vcode">驗證碼不能為空</string>
+    <string name="passport_email">請輸入您的電子信箱地址</string>
+    <string name="passport_reg_type_other_ways"><u>使用其他方式註冊</u></string>
+    <string name="passport_reg_type_other_ways_title">使用其他方式註冊</string>
+    <string name="passport_reg_type_email">用電子信箱註冊</string>
+    <string name="passport_reg_using_phone_number_prompt">使用本機號碼註冊</string>
+    <string name="passport_reg_using_other_phone_number_prompt">您註冊的手機號碼為</string>
+    <string name="passport_reg_using_other_phone">其他手機號碼註冊</string>
+    <string name="passport_reg_via_sms_alert">啟動帳號會發送一條普通簡訊，資費由電信業者收取</string>
+    <string name="passport_reg_sms_send_prompt">已發送一封附有驗證碼的簡訊至 %s</string>
+    <string name="passport_password_req_notice">密碼長度8~16位,數字、字母、符號至少包含兩種</string>
+    <string name="passport_error_empty_email">電子信箱位址不能為空</string>
+    <string name="passport_error_email">電子信箱格式不正確</string>
+    <string name="passport_activing_account">正在啟動您的帳號，請稍候...</string>
+    <string name="passport_account_not_actived">就差最後一步囉!</string>
+    <string name="passport_active_email_visit">我們已經向您的電子信箱 %s</string>
+    <string name="passport_click_email_to_valid">發送了郵件,請點選郵件中的連結完成驗證</string>
+    <string name="passport_resend_active_email">重發驗證信</string>
+    <string name="passport_delete_account">退出帳號</string>
+    <string name="passport_completed">完成</string>
+    <string name="passport_title_reg">註冊小米帳號</string>
+    <string name="passport_error_no_sms_service">簡訊服務不可用</string>
+    <string name="passport_reg_failed">註冊失敗</string>
+    <string name="passport_login_instead_reg">用該電話號碼登录</string>
+    <string name="passport_login_instead_reg_with_email">用此電子信箱登入</string>
+    <string name="passport_get_back_pwd">找回帳號密碼</string>
+    <string name="passport_login_failed">登入失敗</string>
+    <string name="passport_verification_failed">驗證失敗</string>
+    <string name="passport_error_network">目前網路不可用</string>
+    <string name="passport_error_ssl_hand_shake">與伺服器連線有誤，請嘗試修改手機時間到目前時間</string>
+    <string name="passport_error_device_id">無法取得裝置號</string>
+    <string name="passport_error_dup_phone">該電話號碼已被註冊</string>
+    <string name="passport_error_phone_error">無效的電話號碼</string>
+    <string name="passport_error_server">伺服器出錯</string>
+    <string name="passport_error_sim_not_ready">SIM卡未就緒</string>
+    <string name="passport_error_unknown">未知錯誤</string>
+    <string name="passport_error_invalid_dev_id">無效的裝置號</string>
+    <string name="passport_error_user_name">用戶名不存在</string>
+    <string name="passport_error_verify_code">驗證碼錯誤</string>
+    <string name="passport_error_dup_email">該電子信箱已被註冊</string>
+    <string name="passport_error_login">登入異常</string>
+    <string name="passport_relogin_notice">登入錯誤，請重新登入</string>
+    <string name="passport_quick_login_title">"系統需要驗證您的小米帳號，
+請輸入您的帳號密碼"</string>
+    <string name="passport_quick_login_step2_title">小米登入保護</string>
+    <string name="passport_account_name">帳號: %1$s</string>
+    <string name="passport_quick_login_dialog_title">驗證帳號密碼</string>
+    <string name="passport_quick_login_dialog_step2_title">登入保護</string>
+    <string name="passport_input_password_hint">請輸入帳號密碼</string>
+    <string name="passport_input_captcha_hint">請輸入圖片驗證碼</string>
+    <string name="passport_input_vcode_hint">請輸入驗證碼</string>
+    <string name="passport_confirm">確定</string>
+    <string name="passport_login_notice">登入中...</string>
+    <string name="passport_failed_to_send_activate_email">發送啟用郵件失敗</string>
+    <string name="passport_access_denied">瀏覽受限</string>
+    <string name="passport_reging">正在註冊，請稍候……</string>
+    <string name="passport_reg_success">註冊成功</string>
+    <string name="passport_reg_success_summary">"您的小米帳號密保手機是
+%1$s
+用於登入小米帳號和找回密碼"</string>
+    <string name="passport_email_reg_success_summary">"您的小米帳號安全信箱是:
+%1$s
+用於登入小米帳號和找回密碼"</string>
+    <string name="passport_area_code_title">選擇國家/地區號碼</string>
+    <string name="passport_area_code_hot">常用</string>
+    <string name="passport_user_agreement_p1">同意小米帳號的</string>
+    <string name="passport_user_agreement_p2">用戶協議</string>
+    <string name="passport_user_agreement_p3">和</string>
+    <string name="passport_user_agreement_p4">隱私政策</string>
+    <string name="passport_privacy_policy">隱私政策</string>
+    <string name="passport_user_agreement">用戶協議</string>
+    <string name="passport_loading">讀取中…</string>
+    <string name="passport_license_host_unreachable">您的手機未連線到資料服務。要立即檢視此訊息，請透過連線到網路的任意電腦瀏覽 %s。</string>
+    <string name="passport_skip_setup_account_title">跳過帳號設定</string>
+    <string name="passport_skip_setup_account_msg">使用小米帳號可以同步備份聯絡人、照片等各種資料。確認要跳過帳號設定嗎？</string>
+    <string name="passport_xiaomi_account_dspt">一個帳號，玩轉所有小米服務！</string>
+    <string name="passport_xiaomi_account_sec_dspt">小米手機、小米網、MIUI米柚、多看閱讀、米聊</string>
+    <string name="passport_xiaomi_account_sec_dspt2">以上服務註冊的小米帳號可以直接登入</string>
+    <string name="passport_remove_unactivated_account_notice">小米帳號還未啟動，確認要退出？</string>
+    <string name="passport_remove_confirm">確認退出</string>
+    <string name="passport_find_password_on_web_msg">請瀏覽 account.xiaomi.com 找回密碼</string>
+    <string name="passport_relogin">重新登入</string>
+    <string name="passport_skip_login">跳過登入</string>
+    <string name="passport_checking_account">正在驗證...</string>
+    <string name="passport_button_cancel">取消</string>
+    <string name="passport_wrong_captcha">圖片驗證碼錯誤</string>
+    <string name="passport_wrong_vcode">驗證碼錯誤</string>
+    <string name="passport_trust_device">我信任此裝置</string>
+    <string name="passport_vcode_prompt_long">請輸入小米安全令牌生成的驗證碼</string>
+    <string name="passport_vcode_notification_title">您的登入驗證未完成</string>
+    <string name="passport_checking_input">正在檢查輸入</string>
+    <string name="passport_login_title">登入小米帳號</string>
+    <string name="passport_get_verify_code">取得驗證碼</string>
+    <string name="passport_re_get_verify_code">重新取得</string>
+    <string name="passport_getting_verify_code">正在取得</string>
+    <string name="passport_input_phone_hint">輸入手機號碼</string>
+    <string name="passport_input_verify_code_hint">輸入簡訊驗證碼</string>
+    <string name="passport_wrong_phone_number_format">手機號碼格式錯誤</string>
+    <string name="passport_btn_return">返回</string>
+    <string name="passport_re_register">重新註冊</string>
+    <string name="passport_skip_register">跳過註冊</string>
+    <string name="passport_account_not_activated">您的帳號還未通過驗證！</string>
+    <string name="passport_change_account"><u>更改帳號</u></string>
+    <string name="passport_register_account_verified_confirm">我已驗證</string>
+    <string name="passport_register_account_goto_email">去電子信箱</string>
+    <string name="passport_notification_title">登入 %1$s 時出錯</string>
+    <string name="passport_sim_index_info">卡%1$d - %2$s</string>
+    <string name="passport_choose_which_one_sim">選擇要使用的本機手機號碼</string>
+    <string name="app_name">我的小米</string>
+    <string name="account">帳號</string>
+    <string name="login">登入</string>
+    <string name="login_with_email_or_id"><u>使用其他方式登入</u></string>
+    <string name="email_or_id_hint_text">電子信箱/小米ID</string>
+    <string name="verify">驗證</string>
+    <string name="register">註冊</string>
+    <string name="register_by_email"><u>信箱註冊</u></string>
+    <string name="next">下一步</string>
+    <string name="prev">上一步</string>
+    <string name="forget_password"><u>忘記密碼</u></string>
+    <string name="password">密碼</string>
+    <string name="vcode">驗證碼</string>
+    <string name="bad_authentication">用戶名密碼不匹配</string>
+    <string name="micloud_account_name">小米帳號</string>
+    <string name="micloud_reg_new">註冊新帳號</string>
+    <string name="micloud_error_empty_pwd">密碼不能為空</string>
+    <string name="micloud_error_empty_captcha_code">圖片驗證碼不能為空</string>
+    <string name="micloud_delete_account">退出帳號</string>
+    <string name="title_reg">註冊小米帳號</string>
+    <string name="error_no_sms_service">簡訊服務不可用</string>
+    <string name="reg_failed">註冊失敗</string>
+    <string name="login_instead_reg">用該電話號碼登录</string>
+    <string name="login_instead_reg_with_email">用此email登入</string>
+    <string name="get_back_pwd">找回帳號密碼</string>
+    <string name="login_failed">登入失敗</string>
+    <string name="logout_failed">退出失敗</string>
+    <string name="timeout_retry">請求超時，請重試</string>
+    <string name="no_response_retry">請求無反應，請換個時間再試</string>
+    <string name="verification_failed">驗證失敗</string>
+    <string name="error_network">目前網路不可用</string>
+    <string name="error_ssl_hand_shake">與伺服器連接有誤，請嘗試修改手機時間到目前時間</string>
+    <string name="error_device_id">無法獲取IMEI號</string>
+    <string name="error_server">伺服器出錯</string>
+    <string name="error_unknown">未知錯誤</string>
+    <string name="error_invalid_dev_id">無效的設備號</string>
+    <string name="error_user_name">用戶名不存在</string>
+    <string name="quick_login_title">"系統需要驗證您的小米帳號
+請輸入您的帳號密碼"</string>
+    <string name="quick_login_step2_title">小米登入保護</string>
+    <string name="account_name">帳號: %1$s</string>
+    <string name="quick_login_dialog_title">驗證帳號密碼</string>
+    <string name="quick_login_dialog_step2_title">登入保護</string>
+    <string name="input_password_hint">請輸入帳號密碼</string>
+    <string name="input_captcha_hint">請輸入圖片驗證碼</string>
+    <string name="input_vcode_hint">請輸入驗證碼</string>
+    <string name="confirm">確定</string>
+    <string name="alert_title_remove_account">退出帳號</string>
+    <string name="remove_account_notice">帳號刪除後，您要如何處理手機上的聯絡人和便條？</string>
+    <string name="data_keep_in_device">保留在我的手機上</string>
+    <string name="data_wipe_from_device">從手機上刪除</string>
+    <string name="access_denied">瀏覽受限</string>
+    <string name="reging">正在註冊，請稍候……</string>
+    <string name="micloud_area_code_title">選擇國家/地區號碼</string>
+    <string name="user_agreement_p2">用戶協議</string>
+    <string name="user_agreement_p3">和</string>
+    <string name="user_agreement_p4">隱私政策</string>
+    <string name="user_agreement_p6">同意小米帳號的</string>
+    <string name="privacy_policy">隱私政策</string>
+    <string name="user_agreement">用戶協議</string>
+    <string name="loading">讀取中…</string>
+    <string name="license_host_unreachable">您的手機未連接到資料服務。要立即檢視此訊息，請通過連線到網路的任意電腦瀏覽 %s。</string>
+    <string name="find_password_on_web_msg">請瀏覽 account.xiaomi.com 找回密碼</string>
+    <string name="relogin">重新登入</string>
+    <string name="removing_account">正在退出帳號...</string>
+    <string name="checking_account">正在驗證...</string>
+    <string name="button_cancel">取消</string>
+    <string name="mili_center">米幣中心</string>
+    <string name="mibi_balance">%s 米幣</string>
+    <string name="loading_mili_center">餘額取得中...</string>
+    <string name="hide_mibi_info">餘額資訊已隱藏</string>
+    <string name="failed_get_mibi_info">餘額取得失敗</string>
+    <string name="mipay_center">錢包</string>
+    <string name="mi_support_service">售後服務</string>
+    <string name="sina_weibo">新浪微博</string>
+    <string name="bind_sina_weibo">綁定新浪微博</string>
+    <string name="bind_weibo_description">查詢並為聯絡人中的微博好友補充頭像，生日等資訊。</string>
+    <string name="bind_sns_description">使用%s中的個人資訊完善您的個人資料。</string>
+    <string name="add_account">新增帳號</string>
+    <string name="qq">QQ</string>
+    <string name="bind_qq">綁定QQ</string>
+    <string name="facebook">facebook</string>
+    <string name="bind_facebook">綁定facebook</string>
+    <string name="binded">已綁定</string>
+    <string name="nobind">未綁定</string>
+    <string name="button_unbind">解除綁定</string>
+    <string name="unbind_weibo_description">解除綁定後，無法將微博好友的資訊同步至電話簿，您也無法使用微博登入小米帳號</string>
+    <string name="unbind_sns_description">解除綁定後，您將無法使用%s登入小米帳號</string>
+    <string name="confirm_unbind">確認解除綁定?</string>
+    <string name="binded_description" formatted="false">"已成功綁定%s帳號
+將使用%s中的個人資訊完善您的個人資料"</string>
+    <string name="update_contacts">更新通訊錄</string>
+    <string name="update_contacts_description">新浪微博會使用您小米帳號中的電話號碼，對應並同步微博好友頭像、生日等資訊到通訊錄</string>
+    <string name="updated_nothing">無可更新的聯絡人</string>
+    <string name="access_token_expired_warning">微博帳號已過期，請重新綁定</string>
+    <string name="access_token_invalid_warning">微博帳號已無效，請重新綁定</string>
+    <string name="service_error">服務出現錯誤</string>
+    <string name="wrong_captcha">圖片驗證碼錯誤</string>
+    <string name="wrong_vcode">驗證碼錯誤</string>
+    <string name="trust_device">我信任該設備</string>
+    <string name="vcode_prompt_long">請輸入小米安全令牌生成的驗證碼</string>
+    <string name="vcode_notification_title">您的登入驗證未完成</string>
+    <string name="checking_input">正在檢查輸入</string>
+    <string name="wipe_data_dialog_title">存在未同步的數據</string>
+    <string name="wipe_data_dialog_msg">您有%s還未同步，繼續的話這些數據就可能會丟失，確定刪除？</string>
+    <string name="wipe_data_dialog_msg_separator">、</string>
+    <string name="account_none">無</string>
+    <string name="account_no_set">未設定</string>
+    <string name="account_none_user_name">請完善</string>
+    <string name="account_user_email">安全電子信箱</string>
+    <string name="account_user_phone">手機號碼</string>
+    <string name="account_user_name">名字</string>
+    <string name="account_user_avatar">頭像</string>
+    <string name="account_user_gender">性別</string>
+    <string name="account_user_gender_female">女</string>
+    <string name="account_user_gender_male">男</string>
+    <string name="account_user_birthday">生日</string>
+    <string name="account_user_id">小米ID</string>
+    <string name="account_user_details">個人資訊</string>
+    <string name="account_user_name_dialog_title">設定名字</string>
+    <string name="account_user_using_weibo_avatar">使用新浪微博頭像</string>
+    <string name="account_user_using_qq_avatar">使用QQ頭像</string>
+    <string name="account_user_using_facebook_avatar">使用Facebook大頭照</string>
+    <string name="account_user_avatar_from_camera">拍照</string>
+    <string name="account_user_avatar_from_album">從手機相簿選擇</string>
+    <string name="photoPickerNotFoundText">手機上沒有相片 。</string>
+    <string name="account_empty_user_name">名字不能為空</string>
+    <string name="account_error_shorter_user_name">您的名字太短了，請輸入至少2個字</string>
+    <string name="account_error_longer_user_name">您的名字太長了，請輸入20字以內</string>
+    <string name="account_error_user_birthday">請輸入正確的生日時間</string>
+    <string name="account_crop_user_avatar">裁切頭像</string>
+    <string name="sns_access_token_expired_warning">授權已過期，請重新綁定​</string>
+    <string name="user_avatar_uploading">正在上傳頭像...</string>
+    <string name="user_avatar_update_title">設定頭像</string>
+    <string name="bind_settings">綁定功能</string>
+    <string name="cloud_service">雲服務</string>
+    <string name="account_bind_settings">帳號綁定</string>
+    <string name="account_bind_devices">登入設備管理</string>
+    <string name="account_dspt_provision">小米手機、小米網、MIUI米柚、多看閱讀、米聊以上服務註冊的小米帳號可以直接登入</string>
+    <string name="account_dspt_provision2">了解更多</string>
+    <string name="login_title">登入小米帳號</string>
+    <string name="btn_return">返回</string>
+    <string name="re_register">重新註冊</string>
+    <string name="skip_register">跳過註冊</string>
+    <string name="account_xiaomi_service">小米服務</string>
+    <string name="account_settings">帳號设置</string>
+    <string name="barcode_add_account_prompt">登入後請再次掃描二維碼確認授權登入</string>
+    <string name="scan_barcode_title">掃描網頁或電視上的二維碼，安全登入小米帳號</string>
+    <string name="micloud_sync_state_synced">已同步至最新</string>
+    <string name="micloud_sync_state_syncing">正在同步</string>
+    <string name="micloud_sync_state_stop">同步暫停</string>
+    <string name="micloud_sync_state_need_wifi">將在WLAN下同步</string>
+    <string name="micloud_space_info">剩餘:%s</string>
+    <string name="loading_micloud_sync_data">資料取得中...</string>
+    <string name="account_learn_more_title">新增小米帳號</string>
+    <string name="cloud_service_dspt">將您的照片、聯絡人、便條、應用程式、同步​到您的所有裝置上。</string>
+    <string name="theme_store">MIUI主題商店</string>
+    <string name="theme_store_dspt">選擇您自己的介面，上百種免費自訂主題讓您的手機與眾不同。</string>
+    <string name="mi_account_dspt_provision">一個帳號登入小米雲服務、MIUI主題商店、以及其他小米服務。</string>
+    <string name="authorize_title">授權登入</string>
+    <string name="my_device_title">目前裝置</string>
+    <string name="device_list_title">裝置清單</string>
+    <string name="device_list__header">我的裝置</string>
+    <string name="device_trust_info">信任裝置</string>
+    <string name="rename_current_device">修改目前裝置名稱</string>
+    <string name="about_device_info">查看目前裝置系統詳情</string>
+    <string name="other_devices">其他裝置</string>
+    <string name="remove_trust_notice">取消信任同時退出登入</string>
+    <string name="remove_trust_btn">取消信任裝置</string>
+    <string name="delete_device_notice">刪除裝置後將會登出此裝置的登入狀態，在重新登入前將無法造訪各種帳號所附資料</string>
+    <string name="delete_device_btn">刪除裝置</string>
+    <string name="phone_activated">啟動：%s</string>
+    <string name="phone_unactivated">未啟用</string>
+    <string name="no_sim_card">無SIM卡</string>
+    <string name="phone_unknown">不明</string>
+    <string name="remove_device_success_notice">取消信任此裝置，登入時可能需要安全驗證</string>
+    <string name="device_delete_loading">請稍後</string>
+    <string name="device_delete_success_title">此裝置成功退出登入</string>
+    <string name="device_delete_success_message">若此裝置非本人登入，請立即修改密碼</string>
+    <string name="change_password">修改密碼</string>
+    <string name="completed">完成</string>
+    <string name="no_network_title">沒有找到可用網路</string>
+    <string name="no_network_btn">點此重試</string>
+    <string name="get_device_list_failed">取得裝置清單失敗</string>
+    <string name="delete_device_failed">此裝置退出登入失敗</string>
+    <string name="empty_device_list_notice">暫無裝置清單</string>
+    <string name="passport_remove_account_notice">帳號刪除後，您要如何處理手機上的聯絡人和便條？</string>
+    <string name="passport_data_keep_in_device">保留在我的手機上</string>
+    <string name="passport_data_wipe_from_device">從手機上刪除</string>
+    <item type="string" name="APKTOOL_DUMMY_013f">false</item>
+    <item type="string" name="APKTOOL_DUMMY_0140">false</item>
+    <item type="string" name="APKTOOL_DUMMY_0141">false</item>
+    <item type="string" name="APKTOOL_DUMMY_0142">false</item>
+    <item type="string" name="APKTOOL_DUMMY_0143">false</item>
+    <item type="string" name="APKTOOL_DUMMY_0144">false</item>
+    <item type="string" name="APKTOOL_DUMMY_0145">false</item>
+    <item type="string" name="APKTOOL_DUMMY_0146">false</item>
+    <item type="string" name="APKTOOL_DUMMY_0147">false</item>
+    <item type="string" name="APKTOOL_DUMMY_0148">false</item>
+    <item type="string" name="APKTOOL_DUMMY_0149">false</item>
+    <item type="string" name="APKTOOL_DUMMY_014a">false</item>
+    <item type="string" name="APKTOOL_DUMMY_014b">false</item>
+    <item type="string" name="APKTOOL_DUMMY_014c">false</item>
+    <item type="string" name="APKTOOL_DUMMY_014d">false</item>
+    <item type="string" name="APKTOOL_DUMMY_014e">false</item>
+    <item type="string" name="APKTOOL_DUMMY_014f">false</item>
+    <item type="string" name="APKTOOL_DUMMY_0150">false</item>
+    <item type="string" name="APKTOOL_DUMMY_0151">false</item>
+    <item type="string" name="APKTOOL_DUMMY_0152">false</item>
+    <item type="string" name="APKTOOL_DUMMY_0153">false</item>
+    <item type="string" name="APKTOOL_DUMMY_0154">false</item>
+    <item type="string" name="APKTOOL_DUMMY_0155">false</item>
+    <item type="string" name="APKTOOL_DUMMY_0156">false</item>
+    <item type="string" name="APKTOOL_DUMMY_0157">false</item>
+    <item type="string" name="APKTOOL_DUMMY_0158">false</item>
+    <item type="string" name="APKTOOL_DUMMY_0159">false</item>
+    <item type="string" name="APKTOOL_DUMMY_015a">false</item>
+    <item type="string" name="APKTOOL_DUMMY_015b">false</item>
+    <item type="string" name="APKTOOL_DUMMY_015c">false</item>
+    <item type="string" name="APKTOOL_DUMMY_015d">false</item>
+    <item type="string" name="APKTOOL_DUMMY_015e">false</item>
+    <item type="string" name="APKTOOL_DUMMY_015f">false</item>
+    <item type="string" name="APKTOOL_DUMMY_0160">false</item>
+    <item type="string" name="APKTOOL_DUMMY_0161">false</item>
+    <item type="string" name="APKTOOL_DUMMY_0162">false</item>
+    <item type="string" name="APKTOOL_DUMMY_0163">false</item>
+    <item type="string" name="APKTOOL_DUMMY_0164">false</item>
+    <item type="string" name="APKTOOL_DUMMY_0165">false</item>
+    <item type="string" name="APKTOOL_DUMMY_0166">false</item>
+    <item type="string" name="APKTOOL_DUMMY_0167">false</item>
+    <item type="string" name="APKTOOL_DUMMY_0168">false</item>
+    <item type="string" name="APKTOOL_DUMMY_0169">false</item>
+    <item type="string" name="APKTOOL_DUMMY_016a">false</item>
+    <item type="string" name="APKTOOL_DUMMY_016b">false</item>
+    <item type="string" name="APKTOOL_DUMMY_016c">false</item>
+    <item type="string" name="APKTOOL_DUMMY_016d">false</item>
+    <item type="string" name="APKTOOL_DUMMY_016e">false</item>
+    <item type="string" name="APKTOOL_DUMMY_016f">false</item>
+    <item type="string" name="APKTOOL_DUMMY_0170">false</item>
+    <item type="string" name="APKTOOL_DUMMY_0171">false</item>
+    <item type="string" name="APKTOOL_DUMMY_0172">false</item>
+    <item type="string" name="APKTOOL_DUMMY_0173">false</item>
+    <item type="string" name="APKTOOL_DUMMY_0174">false</item>
+    <item type="string" name="APKTOOL_DUMMY_0175">false</item>
+    <item type="string" name="APKTOOL_DUMMY_0176">false</item>
+    <item type="string" name="APKTOOL_DUMMY_0177">false</item>
+    <item type="string" name="APKTOOL_DUMMY_0178">false</item>
+    <item type="string" name="APKTOOL_DUMMY_0179">false</item>
+    <item type="string" name="APKTOOL_DUMMY_017a">false</item>
+    <item type="string" name="APKTOOL_DUMMY_017b">false</item>
+    <item type="string" name="APKTOOL_DUMMY_017c">false</item>
+    <item type="string" name="APKTOOL_DUMMY_017d">false</item>
+    <item type="string" name="APKTOOL_DUMMY_017e">false</item>
+    <item type="string" name="APKTOOL_DUMMY_017f">false</item>
+    <item type="string" name="APKTOOL_DUMMY_0180">false</item>
+    <item type="string" name="APKTOOL_DUMMY_0181">false</item>
+    <item type="string" name="APKTOOL_DUMMY_0182">false</item>
+    <item type="string" name="APKTOOL_DUMMY_0183">false</item>
+    <item type="string" name="APKTOOL_DUMMY_0184">false</item>
+    <item type="string" name="APKTOOL_DUMMY_0185">false</item>
+    <item type="string" name="APKTOOL_DUMMY_0186">false</item>
+    <item type="string" name="APKTOOL_DUMMY_0187">false</item>
+    <item type="string" name="APKTOOL_DUMMY_0188">false</item>
+    <item type="string" name="APKTOOL_DUMMY_0189">false</item>
+    <item type="string" name="APKTOOL_DUMMY_018a">false</item>
+    <item type="string" name="APKTOOL_DUMMY_018b">false</item>
+    <item type="string" name="APKTOOL_DUMMY_018c">false</item>
+    <item type="string" name="APKTOOL_DUMMY_018d">false</item>
+    <item type="string" name="APKTOOL_DUMMY_018e">false</item>
+    <item type="string" name="APKTOOL_DUMMY_018f">false</item>
+    <item type="string" name="APKTOOL_DUMMY_0190">false</item>
+    <item type="string" name="APKTOOL_DUMMY_0191">false</item>
+    <item type="string" name="APKTOOL_DUMMY_0192">false</item>
+    <item type="string" name="APKTOOL_DUMMY_0193">false</item>
+    <item type="string" name="APKTOOL_DUMMY_0194">false</item>
+    <item type="string" name="APKTOOL_DUMMY_0195">false</item>
+    <item type="string" name="APKTOOL_DUMMY_0196">false</item>
+    <item type="string" name="APKTOOL_DUMMY_0197">false</item>
+    <item type="string" name="APKTOOL_DUMMY_0198">false</item>
+    <item type="string" name="APKTOOL_DUMMY_0199">false</item>
+    <item type="string" name="APKTOOL_DUMMY_019a">false</item>
+    <item type="string" name="APKTOOL_DUMMY_019b">false</item>
+    <item type="string" name="APKTOOL_DUMMY_019c">false</item>
+    <item type="string" name="APKTOOL_DUMMY_019d">false</item>
+    <item type="string" name="APKTOOL_DUMMY_019e">false</item>
+    <item type="string" name="APKTOOL_DUMMY_019f">false</item>
+    <item type="string" name="APKTOOL_DUMMY_01a0">false</item>
+    <item type="string" name="APKTOOL_DUMMY_01a1">false</item>
+    <item type="string" name="APKTOOL_DUMMY_01a2">false</item>
+    <item type="string" name="APKTOOL_DUMMY_01a3">false</item>
+    <item type="string" name="APKTOOL_DUMMY_01a4">false</item>
+    <item type="string" name="APKTOOL_DUMMY_01a5">false</item>
+    <item type="string" name="APKTOOL_DUMMY_01a6">false</item>
+    <item type="string" name="APKTOOL_DUMMY_01a7">false</item>
+    <item type="string" name="APKTOOL_DUMMY_01a8">false</item>
+    <item type="string" name="APKTOOL_DUMMY_01a9">false</item>
+    <item type="string" name="APKTOOL_DUMMY_01aa">false</item>
+    <item type="string" name="APKTOOL_DUMMY_01ab">false</item>
+    <item type="string" name="APKTOOL_DUMMY_01ac">false</item>
+    <item type="string" name="APKTOOL_DUMMY_01ad">false</item>
+    <item type="string" name="APKTOOL_DUMMY_01ae">false</item>
+    <item type="string" name="APKTOOL_DUMMY_01af">false</item>
+    <item type="string" name="APKTOOL_DUMMY_01b0">false</item>
+    <item type="string" name="APKTOOL_DUMMY_01b1">false</item>
+    <item type="string" name="APKTOOL_DUMMY_01b2">false</item>
+    <item type="string" name="APKTOOL_DUMMY_01b3">false</item>
+    <item type="string" name="APKTOOL_DUMMY_01b4">false</item>
+    <item type="string" name="APKTOOL_DUMMY_01b5">false</item>
+    <item type="string" name="APKTOOL_DUMMY_01b6">false</item>
+    <item type="string" name="APKTOOL_DUMMY_01b7">false</item>
+    <item type="string" name="APKTOOL_DUMMY_01b8">false</item>
+    <item type="string" name="APKTOOL_DUMMY_01b9">false</item>
+    <item type="string" name="APKTOOL_DUMMY_01ba">false</item>
+    <item type="string" name="APKTOOL_DUMMY_01bb">false</item>
+    <item type="string" name="APKTOOL_DUMMY_01bc">false</item>
+    <item type="string" name="APKTOOL_DUMMY_01bd">false</item>
+    <item type="string" name="APKTOOL_DUMMY_01be">false</item>
+    <item type="string" name="APKTOOL_DUMMY_01bf">false</item>
+    <item type="string" name="APKTOOL_DUMMY_01c0">false</item>
+    <item type="string" name="APKTOOL_DUMMY_01c1">false</item>
+    <item type="string" name="APKTOOL_DUMMY_01c2">false</item>
+    <item type="string" name="APKTOOL_DUMMY_01c3">false</item>
+    <item type="string" name="APKTOOL_DUMMY_01c4">false</item>
+    <item type="string" name="APKTOOL_DUMMY_01c5">false</item>
+    <item type="string" name="APKTOOL_DUMMY_01c6">false</item>
+    <item type="string" name="APKTOOL_DUMMY_01c7">false</item>
+    <item type="string" name="APKTOOL_DUMMY_01c8">false</item>
+    <item type="string" name="APKTOOL_DUMMY_01c9">false</item>
+    <item type="string" name="APKTOOL_DUMMY_01ca">false</item>
+    <item type="string" name="APKTOOL_DUMMY_01cb">false</item>
+    <item type="string" name="APKTOOL_DUMMY_01cc">false</item>
+    <item type="string" name="APKTOOL_DUMMY_01cd">false</item>
+    <item type="string" name="APKTOOL_DUMMY_01ce">false</item>
+    <item type="string" name="APKTOOL_DUMMY_01cf">false</item>
+    <item type="string" name="APKTOOL_DUMMY_01d0">false</item>
+    <item type="string" name="APKTOOL_DUMMY_01d1">false</item>
+    <item type="string" name="APKTOOL_DUMMY_01d2">false</item>
+    <item type="string" name="APKTOOL_DUMMY_01d3">false</item>
+    <item type="string" name="APKTOOL_DUMMY_01d4">false</item>
+    <item type="string" name="APKTOOL_DUMMY_01d5">false</item>
+    <item type="string" name="APKTOOL_DUMMY_01d6">false</item>
+    <item type="string" name="APKTOOL_DUMMY_01d7">false</item>
+    <item type="string" name="APKTOOL_DUMMY_01d8">false</item>
+    <item type="string" name="APKTOOL_DUMMY_01d9">false</item>
+    <item type="string" name="APKTOOL_DUMMY_01da">false</item>
+    <item type="string" name="APKTOOL_DUMMY_01db">false</item>
+    <item type="string" name="APKTOOL_DUMMY_01dc">false</item>
+    <item type="string" name="APKTOOL_DUMMY_01dd">false</item>
+    <item type="string" name="APKTOOL_DUMMY_01de">false</item>
+    <item type="string" name="APKTOOL_DUMMY_01df">false</item>
+    <item type="string" name="APKTOOL_DUMMY_01e0">false</item>
+    <item type="string" name="APKTOOL_DUMMY_01e1">false</item>
+    <item type="string" name="APKTOOL_DUMMY_01e2">false</item>
+    <item type="string" name="APKTOOL_DUMMY_01e3">false</item>
+    <item type="string" name="APKTOOL_DUMMY_01e4">false</item>
+    <item type="string" name="APKTOOL_DUMMY_01e5">false</item>
+    <item type="string" name="APKTOOL_DUMMY_01e6">false</item>
+    <item type="string" name="APKTOOL_DUMMY_01e7">false</item>
+    <item type="string" name="APKTOOL_DUMMY_01e8">false</item>
+    <item type="string" name="APKTOOL_DUMMY_01e9">false</item>
+    <item type="string" name="APKTOOL_DUMMY_01ea">false</item>
+    <item type="string" name="APKTOOL_DUMMY_01eb">false</item>
+    <item type="string" name="APKTOOL_DUMMY_01ec">false</item>
+    <item type="string" name="APKTOOL_DUMMY_01ed">false</item>
+    <item type="string" name="APKTOOL_DUMMY_01ee">false</item>
+    <item type="string" name="APKTOOL_DUMMY_01ef">false</item>
+    <item type="string" name="APKTOOL_DUMMY_01f0">false</item>
+    <item type="string" name="APKTOOL_DUMMY_01f1">false</item>
+    <item type="string" name="APKTOOL_DUMMY_01f2">false</item>
+    <item type="string" name="APKTOOL_DUMMY_01f3">false</item>
+    <item type="string" name="APKTOOL_DUMMY_01f4">false</item>
+    <item type="string" name="APKTOOL_DUMMY_01f5">false</item>
+    <item type="string" name="APKTOOL_DUMMY_01f6">false</item>
+    <item type="string" name="APKTOOL_DUMMY_01f7">false</item>
+    <item type="string" name="APKTOOL_DUMMY_01f8">false</item>
+    <item type="string" name="APKTOOL_DUMMY_01f9">false</item>
+    <item type="string" name="APKTOOL_DUMMY_01fa">false</item>
+    <item type="string" name="APKTOOL_DUMMY_01fb">false</item>
+    <item type="string" name="APKTOOL_DUMMY_01fc">false</item>
+    <item type="string" name="APKTOOL_DUMMY_01fd">false</item>
+    <item type="string" name="APKTOOL_DUMMY_01fe">false</item>
+    <item type="string" name="APKTOOL_DUMMY_01ff">false</item>
+    <item type="string" name="APKTOOL_DUMMY_0200">false</item>
+    <item type="string" name="APKTOOL_DUMMY_0201">false</item>
+    <item type="string" name="APKTOOL_DUMMY_0202">false</item>
+    <item type="string" name="APKTOOL_DUMMY_0203">false</item>
+    <item type="string" name="APKTOOL_DUMMY_0204">false</item>
+    <item type="string" name="APKTOOL_DUMMY_0205">false</item>
+    <item type="string" name="APKTOOL_DUMMY_0206">false</item>
+    <item type="string" name="APKTOOL_DUMMY_0207">false</item>
+    <item type="string" name="APKTOOL_DUMMY_0208">false</item>
+    <item type="string" name="APKTOOL_DUMMY_0209">false</item>
+</resources>

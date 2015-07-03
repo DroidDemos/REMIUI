@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:paddingLeft="@dimen/dialog_padding_h" android:paddingTop="@dimen/dialog_padding_v" android:paddingRight="@dimen/dialog_padding_h" android:paddingBottom="@dimen/dialog_padding_v" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <Button android:id="@id/change_password" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/change_password" />
+    <Button android:id="@id/completed" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/content_bottom_margin" android:text="@string/completed" />
+</LinearLayout>

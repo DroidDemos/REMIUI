@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory android:title="@string/bind_settings" android:key="pref_sns_list">
+        <Preference android:icon="@drawable/ic_sina_weibo" android:persistent="false" android:title="@string/sina_weibo" android:key="pref_sina_weibo" />
+        <Preference android:icon="@drawable/ic_qq" android:persistent="false" android:title="@string/qq" android:key="pref_qq" />
+        <Preference android:icon="@drawable/ic_facebook" android:persistent="false" android:title="@string/facebook" android:key="pref_facebook" />
+    </PreferenceCategory>
+</PreferenceScreen>

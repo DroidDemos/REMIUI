@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_width="-1" android:layout_height="-1">
+    <TextView android:id="0x1020016" android:layout_width="-1" android:layout_height="-2" android:text="@string/quick_login_title" android:singleLine="false" style="?unknown_attr_ref: 101005b" />
+</LinearLayout>

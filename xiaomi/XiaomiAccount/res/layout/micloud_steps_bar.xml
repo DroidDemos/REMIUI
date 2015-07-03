@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_width="-1" android:layout_height="-2" android:layout_marginTop="@dimen/buttons_margin_v">
+    <Button android:id="@id/btn_previous" android:layout_width="0dp" android:layout_height="-2" android:layout_marginLeft="@dimen/buttons_margin_h" android:layout_marginRight="@dimen/buttons_margin_h" android:layout_marginBottom="@dimen/buttons_margin_v" android:text="@string/prev" android:layout_weight="0.5" style="@style/ButtonNormal" />
+    <TextView android:id="@id/tv_sperator" android:layout_width="0dp" android:layout_height="-2" android:layout_weight="0.0" />
+    <Button android:id="@id/btn_next" android:layout_width="0dp" android:layout_height="-2" android:layout_marginLeft="@dimen/buttons_margin_h" android:layout_marginRight="@dimen/buttons_margin_h" android:layout_marginBottom="@dimen/buttons_margin_v" android:text="@string/next" android:layout_weight="0.5" style="@style/ButtonNotice" />
+</LinearLayout>

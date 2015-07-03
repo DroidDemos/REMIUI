@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="@dimen/login_title_height"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <Button android:id="@id/btn_return" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/content_horizontal_margin" android:text="@android:string/cancel" android:layout_alignParentLeft="true" android:layout_centerVertical="true" style="?miui:attr/actionModeCancelButtonStyle" />
+    <TextView android:ellipsize="end" android:gravity="center" android:id="@id/tv_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/title_reg" android:layout_centerHorizontal="true" android:layout_centerVertical="true" style="@miui:style/TextAppearance.Widget.ActionMode.Title" />
+    <Button android:id="@id/btn_next" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="@dimen/content_horizontal_margin" android:text="@android:string/ok" android:layout_alignParentRight="true" android:layout_centerVertical="true" style="?miui:attr/actionModeSelectButtonStyle" />
+</RelativeLayout>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:id="@id/load_result_container" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/no_network_margin_top"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/image" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/no_network" />
+    <TextView android:textAppearance="@style/TextAppearance.Title.List.Primary" android:id="@id/text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="16.0dip" android:text="@string/no_network_title" />
+    <Button android:id="@id/action_retry" android:layout_marginTop="56.0dip" android:text="@string/no_network_btn" style="@miui:style/Widget.Button.Rect.BlankPage" />
+</LinearLayout>

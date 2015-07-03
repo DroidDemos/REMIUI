@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="1" android:layout_width="-1" android:layout_height="-1" android:layout_marginTop="@dimen/account_settings_margin_top" android:layout_marginBottom="@dimen/account_settins_margin_bottom">
+    <ScrollView android:layout_width="-1" android:layout_height="-1">
+        <LinearLayout android:orientation="1" android:layout_width="-1" android:layout_height="-2">
+            <include layout="@layout/micloud_settings_title" />
+            <com.xiaomi.account.ui.ExpandedListView android:id="0x102000a" android:layout_width="-1" android:layout_height="-2" android:layout_marginLeft="@dimen/account_settings_content_margin_h" android:layout_marginTop="@dimen/account_setting_title_content_margin" android:layout_marginRight="@dimen/account_settings_content_margin_h" />
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

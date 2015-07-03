@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="1" android:layout_width="-1" android:layout_height="-1"
+    <LinearLayout android:gravity="51" android:layout_width="-1" android:layout_height="@dimen/device_image_layout_height">
+        <ImageView android:id="@id/device_image" android:layout_width="-2" android:layout_height="-2" android:adjustViewBounds="true" android:maxWidth="@dimen/device_image_max_width" android:maxHeight="@dimen/device_image_max_height" />
+    </LinearLayout>
+    <TextView android:layout_gravity="1" android:id="@id/device_model" android:layout_width="-2" android:layout_height="-2" android:layout_marginTop="17dp" style="0x80d0002" />
+    <TextView android:layout_gravity="1" android:id="@id/trust_device" android:layout_width="-2" android:layout_height="-2" android:layout_marginTop="@dimen/device_content_margin_v" android:text="@string/device_trust_info" style="@style/TextAppearance_Device_Info1" />
+    <View android:background="@color/divider_color" android:layout_width="-1" android:layout_height="@dimen/divider" android:layout_marginTop="@dimen/device_info_margin_v" />
+    <include android:id="@id/phone_layout" android:layout_width="-1" android:layout_height="-2" android:minHeight="62dp" layout="@layout/device_info_item" />
+    <View android:background="@color/divider_color" android:layout_width="-1" android:layout_height="@dimen/divider" />
+</LinearLayout>

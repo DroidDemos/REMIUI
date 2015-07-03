@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="1" android:paddingLeft="@dimen/passport_login_reg_dialog_padding_h" android:paddingTop="@dimen/passport_login_reg_dialog_padding_v" android:paddingRight="@dimen/passport_login_reg_dialog_padding_h" android:paddingBottom="@dimen/passport_login_reg_dialog_padding_v" android:layout_width="-1" android:layout_height="-2">
+    <Button android:id="@id/reg_by_other_phone" android:layout_width="-1" android:layout_height="-2" android:text="@string/passport_reg_using_other_phone" />
+    <Button android:id="@id/reg_by_email" android:layout_width="-1" android:layout_height="-2" android:layout_marginTop="@dimen/passport_title_content_margin_v" android:text="@string/passport_reg_type_email" />
+</LinearLayout>

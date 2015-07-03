@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory android:title="@string/account_xiaomi_service" android:key="pref_xiaomi_services">
+        <miui.preference.ValuePreference android:title="@string/cloud_service" android:key="pref_cloud_service" />
+        <Preference android:title="@string/mili_center" android:key="pref_mili_service" />
+        <Preference android:title="@string/mipay_center" android:key="pref_mipay_service" />
+        <Preference android:title="@string/mi_support_service" android:key="pref_mi_support_service" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="@string/account_settings" android:key="pref_account_settings">
+        <Preference android:title="@string/account_bind_settings" android:key="pref_sns_bind" />
+        <miui.preference.ValuePreference android:title="@string/account_bind_devices" android:key="pref_bind_devices" />
+    </PreferenceCategory>
+</PreferenceScreen>

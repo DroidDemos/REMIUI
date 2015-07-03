@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:layout_width="fill_parent" android:layout_height="80.0dip">
+        <ImageView android:id="@id/device_icon" android:layout_width="44.0dip" android:layout_height="56.0dip" android:layout_alignParentLeft="true" android:layout_centerVertical="true" />
+        <TextView android:textAppearance="@135069783" android:id="@id/device_model" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="8.0dip" android:layout_toRightOf="@id/device_icon" android:layout_centerVertical="true" />
+        <TextView android:textAppearance="@135069810" android:id="@id/device_login_time" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/device_content_margin_v" android:layout_below="@id/device_model" android:layout_alignLeft="@id/device_model" android:layout_centerVertical="true" />
+        <ImageView android:id="@id/arrow_right" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/arrow_right" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+        <TextView android:textAppearance="@135069784" android:id="@id/device_login_notice" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_marginRight="12.0dip" android:layout_toLeftOf="@id/arrow_right" android:layout_centerVertical="true" />
+    </RelativeLayout>
+    <View android:background="@color/divider_color" android:layout_width="fill_parent" android:layout_height="@dimen/divider" />
+</LinearLayout>

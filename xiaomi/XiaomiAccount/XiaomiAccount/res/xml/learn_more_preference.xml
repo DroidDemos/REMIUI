@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory android:key="pref_mi_account_title">
+        <miui.preference.ValuePreference android:title="@string/cloud_service" android:key="pref_mi_cloud" android:summary="@string/cloud_service_dspt" />
+        <miui.preference.ValuePreference android:title="@string/theme_store" android:key="pref_miui_themes" android:summary="@string/theme_store_dspt" />
+    </PreferenceCategory>
+</PreferenceScreen>

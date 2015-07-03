@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@id/update_device_name" android:title="@string/rename_current_device" />
+    <item android:id="@id/about_device_info" android:title="@string/about_device_info" />
+</menu>

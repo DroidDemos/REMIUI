@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:paddingLeft="0dp" android:layout_width="-1" style="0x80d004d">
+    <RadioButton android:gravity="10" android:id="@id/item_view" android:focusable="false" android:clickable="false" android:layout_width="-1" android:layout_height="-2" style="0x80d0057" />
+</LinearLayout>

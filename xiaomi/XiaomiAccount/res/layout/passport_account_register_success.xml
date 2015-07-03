@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:paddingLeft="@dimen/passport_content_horizontal_margin" android:paddingTop="@dimen/passport_content_vertical_margin" android:paddingRight="@dimen/passport_content_horizontal_margin" android:paddingBottom="@dimen/passport_content_vertical_margin" android:layout_width="-1" android:layout_height="-2">
+    <LinearLayout android:orientation="1" android:layout_width="-1" android:layout_height="-2" android:layout_marginTop="90dp">
+        <TextView android:gravity="11" android:layout_gravity="1" android:layout_width="-1" android:layout_height="-2" android:text="@string/passport_reg_success" style="@style/Passport_TextPrimaryWelcome" />
+        <TextView android:gravity="11" android:layout_gravity="1" android:id="@id/tv_notice" android:layout_width="-1" android:layout_height="-2" android:layout_marginTop="15dp" style="@style/Passport_TextSecondPrimary" />
+    </LinearLayout>
+    <Button android:layout_gravity="1" android:id="@id/btn_finish" android:layout_width="-1" android:layout_height="-2" android:layout_marginTop="@dimen/passport_buttons_margin_v" android:layout_marginBottom="@dimen/passport_buttons_margin_v" android:text="@string/passport_completed" android:layout_alignParentBottom="true" style="@style/Passport_ButtonLogin" />
+</RelativeLayout>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="1" android:layout_width="-1" android:layout_height="-2">
+    <FrameLayout android:layout_width="-1" android:layout_height="-2">
+        <TextView android:gravity="10" android:id="@id/tv_area_code" android:background="@drawable/passport_group_first_item_normal_bg" android:layout_width="-1" android:layout_height="-2" style="@style/Passport_HyperLinkButtonStyle" />
+        <ImageView android:layout_gravity="15" android:paddingRight="@dimen/passport_arrow_right_padding_h" android:layout_width="-2" android:layout_height="-2" android:src="@drawable/passport_arrow_right" />
+    </FrameLayout>
+    <EditText android:gravity="10" android:id="@id/ev_phone" android:background="@drawable/passport_group_last_item_normal_bg" android:layout_width="-1" android:layout_height="-2" android:hint="@string/passport_input_phone_hint" android:singleLine="true" android:maxLength="16" android:phoneNumber="true" style="@style/Passport_EditTextStyle" />
+    <CheckBox android:layout_gravity="11" android:id="@id/license" android:layout_width="-2" android:layout_height="-2" android:layout_marginTop="@dimen/passport_title_content_margin_v" android:checked="true" />
+    <TextView android:layout_gravity="11" android:id="@id/tv_register_by_email" android:layout_width="-2" android:layout_height="-2" android:layout_marginTop="@dimen/passport_login_reg_notice_bottom_margin" android:text="@string/passport_register_by_email" style="@style/Passport_HyperLinkButtonStyle" />
+    <LinearLayout android:layout_width="-1" android:layout_height="-2" android:layout_marginTop="@dimen/passport_buttons_margin_v">
+        <Button android:id="@id/btn_cancel" android:layout_width="0dp" android:layout_height="-2" android:text="@string/passport_btn_return" android:layout_weight="0.5" />
+        <Button android:id="@id/btn_phone_next" android:layout_width="0dp" android:layout_height="-2" android:text="@string/passport_next" android:layout_weight="0.5" />
+    </LinearLayout>
+</LinearLayout>

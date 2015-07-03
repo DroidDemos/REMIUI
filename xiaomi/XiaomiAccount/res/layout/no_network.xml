@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="1" android:orientation="1" android:id="@id/load_result_container" android:layout_width="-1" android:layout_height="-2" android:layout_marginTop="@dimen/no_network_margin_top">
+    <ImageView android:id="@id/image" android:layout_width="-2" android:layout_height="-2" android:src="@drawable/no_network" />
+    <TextView android:textAppearance="@style/TextAppearance_Title_List_Primary" android:id="@id/text" android:layout_width="-2" android:layout_height="-2" android:layout_marginTop="16dp" android:text="@string/no_network_title" />
+    <Button android:id="@id/action_retry" android:layout_marginTop="56dp" android:text="@string/no_network_btn" style="0x80d009e" />
+</LinearLayout>

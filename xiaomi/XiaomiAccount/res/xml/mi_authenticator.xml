@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="utf-8"?>
+<account-authenticator android:label="@string/micloud_account_name" android:icon="@drawable/icon" android:accountType="com.xiaomi" android:smallIcon="@drawable/icon" />

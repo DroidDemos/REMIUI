@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="-1" android:layout_height="-2">
+    <RelativeLayout android:id="@id/title_container" android:layout_width="-1" android:layout_height="-2">
+        <Button android:id="@id/btn_scan_barcode" android:background="@drawable/scan_barcode_btn" android:layout_width="-2" android:layout_height="-2" android:layout_marginTop="10dp" android:layout_alignParentTop="true" android:layout_alignParentRight="true" />
+        <LinearLayout android:gravity="11" android:orientation="1" android:id="@id/title_view_full" android:layout_width="-1" android:layout_height="-2" android:layout_centerVertical="true"
+            <LinearLayout android:gravity="11" android:orientation="1" android:id="@id/title_bar" android:clickable="true" android:layout_width="-1" android:layout_height="-2" android:layout_marginLeft="50dp" android:layout_marginRight="50dp" android:layout_marginBottom="80dp"
+                <LinearLayout android:gravity="11" android:orientation="1" android:id="@id/avatar_view" android:layout_width="-1" android:layout_height="-1" android:layout_marginTop="40dp">
+                    <ImageView android:layout_gravity="11" android:id="@id/avatar" android:layout_width="@dimen/account_setting_avatar_size" android:layout_height="@dimen/account_setting_avatar_size" android:scaleType="6" />
+                </LinearLayout>
+                <LinearLayout android:layout_gravity="1" android:orientation="1" android:id="@id/user_id_info" android:layout_width="-1" android:layout_height="-2" android:layout_marginTop="8dp">
+                    <TextView android:textColor="@color/title_view_name_text_color" android:ellipsize="3" android:gravity="30" android:layout_gravity="1" android:id="@id/user_id" android:layout_width="-2" android:layout_height="-2" android:singleLine="true" style="0x80d0057" />
+                    <TextView android:textColor="@color/title_view_id_text_color" android:ellipsize="3" android:layout_gravity="1" android:id="@id/user_info" android:layout_width="-2" android:layout_height="-2" android:singleLine="true" style="0x80d0072" />
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+    </RelativeLayout>
+</FrameLayout>

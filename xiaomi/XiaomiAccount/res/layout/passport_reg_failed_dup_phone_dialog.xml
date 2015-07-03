@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="1" android:paddingLeft="@dimen/passport_dialog_custom_horizontal_padding" android:paddingTop="@dimen/passport_content_vertical_margin" android:paddingRight="@dimen/passport_dialog_custom_horizontal_padding" android:paddingBottom="@dimen/passport_content_bottom_margin" android:layout_width="-1" android:layout_height="-2"
+    <LinearLayout android:layout_width="-1" android:layout_height="-2">
+        <Button android:id="@id/passport_login_instead_reg" android:layout_width="-1" android:layout_height="-2" android:text="@string/passport_login_instead_reg" />
+    </LinearLayout>
+    <LinearLayout android:layout_width="-1" android:layout_height="-2" android:layout_marginTop="@dimen/passport_buttons_margin_v">
+        <Button android:id="@id/passport_get_back_pwd" android:layout_width="-1" android:layout_height="-2" android:text="@string/passport_get_back_pwd" />
+    </LinearLayout>
+    <LinearLayout android:layout_width="-1" android:layout_height="-2" android:layout_marginTop="@dimen/passport_buttons_margin_v">
+        <Button android:id="@id/cancel" android:layout_width="-1" android:layout_height="-2" android:text="@string/passport_button_cancel" />
+    </LinearLayout>
+</LinearLayout>

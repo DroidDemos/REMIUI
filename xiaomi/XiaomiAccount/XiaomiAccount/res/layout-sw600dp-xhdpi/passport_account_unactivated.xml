@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:paddingLeft="@dimen/passport_content_horizontal_margin" android:paddingTop="@dimen/passport_content_vertical_margin" android:paddingRight="@dimen/passport_content_horizontal_margin" android:paddingBottom="@dimen/passport_content_bottom_margin" android:layout_width="wrap_content" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/passport_buttons_margin_v" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true">
+        <Button android:id="@id/btn_resend_email" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/passport_buttons_margin_v" android:text="@string/passport_resend_active_email" android:layout_weight="0.5" />
+        <Button android:id="@id/btn_verify_email" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/passport_buttons_margin_v" android:text="@string/passport_register_account_verified_confirm" android:layout_weight="0.5" />
+    </LinearLayout>
+    <LinearLayout android:orientation="vertical" android:id="@id/activate_email_panel" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="90.0dip" android:layout_alignParentTop="true" android:layout_centerHorizontal="true">
+        <TextView android:layout_gravity="center_horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/passport_account_not_actived" style="@style/Passport.TextPrimaryWelcome" />
+        <TextView android:layout_gravity="center_horizontal" android:id="@id/tv_email" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="8.0dip" style="@style/Passport.TextSecondPrimary" />
+        <TextView android:layout_gravity="center_horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/passport_lines_margin_v" android:text="@string/passport_click_email_to_valid" style="@style/Passport.TextSecondPrimary" />
+        <Button android:layout_gravity="center_horizontal" android:id="@id/btn_goto_email" android:layout_width="@dimen/passport_reg_account_goto_email_btn_width" android:layout_height="wrap_content" android:layout_marginTop="@dimen/passport_buttons_margin_v" android:text="@string/passport_register_account_goto_email" style="@style/Passport.ButtonLogin" />
+        <Button android:layout_gravity="center_horizontal" android:id="@id/btn_remove_account" android:background="@drawable/passport_btn_transparent_bkg" android:layout_width="@dimen/passport_reg_account_goto_email_btn_width" android:layout_height="wrap_content" android:layout_marginTop="@dimen/passport_buttons_margin_v" android:text="@string/passport_change_account" style="@style/Passport.HyperLinkButtonStyle" />
+        <TextView android:layout_gravity="center_horizontal" android:id="@id/tv_account_not_activate" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/passport_buttons_margin_v" android:text="@string/passport_account_not_activated" style="@style/Passport.TextPrimary" />
+    </LinearLayout>
+    <LinearLayout android:orientation="vertical" android:id="@id/activate_sms_panel" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="130.0dip" android:layout_alignParentTop="true" android:layout_centerHorizontal="true">
+        <TextView android:layout_gravity="center_horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/passport_activing_account" style="@style/Passport.BlankWarnTitleText" />
+    </LinearLayout>
+</RelativeLayout>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="bottom|center" android:layout_width="fill_parent" android:layout_height="@dimen/device_image_layout_height">
+        <ImageView android:id="@id/device_image" android:layout_width="wrap_content" android:layout_height="wrap_content" android:adjustViewBounds="true" android:maxWidth="@dimen/device_image_max_width" android:maxHeight="@dimen/device_image_max_height" />
+    </LinearLayout>
+    <TextView android:layout_gravity="center_horizontal" android:id="@id/device_model" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="17.0dip" style="@miui:style/TextAppearance.Large" />
+    <TextView android:layout_gravity="center_horizontal" android:id="@id/trust_device" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/device_content_margin_v" android:text="@string/device_trust_info" style="@style/TextAppearance.Device.Info1" />
+    <View android:background="@color/divider_color" android:layout_width="fill_parent" android:layout_height="@dimen/divider" android:layout_marginTop="@dimen/device_info_margin_v" />
+    <include android:id="@id/phone_layout" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="62.0dip" layout="@layout/device_info_item" />
+    <View android:background="@color/divider_color" android:layout_width="fill_parent" android:layout_height="@dimen/divider" />
+</LinearLayout>

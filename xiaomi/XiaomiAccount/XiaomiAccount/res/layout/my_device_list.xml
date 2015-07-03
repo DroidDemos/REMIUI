@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/loading_container" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <view android:id="@android:id/progress" android:layout_width="wrap_content" android:layout_height="wrap_content" class="miui.widget.ProgressBar" style="?android:attr/progressBarStyle" />
+        <TextView android:textAppearance="@style/TextAppearance.Title.List.Primary" android:id="@id/loading" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="16.0dip" android:text="@string/loading" />
+    </LinearLayout>
+    <LinearLayout android:orientation="vertical" android:id="@id/device_list_container" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/device_list_margin_h" android:layout_marginRight="@dimen/device_list_margin_h">
+        <TextView android:textAppearance="@135069810" android:gravity="bottom" android:id="@id/device_list_header" android:layout_width="fill_parent" android:layout_height="50.0dip" android:text="@string/device_list__header" />
+        <View android:background="@color/divider_color" android:layout_width="fill_parent" android:layout_height="@dimen/divider" android:layout_marginTop="@dimen/device_content_margin_v" />
+        <ListView android:id="@android:id/list" android:scrollbars="none" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    </LinearLayout>
+    <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/empty_list_container" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <ImageView android:id="@id/image" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/empty_device_list_icon" />
+        <TextView android:textAppearance="@style/TextAppearance.Title.List.Primary" android:id="@id/text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="16.0dip" android:text="@string/empty_device_list_notice" />
+    </LinearLayout>
+</FrameLayout>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <miui.widget.BubbleBgView android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <Button android:id="@id/btn_back" android:background="@drawable/action_bar_back" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/back_margin_top" />
+    <RelativeLayout android:id="@id/page_layout" android:paddingLeft="@dimen/content_padding_horizontal" android:paddingRight="@dimen/content_padding_horizontal" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <FrameLayout android:orientation="vertical" android:id="@id/logo_title" android:layout_width="fill_parent" android:layout_height="@dimen/title_layout_height">
+            <LinearLayout android:gravity="bottom|center" android:layout_gravity="center_horizontal" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="@dimen/title_height">
+                <ImageView android:id="@id/logo" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/icon_mi" />
+                <TextView android:textSize="@dimen/logo_title_size" android:textColor="#e6ffffff" android:id="@id/account_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/passport_login_title" />
+            </LinearLayout>
+        </FrameLayout>
+        <LinearLayout android:orientation="vertical" android:id="@id/lyt_content" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_below="@id/logo_title">
+            <LinearLayout android:orientation="vertical" android:id="@id/lyt_list" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0">
+                <View android:id="@id/list_bg" android:background="@drawable/list_item_last_bg_normal" android:layout_width="fill_parent" android:layout_height="2.0dip" />
+                <ListView android:layout_gravity="bottom|center" android:id="@android:id/list" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+                <TextView android:id="@id/account_dspt" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/page_padding_horizontal" android:layout_marginTop="@dimen/disc_padding_top" android:layout_marginRight="@dimen/page_padding_horizontal" android:text="@string/passport_dspt_provision" style="@miui:style/TextAppearance.Widget.List.Secondary" />
+            </LinearLayout>
+        </LinearLayout>
+        <LinearLayout android:orientation="vertical" android:id="@id/bottom_panel" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/page_padding_horizontal" android:layout_marginTop="@dimen/next_button_padding_vertical" android:layout_marginRight="@dimen/page_padding_horizontal" android:layout_marginBottom="@dimen/next_button_padding_vertical" android:layout_alignParentBottom="true">
+            <Button android:layout_gravity="center_horizontal" android:id="@id/tv_skip_login" android:background="@drawable/passport_provision_btn_transparent_bkg" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/passport_provision_skip_login" />
+            <Button android:id="@id/btn_next" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/next" />
+        </LinearLayout>
+    </RelativeLayout>
+</FrameLayout>

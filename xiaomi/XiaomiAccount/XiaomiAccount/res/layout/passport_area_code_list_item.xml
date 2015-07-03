@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.xiaomi.passport.ui.AreaCodePickerListItem android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="bottom" android:orientation="vertical" android:id="@id/section_header_layout" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="@dimen/passport_area_code_section_header_height">
+        <TextView android:id="@id/section_header" android:paddingLeft="@dimen/passport_list_item_padding_left" android:paddingBottom="@dimen/passport_picker_section_header_text_padding_vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/Passport.TextAppearance.List.Secondary.Preference" />
+        <View android:background="@color/passport_divider_color" android:layout_width="fill_parent" android:layout_height="@dimen/passport_divider" android:layout_marginLeft="@dimen/passport_section_header_divider_margin_h" android:layout_marginRight="@dimen/passport_section_header_divider_margin_h" />
+    </LinearLayout>
+    <LinearLayout android:gravity="center_vertical" android:paddingLeft="@dimen/passport_list_item_padding_left" android:layout_width="fill_parent" android:layout_height="@dimen/passport_area_code_list_height" style="@style/Passport.Widget.ListView.Item.SingleLine"
+      xmlns:android="http://schemas.android.com/apk/res/android">
+        <TextView android:id="@id/area" android:layout_width="0.0dip" android:layout_height="wrap_content" android:singleLine="true" android:layout_weight="1.0" style="@style/Passport.TextAppearance.List.Primary" />
+        <TextView android:layout_gravity="center_vertical" android:id="@id/area_code" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="@dimen/passport_list_item_margin_right" android:singleLine="true" style="@style/Passport.TextAppearance.List.Secondary" />
+    </LinearLayout>
+</com.xiaomi.passport.ui.AreaCodePickerListItem>

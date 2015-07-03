@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen>
+    <PreferenceCategory android:key="pref_micloud_user">
+        <miui.preference.ValuePreference android:title="@string/account_user_id" android:key="pref_micloud_userid" />
+    </PreferenceCategory>
+    <PreferenceCategory android:key="pref_micloud_userbaseinfo">
+        <com.xiaomi.account.ui.ImageValuePreference android:title="@string/account_user_avatar" android:key="pref_micloud_avatar" />
+        <miui.preference.ValuePreference android:title="@string/account_user_name" android:key="pref_micloud_username" />
+        <miui.preference.ValuePreference android:title="@string/account_user_gender" android:key="pref_micloud_user_gender" />
+        <miui.preference.ValuePreference android:title="@string/account_user_birthday" android:key="pref_micloud_user_birthday" />
+    </PreferenceCategory>
+    <PreferenceCategory android:key="pref_micloud_userinfo">
+        <miui.preference.ValuePreference android:title="@string/account_user_phone" android:key="pref_micloud_userphone" />
+        <miui.preference.ValuePreference android:title="@string/account_user_email" android:key="pref_micloud_useremail" />
+    </PreferenceCategory>
+</PreferenceScreen>

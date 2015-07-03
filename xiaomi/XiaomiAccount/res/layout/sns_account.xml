@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="-1" android:layout_height="-1">
+    <ProgressBar android:layout_gravity="11" android:id="@id/account_loading" android:visibility="2" android:layout_width="-2" android:layout_height="-2" />
+    <LinearLayout android:gravity="11" android:orientation="1" android:id="@id/account_container" android:visibility="2" android:layout_width="-1" android:layout_height="-1" android:layout_marginTop="@dimen/account_large_logo_top_margin">
+        <ImageView android:id="@id/user_avatar" android:layout_width="@dimen/user_avatar_size" android:layout_height="@dimen/user_avatar_size" />
+        <TextView android:id="@id/user_name" android:layout_width="-2" android:layout_height="-2" android:layout_marginTop="7dp" android:layout_marginBottom="22dp" android:singleLine="true" style="@style/TextAppearance_WeiBo_Primary" />
+        <LinearLayout android:orientation="1" android:layout_width="-1" android:layout_height="0dp" android:layout_weight="1.0" style="@style/ContentPadding">
+            <TextView android:gravity="1" android:id="@id/binded_description" android:layout_width="-1" android:layout_height="-2" android:layout_marginLeft="@dimen/notice_text_padding_h" android:layout_marginRight="@dimen/notice_text_padding_h" style="@style/TextAppearance_WeiBo_Description" />
+            <LinearLayout android:gravity="50" android:orientation="1" android:layout_width="-1" android:layout_height="-1">
+                <Button android:textColor="@color/text_color_red" android:id="@id/unbind_btn" android:layout_width="-1" android:layout_height="-2" android:text="@string/button_unbind" style="@style/ButtonNormal" />
+                <Button android:id="@id/update_contacts_btn" android:visibility="2" android:layout_width="-1" android:layout_height="-2" android:layout_marginTop="@dimen/buttons_margin_v" android:text="@string/update_contacts" style="@style/WeiBo_ButtonUpdateContacts" />
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+</FrameLayout>

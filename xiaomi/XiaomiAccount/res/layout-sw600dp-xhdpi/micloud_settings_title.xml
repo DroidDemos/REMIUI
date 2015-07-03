@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="1" android:id="@id/title_bar" android:clickable="true" android:layout_width="-1" android:layout_height="-2">
+    <ImageView android:layout_gravity="11" android:id="@id/avatar" android:layout_width="@dimen/account_setting_avatar_size" android:layout_height="@dimen/account_setting_avatar_size" />
+    <com.xiaomi.account.ui.MiuiAdaptiveTextView android:ellipsize="3" android:layout_gravity="1" android:id="@id/user_id" android:background="@drawable/user_name_arrow_bg" android:layout_width="-2" android:layout_height="-2" android:layout_marginTop="15dp" android:scrollHorizontally="true" android:singleLine="true" style="0x80d0057" />
+    <TextView android:ellipsize="3" android:layout_gravity="1" android:id="@id/user_info" android:layout_width="-2" android:layout_height="-2" android:layout_marginTop="10dp" android:singleLine="true" style="@style/TextThirdPrimary" />
+</LinearLayout>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list>
+    <item android:id="0x1020000">
+        <shape>
+            <corners android:radius="3dp" />
+            <gradient android:startColor="@color/micloud_space_progressbar_background" android:endColor="@color/micloud_space_progressbar_background" android:angle="270.0" android:centerY="0.75" android:centerColor="@color/micloud_space_progressbar_background" />
+        </shape>
+    </item>
+    <item android:id="0x102000f">
+        <clip>
+            <shape>
+                <corners android:radius="3dp" />
+                <gradient android:startColor="@color/micloud_space_progressbar_secondary_progress" android:endColor="@color/micloud_space_progressbar_secondary_progress" android:angle="270.0" android:centerY="0.75" android:centerColor="@color/micloud_space_progressbar_secondary_progress" />
+            </shape>
+        </clip>
+    </item>
+    <item android:id="0x102000d">
+        <clip>
+            <shape>
+                <corners android:radius="3dp" />
+                <gradient android:startColor="@color/micloud_space_progressbar_progress" android:endColor="@color/micloud_space_progressbar_progress" android:angle="270.0" android:centerY="0.75" android:centerColor="@color/micloud_space_progressbar_progress" />
+            </shape>
+        </clip>
+    </item>
+</layer-list>

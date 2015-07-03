@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="1" android:layout_width="-1" android:layout_height="-2">
+    <RelativeLayout android:layout_width="-1" android:layout_height="80dp">
+        <ImageView android:id="@id/device_icon" android:layout_width="44dp" android:layout_height="56dp" android:layout_alignParentLeft="true" android:layout_centerVertical="true" />
+        <TextView android:textAppearance="0x80d0057" android:id="@id/device_model" android:layout_width="-2" android:layout_height="-2" android:layout_marginLeft="8dp" android:layout_toRightOf="@id/device_icon" android:layout_centerVertical="true" />
+        <TextView android:textAppearance="0x80d0072" android:id="@id/device_login_time" android:layout_width="-2" android:layout_height="-2" android:layout_marginTop="@dimen/device_content_margin_v" android:layout_below="@id/device_model" android:layout_alignLeft="@id/device_model" android:layout_centerVertical="true" />
+        <ImageView android:id="@id/arrow_right" android:layout_width="-2" android:layout_height="-2" android:src="@drawable/arrow_right" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+        <TextView android:textAppearance="0x80d0058" android:id="@id/device_login_notice" android:layout_width="-2" android:layout_height="-1" android:layout_marginRight="12dp" android:layout_toLeftOf="@id/arrow_right" android:layout_centerVertical="true" />
+    </RelativeLayout>
+    <View android:background="@color/divider_color" android:layout_width="-1" android:layout_height="@dimen/divider" />
+</LinearLayout>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="1" android:layout_width="-1" android:layout_height="-1" android:layout_marginLeft="@dimen/passport_content_horizontal_margin" android:layout_marginTop="@dimen/passport_welcome_vertical_margin" android:layout_marginRight="@dimen/passport_content_horizontal_margin" android:layout_marginBottom="@dimen/passport_content_bottom_margin">
+    <LinearLayout android:orientation="1" android:id="@id/bottom_panel" android:layout_width="-1" android:layout_height="-2" android:layout_alignParentBottom="true">
+        <TextView android:gravity="1" android:id="@id/add_account_prompt" android:visibility="2" android:layout_width="-1" android:layout_height="-2" android:layout_marginLeft="@dimen/passport_notice_text_padding_h" android:layout_marginRight="@dimen/passport_notice_text_padding_h" android:layout_marginBottom="7dp" style="@style/Passport_TextSecondPrimary" />
+        <Button android:layout_gravity="1" android:id="@id/tv_skip_login" android:background="@drawable/passport_btn_transparent_bkg" android:visibility="2" android:layout_width="-2" android:layout_height="-2" android:text="@string/passport_welcome_skip_login" style="@style/Passport_HyperLinkStyle" />
+        <Button android:id="@id/btn_start_login" android:layout_width="-1" android:layout_height="-2" android:layout_marginTop="12dp" android:text="@string/passport_login" style="@style/Passport_ButtonLogin" />
+        <Button android:id="@id/btn_reg" android:layout_width="-1" android:layout_height="-2" android:layout_marginTop="@dimen/passport_buttons_margin_v" android:text="@string/passport_reg_new" style="@style/Passport_ButtonNormal" />
+    </LinearLayout>
+    <LinearLayout android:orientation="1" android:layout_width="-1" android:layout_height="-2">
+        <ImageView android:gravity="1" android:layout_gravity="1" android:id="@id/logo" android:layout_width="-2" android:layout_height="-2" android:src="@drawable/passport_mi_rabbit" />
+        <TextView android:gravity="1" android:id="@id/account_dspt" android:layout_width="-1" android:layout_height="-2" android:layout_marginLeft="@dimen/passport_notice_text_padding_h" android:layout_marginTop="7dp" android:layout_marginRight="@dimen/passport_notice_text_padding_h" android:text="@string/passport_xiaomi_account_dspt" style="@style/Passport_TextPrimaryWelcome" />
+        <TextView android:gravity="1" android:id="@id/account_dspt_1" android:layout_width="-1" android:layout_height="-2" android:layout_marginLeft="@dimen/passport_notice_text_padding_h" android:layout_marginTop="10dp" android:layout_marginRight="@dimen/passport_notice_text_padding_h" android:text="@string/passport_xiaomi_account_sec_dspt" style="@style/Passport_TextSecondPrimary" />
+        <TextView android:gravity="1" android:layout_width="-1" android:layout_height="-2" android:layout_marginLeft="@dimen/passport_notice_text_padding_h" android:layout_marginTop="3dp" android:layout_marginRight="@dimen/passport_notice_text_padding_h" android:text="@string/passport_xiaomi_account_sec_dspt2" style="@style/Passport_TextSecondPrimary" />
+    </LinearLayout>
+</RelativeLayout>

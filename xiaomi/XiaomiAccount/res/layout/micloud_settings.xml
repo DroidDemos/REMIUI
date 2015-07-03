@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="1" android:layout_width="-1" android:layout_height="-2">
+    <ListView android:id="0x102000a" android:scrollbars="200" android:layout_width="-1" android:layout_height="-2" android:layout_marginTop="@dimen/account_setting_title_content_margin" android:fadeScrollbars="true" />
+</LinearLayout>

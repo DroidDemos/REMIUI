@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:paddingLeft="@dimen/passport_login_reg_dialog_padding_h" android:paddingTop="@dimen/passport_login_reg_dialog_padding_v" android:paddingRight="@dimen/passport_login_reg_dialog_padding_h" android:paddingBottom="@dimen/passport_login_reg_dialog_padding_v" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <EditText android:id="@id/et_vcode" android:background="@drawable/passport_group_single_item_normal_bg" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="8.0dip" android:hint="@string/passport_vcode_prompt_long" android:singleLine="true" android:digits="1234567890" android:inputType="number" style="@style/Passport.EditTextStyle" />
+        <LinearLayout android:gravity="center_vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <CheckBox android:id="@id/passport_trust_device" android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="@string/passport_trust_device" android:layout_weight="1.0" />
+        </LinearLayout>
+        <TextView android:textSize="@dimen/passport_button_text_size" android:layout_gravity="center_horizontal" android:id="@id/tv_status" android:visibility="invisible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/passport_login_notice_text_margin_h" android:layout_marginRight="@dimen/passport_login_notice_text_margin_h" />
+        <Button android:id="@id/btn_verify" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="10.0dip" android:text="@string/passport_verify" style="@style/Passport.ButtonLogin" />
+    </LinearLayout>
+</ScrollView>

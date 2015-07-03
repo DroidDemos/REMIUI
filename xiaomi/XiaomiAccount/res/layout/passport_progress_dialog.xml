@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="-1" android:layout_height="-2">
+    <LinearLayout android:gravity="11" android:orientation="0" android:id="@id/body" android:paddingBottom="@dimen/passport_dialog_custom_vertical_padding" android:layout_width="-1" android:layout_height="-1" android:baselineAligned="false">
+        <ProgressBar android:id="0x102000d" android:layout_width="-2" android:layout_height="-2" android:layout_marginRight="12dp" android:max="10000" style="?unknown_attr_ref: 1010077" />
+        <TextView android:layout_gravity="10" android:id="@id/message" android:layout_width="-1" android:layout_height="-2" style="@style/Passport_TextAppearance_ProgressDialog" />
+    </LinearLayout>
+</FrameLayout>

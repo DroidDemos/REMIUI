@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_width="-1" android:layout_height="-2" android:layout_marginTop="@dimen/passport_buttons_margin_v">
+    <TextView android:gravity="1" android:id="0x1020016" android:paddingBottom="@dimen/passport_login_reg_dialog_padding_v" android:layout_width="-1" android:layout_height="-2" style="0x80d008d" />
+</LinearLayout>

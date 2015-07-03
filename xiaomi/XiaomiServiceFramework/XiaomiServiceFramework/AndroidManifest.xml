@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android" coreApp="true" package="com.xiaomi.xmsf">
+    <permission android:name="com.xiaomi.xmsf.permission.MIPUSH_RECEIVE" android:protectionLevel="signatureOrSystem"/>
+    <permission android:name="com.xiaomi.permission.ACTIVATE_SIM" android:protectionLevel="normal"/>
+    <permission android:name="com.xiaomi.xmsf.permission.LOG_PROVIDER" android:protectionLevel="normal"/>
+    <application android:allowBackup="false" android:allowClearUserData="false" android:icon="@drawable/icon" android:label="@string/app_name" android:name=".Application" android:persistent="true" android:theme="@android:style/Theme.Holo.Light">
+        <uses-library android:name="cloud-common.jar"/>
+        <service android:exported="true" android:name="com.xiaomi.xmsf.push.service.XMPushService"/>
+        <service android:exported="true" android:name="com.xiaomi.push.service.XMPushService"/>
+        <service android:enabled="true" android:exported="true" android:name="com.xiaomi.mipush.sdk.PushMessageHandler"/>
+        <service android:name="com.xiaomi.mipush.sdk.MessageHandleService"/>
+        <service android:name=".push.service.trace.MiPushRelayTraceService"/>
+        <receiver android:name="com.xiaomi.xmsf.push.service.receivers.NetworkStatusReceiver">
+            <intent-filter>
+                <action android:name="android.net.conn.CONNECTIVITY_CHANGE"/>
+            </intent-filter>
+        </receiver>
+        <receiver android:exported="false" android:name="com.xiaomi.push.service.receivers.PingReceiver">
+            <intent-filter>
+                <action android:name="com.xiaomi.push.PING_TIMER"/>
+            </intent-filter>
+        </receiver>
+        <receiver android:exported="true" android:name="com.xiaomi.push.service.receivers.PkgUninstallReceiver">
+            <intent-filter>
+                <action android:name="android.intent.action.PACKAGE_REMOVED"/>
+                <data android:scheme="package"/>
+            </intent-filter>
+        </receiver>
+        <receiver android:exported="true" android:name=".push.service.receivers.MiuiPushMessageReceiver">
+            <intent-filter>
+                <action android:name="com.xiaomi.mipush.RECEIVE_MESSAGE"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="com.xiaomi.mipush.ERROR"/>
+            </intent-filter>
+        </receiver>
+        <receiver android:name=".push.service.receivers.AccountChangedReceiver">
+            <intent-filter>
+                <action android:name="android.accounts.LOGIN_ACCOUNTS_CHANGED"/>
+            </intent-filter>
+        </receiver>
+        <receiver android:name=".sync.SyncNotificationReceiver">
+            <intent-filter>
+                <action android:name="android.intent.action.SYNC_STATE_CHANGED"/>
+            </intent-filter>
+        </receiver>
+        <service android:name=".sync.SyncNotificationService"/>
+        <provider android:authorities="com.xiaomi.xmsf" android:exported="true" android:name=".push.service.log.LogProvider" android:permission="com.xiaomi.xmsf.permission.LOG_PROVIDER"/>
+        <provider android:authorities="com.xiaomi.push.providers.TrafficProvider" android:exported="true" android:name="com.xiaomi.push.providers.TrafficProvider"/>
+        <service android:name="com.xiaomi.activate.ActivateService" android:permission="com.xiaomi.permission.CLOUD_MANAGER">
+            <intent-filter>
+                <action android:name="android.intent.action.XIAOMI_ACTIVATE_PHONE"/>
+                <action android:name="com.xiaomi.action.INTERNAL_NOTIFY_SIM_STATE_CHANGED"/>
+                <action android:name="com.xiaomi.action.ACTION_SET_ACTIVATE_PROGRESS_CALLBACK"/>
+            </intent-filter>
+        </service>
+        <activity android:configChanges="keyboardHidden|orientation|screenSize" android:excludeFromRecents="true" android:exported="true" android:name="com.xiaomi.activate.ActivatePopupActivity" android:noHistory="true" android:screenOrientation="portrait" android:theme="@135069746" android:windowSoftInputMode="adjustPan">
+            <intent-filter>
+                <action android:name="com.xiaomi.action.PROMPT_ACTIVATE_SIM"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+        <activity android:configChanges="keyboardHidden|orientation|screenSize" android:excludeFromRecents="true" android:exported="false" android:name="com.xiaomi.activate.ActivateDiagnosisDetailActivity" android:noHistory="true" android:theme="@135069719"/>
+        <activity android:excludeFromRecents="true" android:launchMode="singleInstance" android:name="com.xiaomi.xmsf.ui.WarningActivity" android:theme="@135069746">
+            <intent-filter>
+                <action android:name="com.xiaomi.action.WARN_INVALID_DEVICE_ID"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+        <service android:name="com.xiaomi.activate.ActivateLiveReportService"/>
+        <service android:name="com.xiaomi.activate.ActivateUploadDiagnosisService"/>
+        <service android:exported="true" android:name="com.xiaomi.xmsf.push.service.MiuiPushActivateService"/>
+    </application>
+    <uses-permission android:name="com.xiaomi.xmsf.permission.MIPUSH_RECEIVE"/>
+    <uses-permission android:name="android.permission.READ_SMS"/>
+    <uses-permission android:name="android.permission.WRITE_SMS"/>
+    <uses-permission android:name="android.permission.SEND_SMS"/>
+    <uses-permission android:name="android.permission.RECEIVE_SMS"/>
+    <uses-permission android:name="android.permission.AUTHENTICATE_ACCOUNTS"/>
+    <uses-permission android:name="android.permission.USE_CREDENTIALS"/>
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.GET_ACCOUNTS"/>
+    <uses-permission android:name="android.permission.READ_PHONE_STATE"/>
+    <uses-permission android:name="android.permission.MANAGE_ACCOUNTS"/>
+    <uses-permission android:name="android.permission.READ_SYNC_SETTINGS"/>
+    <uses-permission android:name="android.permission.WRITE_SYNC_SETTINGS"/>
+    <uses-permission android:name="android.permission.READ_SYNC_STATS"/>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE"/>
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.REORDER_TASKS"/>
+    <uses-permission android:name="android.permission.CALL_PHONE"/>
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED"/>
+    <uses-permission android:name="com.xiaomi.permission.CLOUD_MANAGER"/>
+    <uses-permission android:name="com.xiaomi.permission.ACTIVATE_SIM"/>
+    <uses-permission android:name="com.miui.cloudservice.permission.FIND_DEVICE"/>
+    <uses-permission android:name="com.xiaomi.permission.SEND_PUSH"/>
+    <uses-permission android:name="android.permission.GET_TASKS"/>
+    <uses-permission android:name="android.permission.WRITE_SETTINGS"/>
+    <uses-permission android:name="com.xiaomi.xmsf.permission.PAYMENT"/>
+    <uses-permission android:name="com.miui.notes.permission.ACCESS_NOTE"/>
+    <uses-permission android:name="android.permission.READ_CONTACTS"/>
+    <uses-permission android:name="android.permission.VIBRATE"/>
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION"/>
+</manifest>

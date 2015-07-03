@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:paddingLeft="@dimen/passport_dialog_message_horizontal_padding" android:paddingTop="@dimen/passport_progressbar_horizontal_top_padding" android:paddingRight="@dimen/passport_dialog_message_horizontal_padding" android:paddingBottom="@dimen/passport_dialog_message_vertical_padding" android:layout_width="-2" android:layout_height="-1">
+    <ProgressBar android:id="0x102000d" android:layout_width="-1" android:layout_height="-2" android:layout_centerHorizontal="true" style="?unknown_attr_ref: 1010078" />
+</RelativeLayout>

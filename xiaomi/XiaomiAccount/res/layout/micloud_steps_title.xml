@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="1" android:layout_width="-1" android:layout_height="@dimen/login_title_height">
+    <Button android:id="@id/btn_return" android:layout_width="-2" android:layout_height="-2" android:layout_marginLeft="@dimen/content_horizontal_margin" android:text="0x1040000" android:layout_alignParentLeft="true" android:layout_centerVertical="true" style="?unknown_attr_ref: 8010035" />
+    <TextView android:ellipsize="3" android:gravity="11" android:id="@id/tv_title" android:layout_width="-2" android:layout_height="-2" android:text="@string/title_reg" android:layout_centerHorizontal="true" android:layout_centerVertical="true" style="0x80d0010" />
+    <Button android:id="@id/btn_next" android:layout_width="-2" android:layout_height="-2" android:layout_marginRight="@dimen/content_horizontal_margin" android:text="0x104000a" android:layout_alignParentRight="true" android:layout_centerVertical="true" style="?unknown_attr_ref: 8010036" />
+</RelativeLayout>

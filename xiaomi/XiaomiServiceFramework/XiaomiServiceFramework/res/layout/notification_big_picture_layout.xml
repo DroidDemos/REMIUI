@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:internal="http://schemas.android.com/apk/prv/res/android">
+    <include layout="@layout/notification_base_layout" />
+    <ImageView android:id="@id/big_picture" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/notification_padding_left" android:layout_marginRight="@dimen/notification_padding_right" android:scaleType="centerCrop" />
+</LinearLayout>

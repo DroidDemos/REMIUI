@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="1" android:layout_width="-1" android:layout_height="-1" style="@style/ContentPadding"
+    <LinearLayout android:gravity="1" android:orientation="1" android:layout_width="-1" android:layout_height="-2">
+        <TextView android:textColor="0x8070001" android:gravity="1" android:id="@id/add_account_title" android:layout_width="-1" android:layout_height="-2" android:layout_marginLeft="@dimen/notice_text_padding_h" android:layout_marginTop="@dimen/bind_weibo_title_margin_h" android:layout_marginRight="@dimen/notice_text_padding_h" style="@style/TextPrimaryWelcome" />
+        <TextView android:gravity="1" android:id="@id/add_account_dspt" android:layout_width="-1" android:layout_height="-2" android:layout_marginLeft="@dimen/notice_text_padding_h" android:layout_marginTop="7dp" android:layout_marginRight="@dimen/notice_text_padding_h" android:layout_marginBottom="22dp" style="@style/TextSecondPrimary" />
+        <View android:id="@id/divider" android:layout_width="-2" android:layout_height="1dp" style="@style/Divider" />
+        <ImageView android:id="@id/add_account_img" android:layout_width="-2" android:layout_height="-2" android:layout_marginTop="@dimen/bind_weibo_logo_margin_h" />
+    </LinearLayout>
+    <LinearLayout android:gravity="50" android:id="@id/bottom_panel" android:layout_width="-1" android:layout_height="-1">
+        <Button android:id="@id/add_account_btn" android:layout_width="-1" android:layout_height="-2" android:layout_marginTop="12dp" android:text="@string/add_account" style="@style/ButtonNormal" />
+    </LinearLayout>
+</LinearLayout>

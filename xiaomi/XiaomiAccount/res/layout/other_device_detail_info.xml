@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="1" android:paddingLeft="@dimen/device_info_margin_h" android:paddingRight="@dimen/device_info_margin_h" android:layout_width="-1" android:layout_height="-1">
+    <include android:layout_width="-1" android:layout_height="-2" layout="@layout/device_info" />
+    <LinearLayout android:gravity="50" android:orientation="1" android:id="@id/other_device_layout" android:layout_width="-1" android:layout_height="0dp" android:layout_marginBottom="@dimen/dialog_padding_v" android:layout_weight="1.0">
+        <TextView android:id="@id/delete_device_notice" android:layout_width="-2" android:layout_height="-2" android:text="@string/delete_device_notice" style="0x80d0004" />
+        <CheckBox android:id="@id/remove_trust_notice" android:layout_width="-2" android:layout_height="-2" android:checked="true" android:text="@string/remove_trust_notice" />
+        <Button android:id="@id/delete_btn" android:layout_width="-1" android:layout_height="-2" android:layout_marginTop="21dp" style="@style/ButtonRemove" />
+    </LinearLayout>
+</LinearLayout>

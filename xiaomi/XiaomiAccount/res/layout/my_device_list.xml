@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="-1" android:layout_height="-1">
+    <LinearLayout android:gravity="11" android:orientation="1" android:id="@id/loading_container" android:visibility="2" android:layout_width="-1" android:layout_height="-1">
+        <view android:id="0x102000d" android:layout_width="-2" android:layout_height="-2" class="miui.widget.ProgressBar" style="?unknown_attr_ref: 1010077" />
+        <TextView android:textAppearance="@style/TextAppearance_Title_List_Primary" android:id="@id/loading" android:layout_width="-2" android:layout_height="-2" android:layout_marginTop="16dp" android:text="@string/loading" />
+    </LinearLayout>
+    <LinearLayout android:orientation="1" android:id="@id/device_list_container" android:layout_width="-1" android:layout_height="-2" android:layout_marginLeft="@dimen/device_list_margin_h" android:layout_marginRight="@dimen/device_list_margin_h">
+        <TextView android:textAppearance="0x80d0072" android:gravity="50" android:id="@id/device_list_header" android:layout_width="-1" android:layout_height="50dp" android:text="@string/device_list__header" />
+        <View android:background="@color/divider_color" android:layout_width="-1" android:layout_height="@dimen/divider" android:layout_marginTop="@dimen/device_content_margin_v" />
+        <ListView android:id="0x102000a" android:scrollbars="0" android:layout_width="-1" android:layout_height="-2" />
+    </LinearLayout>
+    <LinearLayout android:gravity="11" android:orientation="1" android:id="@id/empty_list_container" android:visibility="2" android:layout_width="-1" android:layout_height="-1">
+        <ImageView android:id="@id/image" android:layout_width="-2" android:layout_height="-2" android:src="@drawable/empty_device_list_icon" />
+        <TextView android:textAppearance="@style/TextAppearance_Title_List_Primary" android:id="@id/text" android:layout_width="-2" android:layout_height="-2" android:layout_marginTop="16dp" android:text="@string/empty_device_list_notice" />
+    </LinearLayout>
+</FrameLayout>

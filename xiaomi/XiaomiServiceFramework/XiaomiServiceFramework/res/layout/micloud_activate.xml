@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:gravity="center_horizontal" android:id="@android:id/title" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="20.0dip" android:layout_marginBottom="20.0dip" style="?android:attr/textAppearanceLarge" />
+    <TextView android:id="@id/desc" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="16.0dip" android:layout_marginTop="8.0dip" android:layout_marginRight="16.0dip" style="?android:attr/textAppearanceMedium" />
+    <LinearLayout android:gravity="center" android:id="@id/phone_group" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="16.0dip" android:layout_marginTop="10.0dip" android:layout_marginRight="16.0dip">
+        <TextView android:textColor="?android:textColorHint" android:id="@id/country_code" android:layout_width="wrap_content" android:layout_height="wrap_content" style="?android:attr/editTextStyle" />
+        <EditText android:id="@id/phone" android:background="@null" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginLeft="5.0dip" android:minHeight="48.0dip" android:singleLine="true" android:digits="0123456789" android:layout_weight="1.0" android:inputType="phone" style="?android:attr/editTextStyle" />
+    </LinearLayout>
+    <TextView android:gravity="center_vertical" android:layout_gravity="center_vertical" android:id="@id/diagnosisInfo" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="16.0dip" android:layout_marginTop="8.0dip" android:layout_marginRight="16.0dip" style="?android:attr/textAppearanceMedium" />
+    <LinearLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="8.0dip" android:measureWithLargestChild="true" style="?android:attr/buttonBarStyle">
+        <Button android:id="@id/cancel" android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="@android:string/cancel" android:layout_weight="1.0" style="?android:attr/buttonBarButtonStyle" />
+        <Button android:id="@id/confirm" android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="@android:string/ok" android:layout_weight="1.0" style="?android:attr/buttonBarButtonStyle" />
+    </LinearLayout>
+</LinearLayout>

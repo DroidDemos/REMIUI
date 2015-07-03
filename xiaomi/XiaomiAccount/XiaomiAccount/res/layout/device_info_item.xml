@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:gravity="center_vertical" android:paddingTop="6.0dip" android:paddingBottom="6.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/phone_icon" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/device_phone_icon" />
+    <TextView android:textAppearance="@135069783" android:id="@id/device_name" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/device_content_margin_h" android:layout_toRightOf="@id/phone_icon" />
+    <TextView android:textAppearance="@135069810" android:id="@id/phone_number" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/device_content_margin_v" android:layout_below="@id/device_name" android:layout_alignLeft="@id/device_name" />
+    <TextView android:textAppearance="@135069810" android:id="@id/login_time" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_toRightOf="@id/phone_number" />
+</RelativeLayout>

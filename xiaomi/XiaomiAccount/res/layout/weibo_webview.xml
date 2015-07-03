@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="-1" android:layout_height="-1">
+    <ProgressBar android:layout_gravity="11" android:id="@id/weibo_loading" android:visibility="2" android:layout_width="-2" android:layout_height="-2" />
+    <WebView android:gravity="30" android:id="@id/weibo_webview" android:focusable="true" android:visibility="2" android:layout_width="-1" android:layout_height="-1" />
+</FrameLayout>

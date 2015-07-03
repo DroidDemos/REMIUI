@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:id="@id/title_container" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <Button android:id="@id/btn_scan_barcode" android:background="@drawable/scan_barcode_btn" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="10.0dip" android:layout_alignParentTop="true" android:layout_alignParentRight="true" />
+        <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/title_view_full" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_centerVertical="true">
+            <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/title_bar" android:clickable="true" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="50.0dip" android:layout_marginRight="50.0dip" android:layout_marginBottom="80.0dip">
+                <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/avatar_view" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginTop="40.0dip">
+                    <ImageView android:layout_gravity="center" android:id="@id/avatar" android:layout_width="@dimen/account_setting_avatar_size" android:layout_height="@dimen/account_setting_avatar_size" android:scaleType="centerCrop" />
+                </LinearLayout>
+                <LinearLayout android:layout_gravity="center_horizontal" android:orientation="vertical" android:id="@id/user_id_info" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="8.0dip">
+                    <TextView android:textColor="@color/title_view_name_text_color" android:ellipsize="end" android:gravity="top" android:layout_gravity="center_horizontal" android:id="@id/user_id" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" style="@miui:style/TextAppearance.PreferenceList" />
+                    <TextView android:textColor="@color/title_view_id_text_color" android:ellipsize="end" android:layout_gravity="center_horizontal" android:id="@id/user_info" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" style="@miui:style/TextAppearance.List.Secondary.Preference" />
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+    </RelativeLayout>
+</FrameLayout>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="1" android:orientation="1" android:paddingLeft="@dimen/passport_login_reg_dialog_padding_h" android:paddingTop="@dimen/passport_login_reg_dialog_padding_v" android:paddingRight="@dimen/passport_login_reg_dialog_padding_h" android:paddingBottom="@dimen/passport_login_reg_dialog_padding_v" android:layout_width="-1" android:layout_height="-1">
+    <include android:id="@id/title_fragment" android:layout_width="-1" android:layout_height="-2" layout="@layout/passport_login_reg_title" />
+    <RelativeLayout android:id="@id/inner_content" android:paddingBottom="@dimen/passport_login_reg_dialog_padding_v" android:layout_width="-1" android:layout_height="-2">
+        <TextView android:id="@id/account_name" android:layout_width="-2" android:layout_height="-2" android:layout_marginLeft="5dp" android:layout_alignParentLeft="true" android:layout_alignParentTop="true" style="?unknown_attr_ref: 1010041" />
+        <TextView android:id="@id/tv_forget_pwd" android:background="@drawable/btn_transparent_bkg" android:layout_width="-2" android:layout_height="-2" android:layout_marginRight="5dp" android:text="@string/forget_password" android:layout_alignParentTop="true" android:layout_alignParentRight="true" style="@style/HyperLinkButtonStyle" />
+        <LinearLayout android:id="@id/password_layout" android:layout_width="-1" android:layout_height="-2" android:layout_below="@id/account_name">
+            <FrameLayout android:layout_width="-1" android:layout_height="-2" android:layout_marginTop="8dp">
+                <EditText android:id="@id/password" android:background="@drawable/group_single_item_normal_bg" android:paddingRight="@dimen/passport_password_alert_icon_padding_right" android:layout_width="-1" android:layout_height="-2" android:hint="@string/input_password_hint" android:password="true" android:singleLine="true" style="@style/EditTextStyle" />
+                <ImageView android:layout_gravity="15" android:id="@id/show_password_img" android:layout_width="-2" android:layout_height="-2" />
+            </FrameLayout>
+        </LinearLayout>
+        <LinearLayout android:gravity="11" android:id="@id/captcha_area" android:visibility="2" android:layout_width="-1" android:layout_height="-2" android:layout_marginTop="8dp" android:layout_below="@id/password">
+            <EditText android:id="@id/captcha_code" android:background="@licenseactivity/PRIVACY_POLICY" android:layout_width="0dp" android:layout_height="-2" android:minHeight="@dimen/editor_height" android:hint="@string/input_captcha_hint" android:singleLine="true" android:layout_weight="1.0" style="?unknown_attr_ref: 1010034" />
+            <ImageView android:id="@id/captcha_image" android:layout_width="-2" android:layout_height="-2" android:layout_marginLeft="4dp" />
+        </LinearLayout>
+    </RelativeLayout>
+    <LinearLayout android:orientation="1" android:id="@id/inner_content_step2" android:paddingBottom="@dimen/passport_login_reg_dialog_padding_v" android:layout_width="-1" android:layout_height="-2">
+        <TextView android:id="@id/vcode_prompt" android:layout_width="-2" android:layout_height="-2" android:layout_marginLeft="5dp" android:text="@string/vcode_prompt_long" style="?unknown_attr_ref: 1010041" />
+        <EditText android:id="@id/vcode" android:layout_width="-1" android:layout_height="-2" android:layout_marginTop="8dp" android:minHeight="@dimen/editor_height" android:hint="@string/input_vcode_hint" android:singleLine="true" android:digits="1234567890" android:inputType="2" style="?unknown_attr_ref: 1010034" />
+        <CheckBox android:id="@id/trust_device" android:layout_width="-2" android:layout_height="-2" android:layout_marginTop="12dp" android:text="@string/trust_device" />
+    </LinearLayout>
+    <LinearLayout android:layout_width="-1" android:layout_height="-2" android:layout_marginTop="@dimen/passport_buttons_margin_v">
+        <Button android:id="@id/cancel" android:layout_width="0dp" android:layout_height="-2" android:text="0x1040000" android:layout_weight="1.0" />
+        <Button android:id="@id/confirm" android:layout_width="0dp" android:layout_height="-2" android:text="@string/confirm" android:layout_weight="1.0" />
+    </LinearLayout>
+</LinearLayout>

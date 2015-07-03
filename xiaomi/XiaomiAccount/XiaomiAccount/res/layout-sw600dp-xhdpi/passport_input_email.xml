@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <EditText android:layout_gravity="center_vertical" android:id="@id/email" android:background="@drawable/passport_group_first_item_normal_bg" android:layout_width="fill_parent" android:layout_height="wrap_content" android:hint="@string/passport_email" android:inputType="textEmailAddress" android:imeOptions="actionNext" style="@style/Passport.EditTextStyle" />
+    <LinearLayout android:id="@id/password_layout" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <FrameLayout android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <EditText android:layout_gravity="center_vertical" android:id="@id/ev_password" android:background="@drawable/passport_group_last_item_normal_bg" android:paddingRight="@dimen/passport_password_alert_icon_padding_right" android:layout_width="fill_parent" android:layout_height="wrap_content" android:hint="@string/passport_input_password_hint" android:password="true" android:singleLine="true" android:maxLength="16" android:inputType="textVisiblePassword" style="@style/Passport.EditTextStyle" />
+            <ImageView android:layout_gravity="center|right" android:id="@id/show_password_img" android:layout_width="@dimen/passport_password_img_w" android:layout_height="@dimen/passport_password_img_h" />
+        </FrameLayout>
+    </LinearLayout>
+    <TextView android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/passport_title_content_margin_v" android:layout_marginBottom="@dimen/passport_reg_content_bottom_margin" android:text="@string/passport_password_req_notice" style="@style/Passport.TextSecondPrimary" />
+    <CheckBox android:layout_gravity="center" android:id="@id/license" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/passport_title_content_margin_v" android:checked="true" />
+    <LinearLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/passport_buttons_margin_v">
+        <Button android:id="@id/btn_cancel" android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="@string/passport_btn_return" android:layout_weight="0.5" />
+        <Button android:id="@id/btn_password_confirm" android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="@string/passport_register" android:layout_weight="0.5" />
+    </LinearLayout>
+</LinearLayout>

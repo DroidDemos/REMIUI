@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:layout_width="-1" android:layout_height="-2">
+    <LinearLayout android:orientation="1" android:paddingLeft="@dimen/passport_login_reg_dialog_padding_h" android:paddingTop="@dimen/passport_login_reg_dialog_padding_v" android:paddingRight="@dimen/passport_login_reg_dialog_padding_h" android:paddingBottom="@dimen/passport_login_reg_dialog_padding_v" android:layout_width="-1" android:layout_height="-2">
+        <FrameLayout android:id="@id/area_code_layout" android:visibility="2" android:layout_width="-1" android:layout_height="-2" android:layout_marginBottom="@dimen/passport_login_notice_text_margin_h">
+            <TextView android:gravity="10" android:layout_gravity="13" android:id="@id/tv_area_code" android:background="@drawable/passport_group_single_item_normal_bg" android:layout_width="-1" android:layout_height="-2" style="@style/Passport_TextAppearance_PreferenceList" />
+            <ImageView android:layout_gravity="15" android:paddingRight="@dimen/passport_arrow_right_padding_h" android:layout_width="-2" android:layout_height="-2" android:src="@drawable/passport_arrow_right" />
+        </FrameLayout>
+        <EditText android:id="@id/et_account_name" android:background="@drawable/passport_group_first_item_normal_bg" android:layout_width="-1" android:layout_height="-2" android:hint="@string/passport_account_hint_text" android:singleLine="true" android:inputType="91" style="@style/Passport_EditTextStyle" />
+        <LinearLayout android:id="@id/password_layout" android:layout_width="-1" android:layout_height="-2">
+            <FrameLayout android:layout_width="-1" android:layout_height="-2">
+                <EditText android:id="@id/et_account_password" android:paddingRight="@dimen/passport_password_alert_icon_padding_right" android:layout_width="-1" android:layout_height="-2" android:hint="@string/passport_password" android:password="true" android:singleLine="true" style="@style/Passport_EditTextStyle" />
+                <ImageView android:layout_gravity="15" android:id="@id/show_password_img" android:layout_width="@dimen/passport_password_img_w" android:layout_height="@dimen/passport_password_img_w" />
+            </FrameLayout>
+        </LinearLayout>
+        <LinearLayout android:gravity="11" android:id="@id/et_captcha_area" android:background="@drawable/passport_group_last_item_normal_bg" android:visibility="2" android:layout_width="-1" android:layout_height="-2">
+            <EditText android:id="@id/et_captcha_code" android:background="@licenseactivity/PRIVACY_POLICY" android:layout_width="0dp" android:layout_height="-2" android:hint="@string/passport_captcha" android:singleLine="true" android:layout_weight="1.0" style="@style/Passport_EditTextStyle" />
+            <ImageView android:id="@id/et_captcha_image" android:layout_width="-2" android:layout_height="-2" android:layout_marginLeft="4dp" />
+        </LinearLayout>
+        <Button android:layout_gravity="5" android:id="@id/tv_forget_pwd" android:background="@drawable/passport_btn_transparent_bkg" android:layout_width="-2" android:layout_height="-2" android:text="@string/passport_forget_password" style="@style/Passport_HyperLinkButtonStyle" />
+        <TextView android:textSize="@dimen/passport_button_text_size" android:layout_gravity="1" android:id="@id/tv_status" android:visibility="2" android:layout_width="-2" android:layout_height="-2" android:layout_marginLeft="@dimen/passport_login_notice_text_margin_h" android:layout_marginRight="@dimen/passport_login_notice_text_margin_h" />
+        <Button android:id="@id/btn_login" android:layout_width="-1" android:layout_height="-2" android:layout_marginTop="10dp" android:text="@string/passport_login" style="@style/Passport_ButtonLogin" />
+        <Button android:id="@id/btn_cancel" android:visibility="2" android:layout_width="-1" android:layout_height="-2" android:layout_marginTop="10dp" android:text="@string/passport_login" style="@style/Passport_ButtonNormal" />
+        <CheckBox android:layout_gravity="11" android:id="@id/license" android:layout_width="-2" android:layout_height="-2" android:layout_marginTop="@dimen/passport_title_content_margin_v" android:checked="true" />
+        <TextView android:layout_gravity="11" android:id="@id/login_with_email_or_id" android:visibility="2" android:layout_width="-2" android:layout_height="-2" android:layout_marginTop="@dimen/passport_login_reg_notice_bottom_margin" android:text="@string/passport_login_with_email_or_id" style="@style/Passport_HyperLinkButtonStyle" />
+    </LinearLayout>
+</ScrollView>

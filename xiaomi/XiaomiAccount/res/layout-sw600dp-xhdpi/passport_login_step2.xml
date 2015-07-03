@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="1" android:layout_width="-1" android:layout_height="-2">
+    <EditText android:id="@id/et_vcode" android:background="@drawable/passport_group_single_item_normal_bg" android:layout_width="-1" android:layout_height="-2" android:hint="@string/passport_vcode_prompt_long" android:singleLine="true" android:digits="1234567890" android:inputType="2" style="@style/Passport_EditTextStyle" />
+    <LinearLayout android:gravity="10" android:layout_width="-1" android:layout_height="-2" android:layout_marginTop="8dp">
+        <CheckBox android:id="@id/passport_trust_device" android:layout_width="0dp" android:layout_height="-2" android:text="@string/passport_trust_device" android:layout_weight="1.0" />
+    </LinearLayout>
+    <TextView android:textSize="@dimen/passport_button_text_size" android:layout_gravity="1" android:id="@id/tv_status" android:visibility="1" android:layout_width="-2" android:layout_height="-2" android:layout_marginLeft="@dimen/passport_login_notice_text_margin_h" android:layout_marginRight="@dimen/passport_login_notice_text_margin_h" />
+    <LinearLayout android:layout_width="-1" android:layout_height="-2" android:layout_marginTop="@dimen/passport_buttons_margin_v">
+        <Button android:id="@id/btn_cancel" android:layout_width="0dp" android:layout_height="-2" android:text="@string/passport_btn_return" android:layout_weight="0.5" />
+        <Button android:id="@id/btn_verify" android:layout_width="0dp" android:layout_height="-2" android:text="@string/passport_verify" android:layout_weight="0.5" />
+    </LinearLayout>
+</LinearLayout>

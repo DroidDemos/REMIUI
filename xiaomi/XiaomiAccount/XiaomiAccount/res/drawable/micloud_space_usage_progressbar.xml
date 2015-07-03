@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@android:id/background">
+        <shape>
+            <corners android:radius="3.0dip" />
+            <gradient android:startColor="@color/micloud_space_progressbar_background" android:endColor="@color/micloud_space_progressbar_background" android:angle="270.0" android:centerY="0.75" android:centerColor="@color/micloud_space_progressbar_background" />
+        </shape>
+    </item>
+    <item android:id="@android:id/secondaryProgress">
+        <clip>
+            <shape>
+                <corners android:radius="3.0dip" />
+                <gradient android:startColor="@color/micloud_space_progressbar_secondary_progress" android:endColor="@color/micloud_space_progressbar_secondary_progress" android:angle="270.0" android:centerY="0.75" android:centerColor="@color/micloud_space_progressbar_secondary_progress" />
+            </shape>
+        </clip>
+    </item>
+    <item android:id="@android:id/progress">
+        <clip>
+            <shape>
+                <corners android:radius="3.0dip" />
+                <gradient android:startColor="@color/micloud_space_progressbar_progress" android:endColor="@color/micloud_space_progressbar_progress" android:angle="270.0" android:centerY="0.75" android:centerColor="@color/micloud_space_progressbar_progress" />
+            </shape>
+        </clip>
+    </item>
+</layer-list>
